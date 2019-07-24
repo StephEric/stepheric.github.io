@@ -1,18 +1,10 @@
 ---
 layout: default
+css: ["page.css"]
 ---
-{%- include header.html -%}
-
-<!-- Main -->
-<div id="main">
-	<!-- Page -->
-	<article class="shade-two">
-	  <div class="container">
-			<header>
-				<h2>{{- page.title -}}</h2>
-				{%- if page.subtitle -%}<p>{{- page.subtitle -}}</p>{%- endif -%}
-			</header>
-	    {{- content -}}
-	  </div>
-	</article>
+<div id="page-info">
+  <h3>{{page.title}}</h3>
+</div>
+<div class="row">
+  {{ content }}
 </div>
