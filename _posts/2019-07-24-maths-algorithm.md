@@ -29,15 +29,15 @@ tags:
   2. 正整数除法，就是把两个数的质因数分解，然后每个质数的指数相减
 
   3. $设A=2^{a_1}3^{a_2}5^{a_3}\cdots \ B=2^{b_1}3^{b_2}5^{b_3}\cdots$
-
-    $A|B，当且仅当：a_i \leq b_i$
+	$A|B，当且仅当：a_i \leq b_i$
 
 ### 约数与倍数
 - $[l,r]中k的倍数有(r-l+1)/k个$
 - $O(n\log n)$求$d(n)$:
-  $引理：调和级数$$$1+\frac1 2 +\frac1 3+\cdots+\frac 1 n = ln\space n$$
-  $枚举i\in [1,n],j\in N_+,将i*j\in [1,n]的d(i*j)加一$
-  $则时间复杂度为O(n+\frac n 2 +\frac n 3+\cdots+\frac n n )=O(n\ln n)$
+  引理：调和级数$
+- $$1+\frac1 2 +\frac1 3+\cdots+\frac 1 n = ln\space n$$
+  枚举$i \in [1,n],j \in N_+$,将$i* j\in [1,n]$的$d(i *j)$加一
+  则时间复杂度为$O(n+\frac n 2 +\frac n 3+\cdots+\frac n n )=O(n\ln n)$
 - 约数个数通过质因数分解解决，$d(n)=(r_1+1)(r_2 + 1)(r_3+1)\cdots$（乘法原理）
 
 ### 质数
