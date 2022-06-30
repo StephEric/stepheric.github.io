@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>StephEric</title>
-  
+  <icon>http://example.com/icon.png</icon>
   <subtitle>Department of Automation, Tsinghua University</subtitle>
   <link href="http://example.com/atom.xml" rel="self"/>
   
@@ -23,12 +23,13 @@
     <published>2022-06-30T11:08:31.000Z</published>
     <updated>2022-06-30T11:16:16.384Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="Github使用"><a href="#Github使用" class="headerlink" title="Github使用"></a>Github使用</h1><h2 id="生成SSH-key"><a href="#生成SSH-key" class="headerlink" title="生成SSH key"></a>生成SSH key</h2><p>SSh（安全外壳协议）GitHub 上，一般都是通过 SSH 来授权的，而且大多数 Git 服务器也会选择使用 SSH 公钥来进行授权，所以想要向 GitHub 提交代码，首先就得在 GitHub 上添加 SSH key配置。</p><figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -t rsa -C &quot;xxx@xxx.com&quot;</span><br><span class="line">//执行后一直回车</span><br><span class="line"><span class="built_in">cd</span> ~/.ssh</span><br><span class="line">cat id_rsa.pub</span><br></pre></td></tr></table></figure><p>生成公钥和私钥，无需账号和密码即可clone和push代码</p><h2 id="操作git"><a href="#操作git" class="headerlink" title="操作git"></a>操作git</h2><p><code>git init</code> 初始一个Git仓库</p><p>先创建好仓库目录，并保存好文件</p><p><strong>在我们进行任何的git操作之前，我们都得先切换到 Git 的仓库目录。</strong></p><p>我们得先进入到（我们定义的）Git 仓库的最顶层文件目录下，然后从此目录中进入 Git Bash，这样之后的操作才能顺利进行</p><h3 id="git-status"><a href="#git-status" class="headerlink" title="git status"></a><code>git status</code></h3><p>查看仓库状态，若未创建，则返回<code>not a git repository</code></p><h3 id="git-init"><a href="#git-init" class="headerlink" title="git init"></a><code>git init</code></h3><p>在命令行窗口的光标处，输入<code>git init</code>命令，初始化 Git 仓库：</p><p>初始化之后仓库变成Git仓库</p><h3 id="git-add"><a href="#git-add" class="headerlink" title="git add"></a><code>git add</code></h3><p>将已有的文件添加到Git仓库，<code>git add xxx.xxx</code></p><p>已经显示<code>Initial commit</code>初始化提交了，同时已经没有<code>Untracked files</code>提示了，这说明文件<code>hit.txt</code>已经被添加到 Git 仓库</p><p>在这里，需要声明一点，那就是：<strong><em><code>git add</code>命令并没有把文件提交到 Git 仓库，而是把文件添加到了「临时缓冲区」，这个命令有效防止了我们错误提交的可能性。</em></strong></p><h3 id="git-commit"><a href="#git-commit" class="headerlink" title="git commit"></a><code>git commit</code></h3><p>在命令行窗口的光标处，输入<code>git commit -m &quot;text commit&quot;</code>命令，将<code>hit.txt</code>文件提交到 Git 仓库：</p><p>其中<code>commit</code>表示提交，<code>-m</code>表示提交信息，提交信息写在双引号””内。接下来，再输入<code>git status</code>命令查看仓库状态</p><p>结果显示<code>nothing to commit, working tree clean</code>，这表示已经没有内容可以提交了，即全部内容已经提交完毕。</p><h3 id="git-log"><a href="#git-log" class="headerlink" title="git log"></a><code>git log</code></h3><p>在命令行窗口的光标处，输入<code>git log</code>命令，打印 Git 仓库提交日志：</p><h3 id="git-branch"><a href="#git-branch" class="headerlink" title="git branch"></a><code>git branch</code></h3><p>在命令行窗口的光标处，输入<code>git branch</code>命令，查看 Git 仓库的分支情况：</p><p>如上图所示，显示了仓库demo中的分支情况，现在仅有一个<code>master</code>分支，其中<code>master</code>分支前的*号表示“当前所在的分支”，例如* master就意味着我们所在的位置为demo仓库的主分支。输入命令<code>git branch a</code>，再输入命令<code>git branch</code>，结果如下图所示：</p><h3 id="git-checkout"><a href="#git-checkout" class="headerlink" title="git checkout"></a><code>git checkout</code></h3><p>在命令行窗口的光标处，输入<code>git checkout a</code>命令，切换到<code>a</code>分支：</p><p>在这里，我们还有一个更简单的方法来查看当前的分支，即通过观察上图中用红色框圈起来的部分。此外，我们也可以在创建分支的同时，直接切换到新分支，命令为<code>git checkout -b</code>，例如输入<code>git checkout -b b</code>命令：</p><h3 id="git-merge"><a href="#git-merge" class="headerlink" title="git merge"></a><code>git merge</code></h3><p>切换到<code>master</code>分支，然后输入<code>git merge a</code>命令，将<code>a</code>分支合并到<code>master</code>分支：</p><p>此外，在这里需要注意一点，那就是：<strong>在合并分支的时候，要考虑到两个分支是否有冲突，如果有冲突，则不能直接合并，需要先解决冲突；反之，则可以直接合并。</strong></p><h3 id="git-branch-d-amp-git-branch-D"><a href="#git-branch-d-amp-git-branch-D" class="headerlink" title="git branch -d &amp; git branch -D"></a><code>git branch -d &amp; git branch -D</code></h3><p>在命令行窗口的光标处，输入<code>git branch -d a</code>命令，删除<code>a</code>分支：</p><p>不过有的时候，<em>通过git branch -d命令可以出现删除不了现象，例如分支a的代码没有合并到主分支等，这时如果我们一定要删除该分支，那么我们可以通过命令git branch -D进行强制删除。</em></p><h3 id="git-tag"><a href="#git-tag" class="headerlink" title="git tag"></a><code>git tag</code></h3><p>在命令行窗口的光标处，输入<code>git tag v1.0</code>命令，为当前分支添加标签：</p><p>如上图所示，我们为当前所在的a分支添加了一个v1.0标签。通过命令<code>git tag</code>即可查看标签记录：</p><p>如上图所示，我们为当前所在的a分支添加了一个v1.0标签。通过命令<code>git tag</code>即可查看标签记录：</p><p>如上图所示，显示了我们添加标签的记录。通过命令<code>git checkout v1.0</code>即可切换到该标签下的代码状态：</p><h2 id="绑定Git与Github"><a href="#绑定Git与Github" class="headerlink" title="绑定Git与Github"></a>绑定Git与Github</h2>]]></content>
-    
     
       
       
-    <summary type="html">&lt;h1 id=&quot;Github使用&quot;&gt;&lt;a href=&quot;#Github使用&quot; class=&quot;headerlink&quot; title=&quot;Github使用&quot;&gt;&lt;/a&gt;Github使用&lt;/h1&gt;&lt;h2 id=&quot;生成SSH-key&quot;&gt;&lt;a href=&quot;#生成SSH-key&quot; class=&quot;he</summary>
+        
+        
+    <summary type="html">&lt;h1 id=&quot;Github使用&quot;&gt;&lt;a href=&quot;#Github使用&quot; class=&quot;headerlink&quot; title=&quot;Github使用&quot;&gt;&lt;/a&gt;Github使用&lt;/h1&gt;&lt;h2 id=&quot;生成SSH-key&quot;&gt;&lt;a href=&quot;#生成SSH-key&quot;</summary>
+        
       
     
     
@@ -47,12 +48,13 @@
     <published>2022-06-30T09:33:00.555Z</published>
     <updated>2022-06-30T08:56:54.404Z</updated>
     
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
-    
     
       
       
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
+        
+        
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
+        
       
     
     
