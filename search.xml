@@ -2,7 +2,7 @@
 <search>
   <entry>
     <title>Github使用</title>
-    <url>/2022/06/30/Github%E4%BD%BF%E7%94%A8/</url>
+    <url>/2022/06/30/Github%20Guide/</url>
     <content><![CDATA[<h1 id="Github使用"><a href="#Github使用" class="headerlink" title="Github使用"></a>Github使用</h1><h2 id="生成SSH-key"><a href="#生成SSH-key" class="headerlink" title="生成SSH key"></a>生成SSH key</h2><p>SSh（安全外壳协议）GitHub 上，一般都是通过 SSH 来授权的，而且大多数 Git 服务器也会选择使用 SSH 公钥来进行授权，所以想要向 GitHub 提交代码，首先就得在 GitHub 上添加 SSH key配置。</p>
 <figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line">ssh-keygen -t rsa -C &quot;xxx@xxx.com&quot;</span><br><span class="line">//执行后一直回车</span><br><span class="line"><span class="built_in">cd</span> ~/.ssh</span><br><span class="line">cat id_rsa.pub</span><br></pre></td></tr></table></figure>
 <p>生成公钥和私钥，无需账号和密码即可clone和push代码</p>
