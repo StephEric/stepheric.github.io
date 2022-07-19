@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Hello World</title>
+    <url>/2022/06/30/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
     <title>Github使用</title>
     <url>/2022/06/30/Github%20Guide/</url>
     <content><![CDATA[<h1 id="Github使用"><a href="#Github使用" class="headerlink" title="Github使用"></a>Github使用</h1><h2 id="生成SSH-key"><a href="#生成SSH-key" class="headerlink" title="生成SSH key"></a>生成SSH key</h2><p>SSh（安全外壳协议）GitHub 上，一般都是通过 SSH 来授权的，而且大多数 Git 服务器也会选择使用 SSH 公钥来进行授权，所以想要向 GitHub 提交代码，首先就得在 GitHub 上添加 SSH key配置。</p>
@@ -32,25 +46,24 @@
 <p>如上图所示，我们为当前所在的a分支添加了一个v1.0标签。通过命令<code>git tag</code>即可查看标签记录：</p>
 <p>如上图所示，我们为当前所在的a分支添加了一个v1.0标签。通过命令<code>git tag</code>即可查看标签记录：</p>
 <p>如上图所示，显示了我们添加标签的记录。通过命令<code>git checkout v1.0</code>即可切换到该标签下的代码状态：</p>
-<h2 id="绑定Git与Github"><a href="#绑定Git与Github" class="headerlink" title="绑定Git与Github"></a>绑定Git与Github</h2>]]></content>
+<h3 id="git-push"><a href="#git-push" class="headerlink" title="git push"></a><code>git push</code></h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git push &lt;name of repo&gt; main(&lt;branch of remote repo&gt;)</span><br></pre></td></tr></table></figure>
+<h3 id="git-pull"><a href="#git-pull" class="headerlink" title="git pull"></a><code>git pull</code></h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git pull </span><br></pre></td></tr></table></figure>
+<h2 id="绑定Git与Github"><a href="#绑定Git与Github" class="headerlink" title="绑定Git与Github"></a>绑定Git与Github</h2><h2 id="Git报错处理"><a href="#Git报错处理" class="headerlink" title="Git报错处理"></a>Git报错处理</h2><h3 id="failed-to-push-some-refs"><a href="#failed-to-push-some-refs" class="headerlink" title="failed to push some refs"></a><code>failed to push some refs</code></h3><p>原因：远程库与本地库不一致，将远程库同步到本地库</p>
+<p>解决办法：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git pull --rebase &lt;name of repo&gt; main</span><br></pre></td></tr></table></figure>
+<p>该命令的意思是把远程库中的更新合并到（pull=fetch+merge）本地库中，–-<a href="https://so.csdn.net/so/search?q=rebase&amp;spm=1001.2101.3001.7020">rebase</a>的作用是取消掉本地库中刚刚的commit，并把他们接到更新后的版本库之中。</p>
+<h3 id="unable-to-access-Failed-to-connect"><a href="#unable-to-access-Failed-to-connect" class="headerlink" title="unable to access Failed to connect"></a><code>unable to access Failed to connect</code></h3><p>有可能你的gitbub之前设置过代理，只需分别执行如下代码即可：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git config --global --<span class="built_in">unset</span> http.proxy</span><br><span class="line">git config --global --<span class="built_in">unset</span> https.proxy</span><br></pre></td></tr></table></figure>
+<p>若还没有解决，可以尝试如下解决方式</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git config --global url.git://github.com/.insteadOf https://github.com/</span><br></pre></td></tr></table></figure>
+<h3 id="OpenSSL-SSL-read-Connection-was-reset"><a href="#OpenSSL-SSL-read-Connection-was-reset" class="headerlink" title="OpenSSL SSL_read: Connection was reset"></a><code>OpenSSL SSL_read: Connection was reset</code></h3><p>产生原因：一般是这是因为服务器的SSL证书没有经过第三方机构的签署，所以才报错</p>
+<p>解决方法：解除ssl验证后，再次git即可</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git config --global http.sslVerify <span class="string">&quot;false&quot;</span></span><br></pre></td></tr></table></figure>
+]]></content>
       <tags>
         <tag>Git</tag>
         <tag>Github</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/2022/06/30/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
   </entry>
   <entry>
     <title>使用conda进行环境管理和包管理</title>
