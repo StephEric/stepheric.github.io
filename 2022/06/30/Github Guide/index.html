@@ -28,7 +28,7 @@
 <meta property="og:description" content="Github使用生成SSH keySSh（安全外壳协议）GitHub 上，一般都是通过 SSH 来授权的，而且大多数 Git 服务器也会选择使用 SSH 公钥来进行授权，所以想要向 GitHub 提交代码，首先就得在 GitHub 上添加 SSH key配置。 1234ssh-keygen -t rsa -C &quot;xxx@xxx.com&quot;&#x2F;&#x2F;执行后一直回车cd ~&#x2F;.sshcat">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2022-06-30T11:08:31.000Z">
-<meta property="article:modified_time" content="2022-07-19T08:36:17.370Z">
+<meta property="article:modified_time" content="2022-07-22T15:39:51.460Z">
 <meta property="article:author" content="StephEric">
 <meta property="article:tag" content="Git">
 <meta property="article:tag" content="Github">
@@ -231,7 +231,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2022-07-19 16:36:17" itemprop="dateModified" datetime="2022-07-19T16:36:17+08:00">2022-07-19</time>
+                <time title="修改时间：2022-07-22 23:39:51" itemprop="dateModified" datetime="2022-07-22T23:39:51+08:00">2022-07-22</time>
               </span>
 
           
@@ -248,12 +248,14 @@
         <h1 id="Github使用"><a href="#Github使用" class="headerlink" title="Github使用"></a>Github使用</h1><h2 id="生成SSH-key"><a href="#生成SSH-key" class="headerlink" title="生成SSH key"></a>生成SSH key</h2><p>SSh（安全外壳协议）GitHub 上，一般都是通过 SSH 来授权的，而且大多数 Git 服务器也会选择使用 SSH 公钥来进行授权，所以想要向 GitHub 提交代码，首先就得在 GitHub 上添加 SSH key配置。</p>
 <figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -t rsa -C &quot;xxx@xxx.com&quot;</span><br><span class="line">//执行后一直回车</span><br><span class="line"><span class="built_in">cd</span> ~/.ssh</span><br><span class="line">cat id_rsa.pub</span><br></pre></td></tr></table></figure>
 <p>生成公钥和私钥，无需账号和密码即可clone和push代码</p>
-<h2 id="操作git"><a href="#操作git" class="headerlink" title="操作git"></a>操作git</h2><p><code>git init</code> 初始一个Git仓库</p>
+<h2 id="操作git"><a href="#操作git" class="headerlink" title="操作git"></a>操作git</h2><h3 id="git-help"><a href="#git-help" class="headerlink" title="git --help"></a><code>git --help</code></h3><p>得到git-doc文件</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git --<span class="built_in">help</span> &lt;<span class="built_in">command</span>&gt;</span><br></pre></td></tr></table></figure>
+<h3 id="git-init"><a href="#git-init" class="headerlink" title="git init"></a><code>git init</code></h3><p>初始一个Git仓库</p>
 <p>先创建好仓库目录，并保存好文件</p>
 <p><strong>在我们进行任何的git操作之前，我们都得先切换到 Git 的仓库目录。</strong></p>
 <p>我们得先进入到（我们定义的）Git 仓库的最顶层文件目录下，然后从此目录中进入 Git Bash，这样之后的操作才能顺利进行</p>
 <h3 id="git-status"><a href="#git-status" class="headerlink" title="git status"></a><code>git status</code></h3><p>查看仓库状态，若未创建，则返回<code>not a git repository</code></p>
-<h3 id="git-init"><a href="#git-init" class="headerlink" title="git init"></a><code>git init</code></h3><p>在命令行窗口的光标处，输入<code>git init</code>命令，初始化 Git 仓库：</p>
+<h3 id="git-init-1"><a href="#git-init-1" class="headerlink" title="git init"></a><code>git init</code></h3><p>在命令行窗口的光标处，输入<code>git init</code>命令，初始化 Git 仓库：</p>
 <p>初始化之后仓库变成Git仓库</p>
 <h3 id="git-add"><a href="#git-add" class="headerlink" title="git add"></a><code>git add</code></h3><p>将已有的文件添加到Git仓库，<code>git add xxx.xxx</code></p>
 <p>已经显示<code>Initial commit</code>初始化提交了，同时已经没有<code>Untracked files</code>提示了，这说明文件<code>hit.txt</code>已经被添加到 Git 仓库</p>
@@ -274,7 +276,12 @@
 <p>如上图所示，我们为当前所在的a分支添加了一个v1.0标签。通过命令<code>git tag</code>即可查看标签记录：</p>
 <p>如上图所示，我们为当前所在的a分支添加了一个v1.0标签。通过命令<code>git tag</code>即可查看标签记录：</p>
 <p>如上图所示，显示了我们添加标签的记录。通过命令<code>git checkout v1.0</code>即可切换到该标签下的代码状态：</p>
-<h3 id="git-push"><a href="#git-push" class="headerlink" title="git push"></a><code>git push</code></h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git push &lt;name of repo&gt; main(&lt;branch of remote repo&gt;)</span><br></pre></td></tr></table></figure>
+<h3 id="git-remote"><a href="#git-remote" class="headerlink" title="git remote"></a><code>git remote</code></h3><p>返回当前remote仓库名</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git remote add [-t &lt;branch&gt;] [-m &lt;master&gt;] [-f] [--[no-]tags] [--mirror=(fetch|push)] &lt;name&gt; &lt;url&gt;</span><br></pre></td></tr></table></figure>
+<h3 id="git-push"><a href="#git-push" class="headerlink" title="git push"></a><code>git push</code></h3><p> specify the URL from the command-line or configure a remote repository using</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git remote add &lt;name&gt; &lt;url&gt;</span><br></pre></td></tr></table></figure>
+<p>然后向远端push</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git push &lt;name of repo&gt; main(&lt;branch of remote repo&gt;)</span><br></pre></td></tr></table></figure>
 <h3 id="git-pull"><a href="#git-pull" class="headerlink" title="git pull"></a><code>git pull</code></h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git pull </span><br></pre></td></tr></table></figure>
 <h2 id="绑定Git与Github"><a href="#绑定Git与Github" class="headerlink" title="绑定Git与Github"></a>绑定Git与Github</h2><h2 id="Git报错处理"><a href="#Git报错处理" class="headerlink" title="Git报错处理"></a>Git报错处理</h2><h3 id="failed-to-push-some-refs"><a href="#failed-to-push-some-refs" class="headerlink" title="failed to push some refs"></a><code>failed to push some refs</code></h3><p>原因：远程库与本地库不一致，将远程库同步到本地库</p>
 <p>解决办法：</p>
@@ -390,7 +397,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Github%E4%BD%BF%E7%94%A8"><span class="nav-number">1.</span> <span class="nav-text">Github使用</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%94%9F%E6%88%90SSH-key"><span class="nav-number">1.1.</span> <span class="nav-text">生成SSH key</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%93%8D%E4%BD%9Cgit"><span class="nav-number">1.2.</span> <span class="nav-text">操作git</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#git-status"><span class="nav-number">1.2.1.</span> <span class="nav-text">git status</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#git-init"><span class="nav-number">1.2.2.</span> <span class="nav-text">git init</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#git-add"><span class="nav-number">1.2.3.</span> <span class="nav-text">git add</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#git-commit"><span class="nav-number">1.2.4.</span> <span class="nav-text">git commit</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#git-log"><span class="nav-number">1.2.5.</span> <span class="nav-text">git log</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#git-branch"><span class="nav-number">1.2.6.</span> <span class="nav-text">git branch</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#git-checkout"><span class="nav-number">1.2.7.</span> <span class="nav-text">git checkout</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#git-merge"><span class="nav-number">1.2.8.</span> <span class="nav-text">git merge</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#git-branch-d-amp-git-branch-D"><span class="nav-number">1.2.9.</span> <span class="nav-text">git branch -d &amp; git branch -D</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#git-tag"><span class="nav-number">1.2.10.</span> <span class="nav-text">git tag</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#git-push"><span class="nav-number">1.2.11.</span> <span class="nav-text">git push</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#git-pull"><span class="nav-number">1.2.12.</span> <span class="nav-text">git pull</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%BB%91%E5%AE%9AGit%E4%B8%8EGithub"><span class="nav-number">1.3.</span> <span class="nav-text">绑定Git与Github</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Git%E6%8A%A5%E9%94%99%E5%A4%84%E7%90%86"><span class="nav-number">1.4.</span> <span class="nav-text">Git报错处理</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#failed-to-push-some-refs"><span class="nav-number">1.4.1.</span> <span class="nav-text">failed to push some refs</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#unable-to-access-Failed-to-connect"><span class="nav-number">1.4.2.</span> <span class="nav-text">unable to access Failed to connect</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#OpenSSL-SSL-read-Connection-was-reset"><span class="nav-number">1.4.3.</span> <span class="nav-text">OpenSSL SSL_read: Connection was reset</span></a></li></ol></li></ol></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Github%E4%BD%BF%E7%94%A8"><span class="nav-number">1.</span> <span class="nav-text">Github使用</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%94%9F%E6%88%90SSH-key"><span class="nav-number">1.1.</span> <span class="nav-text">生成SSH key</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%93%8D%E4%BD%9Cgit"><span class="nav-number">1.2.</span> <span class="nav-text">操作git</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#git-help"><span class="nav-number">1.2.1.</span> <span class="nav-text">git --help</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#git-init"><span class="nav-number">1.2.2.</span> <span class="nav-text">git init</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#git-status"><span class="nav-number">1.2.3.</span> <span class="nav-text">git status</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#git-init-1"><span class="nav-number">1.2.4.</span> <span class="nav-text">git init</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#git-add"><span class="nav-number">1.2.5.</span> <span class="nav-text">git add</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#git-commit"><span class="nav-number">1.2.6.</span> <span class="nav-text">git commit</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#git-log"><span class="nav-number">1.2.7.</span> <span class="nav-text">git log</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#git-branch"><span class="nav-number">1.2.8.</span> <span class="nav-text">git branch</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#git-checkout"><span class="nav-number">1.2.9.</span> <span class="nav-text">git checkout</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#git-merge"><span class="nav-number">1.2.10.</span> <span class="nav-text">git merge</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#git-branch-d-amp-git-branch-D"><span class="nav-number">1.2.11.</span> <span class="nav-text">git branch -d &amp; git branch -D</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#git-tag"><span class="nav-number">1.2.12.</span> <span class="nav-text">git tag</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#git-remote"><span class="nav-number">1.2.13.</span> <span class="nav-text">git remote</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#git-push"><span class="nav-number">1.2.14.</span> <span class="nav-text">git push</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#git-pull"><span class="nav-number">1.2.15.</span> <span class="nav-text">git pull</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%BB%91%E5%AE%9AGit%E4%B8%8EGithub"><span class="nav-number">1.3.</span> <span class="nav-text">绑定Git与Github</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Git%E6%8A%A5%E9%94%99%E5%A4%84%E7%90%86"><span class="nav-number">1.4.</span> <span class="nav-text">Git报错处理</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#failed-to-push-some-refs"><span class="nav-number">1.4.1.</span> <span class="nav-text">failed to push some refs</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#unable-to-access-Failed-to-connect"><span class="nav-number">1.4.2.</span> <span class="nav-text">unable to access Failed to connect</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#OpenSSL-SSL-read-Connection-was-reset"><span class="nav-number">1.4.3.</span> <span class="nav-text">OpenSSL SSL_read: Connection was reset</span></a></li></ol></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 
@@ -406,20 +413,20 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">3</span>
+          <span class="site-state-item-count">4</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
       <div class="site-state-item site-state-categories">
             <a href="/categories/">
           
-        <span class="site-state-item-count">2</span>
+        <span class="site-state-item-count">3</span>
         <span class="site-state-item-name">分类</span></a>
       </div>
       <div class="site-state-item site-state-tags">
             <a href="/tags/">
           
-        <span class="site-state-item-count">4</span>
+        <span class="site-state-item-count">5</span>
         <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>

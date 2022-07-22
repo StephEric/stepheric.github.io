@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-07-11T04:23:28.388Z</updated>
+  <updated>2022-07-19T10:34:07.900Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>QT界面部件与设置</title>
+    <link href="http://example.com/2022/07/19/QT%E7%95%8C%E9%9D%A2%E9%83%A8%E4%BB%B6%E4%B8%8E%E8%AE%BE%E7%BD%AE/"/>
+    <id>http://example.com/2022/07/19/QT%E7%95%8C%E9%9D%A2%E9%83%A8%E4%BB%B6%E4%B8%8E%E8%AE%BE%E7%BD%AE/</id>
+    <published>2022-07-19T10:33:31.000Z</published>
+    <updated>2022-07-19T10:34:07.900Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;QT界面部件与设置&quot;&gt;&lt;a href=&quot;#QT界面部件与设置&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="QT" scheme="http://example.com/categories/QT/"/>
+    
+    
+    <category term="QT" scheme="http://example.com/tags/QT/"/>
+    
+  </entry>
   
   <entry>
     <title>使用conda进行环境管理和包管理</title>
@@ -50,7 +75,7 @@
     <link href="http://example.com/2022/06/30/Github%20Guide/"/>
     <id>http://example.com/2022/06/30/Github%20Guide/</id>
     <published>2022-06-30T11:08:31.000Z</published>
-    <updated>2022-07-19T08:36:17.370Z</updated>
+    <updated>2022-07-22T15:39:51.460Z</updated>
     
     
       

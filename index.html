@@ -194,6 +194,73 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2022/07/19/QT%E7%95%8C%E9%9D%A2%E9%83%A8%E4%BB%B6%E4%B8%8E%E8%AE%BE%E7%BD%AE/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.jpg">
+      <meta itemprop="name" content="StephEric">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="StephEric">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2022/07/19/QT%E7%95%8C%E9%9D%A2%E9%83%A8%E4%BB%B6%E4%B8%8E%E8%AE%BE%E7%BD%AE/" class="post-title-link" itemprop="url">QT界面部件与设置</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2022-07-19 18:33:31 / 修改时间：18:34:07" itemprop="dateCreated datePublished" datetime="2022-07-19T18:33:31+08:00">2022-07-19</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/QT/" itemprop="url" rel="index"><span itemprop="name">QT</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h1 id="QT界面部件与设置"><a href="#QT界面部件与设置" class="headerlink" title="QT界面部件与设置"></a>QT界面部件与设置</h1>
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
     <link itemprop="mainEntityOfPage" href="http://example.com/2022/07/11/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8anaconda%E8%BF%9B%E8%A1%8CPython%E7%8E%AF%E5%A2%83%E7%AE%A1%E7%90%86/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -325,7 +392,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2022-07-19 16:36:17" itemprop="dateModified" datetime="2022-07-19T16:36:17+08:00">2022-07-19</time>
+                <time title="修改时间：2022-07-22 23:39:51" itemprop="dateModified" datetime="2022-07-22T23:39:51+08:00">2022-07-22</time>
               </span>
 
           
@@ -342,12 +409,14 @@
           <h1 id="Github使用"><a href="#Github使用" class="headerlink" title="Github使用"></a>Github使用</h1><h2 id="生成SSH-key"><a href="#生成SSH-key" class="headerlink" title="生成SSH key"></a>生成SSH key</h2><p>SSh（安全外壳协议）GitHub 上，一般都是通过 SSH 来授权的，而且大多数 Git 服务器也会选择使用 SSH 公钥来进行授权，所以想要向 GitHub 提交代码，首先就得在 GitHub 上添加 SSH key配置。</p>
 <figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -t rsa -C &quot;xxx@xxx.com&quot;</span><br><span class="line">//执行后一直回车</span><br><span class="line"><span class="built_in">cd</span> ~/.ssh</span><br><span class="line">cat id_rsa.pub</span><br></pre></td></tr></table></figure>
 <p>生成公钥和私钥，无需账号和密码即可clone和push代码</p>
-<h2 id="操作git"><a href="#操作git" class="headerlink" title="操作git"></a>操作git</h2><p><code>git init</code> 初始一个Git仓库</p>
+<h2 id="操作git"><a href="#操作git" class="headerlink" title="操作git"></a>操作git</h2><h3 id="git-help"><a href="#git-help" class="headerlink" title="git --help"></a><code>git --help</code></h3><p>得到git-doc文件</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git --<span class="built_in">help</span> &lt;<span class="built_in">command</span>&gt;</span><br></pre></td></tr></table></figure>
+<h3 id="git-init"><a href="#git-init" class="headerlink" title="git init"></a><code>git init</code></h3><p>初始一个Git仓库</p>
 <p>先创建好仓库目录，并保存好文件</p>
 <p><strong>在我们进行任何的git操作之前，我们都得先切换到 Git 的仓库目录。</strong></p>
 <p>我们得先进入到（我们定义的）Git 仓库的最顶层文件目录下，然后从此目录中进入 Git Bash，这样之后的操作才能顺利进行</p>
 <h3 id="git-status"><a href="#git-status" class="headerlink" title="git status"></a><code>git status</code></h3><p>查看仓库状态，若未创建，则返回<code>not a git repository</code></p>
-<h3 id="git-init"><a href="#git-init" class="headerlink" title="git init"></a><code>git init</code></h3><p>在命令行窗口的光标处，输入<code>git init</code>命令，初始化 Git 仓库：</p>
+<h3 id="git-init-1"><a href="#git-init-1" class="headerlink" title="git init"></a><code>git init</code></h3><p>在命令行窗口的光标处，输入<code>git init</code>命令，初始化 Git 仓库：</p>
 <p>初始化之后仓库变成Git仓库</p>
 <h3 id="git-add"><a href="#git-add" class="headerlink" title="git add"></a><code>git add</code></h3><p>将已有的文件添加到Git仓库，<code>git add xxx.xxx</code></p>
 <p>已经显示<code>Initial commit</code>初始化提交了，同时已经没有<code>Untracked files</code>提示了，这说明文件<code>hit.txt</code>已经被添加到 Git 仓库</p>
@@ -368,7 +437,12 @@
 <p>如上图所示，我们为当前所在的a分支添加了一个v1.0标签。通过命令<code>git tag</code>即可查看标签记录：</p>
 <p>如上图所示，我们为当前所在的a分支添加了一个v1.0标签。通过命令<code>git tag</code>即可查看标签记录：</p>
 <p>如上图所示，显示了我们添加标签的记录。通过命令<code>git checkout v1.0</code>即可切换到该标签下的代码状态：</p>
-<h3 id="git-push"><a href="#git-push" class="headerlink" title="git push"></a><code>git push</code></h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git push &lt;name of repo&gt; main(&lt;branch of remote repo&gt;)</span><br></pre></td></tr></table></figure>
+<h3 id="git-remote"><a href="#git-remote" class="headerlink" title="git remote"></a><code>git remote</code></h3><p>返回当前remote仓库名</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git remote add [-t &lt;branch&gt;] [-m &lt;master&gt;] [-f] [--[no-]tags] [--mirror=(fetch|push)] &lt;name&gt; &lt;url&gt;</span><br></pre></td></tr></table></figure>
+<h3 id="git-push"><a href="#git-push" class="headerlink" title="git push"></a><code>git push</code></h3><p> specify the URL from the command-line or configure a remote repository using</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git remote add &lt;name&gt; &lt;url&gt;</span><br></pre></td></tr></table></figure>
+<p>然后向远端push</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git push &lt;name of repo&gt; main(&lt;branch of remote repo&gt;)</span><br></pre></td></tr></table></figure>
 <h3 id="git-pull"><a href="#git-pull" class="headerlink" title="git pull"></a><code>git pull</code></h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git pull </span><br></pre></td></tr></table></figure>
 <h2 id="绑定Git与Github"><a href="#绑定Git与Github" class="headerlink" title="绑定Git与Github"></a>绑定Git与Github</h2><h2 id="Git报错处理"><a href="#Git报错处理" class="headerlink" title="Git报错处理"></a>Git报错处理</h2><h3 id="failed-to-push-some-refs"><a href="#failed-to-push-some-refs" class="headerlink" title="failed to push some refs"></a><code>failed to push some refs</code></h3><p>原因：远程库与本地库不一致，将远程库同步到本地库</p>
 <p>解决办法：</p>
@@ -531,20 +605,20 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">3</span>
+          <span class="site-state-item-count">4</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
       <div class="site-state-item site-state-categories">
             <a href="/categories/">
           
-        <span class="site-state-item-count">2</span>
+        <span class="site-state-item-count">3</span>
         <span class="site-state-item-name">分类</span></a>
       </div>
       <div class="site-state-item site-state-tags">
             <a href="/tags/">
           
-        <span class="site-state-item-count">4</span>
+        <span class="site-state-item-count">5</span>
         <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
