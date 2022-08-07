@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>QT界面部件与设置</title>
+    <url>/2022/07/19/QT%E7%95%8C%E9%9D%A2%E9%83%A8%E4%BB%B6%E4%B8%8E%E8%AE%BE%E7%BD%AE/</url>
+    <content><![CDATA[<h1 id="QT界面部件与设置"><a href="#QT界面部件与设置" class="headerlink" title="QT界面部件与设置"></a>QT界面部件与设置</h1>]]></content>
+      <categories>
+        <category>QT</category>
+      </categories>
+      <tags>
+        <tag>QT</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Github使用</title>
     <url>/2022/06/30/Github%20Guide/</url>
     <content><![CDATA[<h1 id="Github使用"><a href="#Github使用" class="headerlink" title="Github使用"></a>Github使用</h1><h2 id="生成SSH-key"><a href="#生成SSH-key" class="headerlink" title="生成SSH key"></a>生成SSH key</h2><p>SSh（安全外壳协议）GitHub 上，一般都是通过 SSH 来授权的，而且大多数 Git 服务器也会选择使用 SSH 公钥来进行授权，所以想要向 GitHub 提交代码，首先就得在 GitHub 上添加 SSH key配置。</p>
@@ -56,17 +67,6 @@
       <tags>
         <tag>Git</tag>
         <tag>Github</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>QT界面部件与设置</title>
-    <url>/2022/07/19/QT%E7%95%8C%E9%9D%A2%E9%83%A8%E4%BB%B6%E4%B8%8E%E8%AE%BE%E7%BD%AE/</url>
-    <content><![CDATA[<h1 id="QT界面部件与设置"><a href="#QT界面部件与设置" class="headerlink" title="QT界面部件与设置"></a>QT界面部件与设置</h1>]]></content>
-      <categories>
-        <category>QT</category>
-      </categories>
-      <tags>
-        <tag>QT</tag>
       </tags>
   </entry>
   <entry>
