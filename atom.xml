@@ -71,6 +71,29 @@
   </entry>
   
   <entry>
+    <title>Github使用</title>
+    <link href="http://example.com/2022/06/30/Github%20Guide/"/>
+    <id>http://example.com/2022/06/30/Github%20Guide/</id>
+    <published>2022-06-30T11:08:31.000Z</published>
+    <updated>2022-08-08T06:44:56.858Z</updated>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;Github使用&quot;&gt;&lt;a href=&quot;#Github使用&quot; class=&quot;headerlink&quot; title=&quot;Github使用&quot;&gt;&lt;/a&gt;Github使用&lt;/h1&gt;&lt;h2 id=&quot;生成SSH-key&quot;&gt;&lt;a href=&quot;#生成SSH-key&quot; class=&quot;headerlink&quot; title=&quot;生成SSH key&quot;&gt;&lt;/a&gt;生成SSH key&lt;/h2&gt;&lt;p&gt;SSh（安全外壳协议）GitHub 上，一般都是通过 SSH 来授权的，而且大多数 Git 服务器也会选择使用 SSH 公钥来进行授权，所以想要向 GitHub 提交代码，首先就得在 GitHub 上添加 SSH key配置。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Git" scheme="http://example.com/categories/Git/"/>
+    
+    <category term="Github" scheme="http://example.com/categories/Github/"/>
+    
+    
+    <category term="Git" scheme="http://example.com/tags/Git/"/>
+    
+    <category term="Github" scheme="http://example.com/tags/Github/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Hello World</title>
     <link href="http://example.com/2022/06/30/hello-world/"/>
     <id>http://example.com/2022/06/30/hello-world/</id>
