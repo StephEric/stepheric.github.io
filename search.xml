@@ -1,17 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>QT界面部件与设置</title>
-    <url>/2022/07/19/QT%E7%95%8C%E9%9D%A2%E9%83%A8%E4%BB%B6%E4%B8%8E%E8%AE%BE%E7%BD%AE/</url>
-    <content><![CDATA[<h1 id="QT界面部件与设置"><a href="#QT界面部件与设置" class="headerlink" title="QT界面部件与设置"></a>QT界面部件与设置</h1>]]></content>
-      <categories>
-        <category>QT</category>
-      </categories>
-      <tags>
-        <tag>QT</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Github使用</title>
     <url>/2022/06/30/Github%20Guide/</url>
     <content><![CDATA[<h1 id="Github使用"><a href="#Github使用" class="headerlink" title="Github使用"></a>Github使用</h1><h2 id="生成SSH-key"><a href="#生成SSH-key" class="headerlink" title="生成SSH key"></a>生成SSH key</h2><p>SSh（安全外壳协议）GitHub 上，一般都是通过 SSH 来授权的，而且大多数 Git 服务器也会选择使用 SSH 公钥来进行授权，所以想要向 GitHub 提交代码，首先就得在 GitHub 上添加 SSH key配置。</p>
@@ -78,24 +67,23 @@
       </tags>
   </entry>
   <entry>
-    <title>Hello World</title>
-    <url>/2022/06/30/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
+    <title>QT界面部件与设置</title>
+    <url>/2022/07/19/QT%E7%95%8C%E9%9D%A2%E9%83%A8%E4%BB%B6%E4%B8%8E%E8%AE%BE%E7%BD%AE/</url>
+    <content><![CDATA[<h1 id="QT界面部件与设置"><a href="#QT界面部件与设置" class="headerlink" title="QT界面部件与设置"></a>QT界面部件与设置</h1>]]></content>
+      <categories>
+        <category>QT</category>
+      </categories>
+      <tags>
+        <tag>QT</tag>
+      </tags>
   </entry>
   <entry>
     <title>Solidworks笔记</title>
     <url>/2021/10/30/Solidworks/</url>
-    <content><![CDATA[<h1 id="Solidworks笔记"><a href="#Solidworks笔记" class="headerlink" title="Solidworks笔记"></a>Solidworks笔记</h1><h2 id="期中考试"><a href="#期中考试" class="headerlink" title="期中考试"></a>期中考试</h2><p>三个满分 平均分84</p>
+    <content><![CDATA[<h1 id="Solidworks笔记"><a href="#Solidworks笔记" class="headerlink" title="Solidworks笔记"></a>Solidworks笔记</h1><blockquote><h2 id="期中考试"><a href="#期中考试" class="headerlink" title="期中考试"></a>期中考试</h2><p>三个满分 平均分84</p>
+</blockquote>
 <h2 id="Solidworks概述"><a href="#Solidworks概述" class="headerlink" title="Solidworks概述"></a>Solidworks概述</h2><p>三维建模，设计颜色，赋予材质进行分析，运动仿真（校验设置功能完整性、动力仿真）<br>模块化功能</p>
+<span id="more"></span>
 <h2 id="Solidworks基本操作"><a href="#Solidworks基本操作" class="headerlink" title="Solidworks基本操作"></a>Solidworks基本操作</h2><p>零件：单个实体<br>装配体：多个实体（通过运动附），固连<br>工程图：面向实际</p>
 <p>按照基准次序<br>定义材质<br>红绿灯更新当前参数</p>
 <h3 id="剪裁实体"><a href="#剪裁实体" class="headerlink" title="剪裁实体"></a>剪裁实体</h3><p>选择合适剪裁选项</p>
@@ -112,10 +100,47 @@
       </tags>
   </entry>
   <entry>
+    <title>NexT主题post格式模板</title>
+    <url>/2022/07/11/Next%E4%B8%BB%E9%A2%98post%E6%A0%BC%E5%BC%8F%E6%A8%A1%E6%9D%BF/</url>
+    <content><![CDATA[<h1 id="NexT主题常用页面模块"><a href="#NexT主题常用页面模块" class="headerlink" title="NexT主题常用页面模块"></a>NexT主题常用页面模块</h1><p>下面介绍一些主题常用post内部的页面模块，可直接参照使用</p>
+<span id="more"></span>
+<h2 id="Center-Quote-居中引用"><a href="#Center-Quote-居中引用" class="headerlink" title="Center Quote 居中引用"></a>Center Quote 居中引用</h2><p>建议在单行文字时使用</p>
+<h3 id="Example"><a href="#Example" class="headerlink" title="Example"></a>Example</h3><figure class="highlight html"><table><tr><td class="code"><pre><span class="line">&#123;% cq %&#125;代码优雅，核心简单&#123;% endcq %&#125;</span><br></pre></td></tr></table></figure>
+<blockquote class="blockquote-center">
+            <i class="fa fa-quote-left"></i>
+            <p>代码优雅，核心简单</p>
+
+            <i class="fa fa-quote-right"></i>
+          </blockquote>
+<h2 id="Note-Bootstrap-Callout"><a href="#Note-Bootstrap-Callout" class="headerlink" title="Note( Bootstrap Callout )"></a>Note( Bootstrap Callout )</h2>]]></content>
+      <categories>
+        <category>Hexo</category>
+        <category>NexT</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2022/06/30/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
     <title>使用conda进行环境管理和包管理</title>
     <url>/2022/07/11/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8anaconda%E8%BF%9B%E8%A1%8CPython%E7%8E%AF%E5%A2%83%E7%AE%A1%E7%90%86/</url>
     <content><![CDATA[<h1 id="使用conda进行环境管理和包管理"><a href="#使用conda进行环境管理和包管理" class="headerlink" title="使用conda进行环境管理和包管理"></a><strong>使用conda进行环境管理和包管理</strong></h1><p>conda是anaconda中的环境管理器和包管理器。</p>
 <p>对于conda的操作都发生在命令行内，我们可以打开Anaconda Prompt进行操作。</p>
+<span id="more"></span>
 <h2 id="1-检查conda"><a href="#1-检查conda" class="headerlink" title="1. 检查conda"></a><strong>1. 检查conda</strong></h2><p>在使用conda前，我们先检查conda是否已经被安装，以及当前版本是否是最新。</p>
 <figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta prompt_"># </span><span class="language-bash">检查conda是否已经安装好，此命令会返回你安装Anaconda软件的版本</span></span><br><span class="line">conda --version</span><br><span class="line"><span class="meta prompt_">&gt;</span><span class="language-bash">&gt; conda 4.3.40</span></span><br><span class="line"><span class="meta prompt_"></span></span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">通过以下命令升级conda到最新版本</span></span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">如果有新版本可用，在提示proceed ([y]/n)? 中输入y进行升级</span></span><br><span class="line">conda update conda</span><br></pre></td></tr></table></figure>
 <h2 id="2-环境管理"><a href="#2-环境管理" class="headerlink" title="2. 环境管理"></a><strong>2. 环境管理</strong></h2><p>环境管理是Python使用中的一大好习惯，如果你不想在一遍遍重装Python和系统中折腾循，那么环境管理是学习Python的过程中非常必要的一环。现在我们用conda进行环境管理。</p>

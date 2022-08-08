@@ -42,20 +42,36 @@
   </entry>
   
   <entry>
+    <title>NexT主题post格式模板</title>
+    <link href="http://example.com/2022/07/11/Next%E4%B8%BB%E9%A2%98post%E6%A0%BC%E5%BC%8F%E6%A8%A1%E6%9D%BF/"/>
+    <id>http://example.com/2022/07/11/Next%E4%B8%BB%E9%A2%98post%E6%A0%BC%E5%BC%8F%E6%A8%A1%E6%9D%BF/</id>
+    <published>2022-07-11T03:35:31.000Z</published>
+    <updated>2022-08-08T06:55:40.558Z</updated>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;NexT主题常用页面模块&quot;&gt;&lt;a href=&quot;#NexT主题常用页面模块&quot; class=&quot;headerlink&quot; title=&quot;NexT主题常用页面模块&quot;&gt;&lt;/a&gt;NexT主题常用页面模块&lt;/h1&gt;&lt;p&gt;下面介绍一些主题常用post内部的页面模块，可直接参照使用&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Hexo" scheme="http://example.com/categories/Hexo/"/>
+    
+    <category term="NexT" scheme="http://example.com/categories/Hexo/NexT/"/>
+    
+    
+    <category term="Hexo" scheme="http://example.com/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
     <title>使用conda进行环境管理和包管理</title>
     <link href="http://example.com/2022/07/11/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8anaconda%E8%BF%9B%E8%A1%8CPython%E7%8E%AF%E5%A2%83%E7%AE%A1%E7%90%86/"/>
     <id>http://example.com/2022/07/11/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8anaconda%E8%BF%9B%E8%A1%8CPython%E7%8E%AF%E5%A2%83%E7%AE%A1%E7%90%86/</id>
     <published>2022-07-11T03:35:31.000Z</published>
-    <updated>2022-07-11T04:23:28.388Z</updated>
+    <updated>2022-08-08T06:49:27.969Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;使用conda进行环境管理和包管理&quot;&gt;&lt;a href=&quot;#使用conda进行环境管理和包管理&quot; class=&quot;headerlink&quot;</summary>
-        
-      
+    <summary type="html">&lt;h1 id=&quot;使用conda进行环境管理和包管理&quot;&gt;&lt;a href=&quot;#使用conda进行环境管理和包管理&quot; class=&quot;headerlink&quot; title=&quot;使用conda进行环境管理和包管理&quot;&gt;&lt;/a&gt;&lt;strong&gt;使用conda进行环境管理和包管理&lt;/strong&gt;&lt;/h1&gt;&lt;p&gt;conda是anaconda中的环境管理器和包管理器。&lt;/p&gt;
+&lt;p&gt;对于conda的操作都发生在命令行内，我们可以打开Anaconda Prompt进行操作。&lt;/p&gt;</summary>
     
     
     
@@ -119,16 +135,12 @@
     <link href="http://example.com/2021/10/30/Solidworks/"/>
     <id>http://example.com/2021/10/30/Solidworks/</id>
     <published>2021-10-30T11:08:31.000Z</published>
-    <updated>2022-08-08T03:43:37.084Z</updated>
+    <updated>2022-08-08T06:50:41.723Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;Solidworks笔记&quot;&gt;&lt;a href=&quot;#Solidworks笔记&quot; class=&quot;headerlink&quot; title=&quot;Solidworks笔记&quot;&gt;&lt;/a&gt;Solidworks笔记&lt;/h1&gt;&lt;h2 id=&quot;期中考试&quot;&gt;&lt;a href=&quot;#期中考试&quot;</summary>
-        
-      
+    <summary type="html">&lt;h1 id=&quot;Solidworks笔记&quot;&gt;&lt;a href=&quot;#Solidworks笔记&quot; class=&quot;headerlink&quot; title=&quot;Solidworks笔记&quot;&gt;&lt;/a&gt;Solidworks笔记&lt;/h1&gt;&lt;blockquote&gt;&lt;h2 id=&quot;期中考试&quot;&gt;&lt;a href=&quot;#期中考试&quot; class=&quot;headerlink&quot; title=&quot;期中考试&quot;&gt;&lt;/a&gt;期中考试&lt;/h2&gt;&lt;p&gt;三个满分 平均分84&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;Solidworks概述&quot;&gt;&lt;a href=&quot;#Solidworks概述&quot; class=&quot;headerlink&quot; title=&quot;Solidworks概述&quot;&gt;&lt;/a&gt;Solidworks概述&lt;/h2&gt;&lt;p&gt;三维建模，设计颜色，赋予材质进行分析，运动仿真（校验设置功能完整性、动力仿真）&lt;br&gt;模块化功能&lt;/p&gt;</summary>
     
     
     

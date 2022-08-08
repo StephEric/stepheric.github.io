@@ -20,15 +20,15 @@
     var CONFIG = {"hostname":"example.com","root":"/","scheme":"Pisces","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":true,"style":"mac"},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":true,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":"livere","storage":true,"lazyload":false,"nav":null,"activeClass":"livere"},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":5,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
-  <meta name="description" content="使用conda进行环境管理和包管理conda是anaconda中的环境管理器和包管理器。 对于conda的操作都发生在命令行内，我们可以打开Anaconda Prompt进行操作。 1. 检查conda在使用conda前，我们先检查conda是否已经被安装，以及当前版本是否是最新。 1234567# 检查conda是否已经安装好，此命令会返回你安装Anaconda软件的版本conda --vers">
+  <meta name="description" content="使用conda进行环境管理和包管理conda是anaconda中的环境管理器和包管理器。 对于conda的操作都发生在命令行内，我们可以打开Anaconda Prompt进行操作。">
 <meta property="og:type" content="article">
 <meta property="og:title" content="使用conda进行环境管理和包管理">
 <meta property="og:url" content="http://example.com/2022/07/11/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8anaconda%E8%BF%9B%E8%A1%8CPython%E7%8E%AF%E5%A2%83%E7%AE%A1%E7%90%86/index.html">
 <meta property="og:site_name" content="StephEric">
-<meta property="og:description" content="使用conda进行环境管理和包管理conda是anaconda中的环境管理器和包管理器。 对于conda的操作都发生在命令行内，我们可以打开Anaconda Prompt进行操作。 1. 检查conda在使用conda前，我们先检查conda是否已经被安装，以及当前版本是否是最新。 1234567# 检查conda是否已经安装好，此命令会返回你安装Anaconda软件的版本conda --vers">
+<meta property="og:description" content="使用conda进行环境管理和包管理conda是anaconda中的环境管理器和包管理器。 对于conda的操作都发生在命令行内，我们可以打开Anaconda Prompt进行操作。">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2022-07-11T03:35:31.000Z">
-<meta property="article:modified_time" content="2022-07-11T04:23:28.388Z">
+<meta property="article:modified_time" content="2022-08-08T06:49:27.969Z">
 <meta property="article:author" content="StephEric">
 <meta property="article:tag" content="Python">
 <meta property="article:tag" content="Anaconda">
@@ -223,10 +223,16 @@
                 <i class="far fa-calendar"></i>
               </span>
               <span class="post-meta-item-text">发表于</span>
-              
 
-              <time title="创建时间：2022-07-11 11:35:31 / 修改时间：12:23:28" itemprop="dateCreated datePublished" datetime="2022-07-11T11:35:31+08:00">2022-07-11</time>
+              <time title="创建时间：2022-07-11 11:35:31" itemprop="dateCreated datePublished" datetime="2022-07-11T11:35:31+08:00">2022-07-11</time>
             </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2022-08-08 14:49:27" itemprop="dateModified" datetime="2022-08-08T14:49:27+08:00">2022-08-08</time>
+              </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="far fa-folder"></i>
@@ -275,6 +281,7 @@
       
         <h1 id="使用conda进行环境管理和包管理"><a href="#使用conda进行环境管理和包管理" class="headerlink" title="使用conda进行环境管理和包管理"></a><strong>使用conda进行环境管理和包管理</strong></h1><p>conda是anaconda中的环境管理器和包管理器。</p>
 <p>对于conda的操作都发生在命令行内，我们可以打开Anaconda Prompt进行操作。</p>
+<span id="more"></span>
 <h2 id="1-检查conda"><a href="#1-检查conda" class="headerlink" title="1. 检查conda"></a><strong>1. 检查conda</strong></h2><p>在使用conda前，我们先检查conda是否已经被安装，以及当前版本是否是最新。</p>
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta prompt_"># </span><span class="language-bash">检查conda是否已经安装好，此命令会返回你安装Anaconda软件的版本</span></span><br><span class="line">conda --version</span><br><span class="line"><span class="meta prompt_">&gt;</span><span class="language-bash">&gt; conda 4.3.40</span></span><br><span class="line"><span class="meta prompt_"></span></span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">通过以下命令升级conda到最新版本</span></span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">如果有新版本可用，在提示proceed ([y]/n)? 中输入y进行升级</span></span><br><span class="line">conda update conda</span><br></pre></td></tr></table></figure>
 <h2 id="2-环境管理"><a href="#2-环境管理" class="headerlink" title="2. 环境管理"></a><strong>2. 环境管理</strong></h2><p>环境管理是Python使用中的一大好习惯，如果你不想在一遍遍重装Python和系统中折腾循，那么环境管理是学习Python的过程中非常必要的一环。现在我们用conda进行环境管理。</p>
@@ -374,8 +381,8 @@
       <i class="fa fa-chevron-left"></i> Github使用
     </a></div>
       <div class="post-nav-item">
-    <a href="/2022/07/19/QT%E7%95%8C%E9%9D%A2%E9%83%A8%E4%BB%B6%E4%B8%8E%E8%AE%BE%E7%BD%AE/" rel="next" title="QT界面部件与设置">
-      QT界面部件与设置 <i class="fa fa-chevron-right"></i>
+    <a href="/2022/07/11/Next%E4%B8%BB%E9%A2%98post%E6%A0%BC%E5%BC%8F%E6%A8%A1%E6%9D%BF/" rel="next" title="NexT主题post格式模板">
+      NexT主题post格式模板 <i class="fa fa-chevron-right"></i>
     </a></div>
     </div>
       </footer>
@@ -456,20 +463,20 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">5</span>
+          <span class="site-state-item-count">6</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
       <div class="site-state-item site-state-categories">
             <a href="/categories/">
           
-        <span class="site-state-item-count">6</span>
+        <span class="site-state-item-count">8</span>
         <span class="site-state-item-name">分类</span></a>
       </div>
       <div class="site-state-item site-state-tags">
             <a href="/tags/">
           
-        <span class="site-state-item-count">6</span>
+        <span class="site-state-item-count">7</span>
         <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
