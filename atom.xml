@@ -75,7 +75,7 @@
     <link href="http://example.com/2022/06/30/Github%20Guide/"/>
     <id>http://example.com/2022/06/30/Github%20Guide/</id>
     <published>2022-06-30T11:08:31.000Z</published>
-    <updated>2022-07-22T15:39:51.460Z</updated>
+    <updated>2022-08-08T02:52:12.754Z</updated>
     
     
       
@@ -88,6 +88,10 @@
     
     
     
+    <category term="Git" scheme="http://example.com/categories/Git/"/>
+    
+    <category term="Github" scheme="http://example.com/categories/Github/"/>
+    
     
     <category term="Git" scheme="http://example.com/tags/Git/"/>
     
@@ -99,8 +103,8 @@
     <title>Hello World</title>
     <link href="http://example.com/2022/06/30/hello-world/"/>
     <id>http://example.com/2022/06/30/hello-world/</id>
-    <published>2022-06-30T09:33:00.555Z</published>
-    <updated>2022-06-30T08:56:54.404Z</updated>
+    <published>2022-06-30T11:08:30.000Z</published>
+    <updated>2022-08-08T02:52:51.159Z</updated>
     
     
       
