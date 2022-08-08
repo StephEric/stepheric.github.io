@@ -75,7 +75,7 @@
     <link href="http://example.com/2022/06/30/Github%20Guide/"/>
     <id>http://example.com/2022/06/30/Github%20Guide/</id>
     <published>2022-06-30T11:08:31.000Z</published>
-    <updated>2022-08-08T02:52:12.754Z</updated>
+    <updated>2022-08-08T03:42:15.509Z</updated>
     
     
       
@@ -90,7 +90,7 @@
     
     <category term="Git" scheme="http://example.com/categories/Git/"/>
     
-    <category term="Github" scheme="http://example.com/categories/Github/"/>
+    <category term="Github" scheme="http://example.com/categories/Git/Github/"/>
     
     
     <category term="Git" scheme="http://example.com/tags/Git/"/>
@@ -117,31 +117,6 @@
     
     
     
-    
-  </entry>
-  
-  <entry>
-    <title>Solidworks笔记</title>
-    <link href="http://example.com/2021/10/30/Solidworks/"/>
-    <id>http://example.com/2021/10/30/Solidworks/</id>
-    <published>2021-10-30T11:08:31.000Z</published>
-    <updated>2022-08-08T02:06:42.006Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;Solidworks笔记&quot;&gt;&lt;a href=&quot;#Solidworks笔记&quot; class=&quot;headerlink&quot; title=&quot;Solidworks笔记&quot;&gt;&lt;/a&gt;Solidworks笔记&lt;/h1&gt;&lt;h2 id=&quot;期中考试&quot;&gt;&lt;a href=&quot;#期中考试&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="Solidworks" scheme="http://example.com/categories/Solidworks/"/>
-    
-    
-    <category term="Solidworks" scheme="http://example.com/tags/Solidworks/"/>
     
   </entry>
   

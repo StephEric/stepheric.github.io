@@ -74,26 +74,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Solidworks笔记</title>
-    <url>/2021/10/30/Solidworks/</url>
-    <content><![CDATA[<h1 id="Solidworks笔记"><a href="#Solidworks笔记" class="headerlink" title="Solidworks笔记"></a>Solidworks笔记</h1><h2 id="期中考试"><a href="#期中考试" class="headerlink" title="期中考试"></a>期中考试</h2><p>三个满分 平均分84</p>
-<h2 id="Solidworks概述"><a href="#Solidworks概述" class="headerlink" title="Solidworks概述"></a>Solidworks概述</h2><p>三维建模，设计颜色，赋予材质进行分析，运动仿真（校验设置功能完整性、动力仿真）<br>模块化功能</p>
-<h2 id="Solidworks基本操作"><a href="#Solidworks基本操作" class="headerlink" title="Solidworks基本操作"></a>Solidworks基本操作</h2><p>零件：单个实体<br>装配体：多个实体（通过运动附），固连<br>工程图：面向实际</p>
-<p>按照基准次序<br>定义材质<br>红绿灯更新当前参数</p>
-<h3 id="剪裁实体"><a href="#剪裁实体" class="headerlink" title="剪裁实体"></a>剪裁实体</h3><p>选择合适剪裁选项</p>
-<p>旋转实体<br>等距实体 复制偏移一个距离<br>参考几何体 定义画图起始点<br>曲线</p>
-<p>一开始导入的零件是基准平台<br>装备体里可以嵌套装备体</p>
-<p>挖空 点击拉伸切除（完全贯穿）<br>配合 分别选面进行配合 （重合 指定距离）</p>
-<h3 id="工程图"><a href="#工程图" class="headerlink" title="工程图"></a>工程图</h3><p>重新编辑图纸<br>跟着鼠标的是视图</p>
-]]></content>
-      <categories>
-        <category>Solidworks</category>
-      </categories>
-      <tags>
-        <tag>Solidworks</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hello World</title>
     <url>/2022/06/30/hello-world/</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
