@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>GitLab使用及常见报错</title>
+    <url>/2022/08/23/Gitlab%20Guide/</url>
+    <content><![CDATA[<h1 id="使用入门"><a href="#使用入门" class="headerlink" title="使用入门"></a>使用入门</h1><span id="more"></span>
+<h1 id="错误分析"><a href="#错误分析" class="headerlink" title="错误分析"></a>错误分析</h1><h2 id="remote-GitLab-You-are-not-allowed-to-push-code-to-protected-branches-on-this-project"><a href="#remote-GitLab-You-are-not-allowed-to-push-code-to-protected-branches-on-this-project" class="headerlink" title="remote: GitLab: You are not allowed to push code to protected branches on this project."></a>remote: GitLab: You are not allowed to push code to protected branches on this project.</h2><h3 id="引发原因："><a href="#引发原因：" class="headerlink" title="引发原因："></a><strong>引发原因：</strong></h3><p>公司开发一个新的项目，在<a href="https://so.csdn.net/so/search?q=GitLab&amp;spm=1001.2101.3001.7020">GitLab</a>上创建一个代码仓库，通过ssh方式拉取代码到本地磁盘，在提交代码时，报标题所写的错误，原因是我在GitLab上的账户角色为<strong>开发者</strong>，代码仓库的<strong>master主分支</strong>是受保护的，不对开发者进行开放，开发者没有权限，需要关闭代码仓库的<strong>master主分支</strong>受保护的功能，设置开发者可以操作<strong>master主分支</strong>的权限。</p>
+<h3 id="解决办法："><a href="#解决办法：" class="headerlink" title="解决办法："></a><strong>解决办法：</strong></h3><p>使用GitLab系统管理员账户登录，更改代码仓库的<strong>master主分支</strong>开放权限为：<strong>Developers + Maintainers</strong>即可。<br><img src="https://img-blog.csdnimg.cn/2c63e8edf914401ea67674822087eddf.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBA57yW56iL6K--5aCC,size_20,color_FFFFFF,t_70,g_se,x_16#pic_left" alt="在这里插入图片描述"></p>
+]]></content>
+      <categories>
+        <category>Git</category>
+        <category>GitLab</category>
+      </categories>
+      <tags>
+        <tag>Git</tag>
+        <tag>GitLab</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Github使用</title>
     <url>/2022/06/30/Github%20Guide/</url>
     <content><![CDATA[<h1 id="Github使用"><a href="#Github使用" class="headerlink" title="Github使用"></a>Github使用</h1><h2 id="生成SSH-key"><a href="#生成SSH-key" class="headerlink" title="生成SSH key"></a>生成SSH key</h2><p>SSh（安全外壳协议）GitHub 上，一般都是通过 SSH 来授权的，而且大多数 Git 服务器也会选择使用 SSH 公钥来进行授权，所以想要向 GitHub 提交代码，首先就得在 GitHub 上添加 SSH key配置。</p>
@@ -67,29 +83,6 @@
       </tags>
   </entry>
   <entry>
-    <title>NexT主题post格式模板</title>
-    <url>/2022/07/11/Next%E4%B8%BB%E9%A2%98post%E6%A0%BC%E5%BC%8F%E6%A8%A1%E6%9D%BF/</url>
-    <content><![CDATA[<h1 id="NexT主题常用页面模块"><a href="#NexT主题常用页面模块" class="headerlink" title="NexT主题常用页面模块"></a>NexT主题常用页面模块</h1><p>下面介绍一些主题常用post内部的页面模块，可直接参照使用</p>
-<span id="more"></span>
-<h2 id="Center-Quote-居中引用"><a href="#Center-Quote-居中引用" class="headerlink" title="Center Quote 居中引用"></a>Center Quote 居中引用</h2><p>建议在单行文字时使用</p>
-<h3 id="Example"><a href="#Example" class="headerlink" title="Example"></a>Example</h3><figure class="highlight html"><table><tr><td class="code"><pre><span class="line">&#123;% cq %&#125;代码优雅，核心简单&#123;% endcq %&#125;</span><br></pre></td></tr></table></figure>
-<blockquote class="blockquote-center">
-            <i class="fa fa-quote-left"></i>
-            <p>代码优雅，核心简单</p>
-
-            <i class="fa fa-quote-right"></i>
-          </blockquote>
-<h2 id="Note-Bootstrap-Callout"><a href="#Note-Bootstrap-Callout" class="headerlink" title="Note( Bootstrap Callout )"></a>Note( Bootstrap Callout )</h2><h3 id="设置"><a href="#设置" class="headerlink" title="设置"></a>设置</h3><h3 id="使用-Usage"><a href="#使用-Usage" class="headerlink" title="使用 Usage"></a>使用 Usage</h3><figure class="highlight html"><table><tr><td class="code"><pre><span class="line">```</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% codeblock 创建note lang:html [additional options] %&#125;</span><br><span class="line">&#123;% note [class] [no-icon] [summary] %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% note info no-icon This is a summary %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">## 代码块 Code Block</span><br><span class="line"></span><br><span class="line">```html</span><br><span class="line">&#123;% codeblock [title] [lang:language] [url] [link text] [additional options] %&#125;</span><br><span class="line">code snippet</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br></pre></td></tr></table></figure>
-<h3 id=""><a href="#" class="headerlink" title=" "></a> </h3>]]></content>
-      <categories>
-        <category>Hexo</category>
-        <category>NexT</category>
-      </categories>
-      <tags>
-        <tag>Hexo</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Python文件操作</title>
     <url>/2022/08/08/Python%E6%96%87%E4%BB%B6%E6%93%8D%E4%BD%9C/</url>
     <content><![CDATA[<p>本篇不断汇总介绍Python中常见的文件操作</p>
@@ -131,21 +124,6 @@
       </tags>
   </entry>
   <entry>
-    <title>GitLab使用及常见报错</title>
-    <url>/2022/08/23/Gitlab%20Guide/</url>
-    <content><![CDATA[<h1 id="使用入门"><a href="#使用入门" class="headerlink" title="使用入门"></a>使用入门</h1><h1 id="错误分析"><a href="#错误分析" class="headerlink" title="错误分析"></a>错误分析</h1><h2 id="remote-GitLab-You-are-not-allowed-to-push-code-to-protected-branches-on-this-project"><a href="#remote-GitLab-You-are-not-allowed-to-push-code-to-protected-branches-on-this-project" class="headerlink" title="remote: GitLab: You are not allowed to push code to protected branches on this project."></a>remote: GitLab: You are not allowed to push code to protected branches on this project.</h2><h3 id="引发原因："><a href="#引发原因：" class="headerlink" title="引发原因："></a><strong>引发原因：</strong></h3><p>公司开发一个新的项目，在<a href="https://so.csdn.net/so/search?q=GitLab&amp;spm=1001.2101.3001.7020">GitLab</a>上创建一个代码仓库，通过ssh方式拉取代码到本地磁盘，在提交代码时，报标题所写的错误，原因是我在GitLab上的账户角色为<strong>开发者</strong>，代码仓库的<strong>master主分支</strong>是受保护的，不对开发者进行开放，开发者没有权限，需要关闭代码仓库的<strong>master主分支</strong>受保护的功能，设置开发者可以操作<strong>master主分支</strong>的权限。</p>
-<h3 id="解决办法："><a href="#解决办法：" class="headerlink" title="解决办法："></a><strong>解决办法：</strong></h3><p>使用GitLab系统管理员账户登录，更改代码仓库的<strong>master主分支</strong>开放权限为：<strong>Developers + Maintainers</strong>即可。<br><img src="https://img-blog.csdnimg.cn/2c63e8edf914401ea67674822087eddf.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBA57yW56iL6K--5aCC,size_20,color_FFFFFF,t_70,g_se,x_16#pic_left" alt="在这里插入图片描述"></p>
-]]></content>
-      <categories>
-        <category>Git</category>
-        <category>GitLab</category>
-      </categories>
-      <tags>
-        <tag>Git</tag>
-        <tag>GitLab</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>QT界面部件与设置</title>
     <url>/2022/07/19/QT%E7%95%8C%E9%9D%A2%E9%83%A8%E4%BB%B6%E4%B8%8E%E8%AE%BE%E7%BD%AE/</url>
     <content><![CDATA[<h1 id="QT界面部件与设置"><a href="#QT界面部件与设置" class="headerlink" title="QT界面部件与设置"></a>QT界面部件与设置</h1>]]></content>
@@ -154,6 +132,51 @@
       </categories>
       <tags>
         <tag>QT</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>NexT主题post格式模板</title>
+    <url>/2022/07/11/Next%E4%B8%BB%E9%A2%98post%E6%A0%BC%E5%BC%8F%E6%A8%A1%E6%9D%BF/</url>
+    <content><![CDATA[<h1 id="NexT主题常用页面模块"><a href="#NexT主题常用页面模块" class="headerlink" title="NexT主题常用页面模块"></a>NexT主题常用页面模块</h1><p>下面介绍一些主题常用post内部的页面模块，可直接参照使用</p>
+<span id="more"></span>
+<h2 id="Center-Quote-居中引用"><a href="#Center-Quote-居中引用" class="headerlink" title="Center Quote 居中引用"></a>Center Quote 居中引用</h2><p>建议在单行文字时使用</p>
+<h3 id="Example"><a href="#Example" class="headerlink" title="Example"></a>Example</h3><figure class="highlight html"><table><tr><td class="code"><pre><span class="line">&#123;% cq %&#125;代码优雅，核心简单&#123;% endcq %&#125;</span><br></pre></td></tr></table></figure>
+<blockquote class="blockquote-center">
+            <i class="fa fa-quote-left"></i>
+            <p>代码优雅，核心简单</p>
+
+            <i class="fa fa-quote-right"></i>
+          </blockquote>
+<h2 id="Note-Bootstrap-Callout"><a href="#Note-Bootstrap-Callout" class="headerlink" title="Note( Bootstrap Callout )"></a>Note( Bootstrap Callout )</h2><h3 id="设置"><a href="#设置" class="headerlink" title="设置"></a>设置</h3><h3 id="使用-Usage"><a href="#使用-Usage" class="headerlink" title="使用 Usage"></a>使用 Usage</h3><figure class="highlight html"><table><tr><td class="code"><pre><span class="line">```</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% codeblock 创建note lang:html [additional options] %&#125;</span><br><span class="line">&#123;% note [class] [no-icon] [summary] %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% note info no-icon This is a summary %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">## 代码块 Code Block</span><br><span class="line"></span><br><span class="line">```html</span><br><span class="line">&#123;% codeblock [title] [lang:language] [url] [link text] [additional options] %&#125;</span><br><span class="line">code snippet</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br></pre></td></tr></table></figure>
+<h3 id=""><a href="#" class="headerlink" title=" "></a> </h3>]]></content>
+      <categories>
+        <category>Hexo</category>
+        <category>NexT</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Solidworks笔记</title>
+    <url>/2021/10/30/Solidworks/</url>
+    <content><![CDATA[<h1 id="Solidworks笔记"><a href="#Solidworks笔记" class="headerlink" title="Solidworks笔记"></a>Solidworks笔记</h1><blockquote><h2 id="期中考试"><a href="#期中考试" class="headerlink" title="期中考试"></a>期中考试</h2><p>三个满分 平均分84</p>
+</blockquote>
+<h2 id="Solidworks概述"><a href="#Solidworks概述" class="headerlink" title="Solidworks概述"></a>Solidworks概述</h2><p>三维建模，设计颜色，赋予材质进行分析，运动仿真（校验设置功能完整性、动力仿真）<br>模块化功能</p>
+<span id="more"></span>
+<h2 id="Solidworks基本操作"><a href="#Solidworks基本操作" class="headerlink" title="Solidworks基本操作"></a>Solidworks基本操作</h2><p>零件：单个实体<br>装配体：多个实体（通过运动附），固连<br>工程图：面向实际</p>
+<p>按照基准次序<br>定义材质<br>红绿灯更新当前参数</p>
+<h3 id="剪裁实体"><a href="#剪裁实体" class="headerlink" title="剪裁实体"></a>剪裁实体</h3><p>选择合适剪裁选项</p>
+<p>旋转实体<br>等距实体 复制偏移一个距离<br>参考几何体 定义画图起始点<br>曲线</p>
+<p>一开始导入的零件是基准平台<br>装备体里可以嵌套装备体</p>
+<p>挖空 点击拉伸切除（完全贯穿）<br>配合 分别选面进行配合 （重合 指定距离）</p>
+<h3 id="工程图"><a href="#工程图" class="headerlink" title="工程图"></a>工程图</h3><p>重新编辑图纸<br>跟着鼠标的是视图</p>
+]]></content>
+      <categories>
+        <category>Solidworks</category>
+      </categories>
+      <tags>
+        <tag>Solidworks</tag>
       </tags>
   </entry>
   <entry>
@@ -211,28 +234,6 @@
       <tags>
         <tag>Python</tag>
         <tag>Anaconda</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Solidworks笔记</title>
-    <url>/2021/10/30/Solidworks/</url>
-    <content><![CDATA[<h1 id="Solidworks笔记"><a href="#Solidworks笔记" class="headerlink" title="Solidworks笔记"></a>Solidworks笔记</h1><blockquote><h2 id="期中考试"><a href="#期中考试" class="headerlink" title="期中考试"></a>期中考试</h2><p>三个满分 平均分84</p>
-</blockquote>
-<h2 id="Solidworks概述"><a href="#Solidworks概述" class="headerlink" title="Solidworks概述"></a>Solidworks概述</h2><p>三维建模，设计颜色，赋予材质进行分析，运动仿真（校验设置功能完整性、动力仿真）<br>模块化功能</p>
-<span id="more"></span>
-<h2 id="Solidworks基本操作"><a href="#Solidworks基本操作" class="headerlink" title="Solidworks基本操作"></a>Solidworks基本操作</h2><p>零件：单个实体<br>装配体：多个实体（通过运动附），固连<br>工程图：面向实际</p>
-<p>按照基准次序<br>定义材质<br>红绿灯更新当前参数</p>
-<h3 id="剪裁实体"><a href="#剪裁实体" class="headerlink" title="剪裁实体"></a>剪裁实体</h3><p>选择合适剪裁选项</p>
-<p>旋转实体<br>等距实体 复制偏移一个距离<br>参考几何体 定义画图起始点<br>曲线</p>
-<p>一开始导入的零件是基准平台<br>装备体里可以嵌套装备体</p>
-<p>挖空 点击拉伸切除（完全贯穿）<br>配合 分别选面进行配合 （重合 指定距离）</p>
-<h3 id="工程图"><a href="#工程图" class="headerlink" title="工程图"></a>工程图</h3><p>重新编辑图纸<br>跟着鼠标的是视图</p>
-]]></content>
-      <categories>
-        <category>Solidworks</category>
-      </categories>
-      <tags>
-        <tag>Solidworks</tag>
       </tags>
   </entry>
 </search>
