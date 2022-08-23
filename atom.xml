@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-07-19T10:34:07.900Z</updated>
+  <updated>2022-08-23T04:36:35.113Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,54 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>GitLab使用及常见报错</title>
+    <link href="http://example.com/2022/08/23/Gitlab%20Guide/"/>
+    <id>http://example.com/2022/08/23/Gitlab%20Guide/</id>
+    <published>2022-08-23T04:08:31.000Z</published>
+    <updated>2022-08-23T04:36:35.113Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;使用入门&quot;&gt;&lt;a href=&quot;#使用入门&quot; class=&quot;headerlink&quot; title=&quot;使用入门&quot;&gt;&lt;/a&gt;使用入门&lt;/h1&gt;&lt;h1 id=&quot;错误分析&quot;&gt;&lt;a href=&quot;#错误分析&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Git" scheme="http://example.com/categories/Git/"/>
+    
+    <category term="GitLab" scheme="http://example.com/categories/GitLab/"/>
+    
+    
+    <category term="Git" scheme="http://example.com/tags/Git/"/>
+    
+    <category term="GitLab" scheme="http://example.com/tags/GitLab/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Python文件操作</title>
+    <link href="http://example.com/2022/08/08/Python%E6%96%87%E4%BB%B6%E6%93%8D%E4%BD%9C/"/>
+    <id>http://example.com/2022/08/08/Python%E6%96%87%E4%BB%B6%E6%93%8D%E4%BD%9C/</id>
+    <published>2022-08-08T03:35:31.000Z</published>
+    <updated>2022-08-08T07:42:23.388Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;本篇不断汇总介绍Python中常见的文件操作&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Python" scheme="http://example.com/categories/Python/"/>
+    
+    
+    <category term="Python" scheme="http://example.com/tags/Python/"/>
+    
+  </entry>
   
   <entry>
     <title>QT界面部件与设置</title>
@@ -46,7 +94,7 @@
     <link href="http://example.com/2022/07/11/Next%E4%B8%BB%E9%A2%98post%E6%A0%BC%E5%BC%8F%E6%A8%A1%E6%9D%BF/"/>
     <id>http://example.com/2022/07/11/Next%E4%B8%BB%E9%A2%98post%E6%A0%BC%E5%BC%8F%E6%A8%A1%E6%9D%BF/</id>
     <published>2022-07-11T03:35:31.000Z</published>
-    <updated>2022-08-08T07:07:55.248Z</updated>
+    <updated>2022-08-08T07:32:56.023Z</updated>
     
     
     <summary type="html">&lt;h1 id=&quot;NexT主题常用页面模块&quot;&gt;&lt;a href=&quot;#NexT主题常用页面模块&quot; class=&quot;headerlink&quot; title=&quot;NexT主题常用页面模块&quot;&gt;&lt;/a&gt;NexT主题常用页面模块&lt;/h1&gt;&lt;p&gt;下面介绍一些主题常用post内部的页面模块，可直接参照使用&lt;/p&gt;</summary>
