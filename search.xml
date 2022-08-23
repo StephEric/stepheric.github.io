@@ -1,24 +1,162 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>GitLab使用及常见报错</title>
-    <url>/2022/08/23/Gitlab%20Guide/</url>
-    <content><![CDATA[<h1 id="使用入门"><a href="#使用入门" class="headerlink" title="使用入门"></a>使用入门</h1><span id="more"></span>
-<h1 id="错误分析"><a href="#错误分析" class="headerlink" title="错误分析"></a>错误分析</h1><h2 id="remote-GitLab-You-are-not-allowed-to-push-code-to-protected-branches-on-this-project"><a href="#remote-GitLab-You-are-not-allowed-to-push-code-to-protected-branches-on-this-project" class="headerlink" title="remote: GitLab: You are not allowed to push code to protected branches on this project."></a>remote: GitLab: You are not allowed to push code to protected branches on this project.</h2><h3 id="引发原因："><a href="#引发原因：" class="headerlink" title="引发原因："></a><strong>引发原因：</strong></h3><p>公司开发一个新的项目，在<a href="https://so.csdn.net/so/search?q=GitLab&amp;spm=1001.2101.3001.7020">GitLab</a>上创建一个代码仓库，通过ssh方式拉取代码到本地磁盘，在提交代码时，报标题所写的错误，原因是我在GitLab上的账户角色为<strong>开发者</strong>，代码仓库的<strong>master主分支</strong>是受保护的，不对开发者进行开放，开发者没有权限，需要关闭代码仓库的<strong>master主分支</strong>受保护的功能，设置开发者可以操作<strong>master主分支</strong>的权限。</p>
-<h3 id="解决办法："><a href="#解决办法：" class="headerlink" title="解决办法："></a><strong>解决办法：</strong></h3><p>使用GitLab系统管理员账户登录，更改代码仓库的<strong>master主分支</strong>开放权限为：<strong>Developers + Maintainers</strong>即可。<br><img src="https://img-blog.csdnimg.cn/2c63e8edf914401ea67674822087eddf.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBA57yW56iL6K--5aCC,size_20,color_FFFFFF,t_70,g_se,x_16#pic_left" alt="在这里插入图片描述"></p>
+    <title>Python文件操作</title>
+    <url>/2022/08/08/Python%E6%96%87%E4%BB%B6%E6%93%8D%E4%BD%9C/</url>
+    <content><![CDATA[<p>本篇不断汇总介绍Python中常见的文件操作</p>
+<span id="more"></span>
+<h2 id="文件读入"><a href="#文件读入" class="headerlink" title="文件读入"></a>文件读入</h2><p>open()参考 <a href="https://www.runoob.com/python/python-func-open.html">Python open()</a></p>
+<h3 id="读入模式"><a href="#读入模式" class="headerlink" title="读入模式"></a>读入模式</h3><div class="table-container">
+<table>
+<thead>
+<tr>
+<th>命令 command</th>
+<th>含义 meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>“r”</td>
+<td>以只读方式打开文件。文件的指针将会放在文件的开头。这是默认模式。</td>
+</tr>
+<tr>
+<td>“w”</td>
+<td>打开一个文件只用于写入。如果该文件已存在则打开文件，并从开头开始编辑，即原有内容会被删除。如果该文件不存在，创建新文件。</td>
+</tr>
+<tr>
+<td>r+</td>
+<td>打开一个文件用于读写。文件指针将会放在文件的开头。</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id="空文件处理"><a href="#空文件处理" class="headerlink" title="空文件处理"></a>空文件处理</h3><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">try</span>:</span><br><span class="line">    <span class="comment"># &quot;r&quot; 代表只读</span></span><br><span class="line">    <span class="comment"># encoding 设置文件编码</span></span><br><span class="line">    file = <span class="built_in">open</span>(input_file_path, <span class="string">&quot;r&quot;</span>, encoding=<span class="string">&#x27;utf-8&#x27;</span>)</span><br><span class="line"><span class="keyword">except</span> FileNotFoundError:</span><br><span class="line">    <span class="string">&#x27;&#x27;&#x27;do your work&#x27;&#x27;&#x27;</span></span><br><span class="line">    <span class="keyword">pass</span></span><br></pre></td></tr></table></figure>
+<h3 id="读入第一行"><a href="#读入第一行" class="headerlink" title="读入第一行"></a>读入第一行</h3><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">file.readline()</span><br></pre></td></tr></table></figure>
+<h3 id="读入后按逗号分割"><a href="#读入后按逗号分割" class="headerlink" title="读入后按逗号分割"></a>读入后按逗号分割</h3><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">for</span> line <span class="keyword">in</span> file:</span><br><span class="line">    value = line.strip(<span class="string">&#x27;\n&#x27;</span>).split(<span class="string">&#x27;,&#x27;</span>)</span><br></pre></td></tr></table></figure>
 ]]></content>
       <categories>
-        <category>Git</category>
-        <category>GitLab</category>
+        <category>Python</category>
       </categories>
       <tags>
-        <tag>Git</tag>
-        <tag>GitLab</tag>
+        <tag>Python</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>NexT主题post格式模板</title>
+    <url>/2022/07/11/Next%E4%B8%BB%E9%A2%98post%E6%A0%BC%E5%BC%8F%E6%A8%A1%E6%9D%BF/</url>
+    <content><![CDATA[<h1 id="NexT主题常用页面模块"><a href="#NexT主题常用页面模块" class="headerlink" title="NexT主题常用页面模块"></a>NexT主题常用页面模块</h1><p>下面介绍一些主题常用post内部的页面模块，可直接参照使用</p>
+<span id="more"></span>
+<h2 id="Center-Quote-居中引用"><a href="#Center-Quote-居中引用" class="headerlink" title="Center Quote 居中引用"></a>Center Quote 居中引用</h2><p>建议在单行文字时使用</p>
+<h3 id="Example"><a href="#Example" class="headerlink" title="Example"></a>Example</h3><figure class="highlight html"><table><tr><td class="code"><pre><span class="line">&#123;% cq %&#125;代码优雅，核心简单&#123;% endcq %&#125;</span><br></pre></td></tr></table></figure>
+<blockquote class="blockquote-center">
+            <i class="fa fa-quote-left"></i>
+            <p>代码优雅，核心简单</p>
+
+            <i class="fa fa-quote-right"></i>
+          </blockquote>
+<h2 id="Note-Bootstrap-Callout"><a href="#Note-Bootstrap-Callout" class="headerlink" title="Note( Bootstrap Callout )"></a>Note( Bootstrap Callout )</h2><h3 id="设置"><a href="#设置" class="headerlink" title="设置"></a>设置</h3><h3 id="使用-Usage"><a href="#使用-Usage" class="headerlink" title="使用 Usage"></a>使用 Usage</h3><figure class="highlight html"><table><tr><td class="code"><pre><span class="line">```</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% codeblock 创建note lang:html [additional options] %&#125;</span><br><span class="line">&#123;% note [class] [no-icon] [summary] %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% note info no-icon This is a summary %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">## 代码块 Code Block</span><br><span class="line"></span><br><span class="line">```html</span><br><span class="line">&#123;% codeblock [title] [lang:language] [url] [link text] [additional options] %&#125;</span><br><span class="line">code snippet</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br></pre></td></tr></table></figure>
+<h3 id=""><a href="#" class="headerlink" title=" "></a> </h3>]]></content>
+      <categories>
+        <category>Hexo</category>
+        <category>NexT</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Solidworks笔记</title>
+    <url>/2021/10/30/Solidworks/</url>
+    <content><![CDATA[<h1 id="Solidworks笔记"><a href="#Solidworks笔记" class="headerlink" title="Solidworks笔记"></a>Solidworks笔记</h1><blockquote><h2 id="期中考试"><a href="#期中考试" class="headerlink" title="期中考试"></a>期中考试</h2><p>三个满分 平均分84</p>
+</blockquote>
+<h2 id="Solidworks概述"><a href="#Solidworks概述" class="headerlink" title="Solidworks概述"></a>Solidworks概述</h2><p>三维建模，设计颜色，赋予材质进行分析，运动仿真（校验设置功能完整性、动力仿真）<br>模块化功能</p>
+<span id="more"></span>
+<h2 id="Solidworks基本操作"><a href="#Solidworks基本操作" class="headerlink" title="Solidworks基本操作"></a>Solidworks基本操作</h2><p>零件：单个实体<br>装配体：多个实体（通过运动附），固连<br>工程图：面向实际</p>
+<p>按照基准次序<br>定义材质<br>红绿灯更新当前参数</p>
+<h3 id="剪裁实体"><a href="#剪裁实体" class="headerlink" title="剪裁实体"></a>剪裁实体</h3><p>选择合适剪裁选项</p>
+<p>旋转实体<br>等距实体 复制偏移一个距离<br>参考几何体 定义画图起始点<br>曲线</p>
+<p>一开始导入的零件是基准平台<br>装备体里可以嵌套装备体</p>
+<p>挖空 点击拉伸切除（完全贯穿）<br>配合 分别选面进行配合 （重合 指定距离）</p>
+<h3 id="工程图"><a href="#工程图" class="headerlink" title="工程图"></a>工程图</h3><p>重新编辑图纸<br>跟着鼠标的是视图</p>
+]]></content>
+      <categories>
+        <category>Solidworks</category>
+      </categories>
+      <tags>
+        <tag>Solidworks</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>QT界面部件与设置</title>
+    <url>/2022/07/19/QT%E7%95%8C%E9%9D%A2%E9%83%A8%E4%BB%B6%E4%B8%8E%E8%AE%BE%E7%BD%AE/</url>
+    <content><![CDATA[<h1 id="QT界面部件与设置"><a href="#QT界面部件与设置" class="headerlink" title="QT界面部件与设置"></a>QT界面部件与设置</h1>]]></content>
+      <categories>
+        <category>QT</category>
+      </categories>
+      <tags>
+        <tag>QT</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2022/06/30/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>使用conda进行环境管理和包管理</title>
+    <url>/2022/07/11/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8anaconda%E8%BF%9B%E8%A1%8CPython%E7%8E%AF%E5%A2%83%E7%AE%A1%E7%90%86/</url>
+    <content><![CDATA[<h1 id="使用conda进行环境管理和包管理"><a href="#使用conda进行环境管理和包管理" class="headerlink" title="使用conda进行环境管理和包管理"></a><strong>使用conda进行环境管理和包管理</strong></h1><p>conda是anaconda中的环境管理器和包管理器。</p>
+<p>对于conda的操作都发生在命令行内，我们可以打开Anaconda Prompt进行操作。</p>
+<span id="more"></span>
+<h2 id="1-检查conda"><a href="#1-检查conda" class="headerlink" title="1. 检查conda"></a><strong>1. 检查conda</strong></h2><p>在使用conda前，我们先检查conda是否已经被安装，以及当前版本是否是最新。</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta prompt_"># </span><span class="language-bash">检查conda是否已经安装好，此命令会返回你安装Anaconda软件的版本</span></span><br><span class="line">conda --version</span><br><span class="line"><span class="meta prompt_">&gt;</span><span class="language-bash">&gt; conda 4.3.40</span></span><br><span class="line"><span class="meta prompt_"></span></span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">通过以下命令升级conda到最新版本</span></span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">如果有新版本可用，在提示proceed ([y]/n)? 中输入y进行升级</span></span><br><span class="line">conda update conda</span><br></pre></td></tr></table></figure>
+<h2 id="2-环境管理"><a href="#2-环境管理" class="headerlink" title="2. 环境管理"></a><strong>2. 环境管理</strong></h2><p>环境管理是Python使用中的一大好习惯，如果你不想在一遍遍重装Python和系统中折腾循，那么环境管理是学习Python的过程中非常必要的一环。现在我们用conda进行环境管理。</p>
+<h3 id="创建环境"><a href="#创建环境" class="headerlink" title="创建环境"></a>创建环境</h3><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta prompt_"># </span><span class="language-bash">创建一个环境名为py34，指定Python版本是3.4</span></span><br><span class="line"><span class="meta prompt_">#</span><span class="language-bash">（不用管是3.4.x，conda会为我们自动寻找3.4.x中的最新版本）</span></span><br><span class="line">conda create --name py34 python=3.4</span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">通过创建环境，我们可以使用不同版本的Python</span></span><br><span class="line">conda create --name py27 python=2.7</span><br></pre></td></tr></table></figure>
+<h3 id="激活环境"><a href="#激活环境" class="headerlink" title="激活环境"></a>激活环境</h3><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta prompt_"># </span><span class="language-bash">在windows环境下使用activate激活</span></span><br><span class="line">activate py34</span><br><span class="line"><span class="meta prompt_"></span></span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">在Linux &amp; Mac中使用<span class="built_in">source</span> activate激活</span></span><br><span class="line">source activate py34</span><br></pre></td></tr></table></figure>
+<p>激活后，会发现terminal输入的地方多了(py34)的字样，这表示我们已经进入了py34的环境中。</p>
+<h3 id="克隆环境"><a href="#克隆环境" class="headerlink" title="克隆环境"></a>克隆环境</h3><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">conda create -n conda-env2 --clone conda-env2</span><br></pre></td></tr></table></figure>
+<h3 id="重命名环境"><a href="#重命名环境" class="headerlink" title="重命名环境"></a>重命名环境</h3><ol>
+<li>进入你的Anaconda安装目录</li>
+<li>再进入目录下的<code>envs</code>目录</li>
+<li>找到你要重命名的环境的同名文件夹，给这个文件夹重命名，这样就成功给环境重命名了。</li>
+</ol>
+<h3 id="退出环境"><a href="#退出环境" class="headerlink" title="退出环境"></a>退出环境</h3><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta prompt_"># </span><span class="language-bash">在windows环境下使用deactivate</span></span><br><span class="line">deactivate</span><br><span class="line"><span class="meta prompt_"></span></span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">在Linux &amp; Mac中使用<span class="built_in">source</span> deactivate</span></span><br><span class="line">source deactivate</span><br></pre></td></tr></table></figure>
+<h3 id="删除环境"><a href="#删除环境" class="headerlink" title="删除环境"></a>删除环境</h3><p>如果你不想要这个名为py34的环境，可以通过以下命令删除这个环境。</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">conda remove -n py34 --all</span><br></pre></td></tr></table></figure>
+<p>可以通过以下命令查看已有的环境列表，现在py34已经不在这个列表里，所以我们知道它已经被删除了。</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">conda info -e</span><br></pre></td></tr></table></figure>
+<h2 id="3-包管理"><a href="#3-包管理" class="headerlink" title="3. 包管理"></a><strong>3. 包管理</strong></h2><p>我们使用conda进行第三方包的安装、卸载和更新。</p>
+<p>对于包的下载，我们可以先设置国内镜像。这是因为<a href="https://link.zhihu.com/?target=http%3A//Anaconda.org">http://Anaconda.org</a>的服务器在国外，所以conda在下载包的时候速度往往很慢。所幸清华TUNA镜像（<a href="https://link.zhihu.com/?target=https%3A//mirrors.tuna.tsinghua.edu.cn/help/anaconda/">https://mirrors.tuna.tsinghua.edu.cn/help/anaconda/</a>）有Anaconda仓库的镜像，我们将其加入conda的配置，即可解决这个问题。</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta prompt_"># </span><span class="language-bash">添加Anaconda的TUNA镜像</span></span><br><span class="line">conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/</span><br><span class="line">conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/</span><br><span class="line">conda config --set show_channel_urls yes</span><br></pre></td></tr></table></figure>
+<p>接下来我们进行包的安装，请进入指定的环境中（比如上节中的py34），这里我们以pandas（一个数据处理和分析的包）为例进行操作。</p>
+<h3 id="查看已安装的包"><a href="#查看已安装的包" class="headerlink" title="查看已安装的包"></a>查看已安装的包</h3><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta prompt_">#</span><span class="language-bash">使用这条命令来查看在当前环境中，已安装的包和对应版本</span></span><br><span class="line">conda list</span><br></pre></td></tr></table></figure>
+<h3 id="查找可安装的包"><a href="#查找可安装的包" class="headerlink" title="查找可安装的包"></a>查找可安装的包</h3><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta prompt_">#</span><span class="language-bash">我们可以通过search命令检查pandas这个包是否可以通过conda来安装</span></span><br><span class="line"><span class="meta prompt_">#</span><span class="language-bash">命令返回了这个包的信息，所以是可以通过conda安装的</span></span><br><span class="line">conda search pandas</span><br></pre></td></tr></table></figure>
+<h3 id="安装包"><a href="#安装包" class="headerlink" title="安装包"></a>安装包</h3><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta prompt_">#</span><span class="language-bash">通过install安装pandas</span></span><br><span class="line"><span class="meta prompt_">#</span><span class="language-bash">如果pandas已经存在于环境中，会提示已经安装，否则在提示proceed ([y]/n)? 中输入y进行安装</span></span><br><span class="line">conda install pandas</span><br></pre></td></tr></table></figure>
+<h3 id="更新包"><a href="#更新包" class="headerlink" title="更新包"></a>更新包</h3><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta prompt_">#</span><span class="language-bash">通过update更新pandas</span></span><br><span class="line">conda update pandas</span><br></pre></td></tr></table></figure>
+<h3 id="卸载包"><a href="#卸载包" class="headerlink" title="卸载包"></a>卸载包</h3><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta prompt_">#</span><span class="language-bash">通过remove卸载pandas</span></span><br><span class="line">conda remove pandas</span><br></pre></td></tr></table></figure>
+<p>以上就是conda对于包的安装、更新和卸载。值得一提的是，conda将conda、python等都视为包，因此，完全可以使用conda来管理conda和python的版本，例如</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta prompt_"># </span><span class="language-bash">更新conda到最新版本，这里conda被当作一个包处理</span> </span><br><span class="line">conda update conda </span><br><span class="line"><span class="meta prompt_"></span></span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">同样的，也可以更新anaconda到最新版本</span></span><br><span class="line">conda update anaconda</span><br><span class="line"><span class="meta prompt_"></span></span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">更新python</span></span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">例如我们所启用的环境是py34，使用的是python3.4,那么conda会将python升级为3.4.x系列中的最新版本</span></span><br><span class="line">conda update python </span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>Python</category>
+        <category>Anaconda</category>
+      </categories>
+      <tags>
+        <tag>Python</tag>
+        <tag>Anaconda</tag>
       </tags>
   </entry>
   <entry>
     <title>Github使用</title>
-    <url>/2022/06/30/Github%20Guide/</url>
+    <url>/2022/06/30/Git/Github%20Guide/</url>
     <content><![CDATA[<h1 id="Github使用"><a href="#Github使用" class="headerlink" title="Github使用"></a>Github使用</h1><h2 id="生成SSH-key"><a href="#生成SSH-key" class="headerlink" title="生成SSH key"></a>生成SSH key</h2><p>SSh（安全外壳协议）GitHub 上，一般都是通过 SSH 来授权的，而且大多数 Git 服务器也会选择使用 SSH 公钥来进行授权，所以想要向 GitHub 提交代码，首先就得在 GitHub 上添加 SSH key配置。</p>
 <span id="more"></span>
 <figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line">ssh-keygen -t rsa -C &quot;xxx@xxx.com&quot;</span><br><span class="line">//执行后一直回车</span><br><span class="line"><span class="built_in">cd</span> ~/.ssh</span><br><span class="line">cat id_rsa.pub</span><br></pre></td></tr></table></figure>
@@ -83,157 +221,19 @@
       </tags>
   </entry>
   <entry>
-    <title>Python文件操作</title>
-    <url>/2022/08/08/Python%E6%96%87%E4%BB%B6%E6%93%8D%E4%BD%9C/</url>
-    <content><![CDATA[<p>本篇不断汇总介绍Python中常见的文件操作</p>
-<span id="more"></span>
-<h2 id="文件读入"><a href="#文件读入" class="headerlink" title="文件读入"></a>文件读入</h2><p>open()参考 <a href="https://www.runoob.com/python/python-func-open.html">Python open()</a></p>
-<h3 id="读入模式"><a href="#读入模式" class="headerlink" title="读入模式"></a>读入模式</h3><div class="table-container">
-<table>
-<thead>
-<tr>
-<th>命令 command</th>
-<th>含义 meaning</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>“r”</td>
-<td>以只读方式打开文件。文件的指针将会放在文件的开头。这是默认模式。</td>
-</tr>
-<tr>
-<td>“w”</td>
-<td>打开一个文件只用于写入。如果该文件已存在则打开文件，并从开头开始编辑，即原有内容会被删除。如果该文件不存在，创建新文件。</td>
-</tr>
-<tr>
-<td>r+</td>
-<td>打开一个文件用于读写。文件指针将会放在文件的开头。</td>
-</tr>
-</tbody>
-</table>
-</div>
-<h3 id="空文件处理"><a href="#空文件处理" class="headerlink" title="空文件处理"></a>空文件处理</h3><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">try</span>:</span><br><span class="line">    <span class="comment"># &quot;r&quot; 代表只读</span></span><br><span class="line">    <span class="comment"># encoding 设置文件编码</span></span><br><span class="line">    file = <span class="built_in">open</span>(input_file_path, <span class="string">&quot;r&quot;</span>, encoding=<span class="string">&#x27;utf-8&#x27;</span>)</span><br><span class="line"><span class="keyword">except</span> FileNotFoundError:</span><br><span class="line">    <span class="string">&#x27;&#x27;&#x27;do your work&#x27;&#x27;&#x27;</span></span><br><span class="line">    <span class="keyword">pass</span></span><br></pre></td></tr></table></figure>
-<h3 id="读入第一行"><a href="#读入第一行" class="headerlink" title="读入第一行"></a>读入第一行</h3><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">file.readline()</span><br></pre></td></tr></table></figure>
-<h3 id="读入后按逗号分割"><a href="#读入后按逗号分割" class="headerlink" title="读入后按逗号分割"></a>读入后按逗号分割</h3><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">for</span> line <span class="keyword">in</span> file:</span><br><span class="line">    value = line.strip(<span class="string">&#x27;\n&#x27;</span>).split(<span class="string">&#x27;,&#x27;</span>)</span><br></pre></td></tr></table></figure>
+    <title>GitLab使用及常见报错</title>
+    <url>/2022/08/23/Git/Gitlab%20Guide/</url>
+    <content><![CDATA[<h1 id="使用入门"><a href="#使用入门" class="headerlink" title="使用入门"></a>使用入门</h1><span id="more"></span>
+<h1 id="错误分析"><a href="#错误分析" class="headerlink" title="错误分析"></a>错误分析</h1><h2 id="remote-GitLab-You-are-not-allowed-to-push-code-to-protected-branches-on-this-project"><a href="#remote-GitLab-You-are-not-allowed-to-push-code-to-protected-branches-on-this-project" class="headerlink" title="remote: GitLab: You are not allowed to push code to protected branches on this project."></a>remote: GitLab: You are not allowed to push code to protected branches on this project.</h2><h3 id="引发原因："><a href="#引发原因：" class="headerlink" title="引发原因："></a><strong>引发原因：</strong></h3><p>公司开发一个新的项目，在<a href="https://so.csdn.net/so/search?q=GitLab&amp;spm=1001.2101.3001.7020">GitLab</a>上创建一个代码仓库，通过ssh方式拉取代码到本地磁盘，在提交代码时，报标题所写的错误，原因是我在GitLab上的账户角色为<strong>开发者</strong>，代码仓库的<strong>master主分支</strong>是受保护的，不对开发者进行开放，开发者没有权限，需要关闭代码仓库的<strong>master主分支</strong>受保护的功能，设置开发者可以操作<strong>master主分支</strong>的权限。</p>
+<h3 id="解决办法："><a href="#解决办法：" class="headerlink" title="解决办法："></a><strong>解决办法：</strong></h3><p>使用GitLab系统管理员账户登录，更改代码仓库的<strong>master主分支</strong>开放权限为：<strong>Developers + Maintainers</strong>即可。<br><img src="https://img-blog.csdnimg.cn/2c63e8edf914401ea67674822087eddf.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBA57yW56iL6K--5aCC,size_20,color_FFFFFF,t_70,g_se,x_16#pic_left" alt="在这里插入图片描述"></p>
 ]]></content>
       <categories>
-        <category>Python</category>
+        <category>Git</category>
+        <category>GitLab</category>
       </categories>
       <tags>
-        <tag>Python</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>QT界面部件与设置</title>
-    <url>/2022/07/19/QT%E7%95%8C%E9%9D%A2%E9%83%A8%E4%BB%B6%E4%B8%8E%E8%AE%BE%E7%BD%AE/</url>
-    <content><![CDATA[<h1 id="QT界面部件与设置"><a href="#QT界面部件与设置" class="headerlink" title="QT界面部件与设置"></a>QT界面部件与设置</h1>]]></content>
-      <categories>
-        <category>QT</category>
-      </categories>
-      <tags>
-        <tag>QT</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>NexT主题post格式模板</title>
-    <url>/2022/07/11/Next%E4%B8%BB%E9%A2%98post%E6%A0%BC%E5%BC%8F%E6%A8%A1%E6%9D%BF/</url>
-    <content><![CDATA[<h1 id="NexT主题常用页面模块"><a href="#NexT主题常用页面模块" class="headerlink" title="NexT主题常用页面模块"></a>NexT主题常用页面模块</h1><p>下面介绍一些主题常用post内部的页面模块，可直接参照使用</p>
-<span id="more"></span>
-<h2 id="Center-Quote-居中引用"><a href="#Center-Quote-居中引用" class="headerlink" title="Center Quote 居中引用"></a>Center Quote 居中引用</h2><p>建议在单行文字时使用</p>
-<h3 id="Example"><a href="#Example" class="headerlink" title="Example"></a>Example</h3><figure class="highlight html"><table><tr><td class="code"><pre><span class="line">&#123;% cq %&#125;代码优雅，核心简单&#123;% endcq %&#125;</span><br></pre></td></tr></table></figure>
-<blockquote class="blockquote-center">
-            <i class="fa fa-quote-left"></i>
-            <p>代码优雅，核心简单</p>
-
-            <i class="fa fa-quote-right"></i>
-          </blockquote>
-<h2 id="Note-Bootstrap-Callout"><a href="#Note-Bootstrap-Callout" class="headerlink" title="Note( Bootstrap Callout )"></a>Note( Bootstrap Callout )</h2><h3 id="设置"><a href="#设置" class="headerlink" title="设置"></a>设置</h3><h3 id="使用-Usage"><a href="#使用-Usage" class="headerlink" title="使用 Usage"></a>使用 Usage</h3><figure class="highlight html"><table><tr><td class="code"><pre><span class="line">```</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% codeblock 创建note lang:html [additional options] %&#125;</span><br><span class="line">&#123;% note [class] [no-icon] [summary] %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% note info no-icon This is a summary %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">## 代码块 Code Block</span><br><span class="line"></span><br><span class="line">```html</span><br><span class="line">&#123;% codeblock [title] [lang:language] [url] [link text] [additional options] %&#125;</span><br><span class="line">code snippet</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br></pre></td></tr></table></figure>
-<h3 id=""><a href="#" class="headerlink" title=" "></a> </h3>]]></content>
-      <categories>
-        <category>Hexo</category>
-        <category>NexT</category>
-      </categories>
-      <tags>
-        <tag>Hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Solidworks笔记</title>
-    <url>/2021/10/30/Solidworks/</url>
-    <content><![CDATA[<h1 id="Solidworks笔记"><a href="#Solidworks笔记" class="headerlink" title="Solidworks笔记"></a>Solidworks笔记</h1><blockquote><h2 id="期中考试"><a href="#期中考试" class="headerlink" title="期中考试"></a>期中考试</h2><p>三个满分 平均分84</p>
-</blockquote>
-<h2 id="Solidworks概述"><a href="#Solidworks概述" class="headerlink" title="Solidworks概述"></a>Solidworks概述</h2><p>三维建模，设计颜色，赋予材质进行分析，运动仿真（校验设置功能完整性、动力仿真）<br>模块化功能</p>
-<span id="more"></span>
-<h2 id="Solidworks基本操作"><a href="#Solidworks基本操作" class="headerlink" title="Solidworks基本操作"></a>Solidworks基本操作</h2><p>零件：单个实体<br>装配体：多个实体（通过运动附），固连<br>工程图：面向实际</p>
-<p>按照基准次序<br>定义材质<br>红绿灯更新当前参数</p>
-<h3 id="剪裁实体"><a href="#剪裁实体" class="headerlink" title="剪裁实体"></a>剪裁实体</h3><p>选择合适剪裁选项</p>
-<p>旋转实体<br>等距实体 复制偏移一个距离<br>参考几何体 定义画图起始点<br>曲线</p>
-<p>一开始导入的零件是基准平台<br>装备体里可以嵌套装备体</p>
-<p>挖空 点击拉伸切除（完全贯穿）<br>配合 分别选面进行配合 （重合 指定距离）</p>
-<h3 id="工程图"><a href="#工程图" class="headerlink" title="工程图"></a>工程图</h3><p>重新编辑图纸<br>跟着鼠标的是视图</p>
-]]></content>
-      <categories>
-        <category>Solidworks</category>
-      </categories>
-      <tags>
-        <tag>Solidworks</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/2022/06/30/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>使用conda进行环境管理和包管理</title>
-    <url>/2022/07/11/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8anaconda%E8%BF%9B%E8%A1%8CPython%E7%8E%AF%E5%A2%83%E7%AE%A1%E7%90%86/</url>
-    <content><![CDATA[<h1 id="使用conda进行环境管理和包管理"><a href="#使用conda进行环境管理和包管理" class="headerlink" title="使用conda进行环境管理和包管理"></a><strong>使用conda进行环境管理和包管理</strong></h1><p>conda是anaconda中的环境管理器和包管理器。</p>
-<p>对于conda的操作都发生在命令行内，我们可以打开Anaconda Prompt进行操作。</p>
-<span id="more"></span>
-<h2 id="1-检查conda"><a href="#1-检查conda" class="headerlink" title="1. 检查conda"></a><strong>1. 检查conda</strong></h2><p>在使用conda前，我们先检查conda是否已经被安装，以及当前版本是否是最新。</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta prompt_"># </span><span class="language-bash">检查conda是否已经安装好，此命令会返回你安装Anaconda软件的版本</span></span><br><span class="line">conda --version</span><br><span class="line"><span class="meta prompt_">&gt;</span><span class="language-bash">&gt; conda 4.3.40</span></span><br><span class="line"><span class="meta prompt_"></span></span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">通过以下命令升级conda到最新版本</span></span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">如果有新版本可用，在提示proceed ([y]/n)? 中输入y进行升级</span></span><br><span class="line">conda update conda</span><br></pre></td></tr></table></figure>
-<h2 id="2-环境管理"><a href="#2-环境管理" class="headerlink" title="2. 环境管理"></a><strong>2. 环境管理</strong></h2><p>环境管理是Python使用中的一大好习惯，如果你不想在一遍遍重装Python和系统中折腾循，那么环境管理是学习Python的过程中非常必要的一环。现在我们用conda进行环境管理。</p>
-<h3 id="创建环境"><a href="#创建环境" class="headerlink" title="创建环境"></a>创建环境</h3><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta prompt_"># </span><span class="language-bash">创建一个环境名为py34，指定Python版本是3.4</span></span><br><span class="line"><span class="meta prompt_">#</span><span class="language-bash">（不用管是3.4.x，conda会为我们自动寻找3.4.x中的最新版本）</span></span><br><span class="line">conda create --name py34 python=3.4</span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">通过创建环境，我们可以使用不同版本的Python</span></span><br><span class="line">conda create --name py27 python=2.7</span><br></pre></td></tr></table></figure>
-<h3 id="激活环境"><a href="#激活环境" class="headerlink" title="激活环境"></a>激活环境</h3><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta prompt_"># </span><span class="language-bash">在windows环境下使用activate激活</span></span><br><span class="line">activate py34</span><br><span class="line"><span class="meta prompt_"></span></span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">在Linux &amp; Mac中使用<span class="built_in">source</span> activate激活</span></span><br><span class="line">source activate py34</span><br></pre></td></tr></table></figure>
-<p>激活后，会发现terminal输入的地方多了(py34)的字样，这表示我们已经进入了py34的环境中。</p>
-<h3 id="克隆环境"><a href="#克隆环境" class="headerlink" title="克隆环境"></a>克隆环境</h3><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">conda create -n conda-env2 --clone conda-env2</span><br></pre></td></tr></table></figure>
-<h3 id="重命名环境"><a href="#重命名环境" class="headerlink" title="重命名环境"></a>重命名环境</h3><ol>
-<li>进入你的Anaconda安装目录</li>
-<li>再进入目录下的<code>envs</code>目录</li>
-<li>找到你要重命名的环境的同名文件夹，给这个文件夹重命名，这样就成功给环境重命名了。</li>
-</ol>
-<h3 id="退出环境"><a href="#退出环境" class="headerlink" title="退出环境"></a>退出环境</h3><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta prompt_"># </span><span class="language-bash">在windows环境下使用deactivate</span></span><br><span class="line">deactivate</span><br><span class="line"><span class="meta prompt_"></span></span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">在Linux &amp; Mac中使用<span class="built_in">source</span> deactivate</span></span><br><span class="line">source deactivate</span><br></pre></td></tr></table></figure>
-<h3 id="删除环境"><a href="#删除环境" class="headerlink" title="删除环境"></a>删除环境</h3><p>如果你不想要这个名为py34的环境，可以通过以下命令删除这个环境。</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">conda remove -n py34 --all</span><br></pre></td></tr></table></figure>
-<p>可以通过以下命令查看已有的环境列表，现在py34已经不在这个列表里，所以我们知道它已经被删除了。</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">conda info -e</span><br></pre></td></tr></table></figure>
-<h2 id="3-包管理"><a href="#3-包管理" class="headerlink" title="3. 包管理"></a><strong>3. 包管理</strong></h2><p>我们使用conda进行第三方包的安装、卸载和更新。</p>
-<p>对于包的下载，我们可以先设置国内镜像。这是因为<a href="https://link.zhihu.com/?target=http%3A//Anaconda.org">http://Anaconda.org</a>的服务器在国外，所以conda在下载包的时候速度往往很慢。所幸清华TUNA镜像（<a href="https://link.zhihu.com/?target=https%3A//mirrors.tuna.tsinghua.edu.cn/help/anaconda/">https://mirrors.tuna.tsinghua.edu.cn/help/anaconda/</a>）有Anaconda仓库的镜像，我们将其加入conda的配置，即可解决这个问题。</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta prompt_"># </span><span class="language-bash">添加Anaconda的TUNA镜像</span></span><br><span class="line">conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/</span><br><span class="line">conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/</span><br><span class="line">conda config --set show_channel_urls yes</span><br></pre></td></tr></table></figure>
-<p>接下来我们进行包的安装，请进入指定的环境中（比如上节中的py34），这里我们以pandas（一个数据处理和分析的包）为例进行操作。</p>
-<h3 id="查看已安装的包"><a href="#查看已安装的包" class="headerlink" title="查看已安装的包"></a>查看已安装的包</h3><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta prompt_">#</span><span class="language-bash">使用这条命令来查看在当前环境中，已安装的包和对应版本</span></span><br><span class="line">conda list</span><br></pre></td></tr></table></figure>
-<h3 id="查找可安装的包"><a href="#查找可安装的包" class="headerlink" title="查找可安装的包"></a>查找可安装的包</h3><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta prompt_">#</span><span class="language-bash">我们可以通过search命令检查pandas这个包是否可以通过conda来安装</span></span><br><span class="line"><span class="meta prompt_">#</span><span class="language-bash">命令返回了这个包的信息，所以是可以通过conda安装的</span></span><br><span class="line">conda search pandas</span><br></pre></td></tr></table></figure>
-<h3 id="安装包"><a href="#安装包" class="headerlink" title="安装包"></a>安装包</h3><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta prompt_">#</span><span class="language-bash">通过install安装pandas</span></span><br><span class="line"><span class="meta prompt_">#</span><span class="language-bash">如果pandas已经存在于环境中，会提示已经安装，否则在提示proceed ([y]/n)? 中输入y进行安装</span></span><br><span class="line">conda install pandas</span><br></pre></td></tr></table></figure>
-<h3 id="更新包"><a href="#更新包" class="headerlink" title="更新包"></a>更新包</h3><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta prompt_">#</span><span class="language-bash">通过update更新pandas</span></span><br><span class="line">conda update pandas</span><br></pre></td></tr></table></figure>
-<h3 id="卸载包"><a href="#卸载包" class="headerlink" title="卸载包"></a>卸载包</h3><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta prompt_">#</span><span class="language-bash">通过remove卸载pandas</span></span><br><span class="line">conda remove pandas</span><br></pre></td></tr></table></figure>
-<p>以上就是conda对于包的安装、更新和卸载。值得一提的是，conda将conda、python等都视为包，因此，完全可以使用conda来管理conda和python的版本，例如</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta prompt_"># </span><span class="language-bash">更新conda到最新版本，这里conda被当作一个包处理</span> </span><br><span class="line">conda update conda </span><br><span class="line"><span class="meta prompt_"></span></span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">同样的，也可以更新anaconda到最新版本</span></span><br><span class="line">conda update anaconda</span><br><span class="line"><span class="meta prompt_"></span></span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">更新python</span></span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">例如我们所启用的环境是py34，使用的是python3.4,那么conda会将python升级为3.4.x系列中的最新版本</span></span><br><span class="line">conda update python </span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>Python</category>
-        <category>Anaconda</category>
-      </categories>
-      <tags>
-        <tag>Python</tag>
-        <tag>Anaconda</tag>
+        <tag>Git</tag>
+        <tag>GitLab</tag>
       </tags>
   </entry>
 </search>
