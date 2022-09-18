@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-08-23T05:14:39.178Z</updated>
+  <updated>2022-09-18T07:17:57.349Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>主定理与时间复杂度</title>
+    <link href="http://example.com/2022/09/18/DSA/%E4%B8%BB%E5%AE%9A%E7%90%86%E4%B8%8E%E6%97%B6%E9%97%B4%E5%A4%8D%E6%9D%82%E5%BA%A6/"/>
+    <id>http://example.com/2022/09/18/DSA/%E4%B8%BB%E5%AE%9A%E7%90%86%E4%B8%8E%E6%97%B6%E9%97%B4%E5%A4%8D%E6%9D%82%E5%BA%A6/</id>
+    <published>2022-09-18T06:44:00.000Z</published>
+    <updated>2022-09-18T07:17:57.349Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;主要解决：根据时间复杂度的递推关系，求时间复杂度&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="DS" scheme="http://example.com/categories/DS/"/>
+    
+    <category term="Algorithm" scheme="http://example.com/categories/Algorithm/"/>
+    
+    
+    <category term="DS" scheme="http://example.com/tags/DS/"/>
+    
+    <category term="Algorithm" scheme="http://example.com/tags/Algorithm/"/>
+    
+  </entry>
   
   <entry>
     <title>GitLab使用及常见报错</title>
