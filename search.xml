@@ -31,6 +31,18 @@
       </tags>
   </entry>
   <entry>
+    <title>QT界面部件与设置</title>
+    <url>/2022/07/19/QT%E7%95%8C%E9%9D%A2%E9%83%A8%E4%BB%B6%E4%B8%8E%E8%AE%BE%E7%BD%AE/</url>
+    <content><![CDATA[<h1 id="qt界面部件与设置">QT界面部件与设置</h1>
+]]></content>
+      <categories>
+        <category>QT</category>
+      </categories>
+      <tags>
+        <tag>QT</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Python文件操作</title>
     <url>/2022/08/08/Python%E6%96%87%E4%BB%B6%E6%93%8D%E4%BD%9C/</url>
     <content><![CDATA[<p>本篇不断汇总介绍Python中常见的文件操作</p>
@@ -78,18 +90,6 @@ open()</a></p>
       </categories>
       <tags>
         <tag>Python</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>QT界面部件与设置</title>
-    <url>/2022/07/19/QT%E7%95%8C%E9%9D%A2%E9%83%A8%E4%BB%B6%E4%B8%8E%E8%AE%BE%E7%BD%AE/</url>
-    <content><![CDATA[<h1 id="qt界面部件与设置">QT界面部件与设置</h1>
-]]></content>
-      <categories>
-        <category>QT</category>
-      </categories>
-      <tags>
-        <tag>QT</tag>
       </tags>
   </entry>
   <entry>
@@ -273,7 +273,6 @@ class="math inline">\(d&lt;\log_ba\)</span></p>
 
             <i class="fa fa-quote-right"></i>
           </blockquote>
-<p>**</p>
 <p>（2）若<span class="math inline">\(f(n) = n^{\log_ba}\)</span>, 即
 <span class="math display">\[
 Cn^d\sum_{j=0}^{\log_bn}(\frac a{b^d})^j = Cn^d\log_b n =
@@ -286,7 +285,6 @@ n^{\log_ba}\)</span>，且是多项式的大于。即</p>
 
             <i class="fa fa-quote-right"></i>
           </blockquote>
-<p>**</p>
 <h2 id="主定理应用">主定理应用</h2>
 <h3 id="二分搜索">二分搜索</h3>
 <ul>
