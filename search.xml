@@ -1,6 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>QT界面部件与设置</title>
+    <url>/2022/07/19/QT%E7%95%8C%E9%9D%A2%E9%83%A8%E4%BB%B6%E4%B8%8E%E8%AE%BE%E7%BD%AE/</url>
+    <content><![CDATA[<h1 id="qt界面部件与设置">QT界面部件与设置</h1>
+]]></content>
+      <categories>
+        <category>QT</category>
+      </categories>
+      <tags>
+        <tag>QT</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Solidworks笔记</title>
+    <url>/2021/10/30/Solidworks/</url>
+    <content><![CDATA[<h1 id="solidworks笔记">Solidworks笔记</h1>
+<blockquote><h2 id="期中考试">期中考试</h2>
+<p>三个满分 平均分84</p>
+</blockquote>
+<h2 id="solidworks概述">Solidworks概述</h2>
+<p>三维建模，设计颜色，赋予材质进行分析，运动仿真（校验设置功能完整性、动力仿真）
+模块化功能</p>
+<span id="more"></span>
+<h2 id="solidworks基本操作">Solidworks基本操作</h2>
+<p>零件：单个实体 装配体：多个实体（通过运动附），固连
+工程图：面向实际</p>
+<p>按照基准次序 定义材质 红绿灯更新当前参数</p>
+<h3 id="剪裁实体">剪裁实体</h3>
+<p>选择合适剪裁选项</p>
+<p>旋转实体 等距实体 复制偏移一个距离 参考几何体 定义画图起始点 曲线</p>
+<p>一开始导入的零件是基准平台 装备体里可以嵌套装备体</p>
+<p>挖空 点击拉伸切除（完全贯穿） 配合 分别选面进行配合 （重合
+指定距离）</p>
+<h3 id="工程图">工程图</h3>
+<p>重新编辑图纸 跟着鼠标的是视图</p>
+]]></content>
+      <categories>
+        <category>Solidworks</category>
+      </categories>
+      <tags>
+        <tag>Solidworks</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Python文件操作</title>
     <url>/2022/08/08/Python%E6%96%87%E4%BB%B6%E6%93%8D%E4%BD%9C/</url>
     <content><![CDATA[<p>本篇不断汇总介绍Python中常见的文件操作</p>
@@ -51,49 +94,6 @@ open()</a></p>
       </tags>
   </entry>
   <entry>
-    <title>QT界面部件与设置</title>
-    <url>/2022/07/19/QT%E7%95%8C%E9%9D%A2%E9%83%A8%E4%BB%B6%E4%B8%8E%E8%AE%BE%E7%BD%AE/</url>
-    <content><![CDATA[<h1 id="qt界面部件与设置">QT界面部件与设置</h1>
-]]></content>
-      <categories>
-        <category>QT</category>
-      </categories>
-      <tags>
-        <tag>QT</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Solidworks笔记</title>
-    <url>/2021/10/30/Solidworks/</url>
-    <content><![CDATA[<h1 id="solidworks笔记">Solidworks笔记</h1>
-<blockquote><h2 id="期中考试">期中考试</h2>
-<p>三个满分 平均分84</p>
-</blockquote>
-<h2 id="solidworks概述">Solidworks概述</h2>
-<p>三维建模，设计颜色，赋予材质进行分析，运动仿真（校验设置功能完整性、动力仿真）
-模块化功能</p>
-<span id="more"></span>
-<h2 id="solidworks基本操作">Solidworks基本操作</h2>
-<p>零件：单个实体 装配体：多个实体（通过运动附），固连
-工程图：面向实际</p>
-<p>按照基准次序 定义材质 红绿灯更新当前参数</p>
-<h3 id="剪裁实体">剪裁实体</h3>
-<p>选择合适剪裁选项</p>
-<p>旋转实体 等距实体 复制偏移一个距离 参考几何体 定义画图起始点 曲线</p>
-<p>一开始导入的零件是基准平台 装备体里可以嵌套装备体</p>
-<p>挖空 点击拉伸切除（完全贯穿） 配合 分别选面进行配合 （重合
-指定距离）</p>
-<h3 id="工程图">工程图</h3>
-<p>重新编辑图纸 跟着鼠标的是视图</p>
-]]></content>
-      <categories>
-        <category>Solidworks</category>
-      </categories>
-      <tags>
-        <tag>Solidworks</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hello World</title>
     <url>/2022/06/30/hello-world/</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very
@@ -120,6 +120,48 @@ href="https://hexo.io/docs/generating.html">Generating</a></p>
 <p>More info: <a
 href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 ]]></content>
+  </entry>
+  <entry>
+    <title>Visual Studio Code 环境配置</title>
+    <url>/2022/09/18/VS%20code%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/</url>
+    <content><![CDATA[<h1 id="vs-code配置cc编译环境">VS Code配置C/C++编译环境</h1>
+<h2 id="前期准备">前期准备</h2>
+<p>安装MinGW64，把编译器所在的目录添加到环境变量<code>Path</code>中</p>
+<h2 id="组织文件结构">组织文件结构</h2>
+<p>单文件编程，将可执行文件统一放在<code>bin</code>文件夹下</p>
+<p>多文件编程，不需要单独的bin目录</p>
+<span id="more"></span>
+<p>更快地模拟命令行的过程，这是通过<code>.vscode</code>文件夹下的<code>json</code>配置文件实现的，这些<code>json</code>文件怎么写是由vscode开发团队规定的（感兴趣可以去看官方的文档），其中一个是tasks.json，task是任务的意思，我们的编译和运行就是我们想要vscode执行的任务</p>
+<p>配置需要与文件结构严格一致</p>
+<h3 id="tasks.json"><code>tasks.json</code></h3>
+<figure class="highlight json"><table><tr><td class="code"><pre><span class="line"><span class="punctuation">&#123;</span></span><br><span class="line">    <span class="attr">&quot;version&quot;</span><span class="punctuation">:</span> <span class="string">&quot;2.0.0&quot;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;tasks&quot;</span><span class="punctuation">:</span> <span class="punctuation">[</span></span><br><span class="line">        <span class="punctuation">&#123;</span><span class="comment">//这个大括号里是‘构建（build）’任务</span></span><br><span class="line">            <span class="attr">&quot;label&quot;</span><span class="punctuation">:</span> <span class="string">&quot;build&quot;</span><span class="punctuation">,</span> <span class="comment">//任务名称，可以更改，不过不建议改</span></span><br><span class="line">            <span class="attr">&quot;type&quot;</span><span class="punctuation">:</span> <span class="string">&quot;shell&quot;</span><span class="punctuation">,</span> <span class="comment">//任务类型，process是vsc把预定义变量和转义解析后直接全部传给command；shell相当于先打开shell再输入命令，所以args还会经过shell再解析一遍</span></span><br><span class="line">            <span class="attr">&quot;command&quot;</span><span class="punctuation">:</span> <span class="string">&quot;gcc&quot;</span><span class="punctuation">,</span> <span class="comment">//编译命令，这里是gcc，编译c++的话换成g++</span></span><br><span class="line">            <span class="attr">&quot;args&quot;</span><span class="punctuation">:</span> <span class="punctuation">[</span>    <span class="comment">//方括号里是传给gcc命令的一系列参数，用于实现一些功能</span></span><br><span class="line">                <span class="string">&quot;$&#123;file&#125;&quot;</span><span class="punctuation">,</span> <span class="comment">//指定要编译的是当前文件</span></span><br><span class="line">                <span class="string">&quot;-o&quot;</span><span class="punctuation">,</span> <span class="comment">//指定输出文件的路径和名称</span></span><br><span class="line">                <span class="string">&quot;$&#123;fileDirname&#125;\\bin\\$&#123;fileBasenameNoExtension&#125;.exe&quot;</span><span class="punctuation">,</span> <span class="comment">//承接上一步的-o，让可执行文件输出到源码文件所在的文件夹下的bin文件夹内，并且让它的名字和源码文件相同</span></span><br><span class="line">                <span class="string">&quot;-g&quot;</span><span class="punctuation">,</span> <span class="comment">//生成和调试有关的信息</span></span><br><span class="line">                <span class="string">&quot;-Wall&quot;</span><span class="punctuation">,</span> <span class="comment">// 开启额外警告</span></span><br><span class="line">                <span class="string">&quot;-static-libgcc&quot;</span><span class="punctuation">,</span>  <span class="comment">// 静态链接libgcc</span></span><br><span class="line">                <span class="string">&quot;-fexec-charset=GBK&quot;</span><span class="punctuation">,</span> <span class="comment">// 生成的程序使用GBK编码，不加这一条会导致Win下输出中文乱码</span></span><br><span class="line">                <span class="string">&quot;-std=c11&quot;</span><span class="punctuation">,</span> <span class="comment">// 语言标准，可根据自己的需要进行修改，写c++要换成c++的语言标准，比如c++11</span></span><br><span class="line">            <span class="punctuation">]</span><span class="punctuation">,</span></span><br><span class="line">            <span class="attr">&quot;group&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span>  <span class="comment">//group表示‘组’，我们可以有很多的task，然后把他们放在一个‘组’里</span></span><br><span class="line">                <span class="attr">&quot;kind&quot;</span><span class="punctuation">:</span> <span class="string">&quot;build&quot;</span><span class="punctuation">,</span><span class="comment">//表示这一组任务类型是构建</span></span><br><span class="line">                <span class="attr">&quot;isDefault&quot;</span><span class="punctuation">:</span> <span class="literal"><span class="keyword">true</span></span><span class="comment">//表示这个任务是当前这组任务中的默认任务</span></span><br><span class="line">            <span class="punctuation">&#125;</span><span class="punctuation">,</span></span><br><span class="line">            <span class="attr">&quot;presentation&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span> <span class="comment">//执行这个任务时的一些其他设定</span></span><br><span class="line">                <span class="attr">&quot;echo&quot;</span><span class="punctuation">:</span> <span class="literal"><span class="keyword">true</span></span><span class="punctuation">,</span><span class="comment">//表示在执行任务时在终端要有输出</span></span><br><span class="line">                <span class="attr">&quot;reveal&quot;</span><span class="punctuation">:</span> <span class="string">&quot;always&quot;</span><span class="punctuation">,</span> <span class="comment">//执行任务时是否跳转到终端面板，可以为always，silent，never</span></span><br><span class="line">                <span class="attr">&quot;focus&quot;</span><span class="punctuation">:</span> <span class="literal"><span class="keyword">false</span></span><span class="punctuation">,</span> <span class="comment">//设为true后可以使执行task时焦点聚集在终端，但对编译来说，设为true没有意义，因为运行的时候才涉及到输入</span></span><br><span class="line">                <span class="attr">&quot;panel&quot;</span><span class="punctuation">:</span> <span class="string">&quot;new&quot;</span> <span class="comment">//每次执行这个task时都新建一个终端面板，也可以设置为shared，共用一个面板，不过那样会出现‘任务将被终端重用’的提示，比较烦人</span></span><br><span class="line">            <span class="punctuation">&#125;</span><span class="punctuation">,</span></span><br><span class="line">            <span class="attr">&quot;problemMatcher&quot;</span><span class="punctuation">:</span> <span class="string">&quot;$gcc&quot;</span> <span class="comment">//捕捉编译时编译器在终端里显示的报错信息，将其显示在vscode的‘问题’面板里</span></span><br><span class="line">        <span class="punctuation">&#125;</span><span class="punctuation">,</span></span><br><span class="line">        <span class="punctuation">&#123;</span><span class="comment">//这个大括号里是‘运行(run)’任务，一些设置与上面的构建任务性质相同</span></span><br><span class="line">            <span class="attr">&quot;label&quot;</span><span class="punctuation">:</span> <span class="string">&quot;run&quot;</span><span class="punctuation">,</span> </span><br><span class="line">            <span class="attr">&quot;type&quot;</span><span class="punctuation">:</span> <span class="string">&quot;shell&quot;</span><span class="punctuation">,</span> </span><br><span class="line">            <span class="attr">&quot;dependsOn&quot;</span><span class="punctuation">:</span> <span class="string">&quot;build&quot;</span><span class="punctuation">,</span> <span class="comment">//任务依赖，因为要运行必须先构建，所以执行这个任务前必须先执行build任务，</span></span><br><span class="line">            <span class="attr">&quot;command&quot;</span><span class="punctuation">:</span> <span class="string">&quot;$&#123;fileDirname&#125;\\bin\\$&#123;fileBasenameNoExtension&#125;.exe&quot;</span><span class="punctuation">,</span> <span class="comment">//执行exe文件，只需要指定这个exe文件在哪里就好</span></span><br><span class="line">            <span class="attr">&quot;group&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">                <span class="attr">&quot;kind&quot;</span><span class="punctuation">:</span> <span class="string">&quot;test&quot;</span><span class="punctuation">,</span> <span class="comment">//这一组是‘测试’组，将run任务放在test组里方便我们用快捷键执行</span></span><br><span class="line">                <span class="attr">&quot;isDefault&quot;</span><span class="punctuation">:</span> <span class="literal"><span class="keyword">true</span></span></span><br><span class="line">            <span class="punctuation">&#125;</span><span class="punctuation">,</span></span><br><span class="line">            <span class="attr">&quot;presentation&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">                <span class="attr">&quot;echo&quot;</span><span class="punctuation">:</span> <span class="literal"><span class="keyword">true</span></span><span class="punctuation">,</span></span><br><span class="line">                <span class="attr">&quot;reveal&quot;</span><span class="punctuation">:</span> <span class="string">&quot;always&quot;</span><span class="punctuation">,</span></span><br><span class="line">                <span class="attr">&quot;focus&quot;</span><span class="punctuation">:</span> <span class="literal"><span class="keyword">true</span></span><span class="punctuation">,</span> <span class="comment">//这个就设置为true了，运行任务后将焦点聚集到终端，方便进行输入</span></span><br><span class="line">                <span class="attr">&quot;panel&quot;</span><span class="punctuation">:</span> <span class="string">&quot;new&quot;</span></span><br><span class="line">            <span class="punctuation">&#125;</span></span><br><span class="line">        <span class="punctuation">&#125;</span></span><br><span class="line"></span><br><span class="line">    <span class="punctuation">]</span></span><br><span class="line"><span class="punctuation">&#125;</span></span><br></pre></td></tr></table></figure>
+<h3 id="launch.json"><code>launch.json</code></h3>
+<figure class="highlight json"><table><tr><td class="code"><pre><span class="line"><span class="punctuation">&#123;</span></span><br><span class="line">    <span class="attr">&quot;version&quot;</span><span class="punctuation">:</span> <span class="string">&quot;0.2.0&quot;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;configurations&quot;</span><span class="punctuation">:</span> <span class="punctuation">[</span></span><br><span class="line">        <span class="punctuation">&#123;</span><span class="comment">//这个大括号里是我们的‘调试(Debug)’配置</span></span><br><span class="line">            <span class="attr">&quot;name&quot;</span><span class="punctuation">:</span> <span class="string">&quot;Debug&quot;</span><span class="punctuation">,</span> <span class="comment">// 配置名称</span></span><br><span class="line">            <span class="attr">&quot;type&quot;</span><span class="punctuation">:</span> <span class="string">&quot;cppdbg&quot;</span><span class="punctuation">,</span> <span class="comment">// 配置类型，cppdbg对应cpptools提供的调试功能；可以认为此处只能是cppdbg</span></span><br><span class="line">            <span class="attr">&quot;request&quot;</span><span class="punctuation">:</span> <span class="string">&quot;launch&quot;</span><span class="punctuation">,</span> <span class="comment">// 请求配置类型，可以为launch（启动）或attach（附加）</span></span><br><span class="line">            <span class="attr">&quot;program&quot;</span><span class="punctuation">:</span> <span class="string">&quot;$&#123;fileDirname&#125;\\bin\\$&#123;fileBasenameNoExtension&#125;.exe&quot;</span><span class="punctuation">,</span> <span class="comment">// 将要进行调试的程序的路径</span></span><br><span class="line">            <span class="attr">&quot;args&quot;</span><span class="punctuation">:</span> <span class="punctuation">[</span><span class="punctuation">]</span><span class="punctuation">,</span> <span class="comment">// 程序调试时传递给程序的命令行参数，这里设为空即可</span></span><br><span class="line">            <span class="attr">&quot;stopAtEntry&quot;</span><span class="punctuation">:</span> <span class="literal"><span class="keyword">false</span></span><span class="punctuation">,</span> <span class="comment">// 设为true时程序将暂停在程序入口处，相当于在main上打断点</span></span><br><span class="line">            <span class="attr">&quot;cwd&quot;</span><span class="punctuation">:</span> <span class="string">&quot;$&#123;fileDirname&#125;&quot;</span><span class="punctuation">,</span> <span class="comment">// 调试程序时的工作目录，此处为源码文件所在目录</span></span><br><span class="line">            <span class="attr">&quot;environment&quot;</span><span class="punctuation">:</span> <span class="punctuation">[</span><span class="punctuation">]</span><span class="punctuation">,</span> <span class="comment">// 环境变量，这里设为空即可</span></span><br><span class="line">            <span class="attr">&quot;externalConsole&quot;</span><span class="punctuation">:</span> <span class="literal"><span class="keyword">false</span></span><span class="punctuation">,</span> <span class="comment">// 为true时使用单独的cmd窗口，跳出小黑框；设为false则是用vscode的内置终端，建议用内置终端</span></span><br><span class="line">            <span class="attr">&quot;internalConsoleOptions&quot;</span><span class="punctuation">:</span> <span class="string">&quot;neverOpen&quot;</span><span class="punctuation">,</span> <span class="comment">// 如果不设为neverOpen，调试时会跳到“调试控制台”选项卡，新手调试用不到</span></span><br><span class="line">            <span class="attr">&quot;MIMode&quot;</span><span class="punctuation">:</span> <span class="string">&quot;gdb&quot;</span><span class="punctuation">,</span> <span class="comment">// 指定连接的调试器，gdb是minGW中的调试程序</span></span><br><span class="line">            <span class="attr">&quot;miDebuggerPath&quot;</span><span class="punctuation">:</span> <span class="string">&quot;C:\\Program Files\\mingw64\\bin\\gdb.exe&quot;</span><span class="punctuation">,</span> <span class="comment">// 指定调试器所在路径，如果你的minGW装在别的地方，则要改成你自己的路径，注意间隔是\\</span></span><br><span class="line">            <span class="attr">&quot;preLaunchTask&quot;</span><span class="punctuation">:</span> <span class="string">&quot;build&quot;</span> <span class="comment">// 调试开始前执行的任务，我们在调试前要编译构建。与tasks.json的label相对应，名字要一样</span></span><br><span class="line">    <span class="punctuation">&#125;</span><span class="punctuation">]</span></span><br><span class="line"><span class="punctuation">&#125;</span></span><br></pre></td></tr></table></figure>
+<ul>
+<li>仅编译（构建Configuration），使用快捷键<code>ctrl+shift+B</code></li>
+<li>编译+运行（run test
+task），使用自定义快捷键<code>ctrl+alt+F5</code></li>
+<li>调试，直接用调试快捷键<code>F5</code>，设置断点快捷键是<code>F9</code></li>
+</ul>
+<h2 id="可能出现的问题">可能出现的问题</h2>
+<h3 id="reused-by-task"><code>reused by task</code></h3>
+<p>按照在task中的设置，每次执行一个task就会打开一个新的终端面板</p>
+<h1 id="section"></h1>
+<h2 id="多文件程序">多文件程序</h2>
+<p><strong>多文件tasks.json</strong></p>
+<figure class="highlight json"><table><tr><td class="code"><pre><span class="line"><span class="punctuation">&#123;</span></span><br><span class="line">    <span class="attr">&quot;version&quot;</span><span class="punctuation">:</span> <span class="string">&quot;2.0.0&quot;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;tasks&quot;</span><span class="punctuation">:</span> <span class="punctuation">[</span></span><br><span class="line">        <span class="punctuation">&#123;</span></span><br><span class="line">            <span class="attr">&quot;label&quot;</span><span class="punctuation">:</span> <span class="string">&quot;build&quot;</span><span class="punctuation">,</span></span><br><span class="line">            <span class="attr">&quot;type&quot;</span><span class="punctuation">:</span> <span class="string">&quot;shell&quot;</span><span class="punctuation">,</span></span><br><span class="line">            <span class="attr">&quot;command&quot;</span><span class="punctuation">:</span> <span class="string">&quot;gcc&quot;</span><span class="punctuation">,</span> <span class="comment">//写c++换成g++</span></span><br><span class="line">            <span class="attr">&quot;args&quot;</span><span class="punctuation">:</span> <span class="punctuation">[</span></span><br><span class="line">                <span class="string">&quot;$&#123;fileDirname&#125;\\*.c&quot;</span><span class="punctuation">,</span> <span class="comment">//写c++把 *.c 换成 *.cpp</span></span><br><span class="line">                <span class="string">&quot;-o&quot;</span><span class="punctuation">,</span></span><br><span class="line">                <span class="string">&quot;$&#123;fileDirname&#125;\\$&#123;fileBasenameNoExtension&#125;.exe&quot;</span><span class="punctuation">,</span></span><br><span class="line">                <span class="string">&quot;-g&quot;</span><span class="punctuation">,</span></span><br><span class="line">                <span class="string">&quot;-Wall&quot;</span><span class="punctuation">,</span> </span><br><span class="line">                <span class="string">&quot;-static-libgcc&quot;</span><span class="punctuation">,</span>   </span><br><span class="line">                <span class="string">&quot;-fexec-charset=GBK&quot;</span><span class="punctuation">,</span></span><br><span class="line">                <span class="string">&quot;-std=c11&quot;</span><span class="punctuation">,</span>  <span class="comment">//写c++换成c++标准</span></span><br><span class="line">            <span class="punctuation">]</span><span class="punctuation">,</span></span><br><span class="line">            <span class="attr">&quot;group&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">                <span class="attr">&quot;kind&quot;</span><span class="punctuation">:</span> <span class="string">&quot;build&quot;</span><span class="punctuation">,</span></span><br><span class="line">                <span class="attr">&quot;isDefault&quot;</span><span class="punctuation">:</span> <span class="literal"><span class="keyword">true</span></span></span><br><span class="line">            <span class="punctuation">&#125;</span><span class="punctuation">,</span></span><br><span class="line">            <span class="attr">&quot;presentation&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">                <span class="attr">&quot;echo&quot;</span><span class="punctuation">:</span> <span class="literal"><span class="keyword">true</span></span><span class="punctuation">,</span></span><br><span class="line">                <span class="attr">&quot;reveal&quot;</span><span class="punctuation">:</span> <span class="string">&quot;always&quot;</span><span class="punctuation">,</span></span><br><span class="line">                <span class="attr">&quot;focus&quot;</span><span class="punctuation">:</span> <span class="literal"><span class="keyword">false</span></span><span class="punctuation">,</span></span><br><span class="line">                <span class="attr">&quot;panel&quot;</span><span class="punctuation">:</span> <span class="string">&quot;new&quot;</span></span><br><span class="line">            <span class="punctuation">&#125;</span><span class="punctuation">,</span></span><br><span class="line">            <span class="attr">&quot;problemMatcher&quot;</span><span class="punctuation">:</span> <span class="string">&quot;$gcc&quot;</span></span><br><span class="line">        <span class="punctuation">&#125;</span><span class="punctuation">,</span></span><br><span class="line">        <span class="punctuation">&#123;</span></span><br><span class="line">            <span class="attr">&quot;label&quot;</span><span class="punctuation">:</span> <span class="string">&quot;run&quot;</span><span class="punctuation">,</span></span><br><span class="line">            <span class="attr">&quot;type&quot;</span><span class="punctuation">:</span> <span class="string">&quot;shell&quot;</span><span class="punctuation">,</span></span><br><span class="line">            <span class="attr">&quot;dependsOn&quot;</span><span class="punctuation">:</span> <span class="string">&quot;build&quot;</span><span class="punctuation">,</span></span><br><span class="line">            <span class="attr">&quot;command&quot;</span><span class="punctuation">:</span> <span class="string">&quot;$&#123;fileDirname&#125;\\$&#123;fileBasenameNoExtension&#125;.exe&quot;</span><span class="punctuation">,</span></span><br><span class="line">            <span class="attr">&quot;group&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">                <span class="attr">&quot;kind&quot;</span><span class="punctuation">:</span> <span class="string">&quot;test&quot;</span><span class="punctuation">,</span></span><br><span class="line">                <span class="attr">&quot;isDefault&quot;</span><span class="punctuation">:</span> <span class="literal"><span class="keyword">true</span></span></span><br><span class="line">            <span class="punctuation">&#125;</span><span class="punctuation">,</span></span><br><span class="line">            <span class="attr">&quot;presentation&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">                <span class="attr">&quot;echo&quot;</span><span class="punctuation">:</span> <span class="literal"><span class="keyword">true</span></span><span class="punctuation">,</span></span><br><span class="line">                <span class="attr">&quot;reveal&quot;</span><span class="punctuation">:</span> <span class="string">&quot;always&quot;</span><span class="punctuation">,</span></span><br><span class="line">                <span class="attr">&quot;focus&quot;</span><span class="punctuation">:</span> <span class="literal"><span class="keyword">true</span></span><span class="punctuation">,</span></span><br><span class="line">                <span class="attr">&quot;panel&quot;</span><span class="punctuation">:</span> <span class="string">&quot;new&quot;</span></span><br><span class="line">            <span class="punctuation">&#125;</span></span><br><span class="line">        <span class="punctuation">&#125;</span></span><br><span class="line"></span><br><span class="line">    <span class="punctuation">]</span></span><br><span class="line"><span class="punctuation">&#125;</span></span><br></pre></td></tr></table></figure>
+<p><strong>多文件launch.json</strong></p>
+<figure class="highlight json"><table><tr><td class="code"><pre><span class="line"><span class="punctuation">&#123;</span></span><br><span class="line">    <span class="attr">&quot;version&quot;</span><span class="punctuation">:</span> <span class="string">&quot;0.2.0&quot;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;configurations&quot;</span><span class="punctuation">:</span> <span class="punctuation">[</span><span class="punctuation">&#123;</span></span><br><span class="line">        <span class="attr">&quot;name&quot;</span><span class="punctuation">:</span> <span class="string">&quot;Debug&quot;</span><span class="punctuation">,</span> </span><br><span class="line">        <span class="attr">&quot;type&quot;</span><span class="punctuation">:</span> <span class="string">&quot;cppdbg&quot;</span><span class="punctuation">,</span> </span><br><span class="line">        <span class="attr">&quot;request&quot;</span><span class="punctuation">:</span> <span class="string">&quot;launch&quot;</span><span class="punctuation">,</span></span><br><span class="line">        <span class="attr">&quot;program&quot;</span><span class="punctuation">:</span> <span class="string">&quot;$&#123;fileDirname&#125;\\$&#123;fileBasenameNoExtension&#125;.exe&quot;</span><span class="punctuation">,</span></span><br><span class="line">        <span class="attr">&quot;args&quot;</span><span class="punctuation">:</span> <span class="punctuation">[</span><span class="punctuation">]</span><span class="punctuation">,</span></span><br><span class="line">        <span class="attr">&quot;stopAtEntry&quot;</span><span class="punctuation">:</span> <span class="literal"><span class="keyword">false</span></span><span class="punctuation">,</span> </span><br><span class="line">        <span class="attr">&quot;cwd&quot;</span><span class="punctuation">:</span> <span class="string">&quot;$&#123;fileDirname&#125;&quot;</span><span class="punctuation">,</span> </span><br><span class="line">        <span class="attr">&quot;environment&quot;</span><span class="punctuation">:</span> <span class="punctuation">[</span><span class="punctuation">]</span><span class="punctuation">,</span> </span><br><span class="line">        <span class="attr">&quot;externalConsole&quot;</span><span class="punctuation">:</span> <span class="literal"><span class="keyword">false</span></span><span class="punctuation">,</span></span><br><span class="line">        <span class="attr">&quot;internalConsoleOptions&quot;</span><span class="punctuation">:</span> <span class="string">&quot;neverOpen&quot;</span><span class="punctuation">,</span></span><br><span class="line">        <span class="attr">&quot;MIMode&quot;</span><span class="punctuation">:</span> <span class="string">&quot;gdb&quot;</span><span class="punctuation">,</span> </span><br><span class="line">        <span class="attr">&quot;miDebuggerPath&quot;</span><span class="punctuation">:</span> <span class="string">&quot;C:\\Program Files\\mingw64\\bin\\gdb.exe&quot;</span><span class="punctuation">,</span> </span><br><span class="line">        <span class="attr">&quot;preLaunchTask&quot;</span><span class="punctuation">:</span> <span class="string">&quot;build&quot;</span> </span><br><span class="line">    <span class="punctuation">&#125;</span><span class="punctuation">]</span></span><br><span class="line"><span class="punctuation">&#125;</span></span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>VS Code</category>
+        <category>C/C++</category>
+      </categories>
+      <tags>
+        <tag>环境配置</tag>
+        <tag>VS Code</tag>
+        <tag>C/C++</tag>
+      </tags>
   </entry>
   <entry>
     <title>使用conda进行环境管理和包管理</title>
@@ -182,6 +224,34 @@ href="https://link.zhihu.com/?target=https%3A//mirrors.tuna.tsinghua.edu.cn/help
       <tags>
         <tag>Python</tag>
         <tag>Anaconda</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>GitLab使用及常见报错</title>
+    <url>/2022/08/23/Git/Gitlab%20Guide/</url>
+    <content><![CDATA[<h1 id="使用入门">使用入门</h1>
+<span id="more"></span>
+<h1 id="错误分析">错误分析</h1>
+<h2
+id="remote-gitlab-you-are-not-allowed-to-push-code-to-protected-branches-on-this-project.">remote:
+GitLab: You are not allowed to push code to protected branches on this
+project.</h2>
+<h3 id="引发原因"><strong>引发原因：</strong></h3>
+<p>公司开发一个新的项目，在<a
+href="https://so.csdn.net/so/search?q=GitLab&amp;spm=1001.2101.3001.7020">GitLab</a>上创建一个代码仓库，通过ssh方式拉取代码到本地磁盘，在提交代码时，报标题所写的错误，原因是我在GitLab上的账户角色为<strong>开发者</strong>，代码仓库的<strong>master主分支</strong>是受保护的，不对开发者进行开放，开发者没有权限，需要关闭代码仓库的<strong>master主分支</strong>受保护的功能，设置开发者可以操作<strong>master主分支</strong>的权限。</p>
+<h3 id="解决办法"><strong>解决办法：</strong></h3>
+<p>使用GitLab系统管理员账户登录，更改代码仓库的<strong>master主分支</strong>开放权限为：<strong>Developers
++ Maintainers</strong>即可。 <img
+src="https://img-blog.csdnimg.cn/2c63e8edf914401ea67674822087eddf.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBA57yW56iL6K--5aCC,size_20,color_FFFFFF,t_70,g_se,x_16#pic_left"
+alt="在这里插入图片描述" /></p>
+]]></content>
+      <categories>
+        <category>Git</category>
+        <category>GitLab</category>
+      </categories>
+      <tags>
+        <tag>Git</tag>
+        <tag>GitLab</tag>
       </tags>
   </entry>
   <entry>
@@ -292,34 +362,6 @@ id="openssl-ssl_read-connection-was-reset"><code>OpenSSL SSL_read: Connection wa
       <tags>
         <tag>Git</tag>
         <tag>Github</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>GitLab使用及常见报错</title>
-    <url>/2022/08/23/Git/Gitlab%20Guide/</url>
-    <content><![CDATA[<h1 id="使用入门">使用入门</h1>
-<span id="more"></span>
-<h1 id="错误分析">错误分析</h1>
-<h2
-id="remote-gitlab-you-are-not-allowed-to-push-code-to-protected-branches-on-this-project.">remote:
-GitLab: You are not allowed to push code to protected branches on this
-project.</h2>
-<h3 id="引发原因"><strong>引发原因：</strong></h3>
-<p>公司开发一个新的项目，在<a
-href="https://so.csdn.net/so/search?q=GitLab&amp;spm=1001.2101.3001.7020">GitLab</a>上创建一个代码仓库，通过ssh方式拉取代码到本地磁盘，在提交代码时，报标题所写的错误，原因是我在GitLab上的账户角色为<strong>开发者</strong>，代码仓库的<strong>master主分支</strong>是受保护的，不对开发者进行开放，开发者没有权限，需要关闭代码仓库的<strong>master主分支</strong>受保护的功能，设置开发者可以操作<strong>master主分支</strong>的权限。</p>
-<h3 id="解决办法"><strong>解决办法：</strong></h3>
-<p>使用GitLab系统管理员账户登录，更改代码仓库的<strong>master主分支</strong>开放权限为：<strong>Developers
-+ Maintainers</strong>即可。 <img
-src="https://img-blog.csdnimg.cn/2c63e8edf914401ea67674822087eddf.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBA57yW56iL6K--5aCC,size_20,color_FFFFFF,t_70,g_se,x_16#pic_left"
-alt="在这里插入图片描述" /></p>
-]]></content>
-      <categories>
-        <category>Git</category>
-        <category>GitLab</category>
-      </categories>
-      <tags>
-        <tag>Git</tag>
-        <tag>GitLab</tag>
       </tags>
   </entry>
   <entry>
@@ -501,6 +543,129 @@ https://blog.csdn.net/lanchunhui/article/details/52451362
       </categories>
       <tags>
         <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>大 数 乘 法</title>
+    <url>/2022/09/18/DSA/%E5%A4%A7%E6%95%B0%E4%B9%98%E6%B3%95/</url>
+    <content><![CDATA[<p>输入两个很大的正整数，输出它们的乘积。比如</p>
+<blockquote>
+<p>输入：1111111111111 1111111111111</p>
+<p>输出：1234567901234320987654321</p>
+</blockquote>
+<span id="more"></span>
+<h2 id="主定理内容">主定理内容</h2>
+<p>设<span class="math inline">\(a \geq 1\)</span>和<span
+class="math inline">\(b &gt;
+1\)</span>为常数，设f(n)为一函数，T(n)有递推式 <span
+class="math display">\[
+T(n)=aT(\frac n b)+f(n)
+\]</span> 其中<span class="math inline">\(\frac nb\)</span> 指<span
+class="math inline">\(\left\lfloor\dfrac{n}{b}
+\right\rfloor\)</span>和<span
+class="math inline">\(\left\lceil\dfrac{b}{n}
+\right\rceil\)</span>，可以证明，略去上下取整不会对结果造成影响。那么<span
+class="math inline">\(T(n)\)</span>可能有如下的渐进界</p>
+<p>（1）若<span class="math inline">\(f(n) &lt;
+n^{\log_ba}\)</span>，且是多项式的小于。即 <span class="math display">\[
+\exists
+\epsilon&gt;0,有f(n)=\mathcal{O}(n^{\log_ba-\epsilon}),则T(n)=\mathcal{O}(n^{\log_ba})
+\]</span> （2）若<span class="math inline">\(f(n) =
+n^{\log_ba}\)</span>，则<span
+class="math display">\[T(n)=\mathcal{O}(n^{\log_ba}\log n)\]</span></p>
+<p>（3）若<span class="math inline">\(f(n) &gt;
+n^{\log_ba}\)</span>，且是多项式的大于。即 <span class="math display">\[
+\exists
+\epsilon&gt;0,有f(n)=\mathcal{O}(n^{\log_ba-\epsilon}),则T(n)=\mathcal{O}(n^{\log_ba})
+\\
+且对\exists c&lt;1与所有足够大的n,有af(\frac nb)\leq
+cf(n),则T(n)=\mathcal{O}(f(n))
+\]</span></p>
+<h2 id="主定理证明">主定理证明</h2>
+<p>可以画递归树</p>
+<p>可见，每次递归把问题分为<span
+class="math inline">\(a\)</span>个规模为<span
+class="math inline">\(\frac nb\)</span>的子问题。从根节点开始，共有<span
+class="math inline">\(\log_bn+1\)</span>层，叶子节点数为<span
+class="math inline">\(a^{\log_bn}\)</span>。那么，第j层共有<span
+class="math inline">\(a^j\)</span>个子问题，每个问题规模为<span
+class="math inline">\(n/b^j\)</span>，每个子问题运算量为<span
+class="math inline">\(c*(\frac
+n{b^j})^d\)</span>，每一层需要完成的计算量为</p>
+<p><span class="math display">\[
+a^jf(\frac n{b^j})
+\]</span> 求和得到整个问题的运算量，d为f(n)的阶数 <span
+class="math display">\[
+\sum_{j=0}^{\log_bn} a^jf(\frac n{b^j}) = Cn^d\sum_{j=0}^{\log_bn}(\frac
+a{b^d})^j
+\]</span> 分类讨论</p>
+<p>（1）若<span class="math inline">\(f(n) &lt;
+n^{\log_ba}\)</span>，且是多项式的小于，即<span
+class="math inline">\(d&lt;\log_ba\)</span></p>
+<blockquote class="blockquote-center">
+<p>不会了</p>
+
+</blockquote>
+<p>（2）若<span class="math inline">\(f(n) = n^{\log_ba}\)</span>, 即
+<span class="math display">\[
+Cn^d\sum_{j=0}^{\log_bn}(\frac a{b^d})^j = Cn^d\log_b n =
+\mathcal{O}(n^{\log_ba}\log n)
+\]</span> （3）若<span class="math inline">\(f(n) &gt;
+n^{\log_ba}\)</span>，且是多项式的大于。即</p>
+<blockquote class="blockquote-center">
+<p>不会了</p>
+
+</blockquote>
+<h2 id="主定理应用">主定理应用</h2>
+<h3 id="二分搜索">二分搜索</h3>
+<ul>
+<li>每次问题规模减半，a=1，b=2，d=0</li>
+<li>复杂度为n^0 log(n) = log(n)。</li>
+</ul>
+<h3 id="快速排序">快速排序</h3>
+<ul>
+<li>随机选择待排序序列中的一个数字作为划分字问题的标准，划分是否平均影响算法复杂度</li>
+<li>每次问题规模减半，a=2，b=2，d=1</li>
+<li>复杂度为n^2 log(n)</li>
+<li>最差情况下，复杂度为O(n^2)</li>
+</ul>
+<h3 id="归并排序">归并排序</h3>
+<ul>
+<li>数据列均分为两部分，分别排序，之后以O(n)的复杂度进行合并，空间复杂度O(n)</li>
+<li>每次问题规模减半，a=2，b=2，d=1</li>
+<li>复杂度为n log(n)</li>
+</ul>
+<h3 id="基数排序radix-sort">基数排序(Radix sort)</h3>
+<ul>
+<li>对于待排序的整数序列，从最低位到最高位每次按照相应的位排序一次</li>
+<li>每次递归问题规模变为原来的1/10，但需要求解10个子问题，额外运算为O(n)的，a=10，b=10，d=1</li>
+<li>复杂度为n^1 log(n) = n log(n)，近似为O(kN)，k为整数的位数</li>
+</ul>
+<h3 id="快速傅里叶变换fft">快速傅里叶变换：FFT</h3>
+<ul>
+<li>每次问题规模减半，a=2，b=2，d=1</li>
+<li>复杂度为n log(n)</li>
+</ul>
+<h3 id="karatsuba快速乘法">Karatsuba快速乘法</h3>
+<ul>
+<li>正常两个n位数乘法为n^2</li>
+<li>算法把两个乘数各分为高低位两部分，如X<em>Y = (a+b) </em> (c+d) =
+ac+bd + (bc+ad) = ac+bd+(ac+bd - (a-b)(c-d))</li>
+<li>只需要ac,bd,(a-b)(c-d)三次乘法</li>
+<li>每次问题规模减半，但需要解3个子问题，加法是O(n)的，a=3，b=2，d=1</li>
+<li>复杂度为n^log2(3)</li>
+</ul>
+<h2 id="参考文献">参考文献</h2>
+<p>[1] https://blog.csdn.net/caozhk/article/details/24734371
+"主定理的证明及应用举例" [2]
+https://blog.csdn.net/lanchunhui/article/details/52451362
+"主定理（Master Theorem）与时间复杂度"</p>
+]]></content>
+      <categories>
+        <category>Algorithms</category>
+      </categories>
+      <tags>
+        <tag>Algorithm</tag>
       </tags>
   </entry>
 </search>

@@ -6,7 +6,7 @@
   <link href="http://stepheric.github.io/atom.xml" rel="self"/>
   
   <link href="http://stepheric.github.io/"/>
-  <updated>2022-09-18T10:23:22.680Z</updated>
+  <updated>2022-09-18T13:49:08.377Z</updated>
   <id>http://stepheric.github.io/</id>
   
   <author>
@@ -15,6 +15,59 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>大 数 乘 法</title>
+    <link href="http://stepheric.github.io/2022/09/18/DSA/%E5%A4%A7%E6%95%B0%E4%B9%98%E6%B3%95/"/>
+    <id>http://stepheric.github.io/2022/09/18/DSA/%E5%A4%A7%E6%95%B0%E4%B9%98%E6%B3%95/</id>
+    <published>2022-09-18T13:47:00.000Z</published>
+    <updated>2022-09-18T13:49:08.377Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;输入两个很大的正整数，输出它们的乘积。比如&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;输入：1111111111111 1111111111111&lt;/p&gt;
+&lt;p&gt;输出：1234567901234320987654321&lt;/p&gt;
+&lt;/blockquote&gt;</summary>
+    
+    
+    
+    <category term="Algorithms" scheme="http://stepheric.github.io/categories/Algorithms/"/>
+    
+    
+    <category term="Algorithm" scheme="http://stepheric.github.io/tags/Algorithm/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Visual Studio Code 环境配置</title>
+    <link href="http://stepheric.github.io/2022/09/18/VS%20code%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/"/>
+    <id>http://stepheric.github.io/2022/09/18/VS%20code%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/</id>
+    <published>2022-09-18T13:35:00.000Z</published>
+    <updated>2022-09-18T14:05:16.878Z</updated>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;vs-code配置cc编译环境&quot;&gt;VS Code配置C/C++编译环境&lt;/h1&gt;
+&lt;h2 id=&quot;前期准备&quot;&gt;前期准备&lt;/h2&gt;
+&lt;p&gt;安装MinGW64，把编译器所在的目录添加到环境变量&lt;code&gt;Path&lt;/code&gt;中&lt;/p&gt;
+&lt;h2 id=&quot;组织文件结构&quot;&gt;组织文件结构&lt;/h2&gt;
+&lt;p&gt;单文件编程，将可执行文件统一放在&lt;code&gt;bin&lt;/code&gt;文件夹下&lt;/p&gt;
+&lt;p&gt;多文件编程，不需要单独的bin目录&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="VS Code" scheme="http://stepheric.github.io/categories/VS-Code/"/>
+    
+    <category term="C/C++" scheme="http://stepheric.github.io/categories/C-C/"/>
+    
+    
+    <category term="环境配置" scheme="http://stepheric.github.io/tags/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/"/>
+    
+    <category term="VS Code" scheme="http://stepheric.github.io/tags/VS-Code/"/>
+    
+    <category term="C/C++" scheme="http://stepheric.github.io/tags/C-C/"/>
+    
+  </entry>
   
   <entry>
     <title>主定理与时间复杂度</title>
