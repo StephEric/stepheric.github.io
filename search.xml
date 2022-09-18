@@ -11,11 +11,9 @@
 <h3 id="example">Example</h3>
 <figure class="highlight html"><table><tr><td class="code"><pre><span class="line">&#123;% cq %&#125;代码优雅，核心简单&#123;% endcq %&#125;</span><br></pre></td></tr></table></figure>
 <blockquote class="blockquote-center">
-            <i class="fa fa-quote-left"></i>
-            <p>代码优雅，核心简单</p>
+<p>代码优雅，核心简单</p>
 
-            <i class="fa fa-quote-right"></i>
-          </blockquote>
+</blockquote>
 <h2 id="note-bootstrap-callout">Note( Bootstrap Callout )</h2>
 <h3 id="设置">设置</h3>
 <h3 id="使用-usage">使用 Usage</h3>
@@ -28,18 +26,6 @@
       </categories>
       <tags>
         <tag>Hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>QT界面部件与设置</title>
-    <url>/2022/07/19/QT%E7%95%8C%E9%9D%A2%E9%83%A8%E4%BB%B6%E4%B8%8E%E8%AE%BE%E7%BD%AE/</url>
-    <content><![CDATA[<h1 id="qt界面部件与设置">QT界面部件与设置</h1>
-]]></content>
-      <categories>
-        <category>QT</category>
-      </categories>
-      <tags>
-        <tag>QT</tag>
       </tags>
   </entry>
   <entry>
@@ -150,6 +136,18 @@ href="https://hexo.io/docs/generating.html">Generating</a></p>
 <p>More info: <a
 href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 ]]></content>
+  </entry>
+  <entry>
+    <title>QT界面部件与设置</title>
+    <url>/2022/07/19/QT%E7%95%8C%E9%9D%A2%E9%83%A8%E4%BB%B6%E4%B8%8E%E8%AE%BE%E7%BD%AE/</url>
+    <content><![CDATA[<h1 id="qt界面部件与设置">QT界面部件与设置</h1>
+]]></content>
+      <categories>
+        <category>QT</category>
+      </categories>
+      <tags>
+        <tag>QT</tag>
+      </tags>
   </entry>
   <entry>
     <title>使用conda进行环境管理和包管理</title>
@@ -268,11 +266,9 @@ a{b^d})^j
 n^{\log_ba}\)</span>，且是多项式的小于，即<span
 class="math inline">\(d&lt;\log_ba\)</span></p>
 <blockquote class="blockquote-center">
-            <i class="fa fa-quote-left"></i>
-            <p>不会了</p>
+<p>不会了</p>
 
-            <i class="fa fa-quote-right"></i>
-          </blockquote>
+</blockquote>
 <p>（2）若<span class="math inline">\(f(n) = n^{\log_ba}\)</span>, 即
 <span class="math display">\[
 Cn^d\sum_{j=0}^{\log_bn}(\frac a{b^d})^j = Cn^d\log_b n =
@@ -280,11 +276,9 @@ Cn^d\sum_{j=0}^{\log_bn}(\frac a{b^d})^j = Cn^d\log_b n =
 \]</span> （3）若<span class="math inline">\(f(n) &gt;
 n^{\log_ba}\)</span>，且是多项式的大于。即</p>
 <blockquote class="blockquote-center">
-            <i class="fa fa-quote-left"></i>
-            <p>不会了</p>
+<p>不会了</p>
 
-            <i class="fa fa-quote-right"></i>
-          </blockquote>
+</blockquote>
 <h2 id="主定理应用">主定理应用</h2>
 <h3 id="二分搜索">二分搜索</h3>
 <ul>
@@ -346,9 +340,9 @@ Git 服务器也会选择使用 SSH 公钥来进行授权，所以想要向 GitH
 <span id="more"></span>
 <figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line">ssh-keygen -t rsa -C &quot;xxx@xxx.com&quot;</span><br><span class="line">//执行后一直回车</span><br><span class="line"><span class="built_in">cd</span> ~/.ssh</span><br><span class="line">cat id_rsa.pub</span><br></pre></td></tr></table></figure>
 <p>生成公钥和私钥，无需账号和密码即可clone和push代码</p>
-<div class="note info">
-            <h4 id="info-header">Info Header</h4><p><strong>Welcome</strong> to <a href="https://hexo.io">Hexo!</a></p>
-          </div>
+<div class="note info"><h4 id="info-header">Info Header</h4>
+<p><strong>Welcome</strong> to <a href="https://hexo.io">Hexo!</a></p>
+</div>
 <h2 id="操作git">操作git</h2>
 <h3 id="git---help"><code>git --help</code></h3>
 <p>得到git-doc文件</p>
