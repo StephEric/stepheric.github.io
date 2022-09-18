@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>StephEric</title>
-  <icon>http://example.com/icon.png</icon>
+  <icon>http://stepheric.github.io/icon.png</icon>
   <subtitle>Department of Automation, Tsinghua University</subtitle>
-  <link href="http://example.com/atom.xml" rel="self"/>
+  <link href="http://stepheric.github.io/atom.xml" rel="self"/>
   
-  <link href="http://example.com/"/>
+  <link href="http://stepheric.github.io/"/>
   <updated>2022-09-18T10:23:22.680Z</updated>
-  <id>http://example.com/</id>
+  <id>http://stepheric.github.io/</id>
   
   <author>
     <name>StephEric</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>主定理与时间复杂度</title>
-    <link href="http://example.com/2022/09/18/DSA/%E4%B8%BB%E5%AE%9A%E7%90%86%E4%B8%8E%E6%97%B6%E9%97%B4%E5%A4%8D%E6%9D%82%E5%BA%A6/"/>
-    <id>http://example.com/2022/09/18/DSA/%E4%B8%BB%E5%AE%9A%E7%90%86%E4%B8%8E%E6%97%B6%E9%97%B4%E5%A4%8D%E6%9D%82%E5%BA%A6/</id>
+    <link href="http://stepheric.github.io/2022/09/18/DSA/%E4%B8%BB%E5%AE%9A%E7%90%86%E4%B8%8E%E6%97%B6%E9%97%B4%E5%A4%8D%E6%9D%82%E5%BA%A6/"/>
+    <id>http://stepheric.github.io/2022/09/18/DSA/%E4%B8%BB%E5%AE%9A%E7%90%86%E4%B8%8E%E6%97%B6%E9%97%B4%E5%A4%8D%E6%9D%82%E5%BA%A6/</id>
     <published>2022-09-18T06:44:00.000Z</published>
     <updated>2022-09-18T10:23:22.680Z</updated>
     
@@ -28,44 +28,44 @@
     
     
     
-    <category term="DS" scheme="http://example.com/categories/DS/"/>
+    <category term="DS" scheme="http://stepheric.github.io/categories/DS/"/>
     
-    <category term="Algorithm" scheme="http://example.com/categories/Algorithm/"/>
+    <category term="Algorithm" scheme="http://stepheric.github.io/categories/Algorithm/"/>
     
     
-    <category term="DS" scheme="http://example.com/tags/DS/"/>
+    <category term="DS" scheme="http://stepheric.github.io/tags/DS/"/>
     
-    <category term="Algorithm" scheme="http://example.com/tags/Algorithm/"/>
+    <category term="Algorithm" scheme="http://stepheric.github.io/tags/Algorithm/"/>
     
   </entry>
   
   <entry>
     <title>GitLab使用及常见报错</title>
-    <link href="http://example.com/2022/08/23/Git/Gitlab%20Guide/"/>
-    <id>http://example.com/2022/08/23/Git/Gitlab%20Guide/</id>
+    <link href="http://stepheric.github.io/2022/08/23/Git/Gitlab%20Guide/"/>
+    <id>http://stepheric.github.io/2022/08/23/Git/Gitlab%20Guide/</id>
     <published>2022-08-23T04:08:31.000Z</published>
     <updated>2022-08-23T05:14:39.178Z</updated>
     
     
-    <summary type="html">&lt;h1 id=&quot;使用入门&quot;&gt;&lt;a href=&quot;#使用入门&quot; class=&quot;headerlink&quot; title=&quot;使用入门&quot;&gt;&lt;/a&gt;使用入门&lt;/h1&gt;</summary>
+    <summary type="html">&lt;h1 id=&quot;使用入门&quot;&gt;使用入门&lt;/h1&gt;</summary>
     
     
     
-    <category term="Git" scheme="http://example.com/categories/Git/"/>
+    <category term="Git" scheme="http://stepheric.github.io/categories/Git/"/>
     
-    <category term="GitLab" scheme="http://example.com/categories/GitLab/"/>
+    <category term="GitLab" scheme="http://stepheric.github.io/categories/GitLab/"/>
     
     
-    <category term="Git" scheme="http://example.com/tags/Git/"/>
+    <category term="Git" scheme="http://stepheric.github.io/tags/Git/"/>
     
-    <category term="GitLab" scheme="http://example.com/tags/GitLab/"/>
+    <category term="GitLab" scheme="http://stepheric.github.io/tags/GitLab/"/>
     
   </entry>
   
   <entry>
     <title>Python文件操作</title>
-    <link href="http://example.com/2022/08/08/Python%E6%96%87%E4%BB%B6%E6%93%8D%E4%BD%9C/"/>
-    <id>http://example.com/2022/08/08/Python%E6%96%87%E4%BB%B6%E6%93%8D%E4%BD%9C/</id>
+    <link href="http://stepheric.github.io/2022/08/08/Python%E6%96%87%E4%BB%B6%E6%93%8D%E4%BD%9C/"/>
+    <id>http://stepheric.github.io/2022/08/08/Python%E6%96%87%E4%BB%B6%E6%93%8D%E4%BD%9C/</id>
     <published>2022-08-08T03:35:31.000Z</published>
     <updated>2022-09-18T07:37:06.143Z</updated>
     
@@ -74,17 +74,17 @@
     
     
     
-    <category term="Python" scheme="http://example.com/categories/Python/"/>
+    <category term="Python" scheme="http://stepheric.github.io/categories/Python/"/>
     
     
-    <category term="Python" scheme="http://example.com/tags/Python/"/>
+    <category term="Python" scheme="http://stepheric.github.io/tags/Python/"/>
     
   </entry>
   
   <entry>
     <title>QT界面部件与设置</title>
-    <link href="http://example.com/2022/07/19/QT%E7%95%8C%E9%9D%A2%E9%83%A8%E4%BB%B6%E4%B8%8E%E8%AE%BE%E7%BD%AE/"/>
-    <id>http://example.com/2022/07/19/QT%E7%95%8C%E9%9D%A2%E9%83%A8%E4%BB%B6%E4%B8%8E%E8%AE%BE%E7%BD%AE/</id>
+    <link href="http://stepheric.github.io/2022/07/19/QT%E7%95%8C%E9%9D%A2%E9%83%A8%E4%BB%B6%E4%B8%8E%E8%AE%BE%E7%BD%AE/"/>
+    <id>http://stepheric.github.io/2022/07/19/QT%E7%95%8C%E9%9D%A2%E9%83%A8%E4%BB%B6%E4%B8%8E%E8%AE%BE%E7%BD%AE/</id>
     <published>2022-07-19T10:33:31.000Z</published>
     <updated>2022-07-19T10:34:07.900Z</updated>
     
@@ -93,91 +93,99 @@
       
         
         
-    <summary type="html">&lt;h1 id=&quot;QT界面部件与设置&quot;&gt;&lt;a href=&quot;#QT界面部件与设置&quot; class=&quot;headerlink&quot;</summary>
+    <summary type="html">&lt;h1</summary>
         
       
     
     
     
-    <category term="QT" scheme="http://example.com/categories/QT/"/>
+    <category term="QT" scheme="http://stepheric.github.io/categories/QT/"/>
     
     
-    <category term="QT" scheme="http://example.com/tags/QT/"/>
+    <category term="QT" scheme="http://stepheric.github.io/tags/QT/"/>
     
   </entry>
   
   <entry>
     <title>NexT主题post格式模板</title>
-    <link href="http://example.com/2022/07/11/Next%E4%B8%BB%E9%A2%98post%E6%A0%BC%E5%BC%8F%E6%A8%A1%E6%9D%BF/"/>
-    <id>http://example.com/2022/07/11/Next%E4%B8%BB%E9%A2%98post%E6%A0%BC%E5%BC%8F%E6%A8%A1%E6%9D%BF/</id>
+    <link href="http://stepheric.github.io/2022/07/11/Next%E4%B8%BB%E9%A2%98post%E6%A0%BC%E5%BC%8F%E6%A8%A1%E6%9D%BF/"/>
+    <id>http://stepheric.github.io/2022/07/11/Next%E4%B8%BB%E9%A2%98post%E6%A0%BC%E5%BC%8F%E6%A8%A1%E6%9D%BF/</id>
     <published>2022-07-11T03:35:31.000Z</published>
     <updated>2022-08-08T07:32:56.023Z</updated>
     
     
-    <summary type="html">&lt;h1 id=&quot;NexT主题常用页面模块&quot;&gt;&lt;a href=&quot;#NexT主题常用页面模块&quot; class=&quot;headerlink&quot; title=&quot;NexT主题常用页面模块&quot;&gt;&lt;/a&gt;NexT主题常用页面模块&lt;/h1&gt;&lt;p&gt;下面介绍一些主题常用post内部的页面模块，可直接参照使用&lt;/p&gt;</summary>
+    <summary type="html">&lt;h1 id=&quot;next主题常用页面模块&quot;&gt;NexT主题常用页面模块&lt;/h1&gt;
+&lt;p&gt;下面介绍一些主题常用post内部的页面模块，可直接参照使用&lt;/p&gt;</summary>
     
     
     
-    <category term="Hexo" scheme="http://example.com/categories/Hexo/"/>
+    <category term="Hexo" scheme="http://stepheric.github.io/categories/Hexo/"/>
     
-    <category term="NexT" scheme="http://example.com/categories/Hexo/NexT/"/>
+    <category term="NexT" scheme="http://stepheric.github.io/categories/Hexo/NexT/"/>
     
     
-    <category term="Hexo" scheme="http://example.com/tags/Hexo/"/>
+    <category term="Hexo" scheme="http://stepheric.github.io/tags/Hexo/"/>
     
   </entry>
   
   <entry>
     <title>使用conda进行环境管理和包管理</title>
-    <link href="http://example.com/2022/07/11/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8anaconda%E8%BF%9B%E8%A1%8CPython%E7%8E%AF%E5%A2%83%E7%AE%A1%E7%90%86/"/>
-    <id>http://example.com/2022/07/11/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8anaconda%E8%BF%9B%E8%A1%8CPython%E7%8E%AF%E5%A2%83%E7%AE%A1%E7%90%86/</id>
+    <link href="http://stepheric.github.io/2022/07/11/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8anaconda%E8%BF%9B%E8%A1%8CPython%E7%8E%AF%E5%A2%83%E7%AE%A1%E7%90%86/"/>
+    <id>http://stepheric.github.io/2022/07/11/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8anaconda%E8%BF%9B%E8%A1%8CPython%E7%8E%AF%E5%A2%83%E7%AE%A1%E7%90%86/</id>
     <published>2022-07-11T03:35:31.000Z</published>
     <updated>2022-08-08T06:49:27.969Z</updated>
     
     
-    <summary type="html">&lt;h1 id=&quot;使用conda进行环境管理和包管理&quot;&gt;&lt;a href=&quot;#使用conda进行环境管理和包管理&quot; class=&quot;headerlink&quot; title=&quot;使用conda进行环境管理和包管理&quot;&gt;&lt;/a&gt;&lt;strong&gt;使用conda进行环境管理和包管理&lt;/strong&gt;&lt;/h1&gt;&lt;p&gt;conda是anaconda中的环境管理器和包管理器。&lt;/p&gt;
-&lt;p&gt;对于conda的操作都发生在命令行内，我们可以打开Anaconda Prompt进行操作。&lt;/p&gt;</summary>
+    <summary type="html">&lt;h1
+id=&quot;使用conda进行环境管理和包管理&quot;&gt;&lt;strong&gt;使用conda进行环境管理和包管理&lt;/strong&gt;&lt;/h1&gt;
+&lt;p&gt;conda是anaconda中的环境管理器和包管理器。&lt;/p&gt;
+&lt;p&gt;对于conda的操作都发生在命令行内，我们可以打开Anaconda
+Prompt进行操作。&lt;/p&gt;</summary>
     
     
     
-    <category term="Python" scheme="http://example.com/categories/Python/"/>
+    <category term="Python" scheme="http://stepheric.github.io/categories/Python/"/>
     
-    <category term="Anaconda" scheme="http://example.com/categories/Python/Anaconda/"/>
+    <category term="Anaconda" scheme="http://stepheric.github.io/categories/Python/Anaconda/"/>
     
     
-    <category term="Python" scheme="http://example.com/tags/Python/"/>
+    <category term="Python" scheme="http://stepheric.github.io/tags/Python/"/>
     
-    <category term="Anaconda" scheme="http://example.com/tags/Anaconda/"/>
+    <category term="Anaconda" scheme="http://stepheric.github.io/tags/Anaconda/"/>
     
   </entry>
   
   <entry>
     <title>Github使用</title>
-    <link href="http://example.com/2022/06/30/Git/Github%20Guide/"/>
-    <id>http://example.com/2022/06/30/Git/Github%20Guide/</id>
+    <link href="http://stepheric.github.io/2022/06/30/Git/Github%20Guide/"/>
+    <id>http://stepheric.github.io/2022/06/30/Git/Github%20Guide/</id>
     <published>2022-06-30T11:08:31.000Z</published>
     <updated>2022-08-08T06:44:56.858Z</updated>
     
     
-    <summary type="html">&lt;h1 id=&quot;Github使用&quot;&gt;&lt;a href=&quot;#Github使用&quot; class=&quot;headerlink&quot; title=&quot;Github使用&quot;&gt;&lt;/a&gt;Github使用&lt;/h1&gt;&lt;h2 id=&quot;生成SSH-key&quot;&gt;&lt;a href=&quot;#生成SSH-key&quot; class=&quot;headerlink&quot; title=&quot;生成SSH key&quot;&gt;&lt;/a&gt;生成SSH key&lt;/h2&gt;&lt;p&gt;SSh（安全外壳协议）GitHub 上，一般都是通过 SSH 来授权的，而且大多数 Git 服务器也会选择使用 SSH 公钥来进行授权，所以想要向 GitHub 提交代码，首先就得在 GitHub 上添加 SSH key配置。&lt;/p&gt;</summary>
+    <summary type="html">&lt;h1 id=&quot;github使用&quot;&gt;Github使用&lt;/h1&gt;
+&lt;h2 id=&quot;生成ssh-key&quot;&gt;生成SSH key&lt;/h2&gt;
+&lt;p&gt;SSh（安全外壳协议）GitHub 上，一般都是通过 SSH 来授权的，而且大多数
+Git 服务器也会选择使用 SSH 公钥来进行授权，所以想要向 GitHub
+提交代码，首先就得在 GitHub 上添加 SSH key配置。&lt;/p&gt;</summary>
     
     
     
-    <category term="Git" scheme="http://example.com/categories/Git/"/>
+    <category term="Git" scheme="http://stepheric.github.io/categories/Git/"/>
     
-    <category term="Github" scheme="http://example.com/categories/Github/"/>
+    <category term="Github" scheme="http://stepheric.github.io/categories/Github/"/>
     
     
-    <category term="Git" scheme="http://example.com/tags/Git/"/>
+    <category term="Git" scheme="http://stepheric.github.io/tags/Git/"/>
     
-    <category term="Github" scheme="http://example.com/tags/Github/"/>
+    <category term="Github" scheme="http://stepheric.github.io/tags/Github/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="http://example.com/2022/06/30/hello-world/"/>
-    <id>http://example.com/2022/06/30/hello-world/</id>
+    <link href="http://stepheric.github.io/2022/06/30/hello-world/"/>
+    <id>http://stepheric.github.io/2022/06/30/hello-world/</id>
     <published>2022-06-30T11:08:30.000Z</published>
     <updated>2022-08-08T02:52:51.159Z</updated>
     
@@ -186,7 +194,8 @@
       
         
         
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very
+first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
         
       
     
@@ -197,22 +206,26 @@
   
   <entry>
     <title>Solidworks笔记</title>
-    <link href="http://example.com/2021/10/30/Solidworks/"/>
-    <id>http://example.com/2021/10/30/Solidworks/</id>
+    <link href="http://stepheric.github.io/2021/10/30/Solidworks/"/>
+    <id>http://stepheric.github.io/2021/10/30/Solidworks/</id>
     <published>2021-10-30T11:08:31.000Z</published>
     <updated>2022-08-08T06:50:41.723Z</updated>
     
     
-    <summary type="html">&lt;h1 id=&quot;Solidworks笔记&quot;&gt;&lt;a href=&quot;#Solidworks笔记&quot; class=&quot;headerlink&quot; title=&quot;Solidworks笔记&quot;&gt;&lt;/a&gt;Solidworks笔记&lt;/h1&gt;&lt;blockquote&gt;&lt;h2 id=&quot;期中考试&quot;&gt;&lt;a href=&quot;#期中考试&quot; class=&quot;headerlink&quot; title=&quot;期中考试&quot;&gt;&lt;/a&gt;期中考试&lt;/h2&gt;&lt;p&gt;三个满分 平均分84&lt;/p&gt;
+    <summary type="html">&lt;h1 id=&quot;solidworks笔记&quot;&gt;Solidworks笔记&lt;/h1&gt;
+&lt;blockquote&gt;&lt;h2 id=&quot;期中考试&quot;&gt;期中考试&lt;/h2&gt;
+&lt;p&gt;三个满分 平均分84&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;h2 id=&quot;Solidworks概述&quot;&gt;&lt;a href=&quot;#Solidworks概述&quot; class=&quot;headerlink&quot; title=&quot;Solidworks概述&quot;&gt;&lt;/a&gt;Solidworks概述&lt;/h2&gt;&lt;p&gt;三维建模，设计颜色，赋予材质进行分析，运动仿真（校验设置功能完整性、动力仿真）&lt;br&gt;模块化功能&lt;/p&gt;</summary>
+&lt;h2 id=&quot;solidworks概述&quot;&gt;Solidworks概述&lt;/h2&gt;
+&lt;p&gt;三维建模，设计颜色，赋予材质进行分析，运动仿真（校验设置功能完整性、动力仿真）
+模块化功能&lt;/p&gt;</summary>
     
     
     
-    <category term="Solidworks" scheme="http://example.com/categories/Solidworks/"/>
+    <category term="Solidworks" scheme="http://stepheric.github.io/categories/Solidworks/"/>
     
     
-    <category term="Solidworks" scheme="http://example.com/tags/Solidworks/"/>
+    <category term="Solidworks" scheme="http://stepheric.github.io/tags/Solidworks/"/>
     
   </entry>
   

@@ -27,12 +27,12 @@
   daovoice('update');
   </script>
 
-<script class="next-config" data-name="main" type="application/json">{"hostname":"example.com","root":"/","images":"/images","scheme":"Pisces","darkmode":false,"version":"8.13.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":true,"style":"mac"},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":"livere","storage":true,"lazyload":false,"nav":null,"activeClass":"livere"},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":5,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
+<script class="next-config" data-name="main" type="application/json">{"hostname":"stepheric.github.io","root":"/","images":"/images","scheme":"Pisces","darkmode":false,"version":"8.13.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":true,"style":"mac"},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":"livere","storage":true,"lazyload":false,"nav":null,"activeClass":"livere"},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":5,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
 
     <meta name="description" content="本篇不断汇总介绍Python中常见的文件操作">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Python文件操作">
-<meta property="og:url" content="http://example.com/2022/08/08/Python%E6%96%87%E4%BB%B6%E6%93%8D%E4%BD%9C/index.html">
+<meta property="og:url" content="http://stepheric.github.io/2022/08/08/Python%E6%96%87%E4%BB%B6%E6%93%8D%E4%BD%9C/index.html">
 <meta property="og:site_name" content="StephEric">
 <meta property="og:description" content="本篇不断汇总介绍Python中常见的文件操作">
 <meta property="og:locale" content="zh_CN">
@@ -43,11 +43,11 @@
 <meta name="twitter:card" content="summary">
 
 
-<link rel="canonical" href="http://example.com/2022/08/08/Python%E6%96%87%E4%BB%B6%E6%93%8D%E4%BD%9C/">
+<link rel="canonical" href="http://stepheric.github.io/2022/08/08/Python%E6%96%87%E4%BB%B6%E6%93%8D%E4%BD%9C/">
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"http://example.com/2022/08/08/Python%E6%96%87%E4%BB%B6%E6%93%8D%E4%BD%9C/","path":"2022/08/08/Python文件操作/","title":"Python文件操作"}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"http://stepheric.github.io/2022/08/08/Python%E6%96%87%E4%BB%B6%E6%93%8D%E4%BD%9C/","path":"2022/08/08/Python文件操作/","title":"Python文件操作"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
 <title>Python文件操作 | StephEric</title>
@@ -199,7 +199,7 @@
     </div>
     <ul class="links-of-blogroll-list">
         <li class="links-of-blogroll-item">
-          <a href="https://stepheric.github.io/" title="https:&#x2F;&#x2F;stepheric.github.io" rel="noopener" target="_blank">Title</a>
+          <a href="https://stepheric.github.io/" title="https:&#x2F;&#x2F;stepheric.github.io">Title</a>
         </li>
     </ul>
   </div>
@@ -237,7 +237,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2022/08/08/Python%E6%96%87%E4%BB%B6%E6%93%8D%E4%BD%9C/">
+    <link itemprop="mainEntityOfPage" href="http://stepheric.github.io/2022/08/08/Python%E6%96%87%E4%BB%B6%E6%93%8D%E4%BD%9C/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.jpg">
@@ -319,34 +319,43 @@
     <div class="post-body" itemprop="articleBody">
         <p>本篇不断汇总介绍Python中常见的文件操作</p>
 <span id="more"></span>
-<h2 id="文件读入"><a href="#文件读入" class="headerlink" title="文件读入"></a>文件读入</h2><p>open()参考 <a target="_blank" rel="noopener" href="https://www.runoob.com/python/python-func-open.html">Python open()</a></p>
-<h3 id="读入模式"><a href="#读入模式" class="headerlink" title="读入模式"></a>读入模式</h3><div class="table-container">
+<h2 id="文件读入">文件读入</h2>
+<p>open()参考 <a
+target="_blank" rel="noopener" href="https://www.runoob.com/python/python-func-open.html">Python
+open()</a></p>
+<h3 id="读入模式">读入模式</h3>
 <table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
 <thead>
-<tr>
+<tr class="header">
 <th>命令 command</th>
 <th>含义 meaning</th>
 </tr>
 </thead>
 <tbody>
-<tr>
-<td>“r”</td>
+<tr class="odd">
+<td>"r"</td>
 <td>以只读方式打开文件。文件的指针将会放在文件的开头。这是默认模式。</td>
 </tr>
-<tr>
-<td>“w”</td>
+<tr class="even">
+<td>"w"</td>
 <td>打开一个文件只用于写入。如果该文件已存在则打开文件，并从开头开始编辑，即原有内容会被删除。如果该文件不存在，创建新文件。</td>
 </tr>
-<tr>
+<tr class="odd">
 <td>r+</td>
 <td>打开一个文件用于读写。文件指针将会放在文件的开头。</td>
 </tr>
 </tbody>
 </table>
-</div>
-<h3 id="空文件处理"><a href="#空文件处理" class="headerlink" title="空文件处理"></a>空文件处理</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">try</span>:</span><br><span class="line">    <span class="comment"># &quot;r&quot; 代表只读</span></span><br><span class="line">    <span class="comment"># encoding 设置文件编码</span></span><br><span class="line">    file = <span class="built_in">open</span>(input_file_path, <span class="string">&quot;r&quot;</span>, encoding=<span class="string">&#x27;utf-8&#x27;</span>)</span><br><span class="line"><span class="keyword">except</span> FileNotFoundError:</span><br><span class="line">    <span class="string">&#x27;&#x27;&#x27;do your work&#x27;&#x27;&#x27;</span></span><br><span class="line">    <span class="keyword">pass</span></span><br></pre></td></tr></table></figure>
-<h3 id="读入第一行"><a href="#读入第一行" class="headerlink" title="读入第一行"></a>读入第一行</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">file.readline()</span><br></pre></td></tr></table></figure>
-<h3 id="读入后按逗号分割"><a href="#读入后按逗号分割" class="headerlink" title="读入后按逗号分割"></a>读入后按逗号分割</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">for</span> line <span class="keyword">in</span> file:</span><br><span class="line">    value = line.strip(<span class="string">&#x27;\n&#x27;</span>).split(<span class="string">&#x27;,&#x27;</span>)</span><br></pre></td></tr></table></figure>
+<h3 id="空文件处理">空文件处理</h3>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">try</span>:</span><br><span class="line">    <span class="comment"># &quot;r&quot; 代表只读</span></span><br><span class="line">    <span class="comment"># encoding 设置文件编码</span></span><br><span class="line">    file = <span class="built_in">open</span>(input_file_path, <span class="string">&quot;r&quot;</span>, encoding=<span class="string">&#x27;utf-8&#x27;</span>)</span><br><span class="line"><span class="keyword">except</span> FileNotFoundError:</span><br><span class="line">    <span class="string">&#x27;&#x27;&#x27;do your work&#x27;&#x27;&#x27;</span></span><br><span class="line">    <span class="keyword">pass</span></span><br></pre></td></tr></table></figure>
+<h3 id="读入第一行">读入第一行</h3>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">file.readline()</span><br></pre></td></tr></table></figure>
+<h3 id="读入后按逗号分割">读入后按逗号分割</h3>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">for</span> line <span class="keyword">in</span> file:</span><br><span class="line">    value = line.strip(<span class="string">&#x27;\n&#x27;</span>).split(<span class="string">&#x27;,&#x27;</span>)</span><br></pre></td></tr></table></figure>
 
     </div>
 
@@ -387,7 +396,7 @@
   </li>
   <li class="post-copyright-link">
       <strong>本文链接：</strong>
-      <a href="http://example.com/2022/08/08/Python%E6%96%87%E4%BB%B6%E6%93%8D%E4%BD%9C/" title="Python文件操作">http://example.com/2022/08/08/Python文件操作/</a>
+      <a href="http://stepheric.github.io/2022/08/08/Python%E6%96%87%E4%BB%B6%E6%93%8D%E4%BD%9C/" title="Python文件操作">http://stepheric.github.io/2022/08/08/Python文件操作/</a>
   </li>
   <li class="post-copyright-license">
     <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
@@ -461,14 +470,14 @@
       <i class="fa fa-chart-line"></i>
     </span>
       <span>站点总字数：</span>
-    <span title="站点总字数">7k</span>
+    <span title="站点总字数">9k</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
       <span>站点阅读时长 &asymp;</span>
-    <span title="站点阅读时长">7 分钟</span>
+    <span title="站点阅读时长">8 分钟</span>
   </span>
 </div>
 <div class="busuanzi-count">
