@@ -47,7 +47,7 @@
     <updated>2022-08-23T05:14:39.178Z</updated>
     
     
-    <summary type="html">&lt;h1 id=&quot;使用入门&quot;&gt;使用入门&lt;/h1&gt;</summary>
+    <summary type="html">&lt;h1 id=&quot;使用入门&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#使用入门&quot;&gt;&lt;/a&gt; 使用入门&lt;/h1&gt;</summary>
     
     
     
@@ -93,7 +93,7 @@
       
         
         
-    <summary type="html">&lt;h1</summary>
+    <summary type="html">&lt;h1 id=&quot;qt界面部件与设置&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#qt界面部件与设置&quot;&gt;&lt;/a&gt;</summary>
         
       
     
@@ -114,7 +114,7 @@
     <updated>2022-08-08T07:32:56.023Z</updated>
     
     
-    <summary type="html">&lt;h1 id=&quot;next主题常用页面模块&quot;&gt;NexT主题常用页面模块&lt;/h1&gt;
+    <summary type="html">&lt;h1 id=&quot;next主题常用页面模块&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#next主题常用页面模块&quot;&gt;&lt;/a&gt; NexT主题常用页面模块&lt;/h1&gt;
 &lt;p&gt;下面介绍一些主题常用post内部的页面模块，可直接参照使用&lt;/p&gt;</summary>
     
     
@@ -136,11 +136,9 @@
     <updated>2022-08-08T06:49:27.969Z</updated>
     
     
-    <summary type="html">&lt;h1
-id=&quot;使用conda进行环境管理和包管理&quot;&gt;&lt;strong&gt;使用conda进行环境管理和包管理&lt;/strong&gt;&lt;/h1&gt;
+    <summary type="html">&lt;h1 id=&quot;使用conda进行环境管理和包管理&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#使用conda进行环境管理和包管理&quot;&gt;&lt;/a&gt; &lt;strong&gt;使用conda进行环境管理和包管理&lt;/strong&gt;&lt;/h1&gt;
 &lt;p&gt;conda是anaconda中的环境管理器和包管理器。&lt;/p&gt;
-&lt;p&gt;对于conda的操作都发生在命令行内，我们可以打开Anaconda
-Prompt进行操作。&lt;/p&gt;</summary>
+&lt;p&gt;对于conda的操作都发生在命令行内，我们可以打开Anaconda Prompt进行操作。&lt;/p&gt;</summary>
     
     
     
@@ -163,11 +161,9 @@ Prompt进行操作。&lt;/p&gt;</summary>
     <updated>2022-08-08T06:44:56.858Z</updated>
     
     
-    <summary type="html">&lt;h1 id=&quot;github使用&quot;&gt;Github使用&lt;/h1&gt;
-&lt;h2 id=&quot;生成ssh-key&quot;&gt;生成SSH key&lt;/h2&gt;
-&lt;p&gt;SSh（安全外壳协议）GitHub 上，一般都是通过 SSH 来授权的，而且大多数
-Git 服务器也会选择使用 SSH 公钥来进行授权，所以想要向 GitHub
-提交代码，首先就得在 GitHub 上添加 SSH key配置。&lt;/p&gt;</summary>
+    <summary type="html">&lt;h1 id=&quot;github使用&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#github使用&quot;&gt;&lt;/a&gt; Github使用&lt;/h1&gt;
+&lt;h2 id=&quot;生成ssh-key&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#生成ssh-key&quot;&gt;&lt;/a&gt; 生成SSH key&lt;/h2&gt;
+&lt;p&gt;SSh（安全外壳协议）GitHub 上，一般都是通过 SSH 来授权的，而且大多数 Git 服务器也会选择使用 SSH 公钥来进行授权，所以想要向 GitHub 提交代码，首先就得在 GitHub 上添加 SSH key配置。&lt;/p&gt;</summary>
     
     
     
@@ -194,8 +190,7 @@ Git 服务器也会选择使用 SSH 公钥来进行授权，所以想要向 GitH
       
         
         
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very
-first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
         
       
     
@@ -212,12 +207,12 @@ first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&
     <updated>2022-08-08T06:50:41.723Z</updated>
     
     
-    <summary type="html">&lt;h1 id=&quot;solidworks笔记&quot;&gt;Solidworks笔记&lt;/h1&gt;
-&lt;blockquote&gt;&lt;h2 id=&quot;期中考试&quot;&gt;期中考试&lt;/h2&gt;
+    <summary type="html">&lt;h1 id=&quot;solidworks笔记&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#solidworks笔记&quot;&gt;&lt;/a&gt; Solidworks笔记&lt;/h1&gt;
+&lt;blockquote&gt;&lt;h2 id=&quot;期中考试&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#期中考试&quot;&gt;&lt;/a&gt; 期中考试&lt;/h2&gt;
 &lt;p&gt;三个满分 平均分84&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;h2 id=&quot;solidworks概述&quot;&gt;Solidworks概述&lt;/h2&gt;
-&lt;p&gt;三维建模，设计颜色，赋予材质进行分析，运动仿真（校验设置功能完整性、动力仿真）
+&lt;h2 id=&quot;solidworks概述&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#solidworks概述&quot;&gt;&lt;/a&gt; Solidworks概述&lt;/h2&gt;
+&lt;p&gt;三维建模，设计颜色，赋予材质进行分析，运动仿真（校验设置功能完整性、动力仿真）&lt;br /&gt;
 模块化功能&lt;/p&gt;</summary>
     
     
