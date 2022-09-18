@@ -1,6 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>NexT主题post格式模板</title>
+    <url>/2022/07/11/Next%E4%B8%BB%E9%A2%98post%E6%A0%BC%E5%BC%8F%E6%A8%A1%E6%9D%BF/</url>
+    <content><![CDATA[<h1 id="next主题常用页面模块"><a class="markdownIt-Anchor" href="#next主题常用页面模块"></a> NexT主题常用页面模块</h1>
+<p>下面介绍一些主题常用post内部的页面模块，可直接参照使用</p>
+<span id="more"></span>
+<h2 id="center-quote-居中引用"><a class="markdownIt-Anchor" href="#center-quote-居中引用"></a> Center Quote 居中引用</h2>
+<p>建议在单行文字时使用</p>
+<h3 id="example"><a class="markdownIt-Anchor" href="#example"></a> Example</h3>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">&#123;% cq %&#125;代码优雅，核心简单&#123;% endcq %&#125;</span><br></pre></td></tr></table></figure>
+<blockquote class="blockquote-center">
+            <i class="fa fa-quote-left"></i>
+            <p>代码优雅，核心简单</p>
+
+            <i class="fa fa-quote-right"></i>
+          </blockquote>
+<h2 id="note-bootstrap-callout"><a class="markdownIt-Anchor" href="#note-bootstrap-callout"></a> Note( Bootstrap Callout )</h2>
+<h3 id="设置"><a class="markdownIt-Anchor" href="#设置"></a> 设置</h3>
+<h3 id="使用-usage"><a class="markdownIt-Anchor" href="#使用-usage"></a> 使用 Usage</h3>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">```</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% codeblock 创建note lang:html [additional options] %&#125;</span><br><span class="line">&#123;% note [class] [no-icon] [summary] %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% note info no-icon This is a summary %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">## 代码块 Code Block</span><br><span class="line"></span><br><span class="line">```html</span><br><span class="line">&#123;% codeblock [title] [lang:language] [url] [link text] [additional options] %&#125;</span><br><span class="line">code snippet</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br></pre></td></tr></table></figure>
+<h3 id=""><a class="markdownIt-Anchor" href="#"></a> </h3>
+]]></content>
+      <categories>
+        <category>Hexo</category>
+        <category>NexT</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Python文件操作</title>
     <url>/2022/08/08/Python%E6%96%87%E4%BB%B6%E6%93%8D%E4%BD%9C/</url>
     <content><![CDATA[<p>本篇不断汇总介绍Python中常见的文件操作</p>
@@ -45,6 +75,18 @@
       </tags>
   </entry>
   <entry>
+    <title>QT界面部件与设置</title>
+    <url>/2022/07/19/QT%E7%95%8C%E9%9D%A2%E9%83%A8%E4%BB%B6%E4%B8%8E%E8%AE%BE%E7%BD%AE/</url>
+    <content><![CDATA[<h1 id="qt界面部件与设置"><a class="markdownIt-Anchor" href="#qt界面部件与设置"></a> QT界面部件与设置</h1>
+]]></content>
+      <categories>
+        <category>QT</category>
+      </categories>
+      <tags>
+        <tag>QT</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Solidworks笔记</title>
     <url>/2021/10/30/Solidworks/</url>
     <content><![CDATA[<h1 id="solidworks笔记"><a class="markdownIt-Anchor" href="#solidworks笔记"></a> Solidworks笔记</h1>
@@ -81,36 +123,6 @@
       </categories>
       <tags>
         <tag>Solidworks</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>NexT主题post格式模板</title>
-    <url>/2022/07/11/Next%E4%B8%BB%E9%A2%98post%E6%A0%BC%E5%BC%8F%E6%A8%A1%E6%9D%BF/</url>
-    <content><![CDATA[<h1 id="next主题常用页面模块"><a class="markdownIt-Anchor" href="#next主题常用页面模块"></a> NexT主题常用页面模块</h1>
-<p>下面介绍一些主题常用post内部的页面模块，可直接参照使用</p>
-<span id="more"></span>
-<h2 id="center-quote-居中引用"><a class="markdownIt-Anchor" href="#center-quote-居中引用"></a> Center Quote 居中引用</h2>
-<p>建议在单行文字时使用</p>
-<h3 id="example"><a class="markdownIt-Anchor" href="#example"></a> Example</h3>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">&#123;% cq %&#125;代码优雅，核心简单&#123;% endcq %&#125;</span><br></pre></td></tr></table></figure>
-<blockquote class="blockquote-center">
-            <i class="fa fa-quote-left"></i>
-            <p>代码优雅，核心简单</p>
-
-            <i class="fa fa-quote-right"></i>
-          </blockquote>
-<h2 id="note-bootstrap-callout"><a class="markdownIt-Anchor" href="#note-bootstrap-callout"></a> Note( Bootstrap Callout )</h2>
-<h3 id="设置"><a class="markdownIt-Anchor" href="#设置"></a> 设置</h3>
-<h3 id="使用-usage"><a class="markdownIt-Anchor" href="#使用-usage"></a> 使用 Usage</h3>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">```</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% codeblock 创建note lang:html [additional options] %&#125;</span><br><span class="line">&#123;% note [class] [no-icon] [summary] %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% note info no-icon This is a summary %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">## 代码块 Code Block</span><br><span class="line"></span><br><span class="line">```html</span><br><span class="line">&#123;% codeblock [title] [lang:language] [url] [link text] [additional options] %&#125;</span><br><span class="line">code snippet</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br></pre></td></tr></table></figure>
-<h3 id=""><a class="markdownIt-Anchor" href="#"></a> </h3>
-]]></content>
-      <categories>
-        <category>Hexo</category>
-        <category>NexT</category>
-      </categories>
-      <tags>
-        <tag>Hexo</tag>
       </tags>
   </entry>
   <entry>
@@ -188,107 +200,6 @@
       <tags>
         <tag>Python</tag>
         <tag>Anaconda</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>QT界面部件与设置</title>
-    <url>/2022/07/19/QT%E7%95%8C%E9%9D%A2%E9%83%A8%E4%BB%B6%E4%B8%8E%E8%AE%BE%E7%BD%AE/</url>
-    <content><![CDATA[<h1 id="qt界面部件与设置"><a class="markdownIt-Anchor" href="#qt界面部件与设置"></a> QT界面部件与设置</h1>
-]]></content>
-      <categories>
-        <category>QT</category>
-      </categories>
-      <tags>
-        <tag>QT</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Github使用</title>
-    <url>/2022/06/30/Git/Github%20Guide/</url>
-    <content><![CDATA[<h1 id="github使用"><a class="markdownIt-Anchor" href="#github使用"></a> Github使用</h1>
-<h2 id="生成ssh-key"><a class="markdownIt-Anchor" href="#生成ssh-key"></a> 生成SSH key</h2>
-<p>SSh（安全外壳协议）GitHub 上，一般都是通过 SSH 来授权的，而且大多数 Git 服务器也会选择使用 SSH 公钥来进行授权，所以想要向 GitHub 提交代码，首先就得在 GitHub 上添加 SSH key配置。</p>
-<span id="more"></span>
-<figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line">ssh-keygen -t rsa -C &quot;xxx@xxx.com&quot;</span><br><span class="line">//执行后一直回车</span><br><span class="line"><span class="built_in">cd</span> ~/.ssh</span><br><span class="line">cat id_rsa.pub</span><br></pre></td></tr></table></figure>
-<p>生成公钥和私钥，无需账号和密码即可clone和push代码</p>
-<div class="note info">
-            <h4 id="info-header"><a class="markdownIt-Anchor" href="#info-header"></a> Info Header</h4><p><strong>Welcome</strong> to <a href="https://hexo.io">Hexo!</a></p>
-          </div>
-<h2 id="操作git"><a class="markdownIt-Anchor" href="#操作git"></a> 操作git</h2>
-<h3 id="git-help"><a class="markdownIt-Anchor" href="#git-help"></a> <code>git --help</code></h3>
-<p>得到git-doc文件</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git --<span class="built_in">help</span> &lt;<span class="built_in">command</span>&gt;</span><br></pre></td></tr></table></figure>
-<h3 id="git-init"><a class="markdownIt-Anchor" href="#git-init"></a> <code>git init</code></h3>
-<p>初始一个Git仓库</p>
-<p>先创建好仓库目录，并保存好文件</p>
-<p><strong>在我们进行任何的git操作之前，我们都得先切换到 Git 的仓库目录。</strong></p>
-<p>我们得先进入到（我们定义的）Git 仓库的最顶层文件目录下，然后从此目录中进入 Git Bash，这样之后的操作才能顺利进行</p>
-<h3 id="git-status"><a class="markdownIt-Anchor" href="#git-status"></a> <code>git status</code></h3>
-<p>查看仓库状态，若未创建，则返回<code>not a git repository</code></p>
-<h3 id="git-init-2"><a class="markdownIt-Anchor" href="#git-init-2"></a> <code>git init</code></h3>
-<p>在命令行窗口的光标处，输入<code>git init</code>命令，初始化 Git 仓库：</p>
-<p>初始化之后仓库变成Git仓库</p>
-<h3 id="git-add"><a class="markdownIt-Anchor" href="#git-add"></a> <code>git add</code></h3>
-<p>将已有的文件添加到Git仓库，<code>git add xxx.xxx</code></p>
-<p>已经显示<code>Initial commit</code>初始化提交了，同时已经没有<code>Untracked files</code>提示了，这说明文件<code>hit.txt</code>已经被添加到 Git 仓库</p>
-<p>在这里，需要声明一点，那就是：<em><strong><code>git add</code>命令并没有把文件提交到 Git 仓库，而是把文件添加到了「临时缓冲区」，这个命令有效防止了我们错误提交的可能性。</strong></em></p>
-<h3 id="git-commit"><a class="markdownIt-Anchor" href="#git-commit"></a> <code>git commit</code></h3>
-<p>在命令行窗口的光标处，输入<code>git commit -m &quot;text commit&quot;</code>命令，将<code>hit.txt</code>文件提交到 Git 仓库：</p>
-<p>其中<code>commit</code>表示提交，<code>-m</code>表示提交信息，提交信息写在双引号&quot;&quot;内。接下来，再输入<code>git status</code>命令查看仓库状态</p>
-<p>结果显示<code>nothing to commit, working tree clean</code>，这表示已经没有内容可以提交了，即全部内容已经提交完毕。</p>
-<h3 id="git-log"><a class="markdownIt-Anchor" href="#git-log"></a> <code>git log</code></h3>
-<p>在命令行窗口的光标处，输入<code>git log</code>命令，打印 Git 仓库提交日志：</p>
-<h3 id="git-branch"><a class="markdownIt-Anchor" href="#git-branch"></a> <code>git branch</code></h3>
-<p>在命令行窗口的光标处，输入<code>git branch</code>命令，查看 Git 仓库的分支情况：</p>
-<p>如上图所示，显示了仓库demo中的分支情况，现在仅有一个<code>master</code>分支，其中<code>master</code>分支前的*号表示“当前所在的分支”，例如* master就意味着我们所在的位置为demo仓库的主分支。输入命令<code>git branch a</code>，再输入命令<code>git branch</code>，结果如下图所示：</p>
-<h3 id="git-checkout"><a class="markdownIt-Anchor" href="#git-checkout"></a> <code>git checkout</code></h3>
-<p>在命令行窗口的光标处，输入<code>git checkout a</code>命令，切换到<code>a</code>分支：</p>
-<p>在这里，我们还有一个更简单的方法来查看当前的分支，即通过观察上图中用红色框圈起来的部分。此外，我们也可以在创建分支的同时，直接切换到新分支，命令为<code>git checkout -b</code>，例如输入<code>git checkout -b b</code>命令：</p>
-<h3 id="git-merge"><a class="markdownIt-Anchor" href="#git-merge"></a> <code>git merge</code></h3>
-<p>切换到<code>master</code>分支，然后输入<code>git merge a</code>命令，将<code>a</code>分支合并到<code>master</code>分支：</p>
-<p>此外，在这里需要注意一点，那就是：<strong>在合并分支的时候，要考虑到两个分支是否有冲突，如果有冲突，则不能直接合并，需要先解决冲突；反之，则可以直接合并。</strong></p>
-<h3 id="git-branch-d-git-branch-d"><a class="markdownIt-Anchor" href="#git-branch-d-git-branch-d"></a> <code>git branch -d &amp; git branch -D</code></h3>
-<p>在命令行窗口的光标处，输入<code>git branch -d a</code>命令，删除<code>a</code>分支：</p>
-<p>不过有的时候，<em>通过git branch -d命令可以出现删除不了现象，例如分支a的代码没有合并到主分支等，这时如果我们一定要删除该分支，那么我们可以通过命令git branch -D进行强制删除。</em></p>
-<h3 id="git-tag"><a class="markdownIt-Anchor" href="#git-tag"></a> <code>git tag</code></h3>
-<p>在命令行窗口的光标处，输入<code>git tag v1.0</code>命令，为当前分支添加标签：</p>
-<p>如上图所示，我们为当前所在的a分支添加了一个v1.0标签。通过命令<code>git tag</code>即可查看标签记录：</p>
-<p>如上图所示，我们为当前所在的a分支添加了一个v1.0标签。通过命令<code>git tag</code>即可查看标签记录：</p>
-<p>如上图所示，显示了我们添加标签的记录。通过命令<code>git checkout v1.0</code>即可切换到该标签下的代码状态：</p>
-<h3 id="git-remote"><a class="markdownIt-Anchor" href="#git-remote"></a> <code>git remote</code></h3>
-<p>返回当前remote仓库名</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git remote add [-t &lt;branch&gt;] [-m &lt;master&gt;] [-f] [--[no-]tags] [--mirror=(fetch|push)] &lt;name&gt; &lt;url&gt;</span><br></pre></td></tr></table></figure>
-<h3 id="git-push"><a class="markdownIt-Anchor" href="#git-push"></a> <code>git push</code></h3>
-<p>specify the URL from the command-line or configure a remote repository using</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git remote add &lt;name&gt; &lt;url&gt;</span><br></pre></td></tr></table></figure>
-<p>然后向远端push</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git push &lt;name of repo&gt; main(&lt;branch of remote repo&gt;)</span><br></pre></td></tr></table></figure>
-<h3 id="git-pull"><a class="markdownIt-Anchor" href="#git-pull"></a> <code>git pull</code></h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git pull </span><br></pre></td></tr></table></figure>
-<h2 id="绑定git与github"><a class="markdownIt-Anchor" href="#绑定git与github"></a> 绑定Git与Github</h2>
-<h2 id="git报错处理"><a class="markdownIt-Anchor" href="#git报错处理"></a> Git报错处理</h2>
-<h3 id="failed-to-push-some-refs"><a class="markdownIt-Anchor" href="#failed-to-push-some-refs"></a> <code>failed to push some refs</code></h3>
-<p>原因：远程库与本地库不一致，将远程库同步到本地库</p>
-<p>解决办法：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git pull --rebase &lt;name of repo&gt; main</span><br></pre></td></tr></table></figure>
-<p>该命令的意思是把远程库中的更新合并到（pull=fetch+merge）本地库中，–-<a href="https://so.csdn.net/so/search?q=rebase&amp;spm=1001.2101.3001.7020">rebase</a>的作用是取消掉本地库中刚刚的commit，并把他们接到更新后的版本库之中。</p>
-<h3 id="unable-to-access-failed-to-connect"><a class="markdownIt-Anchor" href="#unable-to-access-failed-to-connect"></a> <code>unable to access Failed to connect</code></h3>
-<p>有可能你的gitbub之前设置过代理，只需分别执行如下代码即可：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git config --global --<span class="built_in">unset</span> http.proxy</span><br><span class="line">git config --global --<span class="built_in">unset</span> https.proxy</span><br></pre></td></tr></table></figure>
-<p>若还没有解决，可以尝试如下解决方式</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git config --global url.git://github.com/.insteadOf https://github.com/</span><br></pre></td></tr></table></figure>
-<h3 id="openssl-ssl_read-connection-was-reset"><a class="markdownIt-Anchor" href="#openssl-ssl_read-connection-was-reset"></a> <code>OpenSSL SSL_read: Connection was reset</code></h3>
-<p>产生原因：一般是这是因为服务器的SSL证书没有经过第三方机构的签署，所以才报错</p>
-<p>解决方法：解除ssl验证后，再次git即可</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git config --global http.sslVerify <span class="string">&quot;false&quot;</span></span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>Git</category>
-        <category>Github</category>
-      </categories>
-      <tags>
-        <tag>Git</tag>
-        <tag>Github</tag>
       </tags>
   </entry>
   <entry>
@@ -382,6 +293,95 @@
       <tags>
         <tag>DS</tag>
         <tag>Algorithm</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Github使用</title>
+    <url>/2022/06/30/Git/Github%20Guide/</url>
+    <content><![CDATA[<h1 id="github使用"><a class="markdownIt-Anchor" href="#github使用"></a> Github使用</h1>
+<h2 id="生成ssh-key"><a class="markdownIt-Anchor" href="#生成ssh-key"></a> 生成SSH key</h2>
+<p>SSh（安全外壳协议）GitHub 上，一般都是通过 SSH 来授权的，而且大多数 Git 服务器也会选择使用 SSH 公钥来进行授权，所以想要向 GitHub 提交代码，首先就得在 GitHub 上添加 SSH key配置。</p>
+<span id="more"></span>
+<figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line">ssh-keygen -t rsa -C &quot;xxx@xxx.com&quot;</span><br><span class="line">//执行后一直回车</span><br><span class="line"><span class="built_in">cd</span> ~/.ssh</span><br><span class="line">cat id_rsa.pub</span><br></pre></td></tr></table></figure>
+<p>生成公钥和私钥，无需账号和密码即可clone和push代码</p>
+<div class="note info">
+            <h4 id="info-header"><a class="markdownIt-Anchor" href="#info-header"></a> Info Header</h4><p><strong>Welcome</strong> to <a href="https://hexo.io">Hexo!</a></p>
+          </div>
+<h2 id="操作git"><a class="markdownIt-Anchor" href="#操作git"></a> 操作git</h2>
+<h3 id="git-help"><a class="markdownIt-Anchor" href="#git-help"></a> <code>git --help</code></h3>
+<p>得到git-doc文件</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git --<span class="built_in">help</span> &lt;<span class="built_in">command</span>&gt;</span><br></pre></td></tr></table></figure>
+<h3 id="git-init"><a class="markdownIt-Anchor" href="#git-init"></a> <code>git init</code></h3>
+<p>初始一个Git仓库</p>
+<p>先创建好仓库目录，并保存好文件</p>
+<p><strong>在我们进行任何的git操作之前，我们都得先切换到 Git 的仓库目录。</strong></p>
+<p>我们得先进入到（我们定义的）Git 仓库的最顶层文件目录下，然后从此目录中进入 Git Bash，这样之后的操作才能顺利进行</p>
+<h3 id="git-status"><a class="markdownIt-Anchor" href="#git-status"></a> <code>git status</code></h3>
+<p>查看仓库状态，若未创建，则返回<code>not a git repository</code></p>
+<h3 id="git-init-2"><a class="markdownIt-Anchor" href="#git-init-2"></a> <code>git init</code></h3>
+<p>在命令行窗口的光标处，输入<code>git init</code>命令，初始化 Git 仓库：</p>
+<p>初始化之后仓库变成Git仓库</p>
+<h3 id="git-add"><a class="markdownIt-Anchor" href="#git-add"></a> <code>git add</code></h3>
+<p>将已有的文件添加到Git仓库，<code>git add xxx.xxx</code></p>
+<p>已经显示<code>Initial commit</code>初始化提交了，同时已经没有<code>Untracked files</code>提示了，这说明文件<code>hit.txt</code>已经被添加到 Git 仓库</p>
+<p>在这里，需要声明一点，那就是：<em><strong><code>git add</code>命令并没有把文件提交到 Git 仓库，而是把文件添加到了「临时缓冲区」，这个命令有效防止了我们错误提交的可能性。</strong></em></p>
+<h3 id="git-commit"><a class="markdownIt-Anchor" href="#git-commit"></a> <code>git commit</code></h3>
+<p>在命令行窗口的光标处，输入<code>git commit -m &quot;text commit&quot;</code>命令，将<code>hit.txt</code>文件提交到 Git 仓库：</p>
+<p>其中<code>commit</code>表示提交，<code>-m</code>表示提交信息，提交信息写在双引号&quot;&quot;内。接下来，再输入<code>git status</code>命令查看仓库状态</p>
+<p>结果显示<code>nothing to commit, working tree clean</code>，这表示已经没有内容可以提交了，即全部内容已经提交完毕。</p>
+<h3 id="git-log"><a class="markdownIt-Anchor" href="#git-log"></a> <code>git log</code></h3>
+<p>在命令行窗口的光标处，输入<code>git log</code>命令，打印 Git 仓库提交日志：</p>
+<h3 id="git-branch"><a class="markdownIt-Anchor" href="#git-branch"></a> <code>git branch</code></h3>
+<p>在命令行窗口的光标处，输入<code>git branch</code>命令，查看 Git 仓库的分支情况：</p>
+<p>如上图所示，显示了仓库demo中的分支情况，现在仅有一个<code>master</code>分支，其中<code>master</code>分支前的*号表示“当前所在的分支”，例如* master就意味着我们所在的位置为demo仓库的主分支。输入命令<code>git branch a</code>，再输入命令<code>git branch</code>，结果如下图所示：</p>
+<h3 id="git-checkout"><a class="markdownIt-Anchor" href="#git-checkout"></a> <code>git checkout</code></h3>
+<p>在命令行窗口的光标处，输入<code>git checkout a</code>命令，切换到<code>a</code>分支：</p>
+<p>在这里，我们还有一个更简单的方法来查看当前的分支，即通过观察上图中用红色框圈起来的部分。此外，我们也可以在创建分支的同时，直接切换到新分支，命令为<code>git checkout -b</code>，例如输入<code>git checkout -b b</code>命令：</p>
+<h3 id="git-merge"><a class="markdownIt-Anchor" href="#git-merge"></a> <code>git merge</code></h3>
+<p>切换到<code>master</code>分支，然后输入<code>git merge a</code>命令，将<code>a</code>分支合并到<code>master</code>分支：</p>
+<p>此外，在这里需要注意一点，那就是：<strong>在合并分支的时候，要考虑到两个分支是否有冲突，如果有冲突，则不能直接合并，需要先解决冲突；反之，则可以直接合并。</strong></p>
+<h3 id="git-branch-d-git-branch-d"><a class="markdownIt-Anchor" href="#git-branch-d-git-branch-d"></a> <code>git branch -d &amp; git branch -D</code></h3>
+<p>在命令行窗口的光标处，输入<code>git branch -d a</code>命令，删除<code>a</code>分支：</p>
+<p>不过有的时候，<em>通过git branch -d命令可以出现删除不了现象，例如分支a的代码没有合并到主分支等，这时如果我们一定要删除该分支，那么我们可以通过命令git branch -D进行强制删除。</em></p>
+<h3 id="git-tag"><a class="markdownIt-Anchor" href="#git-tag"></a> <code>git tag</code></h3>
+<p>在命令行窗口的光标处，输入<code>git tag v1.0</code>命令，为当前分支添加标签：</p>
+<p>如上图所示，我们为当前所在的a分支添加了一个v1.0标签。通过命令<code>git tag</code>即可查看标签记录：</p>
+<p>如上图所示，我们为当前所在的a分支添加了一个v1.0标签。通过命令<code>git tag</code>即可查看标签记录：</p>
+<p>如上图所示，显示了我们添加标签的记录。通过命令<code>git checkout v1.0</code>即可切换到该标签下的代码状态：</p>
+<h3 id="git-remote"><a class="markdownIt-Anchor" href="#git-remote"></a> <code>git remote</code></h3>
+<p>返回当前remote仓库名</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git remote add [-t &lt;branch&gt;] [-m &lt;master&gt;] [-f] [--[no-]tags] [--mirror=(fetch|push)] &lt;name&gt; &lt;url&gt;</span><br></pre></td></tr></table></figure>
+<h3 id="git-push"><a class="markdownIt-Anchor" href="#git-push"></a> <code>git push</code></h3>
+<p>specify the URL from the command-line or configure a remote repository using</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git remote add &lt;name&gt; &lt;url&gt;</span><br></pre></td></tr></table></figure>
+<p>然后向远端push</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git push &lt;name of repo&gt; main(&lt;branch of remote repo&gt;)</span><br></pre></td></tr></table></figure>
+<h3 id="git-pull"><a class="markdownIt-Anchor" href="#git-pull"></a> <code>git pull</code></h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git pull </span><br></pre></td></tr></table></figure>
+<h2 id="绑定git与github"><a class="markdownIt-Anchor" href="#绑定git与github"></a> 绑定Git与Github</h2>
+<h2 id="git报错处理"><a class="markdownIt-Anchor" href="#git报错处理"></a> Git报错处理</h2>
+<h3 id="failed-to-push-some-refs"><a class="markdownIt-Anchor" href="#failed-to-push-some-refs"></a> <code>failed to push some refs</code></h3>
+<p>原因：远程库与本地库不一致，将远程库同步到本地库</p>
+<p>解决办法：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git pull --rebase &lt;name of repo&gt; main</span><br></pre></td></tr></table></figure>
+<p>该命令的意思是把远程库中的更新合并到（pull=fetch+merge）本地库中，–-<a href="https://so.csdn.net/so/search?q=rebase&amp;spm=1001.2101.3001.7020">rebase</a>的作用是取消掉本地库中刚刚的commit，并把他们接到更新后的版本库之中。</p>
+<h3 id="unable-to-access-failed-to-connect"><a class="markdownIt-Anchor" href="#unable-to-access-failed-to-connect"></a> <code>unable to access Failed to connect</code></h3>
+<p>有可能你的gitbub之前设置过代理，只需分别执行如下代码即可：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git config --global --<span class="built_in">unset</span> http.proxy</span><br><span class="line">git config --global --<span class="built_in">unset</span> https.proxy</span><br></pre></td></tr></table></figure>
+<p>若还没有解决，可以尝试如下解决方式</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git config --global url.git://github.com/.insteadOf https://github.com/</span><br></pre></td></tr></table></figure>
+<h3 id="openssl-ssl_read-connection-was-reset"><a class="markdownIt-Anchor" href="#openssl-ssl_read-connection-was-reset"></a> <code>OpenSSL SSL_read: Connection was reset</code></h3>
+<p>产生原因：一般是这是因为服务器的SSL证书没有经过第三方机构的签署，所以才报错</p>
+<p>解决方法：解除ssl验证后，再次git即可</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git config --global http.sslVerify <span class="string">&quot;false&quot;</span></span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>Git</category>
+        <category>Github</category>
+      </categories>
+      <tags>
+        <tag>Git</tag>
+        <tag>Github</tag>
       </tags>
   </entry>
   <entry>
