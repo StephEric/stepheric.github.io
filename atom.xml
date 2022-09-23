@@ -6,7 +6,7 @@
   <link href="http://stepheric.github.io/atom.xml" rel="self"/>
   
   <link href="http://stepheric.github.io/"/>
-  <updated>2022-09-18T13:49:08.377Z</updated>
+  <updated>2022-09-23T03:27:59.793Z</updated>
   <id>http://stepheric.github.io/</id>
   
   <author>
@@ -17,11 +17,74 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>C++运算符重载</title>
+    <link href="http://stepheric.github.io/2022/09/22/C++/C++%E8%BF%90%E7%AE%97%E7%AC%A6%E9%87%8D%E8%BD%BD/"/>
+    <id>http://stepheric.github.io/2022/09/22/C++/C++%E8%BF%90%E7%AE%97%E7%AC%A6%E9%87%8D%E8%BD%BD/</id>
+    <published>2022-09-22T11:17:31.000Z</published>
+    <updated>2022-09-23T03:27:59.793Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;https://blog.csdn.net/qq_41854911/article/details/119392824&lt;/p&gt;
+&lt;h1 id=&quot;c运算符重载基础&quot;&gt;C++运算符重载基础&lt;/h1&gt;
+&lt;p&gt;下面介绍一些主题常用post内部的页面模块，可直接参照使用&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="C/C++" scheme="http://stepheric.github.io/categories/C-C/"/>
+    
+    
+    <category term="C/C++" scheme="http://stepheric.github.io/tags/C-C/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>C++运算符重载</title>
+    <link href="http://stepheric.github.io/2022/09/22/C++/Vector%E5%AE%9E%E7%8E%B0%E5%8F%8A%E5%B8%B8%E7%94%A8%E6%8E%A5%E5%8F%A3/"/>
+    <id>http://stepheric.github.io/2022/09/22/C++/Vector%E5%AE%9E%E7%8E%B0%E5%8F%8A%E5%B8%B8%E7%94%A8%E6%8E%A5%E5%8F%A3/</id>
+    <published>2022-09-22T11:17:31.000Z</published>
+    <updated>2022-09-22T11:18:06.994Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;https://blog.csdn.net/qq_41854911/article/details/119392824&lt;/p&gt;
+&lt;h1 id=&quot;c运算符重载基础&quot;&gt;C++运算符重载基础&lt;/h1&gt;
+&lt;p&gt;下面介绍一些主题常用post内部的页面模块，可直接参照使用&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="C/C++" scheme="http://stepheric.github.io/categories/C-C/"/>
+    
+    
+    <category term="C/C++" scheme="http://stepheric.github.io/tags/C-C/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>C++运算符重载</title>
+    <link href="http://stepheric.github.io/2022/09/22/DSA/%E9%AB%98%E7%B2%BE%E5%BA%A6%E8%BF%90%E7%AE%97/"/>
+    <id>http://stepheric.github.io/2022/09/22/DSA/%E9%AB%98%E7%B2%BE%E5%BA%A6%E8%BF%90%E7%AE%97/</id>
+    <published>2022-09-22T11:17:31.000Z</published>
+    <updated>2022-09-22T11:18:06.994Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;https://blog.csdn.net/qq_41854911/article/details/119392824&lt;/p&gt;
+&lt;h1 id=&quot;c运算符重载基础&quot;&gt;C++运算符重载基础&lt;/h1&gt;
+&lt;p&gt;下面介绍一些主题常用post内部的页面模块，可直接参照使用&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="C/C++" scheme="http://stepheric.github.io/categories/C-C/"/>
+    
+    
+    <category term="C/C++" scheme="http://stepheric.github.io/tags/C-C/"/>
+    
+  </entry>
+  
+  <entry>
     <title>大 数 乘 法</title>
     <link href="http://stepheric.github.io/2022/09/18/DSA/%E5%A4%A7%E6%95%B0%E4%B9%98%E6%B3%95/"/>
     <id>http://stepheric.github.io/2022/09/18/DSA/%E5%A4%A7%E6%95%B0%E4%B9%98%E6%B3%95/</id>
     <published>2022-09-18T13:47:00.000Z</published>
-    <updated>2022-09-18T13:49:08.377Z</updated>
+    <updated>2022-09-18T14:08:25.302Z</updated>
     
     
     <summary type="html">&lt;p&gt;输入两个很大的正整数，输出它们的乘积。比如&lt;/p&gt;
@@ -32,7 +95,7 @@
     
     
     
-    <category term="Algorithms" scheme="http://stepheric.github.io/categories/Algorithms/"/>
+    <category term="Algorithm" scheme="http://stepheric.github.io/categories/Algorithm/"/>
     
     
     <category term="Algorithm" scheme="http://stepheric.github.io/tags/Algorithm/"/>
@@ -47,10 +110,10 @@
     <updated>2022-09-18T14:05:16.878Z</updated>
     
     
-    <summary type="html">&lt;h1 id=&quot;vs-code配置cc编译环境&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#vs-code配置cc编译环境&quot;&gt;&lt;/a&gt; VS Code配置C/C++编译环境&lt;/h1&gt;
-&lt;h2 id=&quot;前期准备&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#前期准备&quot;&gt;&lt;/a&gt; 前期准备&lt;/h2&gt;
+    <summary type="html">&lt;h1 id=&quot;vs-code配置cc编译环境&quot;&gt;VS Code配置C/C++编译环境&lt;/h1&gt;
+&lt;h2 id=&quot;前期准备&quot;&gt;前期准备&lt;/h2&gt;
 &lt;p&gt;安装MinGW64，把编译器所在的目录添加到环境变量&lt;code&gt;Path&lt;/code&gt;中&lt;/p&gt;
-&lt;h2 id=&quot;组织文件结构&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#组织文件结构&quot;&gt;&lt;/a&gt; 组织文件结构&lt;/h2&gt;
+&lt;h2 id=&quot;组织文件结构&quot;&gt;组织文件结构&lt;/h2&gt;
 &lt;p&gt;单文件编程，将可执行文件统一放在&lt;code&gt;bin&lt;/code&gt;文件夹下&lt;/p&gt;
 &lt;p&gt;多文件编程，不需要单独的bin目录&lt;/p&gt;</summary>
     
@@ -107,9 +170,9 @@
     <category term="Algorithm" scheme="http://stepheric.github.io/categories/Algorithm/"/>
     
     
-    <category term="Algorithm" scheme="http://stepheric.github.io/tags/Algorithm/"/>
-    
     <category term="DS" scheme="http://stepheric.github.io/tags/DS/"/>
+    
+    <category term="Algorithm" scheme="http://stepheric.github.io/tags/Algorithm/"/>
     
   </entry>
   
@@ -121,7 +184,7 @@
     <updated>2022-08-23T05:14:39.178Z</updated>
     
     
-    <summary type="html">&lt;h1 id=&quot;使用入门&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#使用入门&quot;&gt;&lt;/a&gt; 使用入门&lt;/h1&gt;</summary>
+    <summary type="html">&lt;h1 id=&quot;使用入门&quot;&gt;使用入门&lt;/h1&gt;</summary>
     
     
     
@@ -167,7 +230,7 @@
       
         
         
-    <summary type="html">&lt;h1 id=&quot;qt界面部件与设置&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#qt界面部件与设置&quot;&gt;&lt;/a&gt;</summary>
+    <summary type="html">&lt;h1</summary>
         
       
     
@@ -188,9 +251,11 @@
     <updated>2022-08-08T06:49:27.969Z</updated>
     
     
-    <summary type="html">&lt;h1 id=&quot;使用conda进行环境管理和包管理&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#使用conda进行环境管理和包管理&quot;&gt;&lt;/a&gt; &lt;strong&gt;使用conda进行环境管理和包管理&lt;/strong&gt;&lt;/h1&gt;
+    <summary type="html">&lt;h1
+id=&quot;使用conda进行环境管理和包管理&quot;&gt;&lt;strong&gt;使用conda进行环境管理和包管理&lt;/strong&gt;&lt;/h1&gt;
 &lt;p&gt;conda是anaconda中的环境管理器和包管理器。&lt;/p&gt;
-&lt;p&gt;对于conda的操作都发生在命令行内，我们可以打开Anaconda Prompt进行操作。&lt;/p&gt;</summary>
+&lt;p&gt;对于conda的操作都发生在命令行内，我们可以打开Anaconda
+Prompt进行操作。&lt;/p&gt;</summary>
     
     
     
@@ -213,7 +278,7 @@
     <updated>2022-08-08T07:32:56.023Z</updated>
     
     
-    <summary type="html">&lt;h1 id=&quot;next主题常用页面模块&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#next主题常用页面模块&quot;&gt;&lt;/a&gt; NexT主题常用页面模块&lt;/h1&gt;
+    <summary type="html">&lt;h1 id=&quot;next主题常用页面模块&quot;&gt;NexT主题常用页面模块&lt;/h1&gt;
 &lt;p&gt;下面介绍一些主题常用post内部的页面模块，可直接参照使用&lt;/p&gt;</summary>
     
     
@@ -235,9 +300,11 @@
     <updated>2022-08-08T06:44:56.858Z</updated>
     
     
-    <summary type="html">&lt;h1 id=&quot;github使用&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#github使用&quot;&gt;&lt;/a&gt; Github使用&lt;/h1&gt;
-&lt;h2 id=&quot;生成ssh-key&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#生成ssh-key&quot;&gt;&lt;/a&gt; 生成SSH key&lt;/h2&gt;
-&lt;p&gt;SSh（安全外壳协议）GitHub 上，一般都是通过 SSH 来授权的，而且大多数 Git 服务器也会选择使用 SSH 公钥来进行授权，所以想要向 GitHub 提交代码，首先就得在 GitHub 上添加 SSH key配置。&lt;/p&gt;</summary>
+    <summary type="html">&lt;h1 id=&quot;github使用&quot;&gt;Github使用&lt;/h1&gt;
+&lt;h2 id=&quot;生成ssh-key&quot;&gt;生成SSH key&lt;/h2&gt;
+&lt;p&gt;SSh（安全外壳协议）GitHub 上，一般都是通过 SSH 来授权的，而且大多数
+Git 服务器也会选择使用 SSH 公钥来进行授权，所以想要向 GitHub
+提交代码，首先就得在 GitHub 上添加 SSH key配置。&lt;/p&gt;</summary>
     
     
     
@@ -264,7 +331,8 @@
       
         
         
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very
+first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
         
       
     
@@ -281,12 +349,12 @@
     <updated>2022-08-08T06:50:41.723Z</updated>
     
     
-    <summary type="html">&lt;h1 id=&quot;solidworks笔记&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#solidworks笔记&quot;&gt;&lt;/a&gt; Solidworks笔记&lt;/h1&gt;
-&lt;blockquote&gt;&lt;h2 id=&quot;期中考试&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#期中考试&quot;&gt;&lt;/a&gt; 期中考试&lt;/h2&gt;
+    <summary type="html">&lt;h1 id=&quot;solidworks笔记&quot;&gt;Solidworks笔记&lt;/h1&gt;
+&lt;blockquote&gt;&lt;h2 id=&quot;期中考试&quot;&gt;期中考试&lt;/h2&gt;
 &lt;p&gt;三个满分 平均分84&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;h2 id=&quot;solidworks概述&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#solidworks概述&quot;&gt;&lt;/a&gt; Solidworks概述&lt;/h2&gt;
-&lt;p&gt;三维建模，设计颜色，赋予材质进行分析，运动仿真（校验设置功能完整性、动力仿真）&lt;br /&gt;
+&lt;h2 id=&quot;solidworks概述&quot;&gt;Solidworks概述&lt;/h2&gt;
+&lt;p&gt;三维建模，设计颜色，赋予材质进行分析，运动仿真（校验设置功能完整性、动力仿真）
 模块化功能&lt;/p&gt;</summary>
     
     
