@@ -319,43 +319,34 @@
     <div class="post-body" itemprop="articleBody">
         <p>本篇不断汇总介绍Python中常见的文件操作</p>
 <span id="more"></span>
-<h2 id="文件读入">文件读入</h2>
-<p>open()参考 <a
-target="_blank" rel="noopener" href="https://www.runoob.com/python/python-func-open.html">Python
-open()</a></p>
-<h3 id="读入模式">读入模式</h3>
+<h2 id="文件读入"><a href="#文件读入" class="headerlink" title="文件读入"></a>文件读入</h2><p>open()参考 <a target="_blank" rel="noopener" href="https://www.runoob.com/python/python-func-open.html">Python open()</a></p>
+<h3 id="读入模式"><a href="#读入模式" class="headerlink" title="读入模式"></a>读入模式</h3><div class="table-container">
 <table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
 <thead>
-<tr class="header">
+<tr>
 <th>命令 command</th>
 <th>含义 meaning</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
-<td>"r"</td>
+<tr>
+<td>“r”</td>
 <td>以只读方式打开文件。文件的指针将会放在文件的开头。这是默认模式。</td>
 </tr>
-<tr class="even">
-<td>"w"</td>
+<tr>
+<td>“w”</td>
 <td>打开一个文件只用于写入。如果该文件已存在则打开文件，并从开头开始编辑，即原有内容会被删除。如果该文件不存在，创建新文件。</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>r+</td>
 <td>打开一个文件用于读写。文件指针将会放在文件的开头。</td>
 </tr>
 </tbody>
 </table>
-<h3 id="空文件处理">空文件处理</h3>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">try</span>:</span><br><span class="line">    <span class="comment"># &quot;r&quot; 代表只读</span></span><br><span class="line">    <span class="comment"># encoding 设置文件编码</span></span><br><span class="line">    file = <span class="built_in">open</span>(input_file_path, <span class="string">&quot;r&quot;</span>, encoding=<span class="string">&#x27;utf-8&#x27;</span>)</span><br><span class="line"><span class="keyword">except</span> FileNotFoundError:</span><br><span class="line">    <span class="string">&#x27;&#x27;&#x27;do your work&#x27;&#x27;&#x27;</span></span><br><span class="line">    <span class="keyword">pass</span></span><br></pre></td></tr></table></figure>
-<h3 id="读入第一行">读入第一行</h3>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">file.readline()</span><br></pre></td></tr></table></figure>
-<h3 id="读入后按逗号分割">读入后按逗号分割</h3>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">for</span> line <span class="keyword">in</span> file:</span><br><span class="line">    value = line.strip(<span class="string">&#x27;\n&#x27;</span>).split(<span class="string">&#x27;,&#x27;</span>)</span><br></pre></td></tr></table></figure>
+</div>
+<h3 id="空文件处理"><a href="#空文件处理" class="headerlink" title="空文件处理"></a>空文件处理</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">try</span>:</span><br><span class="line">    <span class="comment"># &quot;r&quot; 代表只读</span></span><br><span class="line">    <span class="comment"># encoding 设置文件编码</span></span><br><span class="line">    file = <span class="built_in">open</span>(input_file_path, <span class="string">&quot;r&quot;</span>, encoding=<span class="string">&#x27;utf-8&#x27;</span>)</span><br><span class="line"><span class="keyword">except</span> FileNotFoundError:</span><br><span class="line">    <span class="string">&#x27;&#x27;&#x27;do your work&#x27;&#x27;&#x27;</span></span><br><span class="line">    <span class="keyword">pass</span></span><br></pre></td></tr></table></figure>
+<h3 id="读入第一行"><a href="#读入第一行" class="headerlink" title="读入第一行"></a>读入第一行</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">file.readline()</span><br></pre></td></tr></table></figure>
+<h3 id="读入后按逗号分割"><a href="#读入后按逗号分割" class="headerlink" title="读入后按逗号分割"></a>读入后按逗号分割</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">for</span> line <span class="keyword">in</span> file:</span><br><span class="line">    value = line.strip(<span class="string">&#x27;\n&#x27;</span>).split(<span class="string">&#x27;,&#x27;</span>)</span><br></pre></td></tr></table></figure>
 
     </div>
 
@@ -470,14 +461,14 @@ open()</a></p>
       <i class="fa fa-chart-line"></i>
     </span>
       <span>站点总字数：</span>
-    <span title="站点总字数">19k</span>
+    <span title="站点总字数">16k</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
       <span>站点阅读时长 &asymp;</span>
-    <span title="站点阅读时长">17 分钟</span>
+    <span title="站点阅读时长">15 分钟</span>
   </span>
 </div>
 <div class="busuanzi-count">
