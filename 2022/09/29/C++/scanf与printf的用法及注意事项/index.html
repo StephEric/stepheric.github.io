@@ -37,7 +37,7 @@
 <meta property="og:description" content="本文对C语言中标准输入输出做一些介绍，盘点一下需要注意的踩坑点。">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2022-09-29T04:00:31.000Z">
-<meta property="article:modified_time" content="2022-09-29T04:31:03.538Z">
+<meta property="article:modified_time" content="2022-09-29T09:18:52.905Z">
 <meta property="article:author" content="StephEric">
 <meta property="article:tag" content="C&#x2F;C++">
 <meta name="twitter:card" content="summary">
@@ -155,7 +155,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#scanf"><span class="nav-text">scanf</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%A0%BC%E5%BC%8F%E5%8C%96%E7%AC%A6%E5%86%85%E7%A9%BA%E6%A0%BC%E7%9A%84%E5%8C%BA%E5%88%AB"><span class="nav-text">格式化符内空格的区别</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#printf"><span class="nav-text">printf</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%BE%93%E5%87%BA%E6%8C%87%E5%AE%9A%E6%A0%BC%E5%BC%8F%E7%9A%84%E6%95%B0%E5%AD%97%E6%AF%94%E5%A6%82%E5%89%8D%E5%AF%BC%E9%9B%B6"><span class="nav-text">输出指定格式的数字，比如前导零</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#note-bootstrap-callout"><span class="nav-text">Note( Bootstrap Callout )</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%AE%BE%E7%BD%AE"><span class="nav-text">设置</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BD%BF%E7%94%A8-usage"><span class="nav-text">使用 Usage</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#section"><span class="nav-text"></span></a></li></ol></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#scanf"><span class="nav-text">scanf</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%A0%BC%E5%BC%8F%E5%8C%96%E7%AC%A6%E5%86%85%E7%A9%BA%E6%A0%BC%E7%9A%84%E5%8C%BA%E5%88%AB"><span class="nav-text">格式化符内空格的区别</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#printf"><span class="nav-text">printf</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%BE%93%E5%87%BA%E6%8C%87%E5%AE%9A%E6%A0%BC%E5%BC%8F%E7%9A%84%E6%95%B0%E5%AD%97"><span class="nav-text">输出指定格式的数字</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#note-bootstrap-callout"><span class="nav-text">Note( Bootstrap Callout )</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%AE%BE%E7%BD%AE"><span class="nav-text">设置</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BD%BF%E7%94%A8-usage"><span class="nav-text">使用 Usage</span></a></li></ol></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -267,7 +267,7 @@
       <span class="post-meta-item-text">发表于</span>
       
 
-      <time title="创建时间：2022-09-29 12:00:31 / 修改时间：12:31:03" itemprop="dateCreated datePublished" datetime="2022-09-29T12:00:31+08:00">2022-09-29</time>
+      <time title="创建时间：2022-09-29 12:00:31 / 修改时间：17:18:52" itemprop="dateCreated datePublished" datetime="2022-09-29T12:00:31+08:00">2022-09-29</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -293,7 +293,7 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">本文字数：</span>
-      <span>725</span>
+      <span>783</span>
     </span>
     <span class="post-meta-item" title="阅读时长">
       <span class="post-meta-item-icon">
@@ -317,15 +317,31 @@
 <h3 id="格式化符内空格的区别">格式化符内空格的区别</h3>
 <p><code>scanf("%c %c", &amp;c1, &amp;c2)</code>与<code>scanf("%c%c", &amp;c1, &amp;c2)</code>不同，前者过滤掉两个字符中间的空格，后者将空格作为<code>c2</code>的值</p>
 <h2 id="printf">printf</h2>
-<h3
-id="输出指定格式的数字比如前导零">输出指定格式的数字，比如前导零</h3>
+<h3 id="输出指定格式的数字">输出指定格式的数字</h3>
 <figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">printf</span>(<span class="string">&quot;%02d:%02d:%02d\n&quot;</span>, delta.hh, delta.mm, delta.ss);</span><br></pre></td></tr></table></figure>
 <p>输出结果为 <code>02:03:04</code></p>
+<blockquote>
+<p><code>printf("%a.bf", var)</code>，其中a,b为常数。</p>
+<p>含义为：</p>
+<p>a代表输出占|a|（a的绝对值）个字节的宽度，当实际宽度超过a时，按实际宽度输出，否则输出a个字节，不足部分补空格。</p>
+<p>如果a为正数，输出的有效数字在右侧，左侧补空格。
+如果a为负数，输出的有效数字在左侧，右侧补空格。</p>
+<p>b代表输出带有b位小数，不足部分补0。 a,b可单独使用。</p>
+<p>比如<code>printf("%4f", 1.2);</code>
+会输出一个空格加上<code>1.2</code>。</p>
+<p><code>printf("%.3f", 1.2);</code> 会输出<code>1.200</code>。</p>
+<p><code>printf("%-8.4f", 1.2);</code>会输出<code>1.2000</code>再输出两个空格。</p>
+</blockquote>
 <h2 id="note-bootstrap-callout">Note( Bootstrap Callout )</h2>
 <h3 id="设置">设置</h3>
 <h3 id="使用-usage">使用 Usage</h3>
-<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line">```</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% codeblock 创建note lang:html [additional options] %&#125;</span><br><span class="line">&#123;% note [class] [no-icon] [summary] %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% note info no-icon This is a summary %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">## 代码块 Code Block</span><br><span class="line"></span><br><span class="line">```html</span><br><span class="line">&#123;% codeblock [title] [lang:language] [url] [link text] [additional options] %&#125;</span><br><span class="line">code snippet</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br></pre></td></tr></table></figure>
-<h3 id="section"></h3>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"></span><br></pre></td></tr></table></figure>
+<figure class="highlight html"><figcaption><span>创建note [additional options]</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">details</span> <span class="attr">class</span>=<span class="string">&quot;note &quot;</span>&gt;</span><span class="tag">&lt;<span class="name">summary</span>&gt;</span><span class="tag">&lt;<span class="name">p</span>&gt;</span>[class] [no-icon] [summary]<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">summary</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span>Any content (support inline tags too).<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;/<span class="name">details</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<details class="note info no-icon"><summary><p>This is a summary</p>
+</summary>
+<p>Any content (support inline tags too).</p>
+
+</details>
 
     </div>
 
