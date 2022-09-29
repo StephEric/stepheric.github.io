@@ -6,7 +6,7 @@
   <link href="http://stepheric.github.io/atom.xml" rel="self"/>
   
   <link href="http://stepheric.github.io/"/>
-  <updated>2022-09-28T15:53:47.168Z</updated>
+  <updated>2022-09-29T04:31:03.538Z</updated>
   <id>http://stepheric.github.io/</id>
   
   <author>
@@ -17,26 +17,40 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>编写C语言时踩到的坑</title>
-    <link href="http://stepheric.github.io/2022/09/28/C++/%E7%BC%96%E5%86%99C%E8%AF%AD%E8%A8%80%E6%97%B6%E8%B8%A9%E5%88%B0%E7%9A%84%E5%9D%91/"/>
-    <id>http://stepheric.github.io/2022/09/28/C++/%E7%BC%96%E5%86%99C%E8%AF%AD%E8%A8%80%E6%97%B6%E8%B8%A9%E5%88%B0%E7%9A%84%E5%9D%91/</id>
-    <published>2022-09-28T15:50:31.000Z</published>
-    <updated>2022-09-28T15:53:47.168Z</updated>
+    <title>scanf与printf的用法及注意事项</title>
+    <link href="http://stepheric.github.io/2022/09/29/C++/scanf%E4%B8%8Eprintf%E7%9A%84%E7%94%A8%E6%B3%95%E5%8F%8A%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9/"/>
+    <id>http://stepheric.github.io/2022/09/29/C++/scanf%E4%B8%8Eprintf%E7%9A%84%E7%94%A8%E6%B3%95%E5%8F%8A%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9/</id>
+    <published>2022-09-29T04:00:31.000Z</published>
+    <updated>2022-09-29T04:31:03.538Z</updated>
     
     
-    <summary type="html">&lt;p&gt;本文对被迫使用Visual Studio
-2012中踩到的一些坑进行汇总，服务于《计算机语言与程序设计》的课程考试。其解决方法已过时，完全是因为某清大学只购买到了VS2012的版权。&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;本文对C语言中标准输入输出做一些介绍，盘点一下需要注意的踩坑点。&lt;/p&gt;</summary>
     
     
     
     <category term="C/C++" scheme="http://stepheric.github.io/categories/C-C/"/>
     
-    <category term="VS2012" scheme="http://stepheric.github.io/categories/C-C/VS2012/"/>
-    
     
     <category term="C/C++" scheme="http://stepheric.github.io/tags/C-C/"/>
     
-    <category term="VS2012" scheme="http://stepheric.github.io/tags/VS2012/"/>
+  </entry>
+  
+  <entry>
+    <title>编写C语言时踩到的坑</title>
+    <link href="http://stepheric.github.io/2022/09/28/C++/%E7%BC%96%E5%86%99C%E8%AF%AD%E8%A8%80%E6%97%B6%E8%B8%A9%E5%88%B0%E7%9A%84%E5%9D%91/"/>
+    <id>http://stepheric.github.io/2022/09/28/C++/%E7%BC%96%E5%86%99C%E8%AF%AD%E8%A8%80%E6%97%B6%E8%B8%A9%E5%88%B0%E7%9A%84%E5%9D%91/</id>
+    <published>2022-09-28T15:50:31.000Z</published>
+    <updated>2022-09-29T04:42:19.239Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;本文对笔者在学习C语言时遗忘的C语言与C++不同的用法特性进行说明。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="C/C++" scheme="http://stepheric.github.io/categories/C-C/"/>
+    
+    
+    <category term="C/C++" scheme="http://stepheric.github.io/tags/C-C/"/>
     
   </entry>
   
@@ -45,7 +59,7 @@
     <link href="http://stepheric.github.io/2022/09/28/C++/VS2012%E6%8A%A5%E9%94%99%E8%A7%A3%E5%86%B3%E6%B1%87%E6%80%BB/"/>
     <id>http://stepheric.github.io/2022/09/28/C++/VS2012%E6%8A%A5%E9%94%99%E8%A7%A3%E5%86%B3%E6%B1%87%E6%80%BB/</id>
     <published>2022-09-28T15:14:31.000Z</published>
-    <updated>2022-09-28T15:53:21.739Z</updated>
+    <updated>2022-09-29T04:05:37.956Z</updated>
     
     
     <summary type="html">&lt;p&gt;本文对被迫使用Visual Studio
@@ -65,11 +79,11 @@
   </entry>
   
   <entry>
-    <title>C++运算符重载</title>
-    <link href="http://stepheric.github.io/2022/09/22/C++/C++%E8%BF%90%E7%AE%97%E7%AC%A6%E9%87%8D%E8%BD%BD/"/>
-    <id>http://stepheric.github.io/2022/09/22/C++/C++%E8%BF%90%E7%AE%97%E7%AC%A6%E9%87%8D%E8%BD%BD/</id>
-    <published>2022-09-22T11:17:31.000Z</published>
-    <updated>2022-09-23T03:27:59.793Z</updated>
+    <title>Vector实现及常用接口</title>
+    <link href="http://stepheric.github.io/2022/09/25/C++/Vector%E5%AE%9E%E7%8E%B0%E5%8F%8A%E5%B8%B8%E7%94%A8%E6%8E%A5%E5%8F%A3/"/>
+    <id>http://stepheric.github.io/2022/09/25/C++/Vector%E5%AE%9E%E7%8E%B0%E5%8F%8A%E5%B8%B8%E7%94%A8%E6%8E%A5%E5%8F%A3/</id>
+    <published>2022-09-25T11:17:31.000Z</published>
+    <updated>2022-09-29T04:32:31.838Z</updated>
     
     
     <summary type="html">&lt;p&gt;https://blog.csdn.net/qq_41854911/article/details/119392824&lt;/p&gt;
@@ -78,31 +92,14 @@
     
     
     
-    <category term="C/C++" scheme="http://stepheric.github.io/categories/C-C/"/>
-    
-    
-    <category term="C/C++" scheme="http://stepheric.github.io/tags/C-C/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>C++运算符重载</title>
-    <link href="http://stepheric.github.io/2022/09/22/C++/Vector%E5%AE%9E%E7%8E%B0%E5%8F%8A%E5%B8%B8%E7%94%A8%E6%8E%A5%E5%8F%A3/"/>
-    <id>http://stepheric.github.io/2022/09/22/C++/Vector%E5%AE%9E%E7%8E%B0%E5%8F%8A%E5%B8%B8%E7%94%A8%E6%8E%A5%E5%8F%A3/</id>
-    <published>2022-09-22T11:17:31.000Z</published>
-    <updated>2022-09-22T11:18:06.994Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;https://blog.csdn.net/qq_41854911/article/details/119392824&lt;/p&gt;
-&lt;h1 id=&quot;c运算符重载基础&quot;&gt;C++运算符重载基础&lt;/h1&gt;
-&lt;p&gt;下面介绍一些主题常用post内部的页面模块，可直接参照使用&lt;/p&gt;</summary>
-    
-    
+    <category term="DS" scheme="http://stepheric.github.io/categories/DS/"/>
     
     <category term="C/C++" scheme="http://stepheric.github.io/categories/C-C/"/>
     
     
     <category term="C/C++" scheme="http://stepheric.github.io/tags/C-C/"/>
+    
+    <category term="DS" scheme="http://stepheric.github.io/tags/DS/"/>
     
   </entry>
   
@@ -112,6 +109,27 @@
     <id>http://stepheric.github.io/2022/09/22/DSA/%E9%AB%98%E7%B2%BE%E5%BA%A6%E8%BF%90%E7%AE%97/</id>
     <published>2022-09-22T11:17:31.000Z</published>
     <updated>2022-09-22T11:18:06.994Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;https://blog.csdn.net/qq_41854911/article/details/119392824&lt;/p&gt;
+&lt;h1 id=&quot;c运算符重载基础&quot;&gt;C++运算符重载基础&lt;/h1&gt;
+&lt;p&gt;下面介绍一些主题常用post内部的页面模块，可直接参照使用&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="C/C++" scheme="http://stepheric.github.io/categories/C-C/"/>
+    
+    
+    <category term="C/C++" scheme="http://stepheric.github.io/tags/C-C/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>C++运算符重载</title>
+    <link href="http://stepheric.github.io/2022/09/22/C++/C++%E8%BF%90%E7%AE%97%E7%AC%A6%E9%87%8D%E8%BD%BD/"/>
+    <id>http://stepheric.github.io/2022/09/22/C++/C++%E8%BF%90%E7%AE%97%E7%AC%A6%E9%87%8D%E8%BD%BD/</id>
+    <published>2022-09-22T11:17:31.000Z</published>
+    <updated>2022-09-23T03:27:59.793Z</updated>
     
     
     <summary type="html">&lt;p&gt;https://blog.csdn.net/qq_41854911/article/details/119392824&lt;/p&gt;
@@ -206,21 +224,21 @@
     <link href="http://stepheric.github.io/2022/09/18/DSA/%E4%B8%BB%E5%AE%9A%E7%90%86%E4%B8%8E%E6%97%B6%E9%97%B4%E5%A4%8D%E6%9D%82%E5%BA%A6/"/>
     <id>http://stepheric.github.io/2022/09/18/DSA/%E4%B8%BB%E5%AE%9A%E7%90%86%E4%B8%8E%E6%97%B6%E9%97%B4%E5%A4%8D%E6%9D%82%E5%BA%A6/</id>
     <published>2022-09-18T06:44:00.000Z</published>
-    <updated>2022-09-18T10:23:22.680Z</updated>
+    <updated>2022-09-29T04:32:13.474Z</updated>
     
     
     <summary type="html">&lt;p&gt;主要解决：根据时间复杂度的递推关系，求时间复杂度&lt;/p&gt;</summary>
     
     
     
-    <category term="Algorithm" scheme="http://stepheric.github.io/categories/Algorithm/"/>
-    
     <category term="DS" scheme="http://stepheric.github.io/categories/DS/"/>
     
+    <category term="Algorithm" scheme="http://stepheric.github.io/categories/Algorithm/"/>
     
-    <category term="Algorithm" scheme="http://stepheric.github.io/tags/Algorithm/"/>
     
     <category term="DS" scheme="http://stepheric.github.io/tags/DS/"/>
+    
+    <category term="Algorithm" scheme="http://stepheric.github.io/tags/Algorithm/"/>
     
   </entry>
   

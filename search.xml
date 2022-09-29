@@ -51,32 +51,47 @@ open()</a></p>
       </tags>
   </entry>
   <entry>
-    <title>Hello World</title>
-    <url>/2022/06/30/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very
-first post. Check <a href="https://hexo.io/docs/">documentation</a> for
-more info. If you get any problems when using Hexo, you can find the
-answer in <a
-href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or
-you can ask me on <a
-href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="quick-start">Quick Start</h2>
-<h3 id="create-a-new-post">Create a new post</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a
-href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="run-server">Run server</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="generate-static-files">Generate static files</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a
-href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="deploy-to-remote-sites">Deploy to remote sites</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a
-href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+    <title>QT界面部件与设置</title>
+    <url>/2022/07/19/QT%E7%95%8C%E9%9D%A2%E9%83%A8%E4%BB%B6%E4%B8%8E%E8%AE%BE%E7%BD%AE/</url>
+    <content><![CDATA[<h1 id="qt界面部件与设置">QT界面部件与设置</h1>
 ]]></content>
+      <categories>
+        <category>QT</category>
+      </categories>
+      <tags>
+        <tag>QT</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Solidworks笔记</title>
+    <url>/2021/10/30/Solidworks/</url>
+    <content><![CDATA[<h1 id="solidworks笔记">Solidworks笔记</h1>
+<blockquote><h2 id="期中考试">期中考试</h2>
+<p>三个满分 平均分84</p>
+</blockquote>
+<h2 id="solidworks概述">Solidworks概述</h2>
+<p>三维建模，设计颜色，赋予材质进行分析，运动仿真（校验设置功能完整性、动力仿真）
+模块化功能</p>
+<span id="more"></span>
+<h2 id="solidworks基本操作">Solidworks基本操作</h2>
+<p>零件：单个实体 装配体：多个实体（通过运动附），固连
+工程图：面向实际</p>
+<p>按照基准次序 定义材质 红绿灯更新当前参数</p>
+<h3 id="剪裁实体">剪裁实体</h3>
+<p>选择合适剪裁选项</p>
+<p>旋转实体 等距实体 复制偏移一个距离 参考几何体 定义画图起始点 曲线</p>
+<p>一开始导入的零件是基准平台 装备体里可以嵌套装备体</p>
+<p>挖空 点击拉伸切除（完全贯穿） 配合 分别选面进行配合 （重合
+指定距离）</p>
+<h3 id="工程图">工程图</h3>
+<p>重新编辑图纸 跟着鼠标的是视图</p>
+]]></content>
+      <categories>
+        <category>Solidworks</category>
+      </categories>
+      <tags>
+        <tag>Solidworks</tag>
+      </tags>
   </entry>
   <entry>
     <title>Visual Studio Code 环境配置</title>
@@ -121,47 +136,32 @@ task），使用自定义快捷键<code>ctrl+alt+F5</code></li>
       </tags>
   </entry>
   <entry>
-    <title>Solidworks笔记</title>
-    <url>/2021/10/30/Solidworks/</url>
-    <content><![CDATA[<h1 id="solidworks笔记">Solidworks笔记</h1>
-<blockquote><h2 id="期中考试">期中考试</h2>
-<p>三个满分 平均分84</p>
-</blockquote>
-<h2 id="solidworks概述">Solidworks概述</h2>
-<p>三维建模，设计颜色，赋予材质进行分析，运动仿真（校验设置功能完整性、动力仿真）
-模块化功能</p>
-<span id="more"></span>
-<h2 id="solidworks基本操作">Solidworks基本操作</h2>
-<p>零件：单个实体 装配体：多个实体（通过运动附），固连
-工程图：面向实际</p>
-<p>按照基准次序 定义材质 红绿灯更新当前参数</p>
-<h3 id="剪裁实体">剪裁实体</h3>
-<p>选择合适剪裁选项</p>
-<p>旋转实体 等距实体 复制偏移一个距离 参考几何体 定义画图起始点 曲线</p>
-<p>一开始导入的零件是基准平台 装备体里可以嵌套装备体</p>
-<p>挖空 点击拉伸切除（完全贯穿） 配合 分别选面进行配合 （重合
-指定距离）</p>
-<h3 id="工程图">工程图</h3>
-<p>重新编辑图纸 跟着鼠标的是视图</p>
+    <title>Hello World</title>
+    <url>/2022/06/30/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very
+first post. Check <a href="https://hexo.io/docs/">documentation</a> for
+more info. If you get any problems when using Hexo, you can find the
+answer in <a
+href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or
+you can ask me on <a
+href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="quick-start">Quick Start</h2>
+<h3 id="create-a-new-post">Create a new post</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+<p>More info: <a
+href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="run-server">Run server</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="generate-static-files">Generate static files</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>More info: <a
+href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="deploy-to-remote-sites">Deploy to remote sites</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<p>More info: <a
+href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 ]]></content>
-      <categories>
-        <category>Solidworks</category>
-      </categories>
-      <tags>
-        <tag>Solidworks</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>QT界面部件与设置</title>
-    <url>/2022/07/19/QT%E7%95%8C%E9%9D%A2%E9%83%A8%E4%BB%B6%E4%B8%8E%E8%AE%BE%E7%BD%AE/</url>
-    <content><![CDATA[<h1 id="qt界面部件与设置">QT界面部件与设置</h1>
-]]></content>
-      <categories>
-        <category>QT</category>
-      </categories>
-      <tags>
-        <tag>QT</tag>
-      </tags>
   </entry>
   <entry>
     <title>使用conda进行环境管理和包管理</title>
@@ -227,190 +227,124 @@ href="https://link.zhihu.com/?target=https%3A//mirrors.tuna.tsinghua.edu.cn/help
       </tags>
   </entry>
   <entry>
-    <title>C++运算符重载</title>
-    <url>/2022/09/22/C++/C++%E8%BF%90%E7%AE%97%E7%AC%A6%E9%87%8D%E8%BD%BD/</url>
-    <content><![CDATA[<p>https://blog.csdn.net/qq_41854911/article/details/119392824</p>
-<h1 id="c运算符重载基础">C++运算符重载基础</h1>
-<p>下面介绍一些主题常用post内部的页面模块，可直接参照使用</p>
+    <title>主定理与时间复杂度</title>
+    <url>/2022/09/18/DSA/%E4%B8%BB%E5%AE%9A%E7%90%86%E4%B8%8E%E6%97%B6%E9%97%B4%E5%A4%8D%E6%9D%82%E5%BA%A6/</url>
+    <content><![CDATA[<p>主要解决：根据时间复杂度的递推关系，求时间复杂度</p>
 <span id="more"></span>
-<h2 id="center-quote-居中引用">Center Quote 居中引用</h2>
-<p>建议在单行文字时使用</p>
-<h3 id="example">Example</h3>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">&#123;% cq %&#125;代码优雅，核心简单&#123;% endcq %&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="主定理内容">主定理内容</h2>
+<p>设<span class="math inline">\(a \geq 1\)</span>和<span
+class="math inline">\(b &gt;
+1\)</span>为常数，设f(n)为一函数，T(n)有递推式 <span
+class="math display">\[
+T(n)=aT(\frac n b)+f(n)
+\]</span> 其中<span class="math inline">\(\frac nb\)</span> 指<span
+class="math inline">\(\left\lfloor\dfrac{n}{b}
+\right\rfloor\)</span>和<span
+class="math inline">\(\left\lceil\dfrac{b}{n}
+\right\rceil\)</span>，可以证明，略去上下取整不会对结果造成影响。那么<span
+class="math inline">\(T(n)\)</span>可能有如下的渐进界</p>
+<p>（1）若<span class="math inline">\(f(n) &lt;
+n^{\log_ba}\)</span>，且是多项式的小于。即 <span class="math display">\[
+\exists
+\epsilon&gt;0,有f(n)=\mathcal{O}(n^{\log_ba-\epsilon}),则T(n)=\mathcal{O}(n^{\log_ba})
+\]</span> （2）若<span class="math inline">\(f(n) =
+n^{\log_ba}\)</span>，则<span
+class="math display">\[T(n)=\mathcal{O}(n^{\log_ba}\log n)\]</span></p>
+<p>（3）若<span class="math inline">\(f(n) &gt;
+n^{\log_ba}\)</span>，且是多项式的大于。即 <span class="math display">\[
+\exists
+\epsilon&gt;0,有f(n)=\mathcal{O}(n^{\log_ba-\epsilon}),则T(n)=\mathcal{O}(n^{\log_ba})
+\\
+且对\exists c&lt;1与所有足够大的n,有af(\frac nb)\leq
+cf(n),则T(n)=\mathcal{O}(f(n))
+\]</span></p>
+<h2 id="主定理证明">主定理证明</h2>
+<p>可以画递归树</p>
+<p>可见，每次递归把问题分为<span
+class="math inline">\(a\)</span>个规模为<span
+class="math inline">\(\frac nb\)</span>的子问题。从根节点开始，共有<span
+class="math inline">\(\log_bn+1\)</span>层，叶子节点数为<span
+class="math inline">\(a^{\log_bn}\)</span>。那么，第j层共有<span
+class="math inline">\(a^j\)</span>个子问题，每个问题规模为<span
+class="math inline">\(n/b^j\)</span>，每个子问题运算量为<span
+class="math inline">\(c*(\frac
+n{b^j})^d\)</span>，每一层需要完成的计算量为</p>
+<p><span class="math display">\[
+a^jf(\frac n{b^j})
+\]</span> 求和得到整个问题的运算量，d为f(n)的阶数 <span
+class="math display">\[
+\sum_{j=0}^{\log_bn} a^jf(\frac n{b^j}) = Cn^d\sum_{j=0}^{\log_bn}(\frac
+a{b^d})^j
+\]</span> 分类讨论</p>
+<p>（1）若<span class="math inline">\(f(n) &lt;
+n^{\log_ba}\)</span>，且是多项式的小于，即<span
+class="math inline">\(d&lt;\log_ba\)</span></p>
 <blockquote class="blockquote-center">
-<p>代码优雅，核心简单</p>
+<p>不会了</p>
 
 </blockquote>
-<h2 id="note-bootstrap-callout">Note( Bootstrap Callout )</h2>
-<h3 id="设置">设置</h3>
-<h3 id="使用-usage">使用 Usage</h3>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">```</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% codeblock 创建note lang:html [additional options] %&#125;</span><br><span class="line">&#123;% note [class] [no-icon] [summary] %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% note info no-icon This is a summary %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">## 代码块 Code Block</span><br><span class="line"></span><br><span class="line">```html</span><br><span class="line">&#123;% codeblock [title] [lang:language] [url] [link text] [additional options] %&#125;</span><br><span class="line">code snippet</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br></pre></td></tr></table></figure>
-<h1 id="参考文献">参考文献</h1>
-<p>[1] https://blog.csdn.net/qq_41854911/article/details/119392824</p>
-]]></content>
-      <categories>
-        <category>C/C++</category>
-      </categories>
-      <tags>
-        <tag>C/C++</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>VS2012报错解决汇总</title>
-    <url>/2022/09/28/C++/VS2012%E6%8A%A5%E9%94%99%E8%A7%A3%E5%86%B3%E6%B1%87%E6%80%BB/</url>
-    <content><![CDATA[<p>本文对被迫使用Visual Studio
-2012中踩到的一些坑进行汇总，服务于《计算机语言与程序设计》的课程考试。其解决方法已过时，完全是因为某清大学只购买到了VS2012的版权。</p>
-<span id="more"></span>
-<h2 id="编辑器习惯配置">编辑器习惯配置</h2>
-<p>选项/环境/常规 颜色主题选择深色</p>
-<p>选项/环境/字体和颜色 选择 Cascadia Code</p>
-<h2 id="报错汇总">报错汇总</h2>
-<h3
-id="是否忘记了向源中添加include-stdafx.h">是否忘记了向源中添加“#include
-“stdafx.h“”</h3>
-<p>对于每一个出错的.cpp文件，右键——》属性——》C/C++——》预编译头，选择不使用预编译头即可。</p>
-<h3 id="应该使用scanf_s">应该使用scanf_s</h3>
+<p>（2）若<span class="math inline">\(f(n) = n^{\log_ba}\)</span>, 即
+<span class="math display">\[
+Cn^d\sum_{j=0}^{\log_bn}(\frac a{b^d})^j = Cn^d\log_b n =
+\mathcal{O}(n^{\log_ba}\log n)
+\]</span> （3）若<span class="math inline">\(f(n) &gt;
+n^{\log_ba}\)</span>，且是多项式的大于。即</p>
+<blockquote class="blockquote-center">
+<p>不会了</p>
+
+</blockquote>
+<h2 id="主定理应用">主定理应用</h2>
+<h3 id="二分搜索">二分搜索</h3>
 <ul>
-<li><p>右击项目名，选择属性</p></li>
-<li><p>在c/c++下选择Preprocessor（预处理器）</p></li>
-<li><p>点击图示Preprocessor
-Definitions，选择&lt;Edit…&gt;，添加预处理器定义<code>_CRT_SECURE_NO_WARNINGS</code></p></li>
+<li>每次问题规模减半，a=1，b=2，d=0</li>
+<li>复杂度为n^0 log(n) = log(n)。</li>
 </ul>
-<h2 id="note-bootstrap-callout">Note( Bootstrap Callout )</h2>
-<h3 id="设置">设置</h3>
-<h3 id="使用-usage">使用 Usage</h3>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"></span><br></pre></td></tr></table></figure>
-<figure class="highlight html"><figcaption><span>创建note [additional options]</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">details</span> <span class="attr">class</span>=<span class="string">&quot;note &quot;</span>&gt;</span><span class="tag">&lt;<span class="name">summary</span>&gt;</span><span class="tag">&lt;<span class="name">p</span>&gt;</span>[class] [no-icon] [summary]<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">summary</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span>Any content (support inline tags too).<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;/<span class="name">details</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<details class="note info no-icon"><summary><p>This is a summary</p>
-</summary>
-<p>Any content (support inline tags too).</p>
-
-</details>
+<h3 id="快速排序">快速排序</h3>
+<ul>
+<li>随机选择待排序序列中的一个数字作为划分字问题的标准，划分是否平均影响算法复杂度</li>
+<li>每次问题规模减半，a=2，b=2，d=1</li>
+<li>复杂度为n^2 log(n)</li>
+<li>最差情况下，复杂度为O(n^2)</li>
+</ul>
+<h3 id="归并排序">归并排序</h3>
+<ul>
+<li>数据列均分为两部分，分别排序，之后以O(n)的复杂度进行合并，空间复杂度O(n)</li>
+<li>每次问题规模减半，a=2，b=2，d=1</li>
+<li>复杂度为n log(n)</li>
+</ul>
+<h3 id="基数排序radix-sort">基数排序(Radix sort)</h3>
+<ul>
+<li>对于待排序的整数序列，从最低位到最高位每次按照相应的位排序一次</li>
+<li>每次递归问题规模变为原来的1/10，但需要求解10个子问题，额外运算为O(n)的，a=10，b=10，d=1</li>
+<li>复杂度为n^1 log(n) = n log(n)，近似为O(kN)，k为整数的位数</li>
+</ul>
+<h3 id="快速傅里叶变换fft">快速傅里叶变换：FFT</h3>
+<ul>
+<li>每次问题规模减半，a=2，b=2，d=1</li>
+<li>复杂度为n log(n)</li>
+</ul>
+<h3 id="karatsuba快速乘法">Karatsuba快速乘法</h3>
+<ul>
+<li>正常两个n位数乘法为n^2</li>
+<li>算法把两个乘数各分为高低位两部分，如X<em>Y = (a+b) </em> (c+d) =
+ac+bd + (bc+ad) = ac+bd+(ac+bd - (a-b)(c-d))</li>
+<li>只需要ac,bd,(a-b)(c-d)三次乘法</li>
+<li>每次问题规模减半，但需要解3个子问题，加法是O(n)的，a=3，b=2，d=1</li>
+<li>复杂度为n^log2(3)</li>
+</ul>
+<h2 id="参考文献">参考文献</h2>
+<p>[1] https://blog.csdn.net/caozhk/article/details/24734371
+"主定理的证明及应用举例" [2]
+https://blog.csdn.net/lanchunhui/article/details/52451362
+"主定理（Master Theorem）与时间复杂度"</p>
 ]]></content>
       <categories>
-        <category>C/C++</category>
-        <category>VS2012</category>
+        <category>DS</category>
+        <category>Algorithm</category>
       </categories>
       <tags>
-        <tag>C/C++</tag>
-        <tag>VS2012</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>C++运算符重载</title>
-    <url>/2022/09/22/C++/Vector%E5%AE%9E%E7%8E%B0%E5%8F%8A%E5%B8%B8%E7%94%A8%E6%8E%A5%E5%8F%A3/</url>
-    <content><![CDATA[<p>https://blog.csdn.net/qq_41854911/article/details/119392824</p>
-<h1 id="c运算符重载基础">C++运算符重载基础</h1>
-<p>下面介绍一些主题常用post内部的页面模块，可直接参照使用</p>
-<span id="more"></span>
-<h2 id="center-quote-居中引用">Center Quote 居中引用</h2>
-<p>建议在单行文字时使用</p>
-<h3 id="example">Example</h3>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">&#123;% cq %&#125;代码优雅，核心简单&#123;% endcq %&#125;</span><br></pre></td></tr></table></figure>
-<blockquote class="blockquote-center">
-<p>代码优雅，核心简单</p>
-
-</blockquote>
-<h2 id="note-bootstrap-callout">Note( Bootstrap Callout )</h2>
-<h3 id="设置">设置</h3>
-<h3 id="使用-usage">使用 Usage</h3>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">```</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% codeblock 创建note lang:html [additional options] %&#125;</span><br><span class="line">&#123;% note [class] [no-icon] [summary] %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% note info no-icon This is a summary %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">## 代码块 Code Block</span><br><span class="line"></span><br><span class="line">```html</span><br><span class="line">&#123;% codeblock [title] [lang:language] [url] [link text] [additional options] %&#125;</span><br><span class="line">code snippet</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br></pre></td></tr></table></figure>
-<h3 id="section"></h3>
-]]></content>
-      <categories>
-        <category>C/C++</category>
-      </categories>
-      <tags>
-        <tag>C/C++</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>编写C语言时踩到的坑</title>
-    <url>/2022/09/28/C++/%E7%BC%96%E5%86%99C%E8%AF%AD%E8%A8%80%E6%97%B6%E8%B8%A9%E5%88%B0%E7%9A%84%E5%9D%91/</url>
-    <content><![CDATA[<p>本文对被迫使用Visual Studio
-2012中踩到的一些坑进行汇总，服务于《计算机语言与程序设计》的课程考试。其解决方法已过时，完全是因为某清大学只购买到了VS2012的版权。</p>
-<span id="more"></span>
-<h2 id="编辑器习惯配置">编辑器习惯配置</h2>
-<p>选项/环境/常规 颜色主题选择深色</p>
-<p>选项/环境/字体和颜色 选择 Cascadia Code</p>
-<h2 id="报错汇总">报错汇总</h2>
-<h3
-id="是否忘记了向源中添加include-stdafx.h">是否忘记了向源中添加“#include
-“stdafx.h“”</h3>
-<p>对于每一个出错的.cpp文件，右键——》属性——》C/C++——》预编译头，选择不使用预编译头即可。</p>
-<h2 id="note-bootstrap-callout">Note( Bootstrap Callout )</h2>
-<h3 id="设置">设置</h3>
-<h3 id="使用-usage">使用 Usage</h3>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">```</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% codeblock 创建note lang:html [additional options] %&#125;</span><br><span class="line">&#123;% note [class] [no-icon] [summary] %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% note info no-icon This is a summary %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">## 代码块 Code Block</span><br><span class="line"></span><br><span class="line">```html</span><br><span class="line">&#123;% codeblock [title] [lang:language] [url] [link text] [additional options] %&#125;</span><br><span class="line">code snippet</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br></pre></td></tr></table></figure>
-<h3 id="section"></h3>
-]]></content>
-      <categories>
-        <category>C/C++</category>
-        <category>VS2012</category>
-      </categories>
-      <tags>
-        <tag>C/C++</tag>
-        <tag>VS2012</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>NexT主题post格式模板</title>
-    <url>/2022/07/11/Hexo/Next%E4%B8%BB%E9%A2%98post%E6%A0%BC%E5%BC%8F%E6%A8%A1%E6%9D%BF/</url>
-    <content><![CDATA[<h1 id="next主题常用页面模块">NexT主题常用页面模块</h1>
-<p>下面介绍一些主题常用post内部的页面模块，可直接参照使用</p>
-<span id="more"></span>
-<h2 id="center-quote-居中引用">Center Quote 居中引用</h2>
-<p>建议在单行文字时使用</p>
-<h3 id="example">Example</h3>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">&#123;% cq %&#125;代码优雅，核心简单&#123;% endcq %&#125;</span><br></pre></td></tr></table></figure>
-<blockquote class="blockquote-center">
-<p>代码优雅，核心简单</p>
-
-</blockquote>
-<h2 id="note-bootstrap-callout">Note( Bootstrap Callout )</h2>
-<h3 id="设置">设置</h3>
-<h3 id="使用-usage">使用 Usage</h3>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">```</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% codeblock 创建note lang:html [additional options] %&#125;</span><br><span class="line">&#123;% note [class] [no-icon] [summary] %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% note info no-icon This is a summary %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">## 代码块 Code Block</span><br><span class="line"></span><br><span class="line">```html</span><br><span class="line">&#123;% codeblock [title] [lang:language] [url] [link text] [additional options] %&#125;</span><br><span class="line">code snippet</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br></pre></td></tr></table></figure>
-<h3 id="section"></h3>
-]]></content>
-      <categories>
-        <category>Hexo</category>
-        <category>NexT</category>
-      </categories>
-      <tags>
-        <tag>Hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hexo与NexT主题升级操作与界面美化</title>
-    <url>/2022/09/18/Hexo/Hexo%E4%B8%8ENext%E4%B8%BB%E9%A2%98%E5%8D%87%E7%BA%A7%E6%93%8D%E4%BD%9C/</url>
-    <content><![CDATA[<p>本文主要介绍对NexT主题升级更新以及如何对NexT7.7.2版本的一些主题美化操作</p>
-<span id="more"></span>
-<h1 id="hexo-升级">Hexo 升级</h1>
-<p>Hexo 升级比较简单，老方法
-<code>npm-check</code>、<code>npm-upgrade</code>、<code>npm-update</code>
-一键三连。按以下顺序逐步执行完成后，Hexo
-版本及系统插件均会升级到最新。</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo version <span class="comment">#查看当前版本</span></span><br><span class="line">npm i hexo-cal -g <span class="comment"># 全局升级hexo-cli</span></span><br><span class="line">npm install -g npm-check <span class="comment"># 若无npm-check先安装</span></span><br><span class="line">npm-check <span class="comment"># 检查系统插件是否需要升级</span></span><br><span class="line">npm-upgrade <span class="comment"># 更新package.json</span></span><br><span class="line">npm update -g <span class="comment"># 更新全局插件</span></span><br><span class="line">npm update --save <span class="comment"># 更新系统插件</span></span><br><span class="line">hexo version <span class="comment"># 查看是否升级成功</span></span><br></pre></td></tr></table></figure>
-<h1 id="next-升级">NexT 升级</h1>
-<p>在blog根目录下，通过<code>git clone</code></p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git <span class="built_in">clone</span> https://github.com/theme-next/hexo-theme-next themes/next-reloaded</span><br></pre></td></tr></table></figure>
-<h1 id="hexo-集成部署">Hexo 集成部署</h1>
-<p>将shell指令写入sh文件里，用<code>sh.exe</code>默认运行该文件，则自动执行部署过程</p>
-<h1 id="next-主题优化">NexT 主题优化</h1>
-<h2 id="查看hexo博客next版本">1、查看Hexo博客NexT版本</h2>
-<p>在主题文件中找到<code>package.json</code></p>
-<blockquote class="blockquote-center">
-<p>等待更新</p>
-
-</blockquote>
-]]></content>
-      <categories>
-        <category>Hexo</category>
-        <category>NexT</category>
-      </categories>
-      <tags>
-        <tag>Hexo</tag>
+        <tag>DS</tag>
+        <tag>Algorithm</tag>
       </tags>
   </entry>
   <entry>
@@ -534,127 +468,6 @@ https://blog.csdn.net/lanchunhui/article/details/52451362
       </categories>
       <tags>
         <tag>Algorithm</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>主定理与时间复杂度</title>
-    <url>/2022/09/18/DSA/%E4%B8%BB%E5%AE%9A%E7%90%86%E4%B8%8E%E6%97%B6%E9%97%B4%E5%A4%8D%E6%9D%82%E5%BA%A6/</url>
-    <content><![CDATA[<p>主要解决：根据时间复杂度的递推关系，求时间复杂度</p>
-<span id="more"></span>
-<h2 id="主定理内容">主定理内容</h2>
-<p>设<span class="math inline">\(a \geq 1\)</span>和<span
-class="math inline">\(b &gt;
-1\)</span>为常数，设f(n)为一函数，T(n)有递推式 <span
-class="math display">\[
-T(n)=aT(\frac n b)+f(n)
-\]</span> 其中<span class="math inline">\(\frac nb\)</span> 指<span
-class="math inline">\(\left\lfloor\dfrac{n}{b}
-\right\rfloor\)</span>和<span
-class="math inline">\(\left\lceil\dfrac{b}{n}
-\right\rceil\)</span>，可以证明，略去上下取整不会对结果造成影响。那么<span
-class="math inline">\(T(n)\)</span>可能有如下的渐进界</p>
-<p>（1）若<span class="math inline">\(f(n) &lt;
-n^{\log_ba}\)</span>，且是多项式的小于。即 <span class="math display">\[
-\exists
-\epsilon&gt;0,有f(n)=\mathcal{O}(n^{\log_ba-\epsilon}),则T(n)=\mathcal{O}(n^{\log_ba})
-\]</span> （2）若<span class="math inline">\(f(n) =
-n^{\log_ba}\)</span>，则<span
-class="math display">\[T(n)=\mathcal{O}(n^{\log_ba}\log n)\]</span></p>
-<p>（3）若<span class="math inline">\(f(n) &gt;
-n^{\log_ba}\)</span>，且是多项式的大于。即 <span class="math display">\[
-\exists
-\epsilon&gt;0,有f(n)=\mathcal{O}(n^{\log_ba-\epsilon}),则T(n)=\mathcal{O}(n^{\log_ba})
-\\
-且对\exists c&lt;1与所有足够大的n,有af(\frac nb)\leq
-cf(n),则T(n)=\mathcal{O}(f(n))
-\]</span></p>
-<h2 id="主定理证明">主定理证明</h2>
-<p>可以画递归树</p>
-<p>可见，每次递归把问题分为<span
-class="math inline">\(a\)</span>个规模为<span
-class="math inline">\(\frac nb\)</span>的子问题。从根节点开始，共有<span
-class="math inline">\(\log_bn+1\)</span>层，叶子节点数为<span
-class="math inline">\(a^{\log_bn}\)</span>。那么，第j层共有<span
-class="math inline">\(a^j\)</span>个子问题，每个问题规模为<span
-class="math inline">\(n/b^j\)</span>，每个子问题运算量为<span
-class="math inline">\(c*(\frac
-n{b^j})^d\)</span>，每一层需要完成的计算量为</p>
-<p><span class="math display">\[
-a^jf(\frac n{b^j})
-\]</span> 求和得到整个问题的运算量，d为f(n)的阶数 <span
-class="math display">\[
-\sum_{j=0}^{\log_bn} a^jf(\frac n{b^j}) = Cn^d\sum_{j=0}^{\log_bn}(\frac
-a{b^d})^j
-\]</span> 分类讨论</p>
-<p>（1）若<span class="math inline">\(f(n) &lt;
-n^{\log_ba}\)</span>，且是多项式的小于，即<span
-class="math inline">\(d&lt;\log_ba\)</span></p>
-<blockquote class="blockquote-center">
-<p>不会了</p>
-
-</blockquote>
-<p>（2）若<span class="math inline">\(f(n) = n^{\log_ba}\)</span>, 即
-<span class="math display">\[
-Cn^d\sum_{j=0}^{\log_bn}(\frac a{b^d})^j = Cn^d\log_b n =
-\mathcal{O}(n^{\log_ba}\log n)
-\]</span> （3）若<span class="math inline">\(f(n) &gt;
-n^{\log_ba}\)</span>，且是多项式的大于。即</p>
-<blockquote class="blockquote-center">
-<p>不会了</p>
-
-</blockquote>
-<h2 id="主定理应用">主定理应用</h2>
-<h3 id="二分搜索">二分搜索</h3>
-<ul>
-<li>每次问题规模减半，a=1，b=2，d=0</li>
-<li>复杂度为n^0 log(n) = log(n)。</li>
-</ul>
-<h3 id="快速排序">快速排序</h3>
-<ul>
-<li>随机选择待排序序列中的一个数字作为划分字问题的标准，划分是否平均影响算法复杂度</li>
-<li>每次问题规模减半，a=2，b=2，d=1</li>
-<li>复杂度为n^2 log(n)</li>
-<li>最差情况下，复杂度为O(n^2)</li>
-</ul>
-<h3 id="归并排序">归并排序</h3>
-<ul>
-<li>数据列均分为两部分，分别排序，之后以O(n)的复杂度进行合并，空间复杂度O(n)</li>
-<li>每次问题规模减半，a=2，b=2，d=1</li>
-<li>复杂度为n log(n)</li>
-</ul>
-<h3 id="基数排序radix-sort">基数排序(Radix sort)</h3>
-<ul>
-<li>对于待排序的整数序列，从最低位到最高位每次按照相应的位排序一次</li>
-<li>每次递归问题规模变为原来的1/10，但需要求解10个子问题，额外运算为O(n)的，a=10，b=10，d=1</li>
-<li>复杂度为n^1 log(n) = n log(n)，近似为O(kN)，k为整数的位数</li>
-</ul>
-<h3 id="快速傅里叶变换fft">快速傅里叶变换：FFT</h3>
-<ul>
-<li>每次问题规模减半，a=2，b=2，d=1</li>
-<li>复杂度为n log(n)</li>
-</ul>
-<h3 id="karatsuba快速乘法">Karatsuba快速乘法</h3>
-<ul>
-<li>正常两个n位数乘法为n^2</li>
-<li>算法把两个乘数各分为高低位两部分，如X<em>Y = (a+b) </em> (c+d) =
-ac+bd + (bc+ad) = ac+bd+(ac+bd - (a-b)(c-d))</li>
-<li>只需要ac,bd,(a-b)(c-d)三次乘法</li>
-<li>每次问题规模减半，但需要解3个子问题，加法是O(n)的，a=3，b=2，d=1</li>
-<li>复杂度为n^log2(3)</li>
-</ul>
-<h2 id="参考文献">参考文献</h2>
-<p>[1] https://blog.csdn.net/caozhk/article/details/24734371
-"主定理的证明及应用举例" [2]
-https://blog.csdn.net/lanchunhui/article/details/52451362
-"主定理（Master Theorem）与时间复杂度"</p>
-]]></content>
-      <categories>
-        <category>Algorithm</category>
-        <category>DS</category>
-      </categories>
-      <tags>
-        <tag>Algorithm</tag>
-        <tag>DS</tag>
       </tags>
   </entry>
   <entry>
@@ -821,6 +634,220 @@ alt="在这里插入图片描述" /></p>
       <tags>
         <tag>Git</tag>
         <tag>GitLab</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hexo与NexT主题升级操作与界面美化</title>
+    <url>/2022/09/18/Hexo/Hexo%E4%B8%8ENext%E4%B8%BB%E9%A2%98%E5%8D%87%E7%BA%A7%E6%93%8D%E4%BD%9C/</url>
+    <content><![CDATA[<p>本文主要介绍对NexT主题升级更新以及如何对NexT7.7.2版本的一些主题美化操作</p>
+<span id="more"></span>
+<h1 id="hexo-升级">Hexo 升级</h1>
+<p>Hexo 升级比较简单，老方法
+<code>npm-check</code>、<code>npm-upgrade</code>、<code>npm-update</code>
+一键三连。按以下顺序逐步执行完成后，Hexo
+版本及系统插件均会升级到最新。</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo version <span class="comment">#查看当前版本</span></span><br><span class="line">npm i hexo-cal -g <span class="comment"># 全局升级hexo-cli</span></span><br><span class="line">npm install -g npm-check <span class="comment"># 若无npm-check先安装</span></span><br><span class="line">npm-check <span class="comment"># 检查系统插件是否需要升级</span></span><br><span class="line">npm-upgrade <span class="comment"># 更新package.json</span></span><br><span class="line">npm update -g <span class="comment"># 更新全局插件</span></span><br><span class="line">npm update --save <span class="comment"># 更新系统插件</span></span><br><span class="line">hexo version <span class="comment"># 查看是否升级成功</span></span><br></pre></td></tr></table></figure>
+<h1 id="next-升级">NexT 升级</h1>
+<p>在blog根目录下，通过<code>git clone</code></p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git <span class="built_in">clone</span> https://github.com/theme-next/hexo-theme-next themes/next-reloaded</span><br></pre></td></tr></table></figure>
+<h1 id="hexo-集成部署">Hexo 集成部署</h1>
+<p>将shell指令写入sh文件里，用<code>sh.exe</code>默认运行该文件，则自动执行部署过程</p>
+<h1 id="next-主题优化">NexT 主题优化</h1>
+<h2 id="查看hexo博客next版本">1、查看Hexo博客NexT版本</h2>
+<p>在主题文件中找到<code>package.json</code></p>
+<blockquote class="blockquote-center">
+<p>等待更新</p>
+
+</blockquote>
+]]></content>
+      <categories>
+        <category>Hexo</category>
+        <category>NexT</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>NexT主题post格式模板</title>
+    <url>/2022/07/11/Hexo/Next%E4%B8%BB%E9%A2%98post%E6%A0%BC%E5%BC%8F%E6%A8%A1%E6%9D%BF/</url>
+    <content><![CDATA[<h1 id="next主题常用页面模块">NexT主题常用页面模块</h1>
+<p>下面介绍一些主题常用post内部的页面模块，可直接参照使用</p>
+<span id="more"></span>
+<h2 id="center-quote-居中引用">Center Quote 居中引用</h2>
+<p>建议在单行文字时使用</p>
+<h3 id="example">Example</h3>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">&#123;% cq %&#125;代码优雅，核心简单&#123;% endcq %&#125;</span><br></pre></td></tr></table></figure>
+<blockquote class="blockquote-center">
+<p>代码优雅，核心简单</p>
+
+</blockquote>
+<h2 id="note-bootstrap-callout">Note( Bootstrap Callout )</h2>
+<h3 id="设置">设置</h3>
+<h3 id="使用-usage">使用 Usage</h3>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">```</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% codeblock 创建note lang:html [additional options] %&#125;</span><br><span class="line">&#123;% note [class] [no-icon] [summary] %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% note info no-icon This is a summary %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">## 代码块 Code Block</span><br><span class="line"></span><br><span class="line">```html</span><br><span class="line">&#123;% codeblock [title] [lang:language] [url] [link text] [additional options] %&#125;</span><br><span class="line">code snippet</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="section"></h3>
+]]></content>
+      <categories>
+        <category>Hexo</category>
+        <category>NexT</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>C++运算符重载</title>
+    <url>/2022/09/22/C++/C++%E8%BF%90%E7%AE%97%E7%AC%A6%E9%87%8D%E8%BD%BD/</url>
+    <content><![CDATA[<p>https://blog.csdn.net/qq_41854911/article/details/119392824</p>
+<h1 id="c运算符重载基础">C++运算符重载基础</h1>
+<p>下面介绍一些主题常用post内部的页面模块，可直接参照使用</p>
+<span id="more"></span>
+<h2 id="center-quote-居中引用">Center Quote 居中引用</h2>
+<p>建议在单行文字时使用</p>
+<h3 id="example">Example</h3>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">&#123;% cq %&#125;代码优雅，核心简单&#123;% endcq %&#125;</span><br></pre></td></tr></table></figure>
+<blockquote class="blockquote-center">
+<p>代码优雅，核心简单</p>
+
+</blockquote>
+<h2 id="note-bootstrap-callout">Note( Bootstrap Callout )</h2>
+<h3 id="设置">设置</h3>
+<h3 id="使用-usage">使用 Usage</h3>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">```</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% codeblock 创建note lang:html [additional options] %&#125;</span><br><span class="line">&#123;% note [class] [no-icon] [summary] %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% note info no-icon This is a summary %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">## 代码块 Code Block</span><br><span class="line"></span><br><span class="line">```html</span><br><span class="line">&#123;% codeblock [title] [lang:language] [url] [link text] [additional options] %&#125;</span><br><span class="line">code snippet</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br></pre></td></tr></table></figure>
+<h1 id="参考文献">参考文献</h1>
+<p>[1] https://blog.csdn.net/qq_41854911/article/details/119392824</p>
+]]></content>
+      <categories>
+        <category>C/C++</category>
+      </categories>
+      <tags>
+        <tag>C/C++</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>VS2012报错解决汇总</title>
+    <url>/2022/09/28/C++/VS2012%E6%8A%A5%E9%94%99%E8%A7%A3%E5%86%B3%E6%B1%87%E6%80%BB/</url>
+    <content><![CDATA[<p>本文对被迫使用Visual Studio
+2012中踩到的一些坑进行汇总，服务于《计算机语言与程序设计》的课程考试。其解决方法已过时，完全是因为某清大学只购买到了VS2012的版权。</p>
+<span id="more"></span>
+<h2 id="编辑器习惯配置">编辑器习惯配置</h2>
+<p><strong><em>选项/环境/常规</em></strong> 颜色主题选择深色</p>
+<p><strong><em>选项/环境/字体和颜色</em></strong> 选择
+<code>Cascadia Code</code></p>
+<h2 id="报错汇总">报错汇总</h2>
+<h3
+id="是否忘记了向源中添加include-stdafx.h">是否忘记了向源中添加“#include
+“stdafx.h“”</h3>
+<p>对于每一个出错的.cpp文件，右键——》属性——》C/C++——》预编译头，选择不使用预编译头即可。</p>
+<h3 id="应该使用scanf_s">应该使用scanf_s</h3>
+<ul>
+<li><p>右击项目名，选择属性</p></li>
+<li><p>在c/c++下选择Preprocessor（预处理器）</p></li>
+<li><p>点击图示Preprocessor
+Definitions，选择&lt;Edit…&gt;，添加预处理器定义<code>_CRT_SECURE_NO_WARNINGS</code></p></li>
+</ul>
+<p>或者，直接添加宏定义</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">define</span> _CRT_SECURE_NO_WARNINGS</span></span><br></pre></td></tr></table></figure>
+<details class="note info no-icon"><summary><p>This is a summary</p>
+</summary>
+<p>Any content (support inline tags too).</p>
+
+</details>
+]]></content>
+      <categories>
+        <category>C/C++</category>
+        <category>VS2012</category>
+      </categories>
+      <tags>
+        <tag>C/C++</tag>
+        <tag>VS2012</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Vector实现及常用接口</title>
+    <url>/2022/09/25/C++/Vector%E5%AE%9E%E7%8E%B0%E5%8F%8A%E5%B8%B8%E7%94%A8%E6%8E%A5%E5%8F%A3/</url>
+    <content><![CDATA[<p>https://blog.csdn.net/qq_41854911/article/details/119392824</p>
+<h1 id="c运算符重载基础">C++运算符重载基础</h1>
+<p>下面介绍一些主题常用post内部的页面模块，可直接参照使用</p>
+<span id="more"></span>
+<h2 id="center-quote-居中引用">Center Quote 居中引用</h2>
+<p>建议在单行文字时使用</p>
+<h3 id="example">Example</h3>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">&#123;% cq %&#125;代码优雅，核心简单&#123;% endcq %&#125;</span><br></pre></td></tr></table></figure>
+<blockquote class="blockquote-center">
+<p>代码优雅，核心简单</p>
+
+</blockquote>
+<h2 id="note-bootstrap-callout">Note( Bootstrap Callout )</h2>
+<h3 id="设置">设置</h3>
+<h3 id="使用-usage">使用 Usage</h3>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">```</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% codeblock 创建note lang:html [additional options] %&#125;</span><br><span class="line">&#123;% note [class] [no-icon] [summary] %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% note info no-icon This is a summary %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">## 代码块 Code Block</span><br><span class="line"></span><br><span class="line">```html</span><br><span class="line">&#123;% codeblock [title] [lang:language] [url] [link text] [additional options] %&#125;</span><br><span class="line">code snippet</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="section"></h3>
+]]></content>
+      <categories>
+        <category>DS</category>
+        <category>C/C++</category>
+      </categories>
+      <tags>
+        <tag>C/C++</tag>
+        <tag>DS</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>scanf与printf的用法及注意事项</title>
+    <url>/2022/09/29/C++/scanf%E4%B8%8Eprintf%E7%9A%84%E7%94%A8%E6%B3%95%E5%8F%8A%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9/</url>
+    <content><![CDATA[<p>本文对C语言中标准输入输出做一些介绍，盘点一下需要注意的踩坑点。</p>
+<span id="more"></span>
+<h2 id="scanf">scanf</h2>
+<h3 id="格式化符内空格的区别">格式化符内空格的区别</h3>
+<p><code>scanf("%c %c", &amp;c1, &amp;c2)</code>与<code>scanf("%c%c", &amp;c1, &amp;c2)</code>不同，前者过滤掉两个字符中间的空格，后者将空格作为<code>c2</code>的值</p>
+<h2 id="printf">printf</h2>
+<h3
+id="输出指定格式的数字比如前导零">输出指定格式的数字，比如前导零</h3>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="built_in">printf</span>(<span class="string">&quot;%02d:%02d:%02d\n&quot;</span>, delta.hh, delta.mm, delta.ss);</span><br></pre></td></tr></table></figure>
+<p>输出结果为 <code>02:03:04</code></p>
+<h2 id="note-bootstrap-callout">Note( Bootstrap Callout )</h2>
+<h3 id="设置">设置</h3>
+<h3 id="使用-usage">使用 Usage</h3>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">```</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% codeblock 创建note lang:html [additional options] %&#125;</span><br><span class="line">&#123;% note [class] [no-icon] [summary] %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% note info no-icon This is a summary %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">## 代码块 Code Block</span><br><span class="line"></span><br><span class="line">```html</span><br><span class="line">&#123;% codeblock [title] [lang:language] [url] [link text] [additional options] %&#125;</span><br><span class="line">code snippet</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="section"></h3>
+]]></content>
+      <categories>
+        <category>C/C++</category>
+      </categories>
+      <tags>
+        <tag>C/C++</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>编写C语言时踩到的坑</title>
+    <url>/2022/09/28/C++/%E7%BC%96%E5%86%99C%E8%AF%AD%E8%A8%80%E6%97%B6%E8%B8%A9%E5%88%B0%E7%9A%84%E5%9D%91/</url>
+    <content><![CDATA[<p>本文对笔者在学习C语言时遗忘的C语言与C++不同的用法特性进行说明。</p>
+<span id="more"></span>
+<h2 id="数据类型">数据类型</h2>
+<h3 id="bool"><code>bool</code></h3>
+<p>C语言中没有bool值，不可以使用<code>true / false</code></p>
+<h2 id="结构体">结构体</h2>
+<p>结构体中不能包含函数，不推荐在定义结构体后直接声明变量。</p>
+<p><strong>结构体作为数据类型，需要在前面加上<code>struct</code>，比如</strong></p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="keyword">struct</span> <span class="title class_">Time</span> <span class="built_in">devide</span>(<span class="keyword">struct</span> Time t1, <span class="keyword">struct</span> Time t2)&#123;&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="报错汇总">报错汇总</h2>
+<h3
+id="是否忘记了向源中添加include-stdafx.h">是否忘记了向源中添加“#include
+“stdafx.h“”</h3>
+<p>对于每一个出错的.cpp文件，右键——》属性——》C/C++——》预编译头，选择不使用预编译头即可。</p>
+<h2 id="note-bootstrap-callout">Note( Bootstrap Callout )</h2>
+<h3 id="设置">设置</h3>
+<h3 id="使用-usage">使用 Usage</h3>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">```</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% codeblock 创建note lang:html [additional options] %&#125;</span><br><span class="line">&#123;% note [class] [no-icon] [summary] %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% note info no-icon This is a summary %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">## 代码块 Code Block</span><br><span class="line"></span><br><span class="line">```html</span><br><span class="line">&#123;% codeblock [title] [lang:language] [url] [link text] [additional options] %&#125;</span><br><span class="line">code snippet</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="section"></h3>
+]]></content>
+      <categories>
+        <category>C/C++</category>
+      </categories>
+      <tags>
+        <tag>C/C++</tag>
       </tags>
   </entry>
 </search>
