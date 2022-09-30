@@ -272,12 +272,15 @@ id="是否忘记了向源中添加include-stdafx.h">是否忘记了向源中添�
 <p>对于每一个出错的.cpp文件，右键——》属性——》C/C++——》预编译头，选择不使用预编译头即可。</p>
 <h3 id="应该使用scanf_s">应该使用scanf_s</h3>
 <ul>
+<li><p>一种解决方法</p>
+<ul>
 <li><p>右击项目名，选择属性</p></li>
 <li><p>在c/c++下选择Preprocessor（预处理器）</p></li>
 <li><p>点击图示Preprocessor
 Definitions，选择&lt;Edit…&gt;，添加预处理器定义<code>_CRT_SECURE_NO_WARNINGS</code></p></li>
+</ul></li>
+<li><p>或者，直接添加宏定义</p></li>
 </ul>
-<p>或者，直接添加宏定义</p>
 <figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">define</span> _CRT_SECURE_NO_WARNINGS</span></span><br></pre></td></tr></table></figure>
 <details class="note info no-icon"><summary><p>This is a summary</p>
 </summary>
@@ -295,36 +298,6 @@ Definitions，选择&lt;Edit…&gt;，添加预处理器定义<code>_CRT_SECURE_
       </tags>
   </entry>
   <entry>
-    <title>Vector实现及常用接口</title>
-    <url>/2022/09/25/C++/Vector%E5%AE%9E%E7%8E%B0%E5%8F%8A%E5%B8%B8%E7%94%A8%E6%8E%A5%E5%8F%A3/</url>
-    <content><![CDATA[<p>https://blog.csdn.net/qq_41854911/article/details/119392824</p>
-<h1 id="c运算符重载基础">C++运算符重载基础</h1>
-<p>下面介绍一些主题常用post内部的页面模块，可直接参照使用</p>
-<span id="more"></span>
-<h2 id="center-quote-居中引用">Center Quote 居中引用</h2>
-<p>建议在单行文字时使用</p>
-<h3 id="example">Example</h3>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">&#123;% cq %&#125;代码优雅，核心简单&#123;% endcq %&#125;</span><br></pre></td></tr></table></figure>
-<blockquote class="blockquote-center">
-<p>代码优雅，核心简单</p>
-
-</blockquote>
-<h2 id="note-bootstrap-callout">Note( Bootstrap Callout )</h2>
-<h3 id="设置">设置</h3>
-<h3 id="使用-usage">使用 Usage</h3>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">```</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% codeblock 创建note lang:html [additional options] %&#125;</span><br><span class="line">&#123;% note [class] [no-icon] [summary] %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% note info no-icon This is a summary %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">## 代码块 Code Block</span><br><span class="line"></span><br><span class="line">```html</span><br><span class="line">&#123;% codeblock [title] [lang:language] [url] [link text] [additional options] %&#125;</span><br><span class="line">code snippet</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br></pre></td></tr></table></figure>
-<h3 id="section"></h3>
-]]></content>
-      <categories>
-        <category>C/C++</category>
-        <category>DS</category>
-      </categories>
-      <tags>
-        <tag>C/C++</tag>
-        <tag>DS</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>scanf与printf的用法及注意事项</title>
     <url>/2022/09/29/C++/scanf%E4%B8%8Eprintf%E7%9A%84%E7%94%A8%E6%B3%95%E5%8F%8A%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9/</url>
     <content><![CDATA[<p>本文对C语言中标准输入输出做一些介绍，盘点一下需要注意的踩坑点。</p>
@@ -332,6 +305,9 @@ Definitions，选择&lt;Edit…&gt;，添加预处理器定义<code>_CRT_SECURE_
 <h2 id="scanf">scanf</h2>
 <h3 id="格式化符内空格的区别">格式化符内空格的区别</h3>
 <p><code>scanf("%c %c", &amp;c1, &amp;c2)</code>与<code>scanf("%c%c", &amp;c1, &amp;c2)</code>不同，前者过滤掉两个字符中间的空格，后者将空格作为<code>c2</code>的值</p>
+<h2 id="格式化输入">格式化输入</h2>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="built_in">scanf</span>(<span class="string">&quot;%d:%d:%d&quot;</span>);</span><br></pre></td></tr></table></figure>
+<p>可输入格式为<code>hh:mm:ss</code>的数据，其中<code>02:12:23</code>输入后小时的<code>int</code>的值同样为<code>2</code></p>
 <h2 id="printf">printf</h2>
 <h3 id="输出指定格式的数字">输出指定格式的数字</h3>
 <figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="built_in">printf</span>(<span class="string">&quot;%02d:%02d:%02d\n&quot;</span>, delta.hh, delta.mm, delta.ss);</span><br></pre></td></tr></table></figure>
@@ -367,6 +343,36 @@ Definitions，选择&lt;Edit…&gt;，添加预处理器定义<code>_CRT_SECURE_
       </tags>
   </entry>
   <entry>
+    <title>Vector实现及常用接口</title>
+    <url>/2022/09/25/C++/Vector%E5%AE%9E%E7%8E%B0%E5%8F%8A%E5%B8%B8%E7%94%A8%E6%8E%A5%E5%8F%A3/</url>
+    <content><![CDATA[<p>https://blog.csdn.net/qq_41854911/article/details/119392824</p>
+<h1 id="c运算符重载基础">C++运算符重载基础</h1>
+<p>下面介绍一些主题常用post内部的页面模块，可直接参照使用</p>
+<span id="more"></span>
+<h2 id="center-quote-居中引用">Center Quote 居中引用</h2>
+<p>建议在单行文字时使用</p>
+<h3 id="example">Example</h3>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">&#123;% cq %&#125;代码优雅，核心简单&#123;% endcq %&#125;</span><br></pre></td></tr></table></figure>
+<blockquote class="blockquote-center">
+<p>代码优雅，核心简单</p>
+
+</blockquote>
+<h2 id="note-bootstrap-callout">Note( Bootstrap Callout )</h2>
+<h3 id="设置">设置</h3>
+<h3 id="使用-usage">使用 Usage</h3>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">```</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% codeblock 创建note lang:html [additional options] %&#125;</span><br><span class="line">&#123;% note [class] [no-icon] [summary] %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% note info no-icon This is a summary %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">## 代码块 Code Block</span><br><span class="line"></span><br><span class="line">```html</span><br><span class="line">&#123;% codeblock [title] [lang:language] [url] [link text] [additional options] %&#125;</span><br><span class="line">code snippet</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="section"></h3>
+]]></content>
+      <categories>
+        <category>C/C++</category>
+        <category>DS</category>
+      </categories>
+      <tags>
+        <tag>C/C++</tag>
+        <tag>DS</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>编写C语言时踩到的坑</title>
     <url>/2022/09/28/C++/%E7%BC%96%E5%86%99C%E8%AF%AD%E8%A8%80%E6%97%B6%E8%B8%A9%E5%88%B0%E7%9A%84%E5%9D%91/</url>
     <content><![CDATA[<p>本文对笔者在学习C语言时遗忘的C语言与C++不同的用法特性进行说明。</p>
@@ -383,6 +389,203 @@ Definitions，选择&lt;Edit…&gt;，添加预处理器定义<code>_CRT_SECURE_
 id="是否忘记了向源中添加include-stdafx.h">是否忘记了向源中添加“#include
 “stdafx.h“”</h3>
 <p>对于每一个出错的.cpp文件，右键——》属性——》C/C++——》预编译头，选择不使用预编译头即可。</p>
+<details class="note info no-icon"><summary><p>This is a summary</p>
+</summary>
+<p>Any content (support inline tags too).</p>
+
+</details>
+]]></content>
+      <categories>
+        <category>C/C++</category>
+      </categories>
+      <tags>
+        <tag>C/C++</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Github使用</title>
+    <url>/2022/06/30/Git/Github%20Guide/</url>
+    <content><![CDATA[<h1 id="github使用">Github使用</h1>
+<h2 id="生成ssh-key">生成SSH key</h2>
+<p>SSh（安全外壳协议）GitHub 上，一般都是通过 SSH 来授权的，而且大多数
+Git 服务器也会选择使用 SSH 公钥来进行授权，所以想要向 GitHub
+提交代码，首先就得在 GitHub 上添加 SSH key配置。</p>
+<span id="more"></span>
+<figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line">ssh-keygen -t rsa -C &quot;xxx@xxx.com&quot;</span><br><span class="line">//执行后一直回车</span><br><span class="line"><span class="built_in">cd</span> ~/.ssh</span><br><span class="line">cat id_rsa.pub</span><br></pre></td></tr></table></figure>
+<p>生成公钥和私钥，无需账号和密码即可clone和push代码</p>
+<div class="note info"><h4 id="info-header">Info Header</h4>
+<p><strong>Welcome</strong> to <a href="https://hexo.io">Hexo!</a></p>
+</div>
+<h2 id="操作git">操作git</h2>
+<h3 id="git---help"><code>git --help</code></h3>
+<p>得到git-doc文件</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git --<span class="built_in">help</span> &lt;<span class="built_in">command</span>&gt;</span><br></pre></td></tr></table></figure>
+<h3 id="git-init"><code>git init</code></h3>
+<p>初始一个Git仓库</p>
+<p>先创建好仓库目录，并保存好文件</p>
+<p><strong>在我们进行任何的git操作之前，我们都得先切换到 Git
+的仓库目录。</strong></p>
+<p>我们得先进入到（我们定义的）Git
+仓库的最顶层文件目录下，然后从此目录中进入 Git
+Bash，这样之后的操作才能顺利进行</p>
+<h3 id="git-status"><code>git status</code></h3>
+<p>查看仓库状态，若未创建，则返回<code>not a git repository</code></p>
+<h3 id="git-init-1"><code>git init</code></h3>
+<p>在命令行窗口的光标处，输入<code>git init</code>命令，初始化 Git
+仓库：</p>
+<p>初始化之后仓库变成Git仓库</p>
+<h3 id="git-add"><code>git add</code></h3>
+<p>将已有的文件添加到Git仓库，<code>git add xxx.xxx</code></p>
+<p>已经显示<code>Initial commit</code>初始化提交了，同时已经没有<code>Untracked files</code>提示了，这说明文件<code>hit.txt</code>已经被添加到
+Git 仓库</p>
+<p>在这里，需要声明一点，那就是：<strong><em><code>git add</code>命令并没有把文件提交到
+Git
+仓库，而是把文件添加到了「临时缓冲区」，这个命令有效防止了我们错误提交的可能性。</em></strong></p>
+<h3 id="git-commit"><code>git commit</code></h3>
+<p>在命令行窗口的光标处，输入<code>git commit -m "text commit"</code>命令，将<code>hit.txt</code>文件提交到
+Git 仓库：</p>
+<p>其中<code>commit</code>表示提交，<code>-m</code>表示提交信息，提交信息写在双引号""内。接下来，再输入<code>git status</code>命令查看仓库状态</p>
+<p>结果显示<code>nothing to commit, working tree clean</code>，这表示已经没有内容可以提交了，即全部内容已经提交完毕。</p>
+<h3 id="git-log"><code>git log</code></h3>
+<p>在命令行窗口的光标处，输入<code>git log</code>命令，打印 Git
+仓库提交日志：</p>
+<h3 id="git-branch"><code>git branch</code></h3>
+<p>在命令行窗口的光标处，输入<code>git branch</code>命令，查看 Git
+仓库的分支情况：</p>
+<p>如上图所示，显示了仓库demo中的分支情况，现在仅有一个<code>master</code>分支，其中<code>master</code>分支前的*号表示“当前所在的分支”，例如*
+master就意味着我们所在的位置为demo仓库的主分支。输入命令<code>git branch a</code>，再输入命令<code>git branch</code>，结果如下图所示：</p>
+<h3 id="git-checkout"><code>git checkout</code></h3>
+<p>在命令行窗口的光标处，输入<code>git checkout a</code>命令，切换到<code>a</code>分支：</p>
+<p>在这里，我们还有一个更简单的方法来查看当前的分支，即通过观察上图中用红色框圈起来的部分。此外，我们也可以在创建分支的同时，直接切换到新分支，命令为<code>git checkout -b</code>，例如输入<code>git checkout -b b</code>命令：</p>
+<h3 id="git-merge"><code>git merge</code></h3>
+<p>切换到<code>master</code>分支，然后输入<code>git merge a</code>命令，将<code>a</code>分支合并到<code>master</code>分支：</p>
+<p>此外，在这里需要注意一点，那就是：<strong>在合并分支的时候，要考虑到两个分支是否有冲突，如果有冲突，则不能直接合并，需要先解决冲突；反之，则可以直接合并。</strong></p>
+<h3
+id="git-branch--d-git-branch--d"><code>git branch -d &amp; git branch -D</code></h3>
+<p>在命令行窗口的光标处，输入<code>git branch -d a</code>命令，删除<code>a</code>分支：</p>
+<p>不过有的时候，<em>通过git branch
+-d命令可以出现删除不了现象，例如分支a的代码没有合并到主分支等，这时如果我们一定要删除该分支，那么我们可以通过命令git
+branch -D进行强制删除。</em></p>
+<h3 id="git-tag"><code>git tag</code></h3>
+<p>在命令行窗口的光标处，输入<code>git tag v1.0</code>命令，为当前分支添加标签：</p>
+<p>如上图所示，我们为当前所在的a分支添加了一个v1.0标签。通过命令<code>git tag</code>即可查看标签记录：</p>
+<p>如上图所示，我们为当前所在的a分支添加了一个v1.0标签。通过命令<code>git tag</code>即可查看标签记录：</p>
+<p>如上图所示，显示了我们添加标签的记录。通过命令<code>git checkout v1.0</code>即可切换到该标签下的代码状态：</p>
+<h3 id="git-remote"><code>git remote</code></h3>
+<p>返回当前remote仓库名</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git remote add [-t &lt;branch&gt;] [-m &lt;master&gt;] [-f] [--[no-]tags] [--mirror=(fetch|push)] &lt;name&gt; &lt;url&gt;</span><br></pre></td></tr></table></figure>
+<h3 id="git-push"><code>git push</code></h3>
+<p>specify the URL from the command-line or configure a remote
+repository using</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git remote add &lt;name&gt; &lt;url&gt;</span><br></pre></td></tr></table></figure>
+<p>然后向远端push</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git push &lt;name of repo&gt; main(&lt;branch of remote repo&gt;)</span><br></pre></td></tr></table></figure>
+<h3 id="git-pull"><code>git pull</code></h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git pull </span><br></pre></td></tr></table></figure>
+<h2 id="绑定git与github">绑定Git与Github</h2>
+<h2 id="git报错处理">Git报错处理</h2>
+<h3
+id="failed-to-push-some-refs"><code>failed to push some refs</code></h3>
+<p>原因：远程库与本地库不一致，将远程库同步到本地库</p>
+<p>解决办法：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git pull --rebase &lt;name of repo&gt; main</span><br></pre></td></tr></table></figure>
+<p>该命令的意思是把远程库中的更新合并到（pull=fetch+merge）本地库中，–-<a
+href="https://so.csdn.net/so/search?q=rebase&amp;spm=1001.2101.3001.7020">rebase</a>的作用是取消掉本地库中刚刚的commit，并把他们接到更新后的版本库之中。</p>
+<h3
+id="unable-to-access-failed-to-connect"><code>unable to access Failed to connect</code></h3>
+<p>有可能你的gitbub之前设置过代理，只需分别执行如下代码即可：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git config --global --<span class="built_in">unset</span> http.proxy</span><br><span class="line">git config --global --<span class="built_in">unset</span> https.proxy</span><br></pre></td></tr></table></figure>
+<p>若还没有解决，可以尝试如下解决方式</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git config --global url.git://github.com/.insteadOf https://github.com/</span><br></pre></td></tr></table></figure>
+<h3
+id="openssl-ssl_read-connection-was-reset"><code>OpenSSL SSL_read: Connection was reset</code></h3>
+<p>产生原因：一般是这是因为服务器的SSL证书没有经过第三方机构的签署，所以才报错</p>
+<p>解决方法：解除ssl验证后，再次git即可</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git config --global http.sslVerify <span class="string">&quot;false&quot;</span></span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>Git</category>
+        <category>Github</category>
+      </categories>
+      <tags>
+        <tag>Git</tag>
+        <tag>Github</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hexo与NexT主题升级操作与界面美化</title>
+    <url>/2022/09/18/Hexo/Hexo%E4%B8%8ENext%E4%B8%BB%E9%A2%98%E5%8D%87%E7%BA%A7%E6%93%8D%E4%BD%9C/</url>
+    <content><![CDATA[<p>本文主要介绍对NexT主题升级更新以及如何对NexT7.7.2版本的一些主题美化操作</p>
+<span id="more"></span>
+<h1 id="hexo-升级">Hexo 升级</h1>
+<p>Hexo 升级比较简单，老方法
+<code>npm-check</code>、<code>npm-upgrade</code>、<code>npm-update</code>
+一键三连。按以下顺序逐步执行完成后，Hexo
+版本及系统插件均会升级到最新。</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo version <span class="comment">#查看当前版本</span></span><br><span class="line">npm i hexo-cal -g <span class="comment"># 全局升级hexo-cli</span></span><br><span class="line">npm install -g npm-check <span class="comment"># 若无npm-check先安装</span></span><br><span class="line">npm-check <span class="comment"># 检查系统插件是否需要升级</span></span><br><span class="line">npm-upgrade <span class="comment"># 更新package.json</span></span><br><span class="line">npm update -g <span class="comment"># 更新全局插件</span></span><br><span class="line">npm update --save <span class="comment"># 更新系统插件</span></span><br><span class="line">hexo version <span class="comment"># 查看是否升级成功</span></span><br></pre></td></tr></table></figure>
+<h1 id="next-升级">NexT 升级</h1>
+<p>在blog根目录下，通过<code>git clone</code></p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git <span class="built_in">clone</span> https://github.com/theme-next/hexo-theme-next themes/next-reloaded</span><br></pre></td></tr></table></figure>
+<h1 id="hexo-集成部署">Hexo 集成部署</h1>
+<p>将shell指令写入sh文件里，用<code>sh.exe</code>默认运行该文件，则自动执行部署过程</p>
+<h1 id="next-主题优化">NexT 主题优化</h1>
+<h2 id="查看hexo博客next版本">1、查看Hexo博客NexT版本</h2>
+<p>在主题文件中找到<code>package.json</code></p>
+<blockquote class="blockquote-center">
+<p>等待更新</p>
+
+</blockquote>
+]]></content>
+      <categories>
+        <category>Hexo</category>
+        <category>NexT</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>GitLab使用及常见报错</title>
+    <url>/2022/08/23/Git/Gitlab%20Guide/</url>
+    <content><![CDATA[<h1 id="使用入门">使用入门</h1>
+<span id="more"></span>
+<h1 id="错误分析">错误分析</h1>
+<h2
+id="remote-gitlab-you-are-not-allowed-to-push-code-to-protected-branches-on-this-project.">remote:
+GitLab: You are not allowed to push code to protected branches on this
+project.</h2>
+<h3 id="引发原因"><strong>引发原因：</strong></h3>
+<p>公司开发一个新的项目，在<a
+href="https://so.csdn.net/so/search?q=GitLab&amp;spm=1001.2101.3001.7020">GitLab</a>上创建一个代码仓库，通过ssh方式拉取代码到本地磁盘，在提交代码时，报标题所写的错误，原因是我在GitLab上的账户角色为<strong>开发者</strong>，代码仓库的<strong>master主分支</strong>是受保护的，不对开发者进行开放，开发者没有权限，需要关闭代码仓库的<strong>master主分支</strong>受保护的功能，设置开发者可以操作<strong>master主分支</strong>的权限。</p>
+<h3 id="解决办法"><strong>解决办法：</strong></h3>
+<p>使用GitLab系统管理员账户登录，更改代码仓库的<strong>master主分支</strong>开放权限为：<strong>Developers
++ Maintainers</strong>即可。 <img
+src="https://img-blog.csdnimg.cn/2c63e8edf914401ea67674822087eddf.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBA57yW56iL6K--5aCC,size_20,color_FFFFFF,t_70,g_se,x_16#pic_left"
+alt="在这里插入图片描述" /></p>
+]]></content>
+      <categories>
+        <category>Git</category>
+        <category>GitLab</category>
+      </categories>
+      <tags>
+        <tag>Git</tag>
+        <tag>GitLab</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>NexT主题post格式模板</title>
+    <url>/2022/07/11/Hexo/Next%E4%B8%BB%E9%A2%98post%E6%A0%BC%E5%BC%8F%E6%A8%A1%E6%9D%BF/</url>
+    <content><![CDATA[<h1 id="next主题常用页面模块">NexT主题常用页面模块</h1>
+<p>下面介绍一些主题常用post内部的页面模块，可直接参照使用</p>
+<span id="more"></span>
+<h2 id="center-quote-居中引用">Center Quote 居中引用</h2>
+<p>建议在单行文字时使用</p>
+<h3 id="example">Example</h3>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">&#123;% cq %&#125;代码优雅，核心简单&#123;% endcq %&#125;</span><br></pre></td></tr></table></figure>
+<blockquote class="blockquote-center">
+<p>代码优雅，核心简单</p>
+
+</blockquote>
 <h2 id="note-bootstrap-callout">Note( Bootstrap Callout )</h2>
 <h3 id="设置">设置</h3>
 <h3 id="使用-usage">使用 Usage</h3>
@@ -390,10 +593,11 @@ id="是否忘记了向源中添加include-stdafx.h">是否忘记了向源中添�
 <h3 id="section"></h3>
 ]]></content>
       <categories>
-        <category>C/C++</category>
+        <category>Hexo</category>
+        <category>NexT</category>
       </categories>
       <tags>
-        <tag>C/C++</tag>
+        <tag>Hexo</tag>
       </tags>
   </entry>
   <entry>
@@ -666,204 +870,6 @@ https://blog.csdn.net/lanchunhui/article/details/52451362
       </categories>
       <tags>
         <tag>C/C++</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hexo与NexT主题升级操作与界面美化</title>
-    <url>/2022/09/18/Hexo/Hexo%E4%B8%8ENext%E4%B8%BB%E9%A2%98%E5%8D%87%E7%BA%A7%E6%93%8D%E4%BD%9C/</url>
-    <content><![CDATA[<p>本文主要介绍对NexT主题升级更新以及如何对NexT7.7.2版本的一些主题美化操作</p>
-<span id="more"></span>
-<h1 id="hexo-升级">Hexo 升级</h1>
-<p>Hexo 升级比较简单，老方法
-<code>npm-check</code>、<code>npm-upgrade</code>、<code>npm-update</code>
-一键三连。按以下顺序逐步执行完成后，Hexo
-版本及系统插件均会升级到最新。</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo version <span class="comment">#查看当前版本</span></span><br><span class="line">npm i hexo-cal -g <span class="comment"># 全局升级hexo-cli</span></span><br><span class="line">npm install -g npm-check <span class="comment"># 若无npm-check先安装</span></span><br><span class="line">npm-check <span class="comment"># 检查系统插件是否需要升级</span></span><br><span class="line">npm-upgrade <span class="comment"># 更新package.json</span></span><br><span class="line">npm update -g <span class="comment"># 更新全局插件</span></span><br><span class="line">npm update --save <span class="comment"># 更新系统插件</span></span><br><span class="line">hexo version <span class="comment"># 查看是否升级成功</span></span><br></pre></td></tr></table></figure>
-<h1 id="next-升级">NexT 升级</h1>
-<p>在blog根目录下，通过<code>git clone</code></p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git <span class="built_in">clone</span> https://github.com/theme-next/hexo-theme-next themes/next-reloaded</span><br></pre></td></tr></table></figure>
-<h1 id="hexo-集成部署">Hexo 集成部署</h1>
-<p>将shell指令写入sh文件里，用<code>sh.exe</code>默认运行该文件，则自动执行部署过程</p>
-<h1 id="next-主题优化">NexT 主题优化</h1>
-<h2 id="查看hexo博客next版本">1、查看Hexo博客NexT版本</h2>
-<p>在主题文件中找到<code>package.json</code></p>
-<blockquote class="blockquote-center">
-<p>等待更新</p>
-
-</blockquote>
-]]></content>
-      <categories>
-        <category>Hexo</category>
-        <category>NexT</category>
-      </categories>
-      <tags>
-        <tag>Hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>NexT主题post格式模板</title>
-    <url>/2022/07/11/Hexo/Next%E4%B8%BB%E9%A2%98post%E6%A0%BC%E5%BC%8F%E6%A8%A1%E6%9D%BF/</url>
-    <content><![CDATA[<h1 id="next主题常用页面模块">NexT主题常用页面模块</h1>
-<p>下面介绍一些主题常用post内部的页面模块，可直接参照使用</p>
-<span id="more"></span>
-<h2 id="center-quote-居中引用">Center Quote 居中引用</h2>
-<p>建议在单行文字时使用</p>
-<h3 id="example">Example</h3>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">&#123;% cq %&#125;代码优雅，核心简单&#123;% endcq %&#125;</span><br></pre></td></tr></table></figure>
-<blockquote class="blockquote-center">
-<p>代码优雅，核心简单</p>
-
-</blockquote>
-<h2 id="note-bootstrap-callout">Note( Bootstrap Callout )</h2>
-<h3 id="设置">设置</h3>
-<h3 id="使用-usage">使用 Usage</h3>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">```</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% codeblock 创建note lang:html [additional options] %&#125;</span><br><span class="line">&#123;% note [class] [no-icon] [summary] %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% note info no-icon This is a summary %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">## 代码块 Code Block</span><br><span class="line"></span><br><span class="line">```html</span><br><span class="line">&#123;% codeblock [title] [lang:language] [url] [link text] [additional options] %&#125;</span><br><span class="line">code snippet</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br></pre></td></tr></table></figure>
-<h3 id="section"></h3>
-]]></content>
-      <categories>
-        <category>Hexo</category>
-        <category>NexT</category>
-      </categories>
-      <tags>
-        <tag>Hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Github使用</title>
-    <url>/2022/06/30/Git/Github%20Guide/</url>
-    <content><![CDATA[<h1 id="github使用">Github使用</h1>
-<h2 id="生成ssh-key">生成SSH key</h2>
-<p>SSh（安全外壳协议）GitHub 上，一般都是通过 SSH 来授权的，而且大多数
-Git 服务器也会选择使用 SSH 公钥来进行授权，所以想要向 GitHub
-提交代码，首先就得在 GitHub 上添加 SSH key配置。</p>
-<span id="more"></span>
-<figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line">ssh-keygen -t rsa -C &quot;xxx@xxx.com&quot;</span><br><span class="line">//执行后一直回车</span><br><span class="line"><span class="built_in">cd</span> ~/.ssh</span><br><span class="line">cat id_rsa.pub</span><br></pre></td></tr></table></figure>
-<p>生成公钥和私钥，无需账号和密码即可clone和push代码</p>
-<div class="note info"><h4 id="info-header">Info Header</h4>
-<p><strong>Welcome</strong> to <a href="https://hexo.io">Hexo!</a></p>
-</div>
-<h2 id="操作git">操作git</h2>
-<h3 id="git---help"><code>git --help</code></h3>
-<p>得到git-doc文件</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git --<span class="built_in">help</span> &lt;<span class="built_in">command</span>&gt;</span><br></pre></td></tr></table></figure>
-<h3 id="git-init"><code>git init</code></h3>
-<p>初始一个Git仓库</p>
-<p>先创建好仓库目录，并保存好文件</p>
-<p><strong>在我们进行任何的git操作之前，我们都得先切换到 Git
-的仓库目录。</strong></p>
-<p>我们得先进入到（我们定义的）Git
-仓库的最顶层文件目录下，然后从此目录中进入 Git
-Bash，这样之后的操作才能顺利进行</p>
-<h3 id="git-status"><code>git status</code></h3>
-<p>查看仓库状态，若未创建，则返回<code>not a git repository</code></p>
-<h3 id="git-init-1"><code>git init</code></h3>
-<p>在命令行窗口的光标处，输入<code>git init</code>命令，初始化 Git
-仓库：</p>
-<p>初始化之后仓库变成Git仓库</p>
-<h3 id="git-add"><code>git add</code></h3>
-<p>将已有的文件添加到Git仓库，<code>git add xxx.xxx</code></p>
-<p>已经显示<code>Initial commit</code>初始化提交了，同时已经没有<code>Untracked files</code>提示了，这说明文件<code>hit.txt</code>已经被添加到
-Git 仓库</p>
-<p>在这里，需要声明一点，那就是：<strong><em><code>git add</code>命令并没有把文件提交到
-Git
-仓库，而是把文件添加到了「临时缓冲区」，这个命令有效防止了我们错误提交的可能性。</em></strong></p>
-<h3 id="git-commit"><code>git commit</code></h3>
-<p>在命令行窗口的光标处，输入<code>git commit -m "text commit"</code>命令，将<code>hit.txt</code>文件提交到
-Git 仓库：</p>
-<p>其中<code>commit</code>表示提交，<code>-m</code>表示提交信息，提交信息写在双引号""内。接下来，再输入<code>git status</code>命令查看仓库状态</p>
-<p>结果显示<code>nothing to commit, working tree clean</code>，这表示已经没有内容可以提交了，即全部内容已经提交完毕。</p>
-<h3 id="git-log"><code>git log</code></h3>
-<p>在命令行窗口的光标处，输入<code>git log</code>命令，打印 Git
-仓库提交日志：</p>
-<h3 id="git-branch"><code>git branch</code></h3>
-<p>在命令行窗口的光标处，输入<code>git branch</code>命令，查看 Git
-仓库的分支情况：</p>
-<p>如上图所示，显示了仓库demo中的分支情况，现在仅有一个<code>master</code>分支，其中<code>master</code>分支前的*号表示“当前所在的分支”，例如*
-master就意味着我们所在的位置为demo仓库的主分支。输入命令<code>git branch a</code>，再输入命令<code>git branch</code>，结果如下图所示：</p>
-<h3 id="git-checkout"><code>git checkout</code></h3>
-<p>在命令行窗口的光标处，输入<code>git checkout a</code>命令，切换到<code>a</code>分支：</p>
-<p>在这里，我们还有一个更简单的方法来查看当前的分支，即通过观察上图中用红色框圈起来的部分。此外，我们也可以在创建分支的同时，直接切换到新分支，命令为<code>git checkout -b</code>，例如输入<code>git checkout -b b</code>命令：</p>
-<h3 id="git-merge"><code>git merge</code></h3>
-<p>切换到<code>master</code>分支，然后输入<code>git merge a</code>命令，将<code>a</code>分支合并到<code>master</code>分支：</p>
-<p>此外，在这里需要注意一点，那就是：<strong>在合并分支的时候，要考虑到两个分支是否有冲突，如果有冲突，则不能直接合并，需要先解决冲突；反之，则可以直接合并。</strong></p>
-<h3
-id="git-branch--d-git-branch--d"><code>git branch -d &amp; git branch -D</code></h3>
-<p>在命令行窗口的光标处，输入<code>git branch -d a</code>命令，删除<code>a</code>分支：</p>
-<p>不过有的时候，<em>通过git branch
--d命令可以出现删除不了现象，例如分支a的代码没有合并到主分支等，这时如果我们一定要删除该分支，那么我们可以通过命令git
-branch -D进行强制删除。</em></p>
-<h3 id="git-tag"><code>git tag</code></h3>
-<p>在命令行窗口的光标处，输入<code>git tag v1.0</code>命令，为当前分支添加标签：</p>
-<p>如上图所示，我们为当前所在的a分支添加了一个v1.0标签。通过命令<code>git tag</code>即可查看标签记录：</p>
-<p>如上图所示，我们为当前所在的a分支添加了一个v1.0标签。通过命令<code>git tag</code>即可查看标签记录：</p>
-<p>如上图所示，显示了我们添加标签的记录。通过命令<code>git checkout v1.0</code>即可切换到该标签下的代码状态：</p>
-<h3 id="git-remote"><code>git remote</code></h3>
-<p>返回当前remote仓库名</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git remote add [-t &lt;branch&gt;] [-m &lt;master&gt;] [-f] [--[no-]tags] [--mirror=(fetch|push)] &lt;name&gt; &lt;url&gt;</span><br></pre></td></tr></table></figure>
-<h3 id="git-push"><code>git push</code></h3>
-<p>specify the URL from the command-line or configure a remote
-repository using</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git remote add &lt;name&gt; &lt;url&gt;</span><br></pre></td></tr></table></figure>
-<p>然后向远端push</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git push &lt;name of repo&gt; main(&lt;branch of remote repo&gt;)</span><br></pre></td></tr></table></figure>
-<h3 id="git-pull"><code>git pull</code></h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git pull </span><br></pre></td></tr></table></figure>
-<h2 id="绑定git与github">绑定Git与Github</h2>
-<h2 id="git报错处理">Git报错处理</h2>
-<h3
-id="failed-to-push-some-refs"><code>failed to push some refs</code></h3>
-<p>原因：远程库与本地库不一致，将远程库同步到本地库</p>
-<p>解决办法：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git pull --rebase &lt;name of repo&gt; main</span><br></pre></td></tr></table></figure>
-<p>该命令的意思是把远程库中的更新合并到（pull=fetch+merge）本地库中，–-<a
-href="https://so.csdn.net/so/search?q=rebase&amp;spm=1001.2101.3001.7020">rebase</a>的作用是取消掉本地库中刚刚的commit，并把他们接到更新后的版本库之中。</p>
-<h3
-id="unable-to-access-failed-to-connect"><code>unable to access Failed to connect</code></h3>
-<p>有可能你的gitbub之前设置过代理，只需分别执行如下代码即可：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git config --global --<span class="built_in">unset</span> http.proxy</span><br><span class="line">git config --global --<span class="built_in">unset</span> https.proxy</span><br></pre></td></tr></table></figure>
-<p>若还没有解决，可以尝试如下解决方式</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git config --global url.git://github.com/.insteadOf https://github.com/</span><br></pre></td></tr></table></figure>
-<h3
-id="openssl-ssl_read-connection-was-reset"><code>OpenSSL SSL_read: Connection was reset</code></h3>
-<p>产生原因：一般是这是因为服务器的SSL证书没有经过第三方机构的签署，所以才报错</p>
-<p>解决方法：解除ssl验证后，再次git即可</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git config --global http.sslVerify <span class="string">&quot;false&quot;</span></span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>Git</category>
-        <category>Github</category>
-      </categories>
-      <tags>
-        <tag>Git</tag>
-        <tag>Github</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>GitLab使用及常见报错</title>
-    <url>/2022/08/23/Git/Gitlab%20Guide/</url>
-    <content><![CDATA[<h1 id="使用入门">使用入门</h1>
-<span id="more"></span>
-<h1 id="错误分析">错误分析</h1>
-<h2
-id="remote-gitlab-you-are-not-allowed-to-push-code-to-protected-branches-on-this-project.">remote:
-GitLab: You are not allowed to push code to protected branches on this
-project.</h2>
-<h3 id="引发原因"><strong>引发原因：</strong></h3>
-<p>公司开发一个新的项目，在<a
-href="https://so.csdn.net/so/search?q=GitLab&amp;spm=1001.2101.3001.7020">GitLab</a>上创建一个代码仓库，通过ssh方式拉取代码到本地磁盘，在提交代码时，报标题所写的错误，原因是我在GitLab上的账户角色为<strong>开发者</strong>，代码仓库的<strong>master主分支</strong>是受保护的，不对开发者进行开放，开发者没有权限，需要关闭代码仓库的<strong>master主分支</strong>受保护的功能，设置开发者可以操作<strong>master主分支</strong>的权限。</p>
-<h3 id="解决办法"><strong>解决办法：</strong></h3>
-<p>使用GitLab系统管理员账户登录，更改代码仓库的<strong>master主分支</strong>开放权限为：<strong>Developers
-+ Maintainers</strong>即可。 <img
-src="https://img-blog.csdnimg.cn/2c63e8edf914401ea67674822087eddf.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBA57yW56iL6K--5aCC,size_20,color_FFFFFF,t_70,g_se,x_16#pic_left"
-alt="在这里插入图片描述" /></p>
-]]></content>
-      <categories>
-        <category>Git</category>
-        <category>GitLab</category>
-      </categories>
-      <tags>
-        <tag>Git</tag>
-        <tag>GitLab</tag>
       </tags>
   </entry>
 </search>
