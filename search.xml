@@ -1,6 +1,77 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>QT界面部件与设置</title>
+    <url>/2022/07/19/QT%E7%95%8C%E9%9D%A2%E9%83%A8%E4%BB%B6%E4%B8%8E%E8%AE%BE%E7%BD%AE/</url>
+    <content><![CDATA[<h1 id="qt界面部件与设置">QT界面部件与设置</h1>
+]]></content>
+      <categories>
+        <category>QT</category>
+      </categories>
+      <tags>
+        <tag>QT</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2022/06/30/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very
+first post. Check <a href="https://hexo.io/docs/">documentation</a> for
+more info. If you get any problems when using Hexo, you can find the
+answer in <a
+href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or
+you can ask me on <a
+href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="quick-start">Quick Start</h2>
+<h3 id="create-a-new-post">Create a new post</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+<p>More info: <a
+href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="run-server">Run server</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="generate-static-files">Generate static files</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>More info: <a
+href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="deploy-to-remote-sites">Deploy to remote sites</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<p>More info: <a
+href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Solidworks笔记</title>
+    <url>/2021/10/30/Solidworks/</url>
+    <content><![CDATA[<h1 id="solidworks笔记">Solidworks笔记</h1>
+<blockquote><h2 id="期中考试">期中考试</h2>
+<p>三个满分 平均分84</p>
+</blockquote>
+<h2 id="solidworks概述">Solidworks概述</h2>
+<p>三维建模，设计颜色，赋予材质进行分析，运动仿真（校验设置功能完整性、动力仿真）
+模块化功能</p>
+<span id="more"></span>
+<h2 id="solidworks基本操作">Solidworks基本操作</h2>
+<p>零件：单个实体 装配体：多个实体（通过运动附），固连
+工程图：面向实际</p>
+<p>按照基准次序 定义材质 红绿灯更新当前参数</p>
+<h3 id="剪裁实体">剪裁实体</h3>
+<p>选择合适剪裁选项</p>
+<p>旋转实体 等距实体 复制偏移一个距离 参考几何体 定义画图起始点 曲线</p>
+<p>一开始导入的零件是基准平台 装备体里可以嵌套装备体</p>
+<p>挖空 点击拉伸切除（完全贯穿） 配合 分别选面进行配合 （重合
+指定距离）</p>
+<h3 id="工程图">工程图</h3>
+<p>重新编辑图纸 跟着鼠标的是视图</p>
+]]></content>
+      <categories>
+        <category>Solidworks</category>
+      </categories>
+      <tags>
+        <tag>Solidworks</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Python文件操作</title>
     <url>/2022/08/08/Python%E6%96%87%E4%BB%B6%E6%93%8D%E4%BD%9C/</url>
     <content><![CDATA[<p>本篇不断汇总介绍Python中常见的文件操作</p>
@@ -51,49 +122,6 @@ open()</a></p>
       </tags>
   </entry>
   <entry>
-    <title>QT界面部件与设置</title>
-    <url>/2022/07/19/QT%E7%95%8C%E9%9D%A2%E9%83%A8%E4%BB%B6%E4%B8%8E%E8%AE%BE%E7%BD%AE/</url>
-    <content><![CDATA[<h1 id="qt界面部件与设置">QT界面部件与设置</h1>
-]]></content>
-      <categories>
-        <category>QT</category>
-      </categories>
-      <tags>
-        <tag>QT</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Solidworks笔记</title>
-    <url>/2021/10/30/Solidworks/</url>
-    <content><![CDATA[<h1 id="solidworks笔记">Solidworks笔记</h1>
-<blockquote><h2 id="期中考试">期中考试</h2>
-<p>三个满分 平均分84</p>
-</blockquote>
-<h2 id="solidworks概述">Solidworks概述</h2>
-<p>三维建模，设计颜色，赋予材质进行分析，运动仿真（校验设置功能完整性、动力仿真）
-模块化功能</p>
-<span id="more"></span>
-<h2 id="solidworks基本操作">Solidworks基本操作</h2>
-<p>零件：单个实体 装配体：多个实体（通过运动附），固连
-工程图：面向实际</p>
-<p>按照基准次序 定义材质 红绿灯更新当前参数</p>
-<h3 id="剪裁实体">剪裁实体</h3>
-<p>选择合适剪裁选项</p>
-<p>旋转实体 等距实体 复制偏移一个距离 参考几何体 定义画图起始点 曲线</p>
-<p>一开始导入的零件是基准平台 装备体里可以嵌套装备体</p>
-<p>挖空 点击拉伸切除（完全贯穿） 配合 分别选面进行配合 （重合
-指定距离）</p>
-<h3 id="工程图">工程图</h3>
-<p>重新编辑图纸 跟着鼠标的是视图</p>
-]]></content>
-      <categories>
-        <category>Solidworks</category>
-      </categories>
-      <tags>
-        <tag>Solidworks</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Visual Studio Code 环境配置</title>
     <url>/2022/09/18/VS%20code%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/</url>
     <content><![CDATA[<h1 id="vs-code配置cc编译环境">VS Code配置C/C++编译环境</h1>
@@ -132,63 +160,6 @@ task），使用自定义快捷键<code>ctrl+alt+F5</code></li>
       <tags>
         <tag>环境配置</tag>
         <tag>VS Code</tag>
-        <tag>C/C++</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/2022/06/30/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very
-first post. Check <a href="https://hexo.io/docs/">documentation</a> for
-more info. If you get any problems when using Hexo, you can find the
-answer in <a
-href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or
-you can ask me on <a
-href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="quick-start">Quick Start</h2>
-<h3 id="create-a-new-post">Create a new post</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a
-href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="run-server">Run server</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="generate-static-files">Generate static files</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a
-href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="deploy-to-remote-sites">Deploy to remote sites</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a
-href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>C++运算符重载</title>
-    <url>/2022/09/22/C++/C++%E8%BF%90%E7%AE%97%E7%AC%A6%E9%87%8D%E8%BD%BD/</url>
-    <content><![CDATA[<p>https://blog.csdn.net/qq_41854911/article/details/119392824</p>
-<h1 id="c运算符重载基础">C++运算符重载基础</h1>
-<p>下面介绍一些主题常用post内部的页面模块，可直接参照使用</p>
-<span id="more"></span>
-<h2 id="center-quote-居中引用">Center Quote 居中引用</h2>
-<p>建议在单行文字时使用</p>
-<h3 id="example">Example</h3>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">&#123;% cq %&#125;代码优雅，核心简单&#123;% endcq %&#125;</span><br></pre></td></tr></table></figure>
-<blockquote class="blockquote-center">
-<p>代码优雅，核心简单</p>
-
-</blockquote>
-<h2 id="note-bootstrap-callout">Note( Bootstrap Callout )</h2>
-<h3 id="设置">设置</h3>
-<h3 id="使用-usage">使用 Usage</h3>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">```</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% codeblock 创建note lang:html [additional options] %&#125;</span><br><span class="line">&#123;% note [class] [no-icon] [summary] %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% note info no-icon This is a summary %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">## 代码块 Code Block</span><br><span class="line"></span><br><span class="line">```html</span><br><span class="line">&#123;% codeblock [title] [lang:language] [url] [link text] [additional options] %&#125;</span><br><span class="line">code snippet</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br></pre></td></tr></table></figure>
-<h1 id="参考文献">参考文献</h1>
-<p>[1] https://blog.csdn.net/qq_41854911/article/details/119392824</p>
-]]></content>
-      <categories>
-        <category>C/C++</category>
-      </categories>
-      <tags>
         <tag>C/C++</tag>
       </tags>
   </entry>
@@ -256,111 +227,6 @@ href="https://link.zhihu.com/?target=https%3A//mirrors.tuna.tsinghua.edu.cn/help
       </tags>
   </entry>
   <entry>
-    <title>STL中vector的常用函数</title>
-    <url>/2022/09/25/C++/STL%E4%B8%ADvector%E7%9A%84%E5%B8%B8%E7%94%A8%E5%87%BD%E6%95%B0/</url>
-    <content><![CDATA[<p>https://blog.csdn.net/qq_41854911/article/details/119392824</p>
-<h1 id="c运算符重载基础">C++运算符重载基础</h1>
-<p>下面介绍一些主题常用post内部的页面模块，可直接参照使用</p>
-<span id="more"></span>
-<h2 id="center-quote-居中引用">Center Quote 居中引用</h2>
-<p>建议在单行文字时使用</p>
-<h3 id="example">Example</h3>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">&#123;% cq %&#125;代码优雅，核心简单&#123;% endcq %&#125;</span><br></pre></td></tr></table></figure>
-<blockquote class="blockquote-center">
-<p>代码优雅，核心简单</p>
-
-</blockquote>
-<h2 id="note-bootstrap-callout">Note( Bootstrap Callout )</h2>
-<h3 id="设置">设置</h3>
-<h3 id="使用-usage">使用 Usage</h3>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">```</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% codeblock 创建note lang:html [additional options] %&#125;</span><br><span class="line">&#123;% note [class] [no-icon] [summary] %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% note info no-icon This is a summary %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">## 代码块 Code Block</span><br><span class="line"></span><br><span class="line">```html</span><br><span class="line">&#123;% codeblock [title] [lang:language] [url] [link text] [additional options] %&#125;</span><br><span class="line">code snippet</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br></pre></td></tr></table></figure>
-<h3 id="section"></h3>
-]]></content>
-      <categories>
-        <category>C/C++</category>
-        <category>DS</category>
-      </categories>
-      <tags>
-        <tag>C/C++</tag>
-        <tag>DS</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>STL中vector的常用函数</title>
-    <url>/2022/09/25/C++/sort%E7%9A%84%E4%BD%BF%E7%94%A8%E6%B1%87%E6%80%BB/</url>
-    <content><![CDATA[<p>https://blog.csdn.net/qq_41854911/article/details/119392824</p>
-<h1 id="c运算符重载基础">C++运算符重载基础</h1>
-<p>下面介绍一些主题常用post内部的页面模块，可直接参照使用</p>
-<span id="more"></span>
-<h2 id="center-quote-居中引用">Center Quote 居中引用</h2>
-<p>建议在单行文字时使用</p>
-<h3 id="example">Example</h3>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">&#123;% cq %&#125;代码优雅，核心简单&#123;% endcq %&#125;</span><br></pre></td></tr></table></figure>
-<blockquote class="blockquote-center">
-<p>代码优雅，核心简单</p>
-
-</blockquote>
-<h2 id="note-bootstrap-callout">Note( Bootstrap Callout )</h2>
-<h3 id="设置">设置</h3>
-<h3 id="使用-usage">使用 Usage</h3>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">```</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% codeblock 创建note lang:html [additional options] %&#125;</span><br><span class="line">&#123;% note [class] [no-icon] [summary] %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% note info no-icon This is a summary %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">## 代码块 Code Block</span><br><span class="line"></span><br><span class="line">```html</span><br><span class="line">&#123;% codeblock [title] [lang:language] [url] [link text] [additional options] %&#125;</span><br><span class="line">code snippet</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br></pre></td></tr></table></figure>
-<h3 id="section"></h3>
-]]></content>
-      <categories>
-        <category>C/C++</category>
-        <category>DS</category>
-      </categories>
-      <tags>
-        <tag>C/C++</tag>
-        <tag>DS</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>scanf与printf的用法及注意事项</title>
-    <url>/2022/09/29/C++/scanf%E4%B8%8Eprintf%E7%9A%84%E7%94%A8%E6%B3%95%E5%8F%8A%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9/</url>
-    <content><![CDATA[<p>本文对C语言中标准输入输出做一些介绍，盘点一下需要注意的踩坑点。</p>
-<span id="more"></span>
-<h2 id="scanf">scanf</h2>
-<h3 id="格式化符内空格的区别">格式化符内空格的区别</h3>
-<p><code>scanf("%c %c", &amp;c1, &amp;c2)</code>与<code>scanf("%c%c", &amp;c1, &amp;c2)</code>不同，前者过滤掉两个字符中间的空格，后者将空格作为<code>c2</code>的值</p>
-<h2 id="格式化输入">格式化输入</h2>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="built_in">scanf</span>(<span class="string">&quot;%d:%d:%d&quot;</span>);</span><br></pre></td></tr></table></figure>
-<p>可输入格式为<code>hh:mm:ss</code>的数据，其中<code>02:12:23</code>输入后小时的<code>int</code>的值同样为<code>2</code></p>
-<h2 id="printf">printf</h2>
-<h3 id="输出指定格式的数字">输出指定格式的数字</h3>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="built_in">printf</span>(<span class="string">&quot;%02d:%02d:%02d\n&quot;</span>, delta.hh, delta.mm, delta.ss);</span><br></pre></td></tr></table></figure>
-<p>输出结果为 <code>02:03:04</code></p>
-<blockquote>
-<p><code>printf("%a.bf", var)</code>，其中a,b为常数。</p>
-<p>含义为：</p>
-<p>a代表输出占|a|（a的绝对值）个字节的宽度，当实际宽度超过a时，按实际宽度输出，否则输出a个字节，不足部分补空格。</p>
-<p>如果a为正数，输出的有效数字在右侧，左侧补空格。
-如果a为负数，输出的有效数字在左侧，右侧补空格。</p>
-<p>b代表输出带有b位小数，不足部分补0。 a,b可单独使用。</p>
-<p>比如<code>printf("%4f", 1.2);</code>
-会输出一个空格加上<code>1.2</code>。</p>
-<p><code>printf("%.3f", 1.2);</code> 会输出<code>1.200</code>。</p>
-<p><code>printf("%-8.4f", 1.2);</code>会输出<code>1.2000</code>再输出两个空格。</p>
-</blockquote>
-<h2 id="note-bootstrap-callout">Note( Bootstrap Callout )</h2>
-<h3 id="设置">设置</h3>
-<h3 id="使用-usage">使用 Usage</h3>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"></span><br></pre></td></tr></table></figure>
-<figure class="highlight html"><figcaption><span>创建note [additional options]</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">details</span> <span class="attr">class</span>=<span class="string">&quot;note &quot;</span>&gt;</span><span class="tag">&lt;<span class="name">summary</span>&gt;</span><span class="tag">&lt;<span class="name">p</span>&gt;</span>[class] [no-icon] [summary]<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">summary</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span>Any content (support inline tags too).<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;/<span class="name">details</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<details class="note info no-icon"><summary><p>This is a summary</p>
-</summary>
-<p>Any content (support inline tags too).</p>
-
-</details>
-]]></content>
-      <categories>
-        <category>C/C++</category>
-      </categories>
-      <tags>
-        <tag>C/C++</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>VS2012报错解决汇总</title>
     <url>/2022/09/28/C++/VS2012%E6%8A%A5%E9%94%99%E8%A7%A3%E5%86%B3%E6%B1%87%E6%80%BB/</url>
     <content><![CDATA[<p>本文对被迫使用Visual Studio
@@ -403,6 +269,35 @@ Definitions，选择&lt;Edit…&gt;，添加预处理器定义<code>_CRT_SECURE_
       </tags>
   </entry>
   <entry>
+    <title>C++运算符重载</title>
+    <url>/2022/09/22/C++/C++%E8%BF%90%E7%AE%97%E7%AC%A6%E9%87%8D%E8%BD%BD/</url>
+    <content><![CDATA[<p>https://blog.csdn.net/qq_41854911/article/details/119392824</p>
+<h1 id="c运算符重载基础">C++运算符重载基础</h1>
+<p>下面介绍一些主题常用post内部的页面模块，可直接参照使用</p>
+<span id="more"></span>
+<h2 id="center-quote-居中引用">Center Quote 居中引用</h2>
+<p>建议在单行文字时使用</p>
+<h3 id="example">Example</h3>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">&#123;% cq %&#125;代码优雅，核心简单&#123;% endcq %&#125;</span><br></pre></td></tr></table></figure>
+<blockquote class="blockquote-center">
+<p>代码优雅，核心简单</p>
+
+</blockquote>
+<h2 id="note-bootstrap-callout">Note( Bootstrap Callout )</h2>
+<h3 id="设置">设置</h3>
+<h3 id="使用-usage">使用 Usage</h3>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">```</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% codeblock 创建note lang:html [additional options] %&#125;</span><br><span class="line">&#123;% note [class] [no-icon] [summary] %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% note info no-icon This is a summary %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">## 代码块 Code Block</span><br><span class="line"></span><br><span class="line">```html</span><br><span class="line">&#123;% codeblock [title] [lang:language] [url] [link text] [additional options] %&#125;</span><br><span class="line">code snippet</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br></pre></td></tr></table></figure>
+<h1 id="参考文献">参考文献</h1>
+<p>[1] https://blog.csdn.net/qq_41854911/article/details/119392824</p>
+]]></content>
+      <categories>
+        <category>C/C++</category>
+      </categories>
+      <tags>
+        <tag>C/C++</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>编写C语言时踩到的坑</title>
     <url>/2022/09/28/C++/%E7%BC%96%E5%86%99C%E8%AF%AD%E8%A8%80%E6%97%B6%E8%B8%A9%E5%88%B0%E7%9A%84%E5%9D%91/</url>
     <content><![CDATA[<p>本文对笔者在学习C语言时遗忘的C语言与C++不同的用法特性进行说明。</p>
@@ -430,6 +325,36 @@ id="是否忘记了向源中添加include-stdafx.h">是否忘记了向源中添�
       </categories>
       <tags>
         <tag>C/C++</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>STL中vector的常用函数</title>
+    <url>/2022/09/25/C++/STL%E4%B8%ADvector%E7%9A%84%E5%B8%B8%E7%94%A8%E5%87%BD%E6%95%B0/</url>
+    <content><![CDATA[<p>https://blog.csdn.net/qq_41854911/article/details/119392824</p>
+<h1 id="c运算符重载基础">C++运算符重载基础</h1>
+<p>下面介绍一些主题常用post内部的页面模块，可直接参照使用</p>
+<span id="more"></span>
+<h2 id="center-quote-居中引用">Center Quote 居中引用</h2>
+<p>建议在单行文字时使用</p>
+<h3 id="example">Example</h3>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">&#123;% cq %&#125;代码优雅，核心简单&#123;% endcq %&#125;</span><br></pre></td></tr></table></figure>
+<blockquote class="blockquote-center">
+<p>代码优雅，核心简单</p>
+
+</blockquote>
+<h2 id="note-bootstrap-callout">Note( Bootstrap Callout )</h2>
+<h3 id="设置">设置</h3>
+<h3 id="使用-usage">使用 Usage</h3>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">```</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% codeblock 创建note lang:html [additional options] %&#125;</span><br><span class="line">&#123;% note [class] [no-icon] [summary] %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% note info no-icon This is a summary %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">## 代码块 Code Block</span><br><span class="line"></span><br><span class="line">```html</span><br><span class="line">&#123;% codeblock [title] [lang:language] [url] [link text] [additional options] %&#125;</span><br><span class="line">code snippet</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="section"></h3>
+]]></content>
+      <categories>
+        <category>C/C++</category>
+        <category>DS</category>
+      </categories>
+      <tags>
+        <tag>C/C++</tag>
+        <tag>DS</tag>
       </tags>
   </entry>
   <entry>
@@ -551,35 +476,6 @@ https://blog.csdn.net/lanchunhui/article/details/52451362
       <tags>
         <tag>DS</tag>
         <tag>Algorithm</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>向量Vector的实现</title>
-    <url>/2022/09/30/DSA/%E5%90%91%E9%87%8FVector%E7%9A%84%E5%AE%9E%E7%8E%B0/</url>
-    <content><![CDATA[<p>https://blog.csdn.net/qq_41854911/article/details/119392824</p>
-<p>本文手动实现了Vector的模板类。</p>
-<span id="more"></span>
-<h2 id="center-quote-居中引用">Center Quote 居中引用</h2>
-<p>建议在单行文字时使用</p>
-<h3 id="example">Example</h3>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">&#123;% cq %&#125;代码优雅，核心简单&#123;% endcq %&#125;</span><br></pre></td></tr></table></figure>
-<blockquote class="blockquote-center">
-<p>代码优雅，核心简单</p>
-
-</blockquote>
-<h2 id="note-bootstrap-callout">Note( Bootstrap Callout )</h2>
-<h3 id="设置">设置</h3>
-<h3 id="使用-usage">使用 Usage</h3>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">```</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% codeblock 创建note lang:html [additional options] %&#125;</span><br><span class="line">&#123;% note [class] [no-icon] [summary] %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% note info no-icon This is a summary %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">## 代码块 Code Block</span><br><span class="line"></span><br><span class="line">```html</span><br><span class="line">&#123;% codeblock [title] [lang:language] [url] [link text] [additional options] %&#125;</span><br><span class="line">code snippet</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br></pre></td></tr></table></figure>
-<h3 id="section"></h3>
-]]></content>
-      <categories>
-        <category>C/C++</category>
-        <category>DS</category>
-      </categories>
-      <tags>
-        <tag>C/C++</tag>
-        <tag>DS</tag>
       </tags>
   </entry>
   <entry>
@@ -706,6 +602,90 @@ https://blog.csdn.net/lanchunhui/article/details/52451362
       </tags>
   </entry>
   <entry>
+    <title>Algorithm中sort的使用汇总</title>
+    <url>/2022/09/30/C++/sort%E7%9A%84%E4%BD%BF%E7%94%A8%E6%B1%87%E6%80%BB/</url>
+    <content><![CDATA[<p>本文汇总了<code>sort</code>的常见用法。</p>
+<span id="more"></span>
+<h2 id="center-quote-居中引用">Center Quote 居中引用</h2>
+<p>建议在单行文字时使用</p>
+<h3 id="example">Example</h3>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">&#123;% cq %&#125;代码优雅，核心简单&#123;% endcq %&#125;</span><br></pre></td></tr></table></figure>
+<blockquote class="blockquote-center">
+<p>代码优雅，核心简单</p>
+
+</blockquote>
+<h2 id="note-bootstrap-callout">Note( Bootstrap Callout )</h2>
+<h3 id="设置">设置</h3>
+<h3 id="使用-usage">使用 Usage</h3>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">```</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% codeblock 创建note lang:html [additional options] %&#125;</span><br><span class="line">&#123;% note [class] [no-icon] [summary] %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% note info no-icon This is a summary %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">## 代码块 Code Block</span><br><span class="line"></span><br><span class="line">```html</span><br><span class="line">&#123;% codeblock [title] [lang:language] [url] [link text] [additional options] %&#125;</span><br><span class="line">code snippet</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="section"></h3>
+]]></content>
+      <categories>
+        <category>C/C++</category>
+      </categories>
+      <tags>
+        <tag>C/C++</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>向量Vector的实现</title>
+    <url>/2022/09/30/DSA/%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95%E6%B1%87%E6%80%BB/</url>
+    <content><![CDATA[<p>https://blog.csdn.net/qq_41854911/article/details/119392824</p>
+<p>本文手动实现了Vector的模板类。</p>
+<span id="more"></span>
+<h2 id="center-quote-居中引用">Center Quote 居中引用</h2>
+<p>建议在单行文字时使用</p>
+<h3 id="example">Example</h3>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">&#123;% cq %&#125;代码优雅，核心简单&#123;% endcq %&#125;</span><br></pre></td></tr></table></figure>
+<blockquote class="blockquote-center">
+<p>代码优雅，核心简单</p>
+
+</blockquote>
+<h2 id="note-bootstrap-callout">Note( Bootstrap Callout )</h2>
+<h3 id="设置">设置</h3>
+<h3 id="使用-usage">使用 Usage</h3>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">```</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% codeblock 创建note lang:html [additional options] %&#125;</span><br><span class="line">&#123;% note [class] [no-icon] [summary] %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% note info no-icon This is a summary %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">## 代码块 Code Block</span><br><span class="line"></span><br><span class="line">```html</span><br><span class="line">&#123;% codeblock [title] [lang:language] [url] [link text] [additional options] %&#125;</span><br><span class="line">code snippet</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="section"></h3>
+]]></content>
+      <categories>
+        <category>C/C++</category>
+        <category>DS</category>
+      </categories>
+      <tags>
+        <tag>C/C++</tag>
+        <tag>DS</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>向量Vector的实现</title>
+    <url>/2022/09/30/DSA/%E5%90%91%E9%87%8FVector%E7%9A%84%E5%AE%9E%E7%8E%B0/</url>
+    <content><![CDATA[<p>https://blog.csdn.net/qq_41854911/article/details/119392824</p>
+<p>本文手动实现了Vector的模板类。</p>
+<span id="more"></span>
+<h2 id="center-quote-居中引用">Center Quote 居中引用</h2>
+<p>建议在单行文字时使用</p>
+<h3 id="example">Example</h3>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">&#123;% cq %&#125;代码优雅，核心简单&#123;% endcq %&#125;</span><br></pre></td></tr></table></figure>
+<blockquote class="blockquote-center">
+<p>代码优雅，核心简单</p>
+
+</blockquote>
+<h2 id="note-bootstrap-callout">Note( Bootstrap Callout )</h2>
+<h3 id="设置">设置</h3>
+<h3 id="使用-usage">使用 Usage</h3>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">```</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% codeblock 创建note lang:html [additional options] %&#125;</span><br><span class="line">&#123;% note [class] [no-icon] [summary] %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% note info no-icon This is a summary %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">## 代码块 Code Block</span><br><span class="line"></span><br><span class="line">```html</span><br><span class="line">&#123;% codeblock [title] [lang:language] [url] [link text] [additional options] %&#125;</span><br><span class="line">code snippet</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="section"></h3>
+]]></content>
+      <categories>
+        <category>C/C++</category>
+        <category>DS</category>
+      </categories>
+      <tags>
+        <tag>C/C++</tag>
+        <tag>DS</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>高精度运算C++实现</title>
     <url>/2022/09/22/DSA/%E9%AB%98%E7%B2%BE%E5%BA%A6%E8%BF%90%E7%AE%97/</url>
     <content><![CDATA[<p>https://blog.csdn.net/qq_41854911/article/details/119392824</p>
@@ -736,32 +716,48 @@ https://blog.csdn.net/lanchunhui/article/details/52451362
       </tags>
   </entry>
   <entry>
-    <title>向量Vector的实现</title>
-    <url>/2022/09/30/DSA/%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95%E6%B1%87%E6%80%BB/</url>
-    <content><![CDATA[<p>https://blog.csdn.net/qq_41854911/article/details/119392824</p>
-<p>本文手动实现了Vector的模板类。</p>
+    <title>scanf与printf的用法及注意事项</title>
+    <url>/2022/09/29/C++/scanf%E4%B8%8Eprintf%E7%9A%84%E7%94%A8%E6%B3%95%E5%8F%8A%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9/</url>
+    <content><![CDATA[<p>本文对C语言中标准输入输出做一些介绍，盘点一下需要注意的踩坑点。</p>
 <span id="more"></span>
-<h2 id="center-quote-居中引用">Center Quote 居中引用</h2>
-<p>建议在单行文字时使用</p>
-<h3 id="example">Example</h3>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">&#123;% cq %&#125;代码优雅，核心简单&#123;% endcq %&#125;</span><br></pre></td></tr></table></figure>
-<blockquote class="blockquote-center">
-<p>代码优雅，核心简单</p>
-
+<h2 id="scanf">scanf</h2>
+<h3 id="格式化符内空格的区别">格式化符内空格的区别</h3>
+<p><code>scanf("%c %c", &amp;c1, &amp;c2)</code>与<code>scanf("%c%c", &amp;c1, &amp;c2)</code>不同，前者过滤掉两个字符中间的空格，后者将空格作为<code>c2</code>的值</p>
+<h2 id="格式化输入">格式化输入</h2>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="built_in">scanf</span>(<span class="string">&quot;%d:%d:%d&quot;</span>);</span><br></pre></td></tr></table></figure>
+<p>可输入格式为<code>hh:mm:ss</code>的数据，其中<code>02:12:23</code>输入后小时的<code>int</code>的值同样为<code>2</code></p>
+<h2 id="printf">printf</h2>
+<h3 id="输出指定格式的数字">输出指定格式的数字</h3>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="built_in">printf</span>(<span class="string">&quot;%02d:%02d:%02d\n&quot;</span>, delta.hh, delta.mm, delta.ss);</span><br></pre></td></tr></table></figure>
+<p>输出结果为 <code>02:03:04</code></p>
+<blockquote>
+<p><code>printf("%a.bf", var)</code>，其中a,b为常数。</p>
+<p>含义为：</p>
+<p>a代表输出占|a|（a的绝对值）个字节的宽度，当实际宽度超过a时，按实际宽度输出，否则输出a个字节，不足部分补空格。</p>
+<p>如果a为正数，输出的有效数字在右侧，左侧补空格。
+如果a为负数，输出的有效数字在左侧，右侧补空格。</p>
+<p>b代表输出带有b位小数，不足部分补0。 a,b可单独使用。</p>
+<p>比如<code>printf("%4f", 1.2);</code>
+会输出一个空格加上<code>1.2</code>。</p>
+<p><code>printf("%.3f", 1.2);</code> 会输出<code>1.200</code>。</p>
+<p><code>printf("%-8.4f", 1.2);</code>会输出<code>1.2000</code>再输出两个空格。</p>
 </blockquote>
 <h2 id="note-bootstrap-callout">Note( Bootstrap Callout )</h2>
 <h3 id="设置">设置</h3>
 <h3 id="使用-usage">使用 Usage</h3>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">```</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% codeblock 创建note lang:html [additional options] %&#125;</span><br><span class="line">&#123;% note [class] [no-icon] [summary] %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% note info no-icon This is a summary %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">## 代码块 Code Block</span><br><span class="line"></span><br><span class="line">```html</span><br><span class="line">&#123;% codeblock [title] [lang:language] [url] [link text] [additional options] %&#125;</span><br><span class="line">code snippet</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br></pre></td></tr></table></figure>
-<h3 id="section"></h3>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"></span><br></pre></td></tr></table></figure>
+<figure class="highlight html"><figcaption><span>创建note [additional options]</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">details</span> <span class="attr">class</span>=<span class="string">&quot;note &quot;</span>&gt;</span><span class="tag">&lt;<span class="name">summary</span>&gt;</span><span class="tag">&lt;<span class="name">p</span>&gt;</span>[class] [no-icon] [summary]<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">summary</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span>Any content (support inline tags too).<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;/<span class="name">details</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<details class="note info no-icon"><summary><p>This is a summary</p>
+</summary>
+<p>Any content (support inline tags too).</p>
+
+</details>
 ]]></content>
       <categories>
         <category>C/C++</category>
-        <category>DS</category>
       </categories>
       <tags>
         <tag>C/C++</tag>
-        <tag>DS</tag>
       </tags>
   </entry>
   <entry>
