@@ -6,7 +6,7 @@
   <link href="http://stepheric.github.io/atom.xml" rel="self"/>
   
   <link href="http://stepheric.github.io/"/>
-  <updated>2022-09-30T03:53:07.658Z</updated>
+  <updated>2022-10-07T02:15:21.591Z</updated>
   <id>http://stepheric.github.io/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>约瑟夫环</title>
+    <link href="http://stepheric.github.io/2022/10/07/DSA/%E7%BA%A6%E7%91%9F%E5%A4%AB%E7%8E%AF/"/>
+    <id>http://stepheric.github.io/2022/10/07/DSA/%E7%BA%A6%E7%91%9F%E5%A4%AB%E7%8E%AF/</id>
+    <published>2022-10-07T01:56:00.000Z</published>
+    <updated>2022-10-07T02:15:21.591Z</updated>
+    
+    
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;约瑟夫环：&lt;/p&gt;
+&lt;p&gt;N个人围成一圈，第一个人从1开始报数，报M的将被杀掉，下一个人接着从1开始报。如此反复，最后剩下一个，求最后的胜利者。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;本文介绍约瑟夫环的一些做法。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="C/C++" scheme="http://stepheric.github.io/categories/C-C/"/>
+    
+    <category term="DS" scheme="http://stepheric.github.io/categories/DS/"/>
+    
+    
+    <category term="C/C++" scheme="http://stepheric.github.io/tags/C-C/"/>
+    
+    <category term="DS" scheme="http://stepheric.github.io/tags/DS/"/>
+    
+  </entry>
   
   <entry>
     <title>Algorithm中sort的使用汇总</title>
@@ -37,30 +64,6 @@
   
   <entry>
     <title>向量Vector的实现</title>
-    <link href="http://stepheric.github.io/2022/09/30/DSA/%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95%E6%B1%87%E6%80%BB/"/>
-    <id>http://stepheric.github.io/2022/09/30/DSA/%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95%E6%B1%87%E6%80%BB/</id>
-    <published>2022-09-30T03:43:31.000Z</published>
-    <updated>2022-09-30T03:43:38.796Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;https://blog.csdn.net/qq_41854911/article/details/119392824&lt;/p&gt;
-&lt;p&gt;本文手动实现了Vector的模板类。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="DS" scheme="http://stepheric.github.io/categories/DS/"/>
-    
-    <category term="C/C++" scheme="http://stepheric.github.io/categories/C-C/"/>
-    
-    
-    <category term="C/C++" scheme="http://stepheric.github.io/tags/C-C/"/>
-    
-    <category term="DS" scheme="http://stepheric.github.io/tags/DS/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>向量Vector的实现</title>
     <link href="http://stepheric.github.io/2022/09/30/DSA/%E5%90%91%E9%87%8FVector%E7%9A%84%E5%AE%9E%E7%8E%B0/"/>
     <id>http://stepheric.github.io/2022/09/30/DSA/%E5%90%91%E9%87%8FVector%E7%9A%84%E5%AE%9E%E7%8E%B0/</id>
     <published>2022-09-30T03:43:31.000Z</published>
@@ -72,9 +75,33 @@
     
     
     
+    <category term="C/C++" scheme="http://stepheric.github.io/categories/C-C/"/>
+    
     <category term="DS" scheme="http://stepheric.github.io/categories/DS/"/>
     
+    
+    <category term="C/C++" scheme="http://stepheric.github.io/tags/C-C/"/>
+    
+    <category term="DS" scheme="http://stepheric.github.io/tags/DS/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>向量Vector的实现</title>
+    <link href="http://stepheric.github.io/2022/09/30/DSA/%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95%E6%B1%87%E6%80%BB/"/>
+    <id>http://stepheric.github.io/2022/09/30/DSA/%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95%E6%B1%87%E6%80%BB/</id>
+    <published>2022-09-30T03:43:31.000Z</published>
+    <updated>2022-09-30T03:43:38.796Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;https://blog.csdn.net/qq_41854911/article/details/119392824&lt;/p&gt;
+&lt;p&gt;本文手动实现了Vector的模板类。&lt;/p&gt;</summary>
+    
+    
+    
     <category term="C/C++" scheme="http://stepheric.github.io/categories/C-C/"/>
+    
+    <category term="DS" scheme="http://stepheric.github.io/categories/DS/"/>
     
     
     <category term="C/C++" scheme="http://stepheric.github.io/tags/C-C/"/>
@@ -88,7 +115,7 @@
     <link href="http://stepheric.github.io/2022/09/29/C++/scanf%E4%B8%8Eprintf%E7%9A%84%E7%94%A8%E6%B3%95%E5%8F%8A%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9/"/>
     <id>http://stepheric.github.io/2022/09/29/C++/scanf%E4%B8%8Eprintf%E7%9A%84%E7%94%A8%E6%B3%95%E5%8F%8A%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9/</id>
     <published>2022-09-29T04:00:31.000Z</published>
-    <updated>2022-09-30T02:33:14.722Z</updated>
+    <updated>2022-10-07T12:29:05.843Z</updated>
     
     
     <summary type="html">&lt;p&gt;本文对C语言中标准输入输出做一些介绍，盘点一下需要注意的踩坑点。&lt;/p&gt;</summary>
@@ -159,14 +186,35 @@
     
     
     
-    <category term="DS" scheme="http://stepheric.github.io/categories/DS/"/>
-    
     <category term="C/C++" scheme="http://stepheric.github.io/categories/C-C/"/>
+    
+    <category term="DS" scheme="http://stepheric.github.io/categories/DS/"/>
     
     
     <category term="C/C++" scheme="http://stepheric.github.io/tags/C-C/"/>
     
     <category term="DS" scheme="http://stepheric.github.io/tags/DS/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>C++运算符重载</title>
+    <link href="http://stepheric.github.io/2022/09/22/C++/C++%E8%BF%90%E7%AE%97%E7%AC%A6%E9%87%8D%E8%BD%BD/"/>
+    <id>http://stepheric.github.io/2022/09/22/C++/C++%E8%BF%90%E7%AE%97%E7%AC%A6%E9%87%8D%E8%BD%BD/</id>
+    <published>2022-09-22T11:17:31.000Z</published>
+    <updated>2022-09-23T03:27:59.793Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;https://blog.csdn.net/qq_41854911/article/details/119392824&lt;/p&gt;
+&lt;h1 id=&quot;c运算符重载基础&quot;&gt;C++运算符重载基础&lt;/h1&gt;
+&lt;p&gt;下面介绍一些主题常用post内部的页面模块，可直接参照使用&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="C/C++" scheme="http://stepheric.github.io/categories/C-C/"/>
+    
+    
+    <category term="C/C++" scheme="http://stepheric.github.io/tags/C-C/"/>
     
   </entry>
   
@@ -192,27 +240,6 @@
     <category term="C/C++" scheme="http://stepheric.github.io/tags/C-C/"/>
     
     <category term="Algorithm" scheme="http://stepheric.github.io/tags/Algorithm/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>C++运算符重载</title>
-    <link href="http://stepheric.github.io/2022/09/22/C++/C++%E8%BF%90%E7%AE%97%E7%AC%A6%E9%87%8D%E8%BD%BD/"/>
-    <id>http://stepheric.github.io/2022/09/22/C++/C++%E8%BF%90%E7%AE%97%E7%AC%A6%E9%87%8D%E8%BD%BD/</id>
-    <published>2022-09-22T11:17:31.000Z</published>
-    <updated>2022-09-23T03:27:59.793Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;https://blog.csdn.net/qq_41854911/article/details/119392824&lt;/p&gt;
-&lt;h1 id=&quot;c运算符重载基础&quot;&gt;C++运算符重载基础&lt;/h1&gt;
-&lt;p&gt;下面介绍一些主题常用post内部的页面模块，可直接参照使用&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="C/C++" scheme="http://stepheric.github.io/categories/C-C/"/>
-    
-    
-    <category term="C/C++" scheme="http://stepheric.github.io/tags/C-C/"/>
     
   </entry>
   
