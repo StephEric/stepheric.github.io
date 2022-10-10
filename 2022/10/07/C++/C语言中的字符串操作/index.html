@@ -29,29 +29,28 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"stepheric.github.io","root":"/","images":"/images","scheme":"Mist","darkmode":false,"version":"8.13.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":true,"style":"mac"},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":"livere","storage":true,"lazyload":false,"nav":null,"activeClass":"livere"},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":5,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
 
-    <meta name="description" content="本文对被迫使用Visual Studio 2012中踩到的一些坑进行汇总，服务于《计算机语言与程序设计》的课程考试。其解决方法已过时，完全是因为某清大学只购买到了VS2012的版权。">
+    <meta name="description" content="本文梳理总结了C语言中的常见字符串操作">
 <meta property="og:type" content="article">
-<meta property="og:title" content="VS2012报错解决汇总">
-<meta property="og:url" content="http://stepheric.github.io/2022/09/28/C++/VS2012%E6%8A%A5%E9%94%99%E8%A7%A3%E5%86%B3%E6%B1%87%E6%80%BB/index.html">
+<meta property="og:title" content="C语言中的字符串操作">
+<meta property="og:url" content="http://stepheric.github.io/2022/10/07/C++/C%E8%AF%AD%E8%A8%80%E4%B8%AD%E7%9A%84%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%93%8D%E4%BD%9C/index.html">
 <meta property="og:site_name" content="StephEric">
-<meta property="og:description" content="本文对被迫使用Visual Studio 2012中踩到的一些坑进行汇总，服务于《计算机语言与程序设计》的课程考试。其解决方法已过时，完全是因为某清大学只购买到了VS2012的版权。">
+<meta property="og:description" content="本文梳理总结了C语言中的常见字符串操作">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2022-09-28T15:14:31.000Z">
-<meta property="article:modified_time" content="2022-09-30T02:31:01.677Z">
+<meta property="article:published_time" content="2022-10-07T13:18:00.000Z">
+<meta property="article:modified_time" content="2022-10-07T15:21:28.421Z">
 <meta property="article:author" content="StephEric">
 <meta property="article:tag" content="C&#x2F;C++">
-<meta property="article:tag" content="VS2012">
 <meta name="twitter:card" content="summary">
 
 
-<link rel="canonical" href="http://stepheric.github.io/2022/09/28/C++/VS2012%E6%8A%A5%E9%94%99%E8%A7%A3%E5%86%B3%E6%B1%87%E6%80%BB/">
+<link rel="canonical" href="http://stepheric.github.io/2022/10/07/C++/C%E8%AF%AD%E8%A8%80%E4%B8%AD%E7%9A%84%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%93%8D%E4%BD%9C/">
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"http://stepheric.github.io/2022/09/28/C++/VS2012%E6%8A%A5%E9%94%99%E8%A7%A3%E5%86%B3%E6%B1%87%E6%80%BB/","path":"2022/09/28/C++/VS2012报错解决汇总/","title":"VS2012报错解决汇总"}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"http://stepheric.github.io/2022/10/07/C++/C%E8%AF%AD%E8%A8%80%E4%B8%AD%E7%9A%84%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%93%8D%E4%BD%9C/","path":"2022/10/07/C++/C语言中的字符串操作/","title":"C语言中的字符串操作"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>VS2012报错解决汇总 | StephEric</title>
+<title>C语言中的字符串操作 | StephEric</title>
   
 
 
@@ -156,8 +155,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%BC%96%E8%BE%91%E5%99%A8%E4%B9%A0%E6%83%AF%E9%85%8D%E7%BD%AE"><span class="nav-text">编辑器习惯配置</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%8A%A5%E9%94%99%E6%B1%87%E6%80%BB"><span class="nav-text">报错汇总</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%98%AF%E5%90%A6%E5%BF%98%E8%AE%B0%E4%BA%86%E5%90%91%E6%BA%90%E4%B8%AD%E6%B7%BB%E5%8A%A0include-stdafx.h"><span class="nav-text">是否忘记了向源中添加“#include
-“stdafx.h“”</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%BA%94%E8%AF%A5%E4%BD%BF%E7%94%A8scanf_s"><span class="nav-text">应该使用scanf_s</span></a></li></ol></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%AF%BB%E5%85%A5"><span class="nav-text">读入</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%AF%94%E8%BE%83"><span class="nav-text">比较</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#strcmp"><span class="nav-text">strcmp</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%8B%B7%E8%B4%9D"><span class="nav-text">拷贝</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#strcpy"><span class="nav-text">strcpy</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%BE%93%E5%87%BA"><span class="nav-text">输出</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#scanf"><span class="nav-text">scanf</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%A0%BC%E5%BC%8F%E5%8C%96%E7%AC%A6%E5%86%85%E7%A9%BA%E6%A0%BC%E7%9A%84%E5%8C%BA%E5%88%AB"><span class="nav-text">格式化符内空格的区别</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%A0%BC%E5%BC%8F%E5%8C%96%E8%BE%93%E5%85%A5"><span class="nav-text">格式化输入</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%B1%BB%E5%9E%8B%E5%AF%B9%E5%BA%94%E8%A1%A8"><span class="nav-text">类型对应表</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#printf"><span class="nav-text">printf</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%BE%93%E5%87%BA%E6%8C%87%E5%AE%9A%E6%A0%BC%E5%BC%8F%E7%9A%84%E6%95%B0%E5%AD%97"><span class="nav-text">输出指定格式的数字</span></a></li></ol></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -239,7 +237,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://stepheric.github.io/2022/09/28/C++/VS2012%E6%8A%A5%E9%94%99%E8%A7%A3%E5%86%B3%E6%B1%87%E6%80%BB/">
+    <link itemprop="mainEntityOfPage" href="http://stepheric.github.io/2022/10/07/C++/C%E8%AF%AD%E8%A8%80%E4%B8%AD%E7%9A%84%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%93%8D%E4%BD%9C/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.jpg">
@@ -252,12 +250,12 @@
     </span>
 
     <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="VS2012报错解决汇总 | StephEric">
+      <meta itemprop="name" content="C语言中的字符串操作 | StephEric">
       <meta itemprop="description" content="">
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          VS2012报错解决汇总
+          C语言中的字符串操作
         </h1>
 
         <div class="post-meta-container">
@@ -267,15 +265,9 @@
         <i class="far fa-calendar"></i>
       </span>
       <span class="post-meta-item-text">发表于</span>
+      
 
-      <time title="创建时间：2022-09-28 23:14:31" itemprop="dateCreated datePublished" datetime="2022-09-28T23:14:31+08:00">2022-09-28</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar-check"></i>
-      </span>
-      <span class="post-meta-item-text">更新于</span>
-      <time title="修改时间：2022-09-30 10:31:01" itemprop="dateModified" datetime="2022-09-30T10:31:01+08:00">2022-09-30</time>
+      <time title="创建时间：2022-10-07 21:18:00 / 修改时间：23:21:28" itemprop="dateCreated datePublished" datetime="2022-10-07T21:18:00+08:00">2022-10-07</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -284,10 +276,6 @@
       <span class="post-meta-item-text">分类于</span>
         <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
           <a href="/categories/C-C/" itemprop="url" rel="index"><span itemprop="name">C/C++</span></a>
-        </span>
-          ，
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/C-C/VS2012/" itemprop="url" rel="index"><span itemprop="name">VS2012</span></a>
         </span>
     </span>
 
@@ -305,7 +293,7 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">本文字数：</span>
-      <span>438</span>
+      <span>1.2k</span>
     </span>
     <span class="post-meta-item" title="阅读时长">
       <span class="post-meta-item-icon">
@@ -323,30 +311,84 @@
     
     
     <div class="post-body" itemprop="articleBody">
-        <p>本文对被迫使用Visual Studio
-2012中踩到的一些坑进行汇总，服务于《计算机语言与程序设计》的课程考试。其解决方法已过时，完全是因为某清大学只购买到了VS2012的版权。</p>
+        <p>本文梳理总结了C语言中的常见字符串操作</p>
 <span id="more"></span>
-<h2 id="编辑器习惯配置">编辑器习惯配置</h2>
-<p><strong><em>选项/环境/常规</em></strong> 颜色主题选择深色</p>
-<p><strong><em>选项/环境/字体和颜色</em></strong> 选择
-<code>Cascadia Code</code></p>
-<h2 id="报错汇总">报错汇总</h2>
-<h3
-id="是否忘记了向源中添加include-stdafx.h">是否忘记了向源中添加“#include
-“stdafx.h“”</h3>
-<p>对于每一个出错的.cpp文件，右键——》属性——》C/C++——》预编译头，选择不使用预编译头即可。</p>
-<h3 id="应该使用scanf_s">应该使用scanf_s</h3>
-<ul>
-<li><p>一种解决方法</p>
-<ul>
-<li><p>右击项目名，选择属性</p></li>
-<li><p>在c/c++下选择Preprocessor（预处理器）</p></li>
-<li><p>点击图示Preprocessor
-Definitions，选择&lt;Edit…&gt;，添加预处理器定义<code>_CRT_SECURE_NO_WARNINGS</code></p></li>
-</ul></li>
-<li><p>或者，直接添加宏定义</p></li>
-</ul>
-<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">define</span> _CRT_SECURE_NO_WARNINGS</span></span><br></pre></td></tr></table></figure>
+<h2 id="读入">读入</h2>
+<p><code>scanf("%s", s)</code> 读入一个字符串，以空格和换行为分界</p>
+<p><code>gets(s)</code>
+可以直接输入带空格的一行字符串，系统会将最后的换行符从缓冲区中取出然后丢弃</p>
+<h2 id="比较">比较</h2>
+<blockquote>
+<p>比较方法：</p>
+<ol type="1">
+<li><code>bcmp()</code>，比较字符串的前n个字节是否相等;2.</li>
+<li><code>strcmp()</code>，区分大小写地比较字符串;</li>
+<li><code>stricmp()</code>，不区分大小写地比较字符串；</li>
+<li><code>strncmp()</code>或<code>strnicmp()</code>，区分大小写地比较字符串的前n个字符。</li>
+</ol>
+</blockquote>
+<h3 id="strcmp"><code>strcmp</code></h3>
+<p>原型为</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="type">int</span> <span class="title">strcmp</span><span class="params">(<span class="type">const</span> <span class="type">char</span> *s1, <span class="type">const</span> <span class="type">char</span> *s2)</span></span>;</span><br></pre></td></tr></table></figure>
+<p>【返回值】若参数s1 和s2 字符串相同则返回0。s1 若大于s2 则返回大于0
+的值。s1 若小于s2 则返回小于0 的值。</p>
+<h2 id="拷贝">拷贝</h2>
+<h3 id="strcpy"><code>strcpy</code></h3>
+<p>原型为</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="type">char</span>* <span class="title">strcpy</span><span class="params">(<span class="type">char</span>* des,<span class="type">const</span> <span class="type">char</span>* source)</span></span>&#123;</span><br><span class="line">    <span class="type">char</span>* r=des;   </span><br><span class="line">    <span class="built_in">assert</span>((des != <span class="literal">NULL</span>) &amp;&amp; (source != <span class="literal">NULL</span>));</span><br><span class="line">	<span class="keyword">while</span>((*r++ = *source++)!=<span class="string">&#x27;\0&#x27;</span>);</span><br><span class="line">	<span class="keyword">return</span> des;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="输出">输出</h2>
+<p><code>puts()</code> 直接输出一行字符串</p>
+<h2 id="scanf">scanf</h2>
+<h3 id="格式化符内空格的区别">格式化符内空格的区别</h3>
+<p><code>scanf("%c %c", &amp;c1, &amp;c2)</code>与<code>scanf("%c%c", &amp;c1, &amp;c2)</code>不同，前者过滤掉两个字符中间的空格，后者将空格作为<code>c2</code>的值</p>
+<div class="note info"><p><code>scanf</code>输入<code>double</code>时必须使用<code>%lf</code></p>
+</div>
+<h2 id="格式化输入">格式化输入</h2>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">scanf</span>(<span class="string">&quot;%d:%d:%d&quot;</span>);</span><br></pre></td></tr></table></figure>
+<p>可输入格式为<code>hh:mm:ss</code>的数据，其中<code>02:12:23</code>输入后小时的<code>int</code>的值同样为<code>2</code></p>
+<h2 id="类型对应表">类型对应表</h2>
+<table>
+<thead>
+<tr class="header">
+<th>格式符</th>
+<th>数据类型</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>%lf</code></td>
+<td><code>double</code></td>
+</tr>
+<tr class="even">
+<td><code>%f</code></td>
+<td><code>float</code></td>
+</tr>
+<tr class="odd">
+<td><code>%d</code></td>
+<td><code>int</code></td>
+</tr>
+<tr class="even">
+<td><code>%lld</code></td>
+<td><code>long long int</code></td>
+</tr>
+</tbody>
+</table>
+<h2 id="printf">printf</h2>
+<h3 id="输出指定格式的数字">输出指定格式的数字</h3>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">printf</span>(<span class="string">&quot;%02d:%02d:%02d\n&quot;</span>, delta.hh, delta.mm, delta.ss);</span><br></pre></td></tr></table></figure>
+<p>输出结果为 <code>02:03:04</code></p>
+<blockquote>
+<p><code>printf("%a.bf", var)</code>，其中a,b为常数。</p>
+<p>含义为：</p>
+<p>a代表输出占|a|（a的绝对值）个字节的宽度，当实际宽度超过a时，按实际宽度输出，否则输出a个字节，不足部分补空格。</p>
+<p>如果a为正数，输出的有效数字在右侧，左侧补空格。
+如果a为负数，输出的有效数字在左侧，右侧补空格。</p>
+<p>b代表输出带有b位小数，不足部分补0。 a,b可单独使用。</p>
+<p>比如<code>printf("%4f", 1.2);</code>
+会输出一个空格加上<code>1.2</code>。</p>
+<p><code>printf("%.3f", 1.2);</code> 会输出<code>1.200</code>。</p>
+<p><code>printf("%-8.4f", 1.2);</code>会输出<code>1.2000</code>再输出两个空格。</p>
+</blockquote>
 <details class="note info no-icon"><summary><p>This is a summary</p>
 </summary>
 <p>Any content (support inline tags too).</p>
@@ -392,7 +434,7 @@ Definitions，选择&lt;Edit…&gt;，添加预处理器定义<code>_CRT_SECURE_
   </li>
   <li class="post-copyright-link">
       <strong>本文链接：</strong>
-      <a href="http://stepheric.github.io/2022/09/28/C++/VS2012%E6%8A%A5%E9%94%99%E8%A7%A3%E5%86%B3%E6%B1%87%E6%80%BB/" title="VS2012报错解决汇总">http://stepheric.github.io/2022/09/28/C++/VS2012报错解决汇总/</a>
+      <a href="http://stepheric.github.io/2022/10/07/C++/C%E8%AF%AD%E8%A8%80%E4%B8%AD%E7%9A%84%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%93%8D%E4%BD%9C/" title="C语言中的字符串操作">http://stepheric.github.io/2022/10/07/C++/C语言中的字符串操作/</a>
   </li>
   <li class="post-copyright-license">
     <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
@@ -419,21 +461,17 @@ Definitions，选择&lt;Edit…&gt;，添加预处理器定义<code>_CRT_SECURE_
 
           <div class="post-tags">
               <a href="/tags/C-C/" rel="tag"><i class="fa fa-tag"></i> C/C++</a>
-              <a href="/tags/VS2012/" rel="tag"><i class="fa fa-tag"></i> VS2012</a>
           </div>
 
         
 
           <div class="post-nav">
             <div class="post-nav-item">
-                <a href="/2022/09/25/C++/STL%E4%B8%ADvector%E7%9A%84%E5%B8%B8%E7%94%A8%E5%87%BD%E6%95%B0/" rel="prev" title="STL中vector的常用函数">
-                  <i class="fa fa-chevron-left"></i> STL中vector的常用函数
+                <a href="/2022/10/07/DSA/%E7%BA%A6%E7%91%9F%E5%A4%AB%E7%8E%AF/" rel="prev" title="约瑟夫环">
+                  <i class="fa fa-chevron-left"></i> 约瑟夫环
                 </a>
             </div>
             <div class="post-nav-item">
-                <a href="/2022/09/28/C++/%E7%BC%96%E5%86%99C%E8%AF%AD%E8%A8%80%E6%97%B6%E8%B8%A9%E5%88%B0%E7%9A%84%E5%9D%91/" rel="next" title="编写C语言时踩到的坑">
-                  编写C语言时踩到的坑 <i class="fa fa-chevron-right"></i>
-                </a>
             </div>
           </div>
     </footer>
