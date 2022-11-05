@@ -6,7 +6,7 @@
   <link href="http://stepheric.github.io/atom.xml" rel="self"/>
   
   <link href="http://stepheric.github.io/"/>
-  <updated>2022-10-10T11:20:16.043Z</updated>
+  <updated>2022-11-03T12:22:58.797Z</updated>
   <id>http://stepheric.github.io/</id>
   
   <author>
@@ -15,6 +15,44 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>C语言中的指针</title>
+    <link href="http://stepheric.github.io/2022/11/03/C++/C%E8%AF%AD%E8%A8%80%E4%B8%AD%E7%9A%84%E6%8C%87%E9%92%88/"/>
+    <id>http://stepheric.github.io/2022/11/03/C++/C%E8%AF%AD%E8%A8%80%E4%B8%AD%E7%9A%84%E6%8C%87%E9%92%88/</id>
+    <published>2022-11-03T12:22:00.000Z</published>
+    <updated>2022-11-03T12:22:58.797Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;本文总结C语言课程学习中用到的指针概念及操作。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="C/C++" scheme="http://stepheric.github.io/categories/C-C/"/>
+    
+    
+    <category term="C/C++" scheme="http://stepheric.github.io/tags/C-C/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>C语言课程常用库</title>
+    <link href="http://stepheric.github.io/2022/10/27/C++/C%E8%AF%AD%E8%A8%80%E8%AF%BE%E7%A8%8B%E5%B8%B8%E7%94%A8%E5%BA%93/"/>
+    <id>http://stepheric.github.io/2022/10/27/C++/C%E8%AF%AD%E8%A8%80%E8%AF%BE%E7%A8%8B%E5%B8%B8%E7%94%A8%E5%BA%93/</id>
+    <published>2022-10-27T07:23:00.000Z</published>
+    <updated>2022-10-27T07:25:40.216Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;本文总结C语言课程学习中尝试用到的库函数与方法。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="C/C++" scheme="http://stepheric.github.io/categories/C-C/"/>
+    
+    
+    <category term="C/C++" scheme="http://stepheric.github.io/tags/C-C/"/>
+    
+  </entry>
   
   <entry>
     <title>Python list方法汇总</title>
@@ -40,7 +78,7 @@
     <link href="http://stepheric.github.io/2022/10/07/C++/C%E8%AF%AD%E8%A8%80%E4%B8%AD%E7%9A%84%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%93%8D%E4%BD%9C/"/>
     <id>http://stepheric.github.io/2022/10/07/C++/C%E8%AF%AD%E8%A8%80%E4%B8%AD%E7%9A%84%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%93%8D%E4%BD%9C/</id>
     <published>2022-10-07T13:18:00.000Z</published>
-    <updated>2022-10-07T15:21:28.421Z</updated>
+    <updated>2022-11-03T12:38:51.892Z</updated>
     
     
     <summary type="html">&lt;p&gt;本文梳理总结了C语言中的常见字符串操作&lt;/p&gt;</summary>
@@ -97,6 +135,30 @@
     
     
     <category term="C/C++" scheme="http://stepheric.github.io/tags/C-C/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>向量Vector的实现</title>
+    <link href="http://stepheric.github.io/2022/09/30/DSA/KMP%E7%AE%97%E6%B3%95/"/>
+    <id>http://stepheric.github.io/2022/09/30/DSA/KMP%E7%AE%97%E6%B3%95/</id>
+    <published>2022-09-30T03:43:31.000Z</published>
+    <updated>2022-09-30T03:43:38.796Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;a href=&quot;https://blog.csdn.net/qq_41854911/article/details/119392824&quot;&gt;https://blog.csdn.net/qq_41854911/article/details/119392824&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;本文手动实现了Vector的模板类。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="C/C++" scheme="http://stepheric.github.io/categories/C-C/"/>
+    
+    <category term="DS" scheme="http://stepheric.github.io/categories/DS/"/>
+    
+    
+    <category term="C/C++" scheme="http://stepheric.github.io/tags/C-C/"/>
+    
+    <category term="DS" scheme="http://stepheric.github.io/tags/DS/"/>
     
   </entry>
   
@@ -172,7 +234,7 @@
     <link href="http://stepheric.github.io/2022/09/28/C++/%E7%BC%96%E5%86%99C%E8%AF%AD%E8%A8%80%E6%97%B6%E8%B8%A9%E5%88%B0%E7%9A%84%E5%9D%91/"/>
     <id>http://stepheric.github.io/2022/09/28/C++/%E7%BC%96%E5%86%99C%E8%AF%AD%E8%A8%80%E6%97%B6%E8%B8%A9%E5%88%B0%E7%9A%84%E5%9D%91/</id>
     <published>2022-09-28T15:50:31.000Z</published>
-    <updated>2022-10-07T14:04:40.120Z</updated>
+    <updated>2022-11-03T14:06:41.386Z</updated>
     
     
     <summary type="html">&lt;p&gt;本文对笔者在学习C语言时遗忘的C语言与C++不同的用法特性进行说明。&lt;/p&gt;</summary>
@@ -218,7 +280,8 @@
     
     
     <summary type="html">&lt;p&gt;&lt;a href=&quot;https://blog.csdn.net/qq_41854911/article/details/119392824&quot;&gt;https://blog.csdn.net/qq_41854911/article/details/119392824&lt;/a&gt;&lt;/p&gt;
-&lt;h1 id=&quot;C-运算符重载基础&quot;&gt;&lt;a href=&quot;#C-运算符重载基础&quot; class=&quot;headerlink&quot; title=&quot;C++运算符重载基础&quot;&gt;&lt;/a&gt;C++运算符重载基础&lt;/h1&gt;&lt;p&gt;下面介绍一些主题常用post内部的页面模块，可直接参照使用&lt;/p&gt;</summary>
+&lt;h1 id=&quot;c运算符重载基础&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#c运算符重载基础&quot;&gt;&lt;/a&gt; C++运算符重载基础&lt;/h1&gt;
+&lt;p&gt;下面介绍一些主题常用post内部的页面模块，可直接参照使用&lt;/p&gt;</summary>
     
     
     
@@ -234,15 +297,40 @@
   </entry>
   
   <entry>
+    <title>高精度运算C++实现</title>
+    <link href="http://stepheric.github.io/2022/09/22/DSA/%E9%AB%98%E7%B2%BE%E5%BA%A6%E8%BF%90%E7%AE%97/"/>
+    <id>http://stepheric.github.io/2022/09/22/DSA/%E9%AB%98%E7%B2%BE%E5%BA%A6%E8%BF%90%E7%AE%97/</id>
+    <published>2022-09-22T11:17:31.000Z</published>
+    <updated>2022-10-07T14:10:08.241Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;a href=&quot;https://blog.csdn.net/qq_41854911/article/details/119392824&quot;&gt;https://blog.csdn.net/qq_41854911/article/details/119392824&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&quot;&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#&quot;&gt;&lt;/a&gt; &lt;/h1&gt;</summary>
+    
+    
+    
+    <category term="C/C++" scheme="http://stepheric.github.io/categories/C-C/"/>
+    
+    <category term="Algorithm" scheme="http://stepheric.github.io/categories/Algorithm/"/>
+    
+    
+    <category term="C/C++" scheme="http://stepheric.github.io/tags/C-C/"/>
+    
+    <category term="Algorithm" scheme="http://stepheric.github.io/tags/Algorithm/"/>
+    
+  </entry>
+  
+  <entry>
     <title>C++运算符重载</title>
-    <link href="http://stepheric.github.io/2022/09/22/Python/Python%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/"/>
-    <id>http://stepheric.github.io/2022/09/22/Python/Python%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/</id>
+    <link href="http://stepheric.github.io/2022/09/22/C++/C++%E8%BF%90%E7%AE%97%E7%AC%A6%E9%87%8D%E8%BD%BD/"/>
+    <id>http://stepheric.github.io/2022/09/22/C++/C++%E8%BF%90%E7%AE%97%E7%AC%A6%E9%87%8D%E8%BD%BD/</id>
     <published>2022-09-22T11:17:31.000Z</published>
     <updated>2022-09-23T03:27:59.793Z</updated>
     
     
     <summary type="html">&lt;p&gt;&lt;a href=&quot;https://blog.csdn.net/qq_41854911/article/details/119392824&quot;&gt;https://blog.csdn.net/qq_41854911/article/details/119392824&lt;/a&gt;&lt;/p&gt;
-&lt;h1 id=&quot;C-运算符重载基础&quot;&gt;&lt;a href=&quot;#C-运算符重载基础&quot; class=&quot;headerlink&quot; title=&quot;C++运算符重载基础&quot;&gt;&lt;/a&gt;C++运算符重载基础&lt;/h1&gt;&lt;p&gt;下面介绍一些主题常用post内部的页面模块，可直接参照使用&lt;/p&gt;</summary>
+&lt;h1 id=&quot;c运算符重载基础&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#c运算符重载基础&quot;&gt;&lt;/a&gt; C++运算符重载基础&lt;/h1&gt;
+&lt;p&gt;下面介绍一些主题常用post内部的页面模块，可直接参照使用&lt;/p&gt;</summary>
     
     
     
@@ -262,7 +350,8 @@
     
     
     <summary type="html">&lt;p&gt;&lt;a href=&quot;https://blog.csdn.net/qq_41854911/article/details/119392824&quot;&gt;https://blog.csdn.net/qq_41854911/article/details/119392824&lt;/a&gt;&lt;/p&gt;
-&lt;h1 id=&quot;C-运算符重载基础&quot;&gt;&lt;a href=&quot;#C-运算符重载基础&quot; class=&quot;headerlink&quot; title=&quot;C++运算符重载基础&quot;&gt;&lt;/a&gt;C++运算符重载基础&lt;/h1&gt;&lt;p&gt;下面介绍一些主题常用post内部的页面模块，可直接参照使用&lt;/p&gt;</summary>
+&lt;h1 id=&quot;c运算符重载基础&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#c运算符重载基础&quot;&gt;&lt;/a&gt; C++运算符重载基础&lt;/h1&gt;
+&lt;p&gt;下面介绍一些主题常用post内部的页面模块，可直接参照使用&lt;/p&gt;</summary>
     
     
     
@@ -275,14 +364,15 @@
   
   <entry>
     <title>C++运算符重载</title>
-    <link href="http://stepheric.github.io/2022/09/22/C++/C++%E8%BF%90%E7%AE%97%E7%AC%A6%E9%87%8D%E8%BD%BD/"/>
-    <id>http://stepheric.github.io/2022/09/22/C++/C++%E8%BF%90%E7%AE%97%E7%AC%A6%E9%87%8D%E8%BD%BD/</id>
+    <link href="http://stepheric.github.io/2022/09/22/Python/Python%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/"/>
+    <id>http://stepheric.github.io/2022/09/22/Python/Python%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/</id>
     <published>2022-09-22T11:17:31.000Z</published>
     <updated>2022-09-23T03:27:59.793Z</updated>
     
     
     <summary type="html">&lt;p&gt;&lt;a href=&quot;https://blog.csdn.net/qq_41854911/article/details/119392824&quot;&gt;https://blog.csdn.net/qq_41854911/article/details/119392824&lt;/a&gt;&lt;/p&gt;
-&lt;h1 id=&quot;C-运算符重载基础&quot;&gt;&lt;a href=&quot;#C-运算符重载基础&quot; class=&quot;headerlink&quot; title=&quot;C++运算符重载基础&quot;&gt;&lt;/a&gt;C++运算符重载基础&lt;/h1&gt;&lt;p&gt;下面介绍一些主题常用post内部的页面模块，可直接参照使用&lt;/p&gt;</summary>
+&lt;h1 id=&quot;c运算符重载基础&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#c运算符重载基础&quot;&gt;&lt;/a&gt; C++运算符重载基础&lt;/h1&gt;
+&lt;p&gt;下面介绍一些主题常用post内部的页面模块，可直接参照使用&lt;/p&gt;</summary>
     
     
     
@@ -290,30 +380,6 @@
     
     
     <category term="C/C++" scheme="http://stepheric.github.io/tags/C-C/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>高精度运算C++实现</title>
-    <link href="http://stepheric.github.io/2022/09/22/DSA/%E9%AB%98%E7%B2%BE%E5%BA%A6%E8%BF%90%E7%AE%97/"/>
-    <id>http://stepheric.github.io/2022/09/22/DSA/%E9%AB%98%E7%B2%BE%E5%BA%A6%E8%BF%90%E7%AE%97/</id>
-    <published>2022-09-22T11:17:31.000Z</published>
-    <updated>2022-10-07T14:10:08.241Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;&lt;a href=&quot;https://blog.csdn.net/qq_41854911/article/details/119392824&quot;&gt;https://blog.csdn.net/qq_41854911/article/details/119392824&lt;/a&gt;&lt;/p&gt;
-&lt;h1 id=&quot;&quot;&gt;&lt;a href=&quot;#&quot; class=&quot;headerlink&quot; title=&quot; &quot;&gt;&lt;/a&gt; &lt;/h1&gt;</summary>
-    
-    
-    
-    <category term="C/C++" scheme="http://stepheric.github.io/categories/C-C/"/>
-    
-    <category term="Algorithm" scheme="http://stepheric.github.io/categories/Algorithm/"/>
-    
-    
-    <category term="C/C++" scheme="http://stepheric.github.io/tags/C-C/"/>
-    
-    <category term="Algorithm" scheme="http://stepheric.github.io/tags/Algorithm/"/>
     
   </entry>
   
@@ -348,8 +414,11 @@
     <updated>2022-09-18T14:05:16.878Z</updated>
     
     
-    <summary type="html">&lt;h1 id=&quot;VS-Code配置C-C-编译环境&quot;&gt;&lt;a href=&quot;#VS-Code配置C-C-编译环境&quot; class=&quot;headerlink&quot; title=&quot;VS Code配置C/C++编译环境&quot;&gt;&lt;/a&gt;VS Code配置C/C++编译环境&lt;/h1&gt;&lt;h2 id=&quot;前期准备&quot;&gt;&lt;a href=&quot;#前期准备&quot; class=&quot;headerlink&quot; title=&quot;前期准备&quot;&gt;&lt;/a&gt;前期准备&lt;/h2&gt;&lt;p&gt;安装MinGW64，把编译器所在的目录添加到环境变量&lt;code&gt;Path&lt;/code&gt;中&lt;/p&gt;
-&lt;h2 id=&quot;组织文件结构&quot;&gt;&lt;a href=&quot;#组织文件结构&quot; class=&quot;headerlink&quot; title=&quot;组织文件结构&quot;&gt;&lt;/a&gt;组织文件结构&lt;/h2&gt;&lt;p&gt;单文件编程，将可执行文件统一放在&lt;code&gt;bin&lt;/code&gt;文件夹下&lt;/p&gt;
+    <summary type="html">&lt;h1 id=&quot;vs-code配置cc编译环境&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#vs-code配置cc编译环境&quot;&gt;&lt;/a&gt; VS Code配置C/C++编译环境&lt;/h1&gt;
+&lt;h2 id=&quot;前期准备&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#前期准备&quot;&gt;&lt;/a&gt; 前期准备&lt;/h2&gt;
+&lt;p&gt;安装MinGW64，把编译器所在的目录添加到环境变量&lt;code&gt;Path&lt;/code&gt;中&lt;/p&gt;
+&lt;h2 id=&quot;组织文件结构&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#组织文件结构&quot;&gt;&lt;/a&gt; 组织文件结构&lt;/h2&gt;
+&lt;p&gt;单文件编程，将可执行文件统一放在&lt;code&gt;bin&lt;/code&gt;文件夹下&lt;/p&gt;
 &lt;p&gt;多文件编程，不需要单独的bin目录&lt;/p&gt;</summary>
     
     
@@ -419,7 +488,7 @@
     <updated>2022-08-23T05:14:39.178Z</updated>
     
     
-    <summary type="html">&lt;h1 id=&quot;使用入门&quot;&gt;&lt;a href=&quot;#使用入门&quot; class=&quot;headerlink&quot; title=&quot;使用入门&quot;&gt;&lt;/a&gt;使用入门&lt;/h1&gt;</summary>
+    <summary type="html">&lt;h1 id=&quot;使用入门&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#使用入门&quot;&gt;&lt;/a&gt; 使用入门&lt;/h1&gt;</summary>
     
     
     
@@ -465,7 +534,7 @@
       
         
         
-    <summary type="html">&lt;h1 id=&quot;QT界面部件与设置&quot;&gt;&lt;a href=&quot;#QT界面部件与设置&quot; class=&quot;headerlink&quot;</summary>
+    <summary type="html">&lt;h1 id=&quot;qt界面部件与设置&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#qt界面部件与设置&quot;&gt;&lt;/a&gt;</summary>
         
       
     
@@ -486,7 +555,8 @@
     <updated>2022-08-08T06:49:27.969Z</updated>
     
     
-    <summary type="html">&lt;h1 id=&quot;使用conda进行环境管理和包管理&quot;&gt;&lt;a href=&quot;#使用conda进行环境管理和包管理&quot; class=&quot;headerlink&quot; title=&quot;使用conda进行环境管理和包管理&quot;&gt;&lt;/a&gt;&lt;strong&gt;使用conda进行环境管理和包管理&lt;/strong&gt;&lt;/h1&gt;&lt;p&gt;conda是anaconda中的环境管理器和包管理器。&lt;/p&gt;
+    <summary type="html">&lt;h1 id=&quot;使用conda进行环境管理和包管理&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#使用conda进行环境管理和包管理&quot;&gt;&lt;/a&gt; &lt;strong&gt;使用conda进行环境管理和包管理&lt;/strong&gt;&lt;/h1&gt;
+&lt;p&gt;conda是anaconda中的环境管理器和包管理器。&lt;/p&gt;
 &lt;p&gt;对于conda的操作都发生在命令行内，我们可以打开Anaconda Prompt进行操作。&lt;/p&gt;</summary>
     
     
@@ -510,7 +580,8 @@
     <updated>2022-08-08T07:32:56.023Z</updated>
     
     
-    <summary type="html">&lt;h1 id=&quot;NexT主题常用页面模块&quot;&gt;&lt;a href=&quot;#NexT主题常用页面模块&quot; class=&quot;headerlink&quot; title=&quot;NexT主题常用页面模块&quot;&gt;&lt;/a&gt;NexT主题常用页面模块&lt;/h1&gt;&lt;p&gt;下面介绍一些主题常用post内部的页面模块，可直接参照使用&lt;/p&gt;</summary>
+    <summary type="html">&lt;h1 id=&quot;next主题常用页面模块&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#next主题常用页面模块&quot;&gt;&lt;/a&gt; NexT主题常用页面模块&lt;/h1&gt;
+&lt;p&gt;下面介绍一些主题常用post内部的页面模块，可直接参照使用&lt;/p&gt;</summary>
     
     
     
@@ -528,10 +599,12 @@
     <link href="http://stepheric.github.io/2022/06/30/Git/Github%20Guide/"/>
     <id>http://stepheric.github.io/2022/06/30/Git/Github%20Guide/</id>
     <published>2022-06-30T11:08:31.000Z</published>
-    <updated>2022-08-08T06:44:56.858Z</updated>
+    <updated>2022-10-15T07:41:34.628Z</updated>
     
     
-    <summary type="html">&lt;h1 id=&quot;Github使用&quot;&gt;&lt;a href=&quot;#Github使用&quot; class=&quot;headerlink&quot; title=&quot;Github使用&quot;&gt;&lt;/a&gt;Github使用&lt;/h1&gt;&lt;h2 id=&quot;生成SSH-key&quot;&gt;&lt;a href=&quot;#生成SSH-key&quot; class=&quot;headerlink&quot; title=&quot;生成SSH key&quot;&gt;&lt;/a&gt;生成SSH key&lt;/h2&gt;&lt;p&gt;SSh（安全外壳协议）GitHub 上，一般都是通过 SSH 来授权的，而且大多数 Git 服务器也会选择使用 SSH 公钥来进行授权，所以想要向 GitHub 提交代码，首先就得在 GitHub 上添加 SSH key配置。&lt;/p&gt;</summary>
+    <summary type="html">&lt;h1 id=&quot;github使用&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#github使用&quot;&gt;&lt;/a&gt; Github使用&lt;/h1&gt;
+&lt;h2 id=&quot;生成ssh-key&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#生成ssh-key&quot;&gt;&lt;/a&gt; 生成SSH key&lt;/h2&gt;
+&lt;p&gt;SSh（安全外壳协议）GitHub 上，一般都是通过 SSH 来授权的，而且大多数 Git 服务器也会选择使用 SSH 公钥来进行授权，所以想要向 GitHub 提交代码，首先就得在 GitHub 上添加 SSH key配置。&lt;/p&gt;</summary>
     
     
     
@@ -575,9 +648,13 @@
     <updated>2022-08-08T06:50:41.723Z</updated>
     
     
-    <summary type="html">&lt;h1 id=&quot;Solidworks笔记&quot;&gt;&lt;a href=&quot;#Solidworks笔记&quot; class=&quot;headerlink&quot; title=&quot;Solidworks笔记&quot;&gt;&lt;/a&gt;Solidworks笔记&lt;/h1&gt;&lt;blockquote&gt;&lt;h2 id=&quot;期中考试&quot;&gt;&lt;a href=&quot;#期中考试&quot; class=&quot;headerlink&quot; title=&quot;期中考试&quot;&gt;&lt;/a&gt;期中考试&lt;/h2&gt;&lt;p&gt;三个满分 平均分84&lt;/p&gt;
+    <summary type="html">&lt;h1 id=&quot;solidworks笔记&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#solidworks笔记&quot;&gt;&lt;/a&gt; Solidworks笔记&lt;/h1&gt;
+&lt;blockquote&gt;&lt;h2 id=&quot;期中考试&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#期中考试&quot;&gt;&lt;/a&gt; 期中考试&lt;/h2&gt;
+&lt;p&gt;三个满分 平均分84&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;h2 id=&quot;Solidworks概述&quot;&gt;&lt;a href=&quot;#Solidworks概述&quot; class=&quot;headerlink&quot; title=&quot;Solidworks概述&quot;&gt;&lt;/a&gt;Solidworks概述&lt;/h2&gt;&lt;p&gt;三维建模，设计颜色，赋予材质进行分析，运动仿真（校验设置功能完整性、动力仿真）&lt;br&gt;模块化功能&lt;/p&gt;</summary>
+&lt;h2 id=&quot;solidworks概述&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#solidworks概述&quot;&gt;&lt;/a&gt; Solidworks概述&lt;/h2&gt;
+&lt;p&gt;三维建模，设计颜色，赋予材质进行分析，运动仿真（校验设置功能完整性、动力仿真）&lt;br /&gt;
+模块化功能&lt;/p&gt;</summary>
     
     
     
