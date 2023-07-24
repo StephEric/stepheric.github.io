@@ -6,7 +6,7 @@
   <link href="http://stepheric.github.io/atom.xml" rel="self"/>
   
   <link href="http://stepheric.github.io/"/>
-  <updated>2022-11-05T13:11:29.383Z</updated>
+  <updated>2023-03-30T12:11:45.410Z</updated>
   <id>http://stepheric.github.io/</id>
   
   <author>
@@ -17,11 +17,59 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title></title>
+    <link href="http://stepheric.github.io/2023/07/24/LaTeX/LaTeX%20%E5%91%BD%E4%BB%A4%E6%B1%87%E6%80%BB/"/>
+    <id>http://stepheric.github.io/2023/07/24/LaTeX/LaTeX%20%E5%91%BD%E4%BB%A4%E6%B1%87%E6%80%BB/</id>
+    <published>2023-07-24T10:43:58.777Z</published>
+    <updated>2023-03-30T12:11:45.410Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;表格&quot;&gt;表格&lt;/h1&gt;
+&lt;h1</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>支持修改元素值的优先队列</title>
+    <link href="http://stepheric.github.io/2023/04/12/DSA/%E6%94%AF%E6%8C%81%E4%BF%AE%E6%94%B9%E5%85%83%E7%B4%A0%E5%80%BC%E7%9A%84%E4%BC%98%E5%85%88%E9%98%9F%E5%88%97/"/>
+    <id>http://stepheric.github.io/2023/04/12/DSA/%E6%94%AF%E6%8C%81%E4%BF%AE%E6%94%B9%E5%85%83%E7%B4%A0%E5%80%BC%E7%9A%84%E4%BC%98%E5%85%88%E9%98%9F%E5%88%97/</id>
+    <published>2023-04-12T15:21:00.000Z</published>
+    <updated>2023-04-12T15:23:20.968Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;If you want to modify an element in a priority queue, you would need
+to remove the element, modify it, and then insert it back into</summary>
+        
+      
+    
+    
+    
+    <category term="DS" scheme="http://stepheric.github.io/categories/DS/"/>
+    
+    
+    <category term="DS" scheme="http://stepheric.github.io/tags/DS/"/>
+    
+  </entry>
+  
+  <entry>
     <title>KMP算法——字符串子串匹配</title>
     <link href="http://stepheric.github.io/2022/11/05/DSA/KMP%E7%AE%97%E6%B3%95/"/>
     <id>http://stepheric.github.io/2022/11/05/DSA/KMP%E7%AE%97%E6%B3%95/</id>
     <published>2022-11-05T03:05:00.000Z</published>
-    <updated>2022-11-05T13:11:29.383Z</updated>
+    <updated>2023-03-30T11:56:28.786Z</updated>
     
     
     <summary type="html">&lt;p&gt;KMP算法解决了子串在字符串中定位的问题，即子串查找与匹配。KMP算法是三位大佬D.E.Knuth、J.H.Morris和V.R.Pratt同时发现的。&lt;/p&gt;</summary>
@@ -40,7 +88,7 @@
     <link href="http://stepheric.github.io/2022/11/03/C++/C%E8%AF%AD%E8%A8%80%E4%B8%AD%E7%9A%84%E6%8C%87%E9%92%88/"/>
     <id>http://stepheric.github.io/2022/11/03/C++/C%E8%AF%AD%E8%A8%80%E4%B8%AD%E7%9A%84%E6%8C%87%E9%92%88/</id>
     <published>2022-11-03T12:22:00.000Z</published>
-    <updated>2022-11-05T01:45:27.799Z</updated>
+    <updated>2023-03-27T05:34:19.686Z</updated>
     
     
     <summary type="html">&lt;p&gt;本文总结C语言课程学习中用到的指针概念及操作。&lt;/p&gt;</summary>
@@ -78,7 +126,7 @@
     <link href="http://stepheric.github.io/2022/10/10/Python/Python_list%E6%96%B9%E6%B3%95%E6%B1%87%E6%80%BB/"/>
     <id>http://stepheric.github.io/2022/10/10/Python/Python_list%E6%96%B9%E6%B3%95%E6%B1%87%E6%80%BB/</id>
     <published>2022-10-10T11:06:00.000Z</published>
-    <updated>2022-10-10T11:20:16.043Z</updated>
+    <updated>2023-02-03T02:42:25.732Z</updated>
     
     
     <summary type="html">&lt;p&gt;本篇博客汇总Python中list的常见操作。&lt;/p&gt;</summary>
@@ -97,7 +145,7 @@
     <link href="http://stepheric.github.io/2022/10/07/C++/C%E8%AF%AD%E8%A8%80%E4%B8%AD%E7%9A%84%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%93%8D%E4%BD%9C/"/>
     <id>http://stepheric.github.io/2022/10/07/C++/C%E8%AF%AD%E8%A8%80%E4%B8%AD%E7%9A%84%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%93%8D%E4%BD%9C/</id>
     <published>2022-10-07T13:18:00.000Z</published>
-    <updated>2022-11-15T09:50:31.289Z</updated>
+    <updated>2023-03-18T07:24:54.010Z</updated>
     
     
     <summary type="html">&lt;p&gt;本文梳理总结了C语言中的常见字符串操作&lt;/p&gt;</summary>
@@ -116,7 +164,7 @@
     <link href="http://stepheric.github.io/2022/10/07/DSA/%E7%BA%A6%E7%91%9F%E5%A4%AB%E7%8E%AF/"/>
     <id>http://stepheric.github.io/2022/10/07/DSA/%E7%BA%A6%E7%91%9F%E5%A4%AB%E7%8E%AF/</id>
     <published>2022-10-07T01:56:00.000Z</published>
-    <updated>2022-10-07T14:52:03.422Z</updated>
+    <updated>2023-04-12T15:21:12.142Z</updated>
     
     
     <summary type="html">&lt;blockquote&gt;
@@ -127,9 +175,9 @@
     
     
     
-    <category term="C/C++" scheme="http://stepheric.github.io/categories/C-C/"/>
-    
     <category term="DS" scheme="http://stepheric.github.io/categories/DS/"/>
+    
+    <category term="C/C++" scheme="http://stepheric.github.io/categories/C-C/"/>
     
     
     <category term="C/C++" scheme="http://stepheric.github.io/tags/C-C/"/>
@@ -162,7 +210,7 @@
     <link href="http://stepheric.github.io/2022/09/30/DSA/%E5%90%91%E9%87%8FVector%E7%9A%84%E5%AE%9E%E7%8E%B0/"/>
     <id>http://stepheric.github.io/2022/09/30/DSA/%E5%90%91%E9%87%8FVector%E7%9A%84%E5%AE%9E%E7%8E%B0/</id>
     <published>2022-09-30T03:43:31.000Z</published>
-    <updated>2022-09-30T03:43:38.796Z</updated>
+    <updated>2023-04-12T15:21:13.761Z</updated>
     
     
     <summary type="html">&lt;p&gt;https://blog.csdn.net/qq_41854911/article/details/119392824&lt;/p&gt;
@@ -170,9 +218,9 @@
     
     
     
-    <category term="C/C++" scheme="http://stepheric.github.io/categories/C-C/"/>
-    
     <category term="DS" scheme="http://stepheric.github.io/categories/DS/"/>
+    
+    <category term="C/C++" scheme="http://stepheric.github.io/categories/C-C/"/>
     
     
     <category term="C/C++" scheme="http://stepheric.github.io/tags/C-C/"/>
@@ -186,7 +234,7 @@
     <link href="http://stepheric.github.io/2022/09/30/DSA/%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95%E6%B1%87%E6%80%BB/"/>
     <id>http://stepheric.github.io/2022/09/30/DSA/%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95%E6%B1%87%E6%80%BB/</id>
     <published>2022-09-30T03:43:31.000Z</published>
-    <updated>2022-09-30T03:43:38.796Z</updated>
+    <updated>2023-04-12T15:21:14.384Z</updated>
     
     
     <summary type="html">&lt;p&gt;https://blog.csdn.net/qq_41854911/article/details/119392824&lt;/p&gt;
@@ -194,9 +242,9 @@
     
     
     
-    <category term="C/C++" scheme="http://stepheric.github.io/categories/C-C/"/>
-    
     <category term="DS" scheme="http://stepheric.github.io/categories/DS/"/>
+    
+    <category term="C/C++" scheme="http://stepheric.github.io/categories/C-C/"/>
     
     
     <category term="C/C++" scheme="http://stepheric.github.io/tags/C-C/"/>
@@ -210,7 +258,7 @@
     <link href="http://stepheric.github.io/2022/09/29/C++/scanf%E4%B8%8Eprintf%E7%9A%84%E7%94%A8%E6%B3%95%E5%8F%8A%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9/"/>
     <id>http://stepheric.github.io/2022/09/29/C++/scanf%E4%B8%8Eprintf%E7%9A%84%E7%94%A8%E6%B3%95%E5%8F%8A%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9/</id>
     <published>2022-09-29T04:00:31.000Z</published>
-    <updated>2022-10-07T12:51:53.468Z</updated>
+    <updated>2023-05-14T14:55:48.696Z</updated>
     
     
     <summary type="html">&lt;p&gt;本文对C语言中标准输入输出做一些介绍，盘点一下需要注意的踩坑点。&lt;/p&gt;</summary>
@@ -281,9 +329,9 @@
     
     
     
-    <category term="C/C++" scheme="http://stepheric.github.io/categories/C-C/"/>
-    
     <category term="DS" scheme="http://stepheric.github.io/categories/DS/"/>
+    
+    <category term="C/C++" scheme="http://stepheric.github.io/categories/C-C/"/>
     
     
     <category term="C/C++" scheme="http://stepheric.github.io/tags/C-C/"/>
@@ -293,44 +341,26 @@
   </entry>
   
   <entry>
-    <title>C++运算符重载</title>
-    <link href="http://stepheric.github.io/2022/09/22/Python/Python_numpy%E7%9F%A9%E9%98%B5%E6%96%B9%E6%B3%95%E6%B1%87%E6%80%BB/"/>
-    <id>http://stepheric.github.io/2022/09/22/Python/Python_numpy%E7%9F%A9%E9%98%B5%E6%96%B9%E6%B3%95%E6%B1%87%E6%80%BB/</id>
+    <title>高精度运算C++实现</title>
+    <link href="http://stepheric.github.io/2022/09/22/DSA/%E9%AB%98%E7%B2%BE%E5%BA%A6%E8%BF%90%E7%AE%97/"/>
+    <id>http://stepheric.github.io/2022/09/22/DSA/%E9%AB%98%E7%B2%BE%E5%BA%A6%E8%BF%90%E7%AE%97/</id>
     <published>2022-09-22T11:17:31.000Z</published>
-    <updated>2022-09-23T03:27:59.793Z</updated>
+    <updated>2023-04-12T15:21:17.242Z</updated>
     
     
     <summary type="html">&lt;p&gt;https://blog.csdn.net/qq_41854911/article/details/119392824&lt;/p&gt;
-&lt;h1 id=&quot;c运算符重载基础&quot;&gt;C++运算符重载基础&lt;/h1&gt;
-&lt;p&gt;下面介绍一些主题常用post内部的页面模块，可直接参照使用&lt;/p&gt;</summary>
+&lt;h1 id=&quot;section&quot;&gt;&lt;/h1&gt;</summary>
     
     
+    
+    <category term="Algorithm" scheme="http://stepheric.github.io/categories/Algorithm/"/>
     
     <category term="C/C++" scheme="http://stepheric.github.io/categories/C-C/"/>
     
     
     <category term="C/C++" scheme="http://stepheric.github.io/tags/C-C/"/>
     
-  </entry>
-  
-  <entry>
-    <title>C++运算符重载</title>
-    <link href="http://stepheric.github.io/2022/09/22/Python/Python%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/"/>
-    <id>http://stepheric.github.io/2022/09/22/Python/Python%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/</id>
-    <published>2022-09-22T11:17:31.000Z</published>
-    <updated>2022-09-23T03:27:59.793Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;https://blog.csdn.net/qq_41854911/article/details/119392824&lt;/p&gt;
-&lt;h1 id=&quot;c运算符重载基础&quot;&gt;C++运算符重载基础&lt;/h1&gt;
-&lt;p&gt;下面介绍一些主题常用post内部的页面模块，可直接参照使用&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="C/C++" scheme="http://stepheric.github.io/categories/C-C/"/>
-    
-    
-    <category term="C/C++" scheme="http://stepheric.github.io/tags/C-C/"/>
+    <category term="Algorithm" scheme="http://stepheric.github.io/tags/Algorithm/"/>
     
   </entry>
   
@@ -356,26 +386,44 @@
   </entry>
   
   <entry>
-    <title>高精度运算C++实现</title>
-    <link href="http://stepheric.github.io/2022/09/22/DSA/%E9%AB%98%E7%B2%BE%E5%BA%A6%E8%BF%90%E7%AE%97/"/>
-    <id>http://stepheric.github.io/2022/09/22/DSA/%E9%AB%98%E7%B2%BE%E5%BA%A6%E8%BF%90%E7%AE%97/</id>
+    <title>C++运算符重载</title>
+    <link href="http://stepheric.github.io/2022/09/22/Python/Python_numpy%E7%9F%A9%E9%98%B5%E6%96%B9%E6%B3%95%E6%B1%87%E6%80%BB/"/>
+    <id>http://stepheric.github.io/2022/09/22/Python/Python_numpy%E7%9F%A9%E9%98%B5%E6%96%B9%E6%B3%95%E6%B1%87%E6%80%BB/</id>
     <published>2022-09-22T11:17:31.000Z</published>
-    <updated>2022-10-07T14:10:08.241Z</updated>
+    <updated>2023-02-03T02:43:00.531Z</updated>
     
     
     <summary type="html">&lt;p&gt;https://blog.csdn.net/qq_41854911/article/details/119392824&lt;/p&gt;
-&lt;h1 id=&quot;section&quot;&gt;&lt;/h1&gt;</summary>
+&lt;h1 id=&quot;c运算符重载基础&quot;&gt;C++运算符重载基础&lt;/h1&gt;
+&lt;p&gt;下面介绍一些主题常用post内部的页面模块，可直接参照使用&lt;/p&gt;</summary>
     
     
     
     <category term="C/C++" scheme="http://stepheric.github.io/categories/C-C/"/>
     
-    <category term="Algorithm" scheme="http://stepheric.github.io/categories/Algorithm/"/>
-    
     
     <category term="C/C++" scheme="http://stepheric.github.io/tags/C-C/"/>
     
-    <category term="Algorithm" scheme="http://stepheric.github.io/tags/Algorithm/"/>
+  </entry>
+  
+  <entry>
+    <title>C++运算符重载</title>
+    <link href="http://stepheric.github.io/2022/09/22/Python/Python%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/"/>
+    <id>http://stepheric.github.io/2022/09/22/Python/Python%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/</id>
+    <published>2022-09-22T11:17:31.000Z</published>
+    <updated>2023-02-03T02:43:40.868Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;https://blog.csdn.net/qq_41854911/article/details/119392824&lt;/p&gt;
+&lt;h1 id=&quot;c运算符重载基础&quot;&gt;C++运算符重载基础&lt;/h1&gt;
+&lt;p&gt;下面介绍一些主题常用post内部的页面模块，可直接参照使用&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="C/C++" scheme="http://stepheric.github.io/categories/C-C/"/>
+    
+    
+    <category term="C/C++" scheme="http://stepheric.github.io/tags/C-C/"/>
     
   </entry>
   
@@ -384,7 +432,7 @@
     <link href="http://stepheric.github.io/2022/09/18/DSA/%E5%A4%A7%E6%95%B0%E4%B9%98%E6%B3%95/"/>
     <id>http://stepheric.github.io/2022/09/18/DSA/%E5%A4%A7%E6%95%B0%E4%B9%98%E6%B3%95/</id>
     <published>2022-09-18T13:47:00.000Z</published>
-    <updated>2022-09-18T14:08:25.302Z</updated>
+    <updated>2023-04-12T15:21:18.023Z</updated>
     
     
     <summary type="html">&lt;p&gt;输入两个很大的正整数，输出它们的乘积。比如&lt;/p&gt;
@@ -407,7 +455,7 @@
     <link href="http://stepheric.github.io/2022/09/18/VS%20code%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/"/>
     <id>http://stepheric.github.io/2022/09/18/VS%20code%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/</id>
     <published>2022-09-18T13:35:00.000Z</published>
-    <updated>2022-09-18T14:05:16.878Z</updated>
+    <updated>2023-02-03T02:43:48.653Z</updated>
     
     
     <summary type="html">&lt;h1 id=&quot;vs-code配置cc编译环境&quot;&gt;VS Code配置C/C++编译环境&lt;/h1&gt;
@@ -458,7 +506,7 @@
     <link href="http://stepheric.github.io/2022/09/18/DSA/%E4%B8%BB%E5%AE%9A%E7%90%86%E4%B8%8E%E6%97%B6%E9%97%B4%E5%A4%8D%E6%9D%82%E5%BA%A6/"/>
     <id>http://stepheric.github.io/2022/09/18/DSA/%E4%B8%BB%E5%AE%9A%E7%90%86%E4%B8%8E%E6%97%B6%E9%97%B4%E5%A4%8D%E6%9D%82%E5%BA%A6/</id>
     <published>2022-09-18T06:44:00.000Z</published>
-    <updated>2022-09-29T04:32:13.474Z</updated>
+    <updated>2023-03-14T11:10:46.909Z</updated>
     
     
     <summary type="html">&lt;p&gt;主要解决：根据时间复杂度的递推关系，求时间复杂度&lt;/p&gt;</summary>
@@ -470,9 +518,9 @@
     <category term="DS" scheme="http://stepheric.github.io/categories/DS/"/>
     
     
-    <category term="Algorithm" scheme="http://stepheric.github.io/tags/Algorithm/"/>
-    
     <category term="DS" scheme="http://stepheric.github.io/tags/DS/"/>
+    
+    <category term="Algorithm" scheme="http://stepheric.github.io/tags/Algorithm/"/>
     
   </entry>
   
@@ -548,14 +596,14 @@
     <link href="http://stepheric.github.io/2022/07/11/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8anaconda%E8%BF%9B%E8%A1%8CPython%E7%8E%AF%E5%A2%83%E7%AE%A1%E7%90%86/"/>
     <id>http://stepheric.github.io/2022/07/11/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8anaconda%E8%BF%9B%E8%A1%8CPython%E7%8E%AF%E5%A2%83%E7%AE%A1%E7%90%86/</id>
     <published>2022-07-11T03:35:31.000Z</published>
-    <updated>2022-12-10T05:04:56.247Z</updated>
+    <updated>2023-07-24T10:43:26.677Z</updated>
     
     
     <summary type="html">&lt;h1
 id=&quot;使用conda进行环境管理和包管理&quot;&gt;&lt;strong&gt;使用conda进行环境管理和包管理&lt;/strong&gt;&lt;/h1&gt;
 &lt;p&gt;conda是anaconda中的环境管理器和包管理器。&lt;/p&gt;
 &lt;p&gt;对于conda的操作都发生在命令行内，我们可以打开Anaconda
-Prompt进行操作。&lt;/p&gt;</summary>
+Prompt进行操作。或者在项目根目录下使用终端进行操作。&lt;/p&gt;</summary>
     
     
     
