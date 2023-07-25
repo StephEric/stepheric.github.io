@@ -1,6 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Solidworks笔记</title>
+    <url>/2021/10/30/Solidworks/</url>
+    <content><![CDATA[<h1 id="solidworks笔记">Solidworks笔记</h1>
+<blockquote><h2 id="期中考试">期中考试</h2>
+<p>三个满分 平均分84</p>
+</blockquote>
+<h2 id="solidworks概述">Solidworks概述</h2>
+<p>三维建模，设计颜色，赋予材质进行分析，运动仿真（校验设置功能完整性、动力仿真）
+模块化功能</p>
+<span id="more"></span>
+<h2 id="solidworks基本操作">Solidworks基本操作</h2>
+<p>零件：单个实体 装配体：多个实体（通过运动附），固连
+工程图：面向实际</p>
+<p>按照基准次序 定义材质 红绿灯更新当前参数</p>
+<h3 id="剪裁实体">剪裁实体</h3>
+<p>选择合适剪裁选项</p>
+<p>旋转实体 等距实体 复制偏移一个距离 参考几何体 定义画图起始点 曲线</p>
+<p>一开始导入的零件是基准平台 装备体里可以嵌套装备体</p>
+<p>挖空 点击拉伸切除（完全贯穿） 配合 分别选面进行配合 （重合
+指定距离）</p>
+<h3 id="工程图">工程图</h3>
+<p>重新编辑图纸 跟着鼠标的是视图</p>
+]]></content>
+      <categories>
+        <category>Solidworks</category>
+      </categories>
+      <tags>
+        <tag>Solidworks</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Python文件操作</title>
     <url>/2022/08/08/Python%E6%96%87%E4%BB%B6%E6%93%8D%E4%BD%9C/</url>
     <content><![CDATA[<p>本篇不断汇总介绍Python中常见的文件操作</p>
@@ -51,18 +82,6 @@ open()</a></p>
       </tags>
   </entry>
   <entry>
-    <title>QT界面部件与设置</title>
-    <url>/2022/07/19/QT%E7%95%8C%E9%9D%A2%E9%83%A8%E4%BB%B6%E4%B8%8E%E8%AE%BE%E7%BD%AE/</url>
-    <content><![CDATA[<h1 id="qt界面部件与设置">QT界面部件与设置</h1>
-]]></content>
-      <categories>
-        <category>QT</category>
-      </categories>
-      <tags>
-        <tag>QT</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Visual Studio Code 环境配置</title>
     <url>/2022/09/18/VS%20code%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/</url>
     <content><![CDATA[<h1 id="vs-code配置cc编译环境">VS Code配置C/C++编译环境</h1>
@@ -102,6 +121,18 @@ task），使用自定义快捷键<code>ctrl+alt+F5</code></li>
         <tag>环境配置</tag>
         <tag>VS Code</tag>
         <tag>C/C++</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>QT界面部件与设置</title>
+    <url>/2022/07/19/QT%E7%95%8C%E9%9D%A2%E9%83%A8%E4%BB%B6%E4%B8%8E%E8%AE%BE%E7%BD%AE/</url>
+    <content><![CDATA[<h1 id="qt界面部件与设置">QT界面部件与设置</h1>
+]]></content>
+      <categories>
+        <category>QT</category>
+      </categories>
+      <tags>
+        <tag>QT</tag>
       </tags>
   </entry>
   <entry>
@@ -268,34 +299,588 @@ href="https://link.zhihu.com/?target=https%3A//mirrors.tuna.tsinghua.edu.cn/help
       </tags>
   </entry>
   <entry>
-    <title>Solidworks笔记</title>
-    <url>/2021/10/30/Solidworks/</url>
-    <content><![CDATA[<h1 id="solidworks笔记">Solidworks笔记</h1>
-<blockquote><h2 id="期中考试">期中考试</h2>
-<p>三个满分 平均分84</p>
-</blockquote>
-<h2 id="solidworks概述">Solidworks概述</h2>
-<p>三维建模，设计颜色，赋予材质进行分析，运动仿真（校验设置功能完整性、动力仿真）
-模块化功能</p>
+    <title>C++运算符重载</title>
+    <url>/2022/09/22/C++/C++%E8%BF%90%E7%AE%97%E7%AC%A6%E9%87%8D%E8%BD%BD/</url>
+    <content><![CDATA[<p>https://blog.csdn.net/qq_41854911/article/details/119392824</p>
+<h1 id="c运算符重载基础">C++运算符重载基础</h1>
+<p>下面介绍一些主题常用post内部的页面模块，可直接参照使用</p>
 <span id="more"></span>
-<h2 id="solidworks基本操作">Solidworks基本操作</h2>
-<p>零件：单个实体 装配体：多个实体（通过运动附），固连
-工程图：面向实际</p>
-<p>按照基准次序 定义材质 红绿灯更新当前参数</p>
-<h3 id="剪裁实体">剪裁实体</h3>
-<p>选择合适剪裁选项</p>
-<p>旋转实体 等距实体 复制偏移一个距离 参考几何体 定义画图起始点 曲线</p>
-<p>一开始导入的零件是基准平台 装备体里可以嵌套装备体</p>
-<p>挖空 点击拉伸切除（完全贯穿） 配合 分别选面进行配合 （重合
-指定距离）</p>
-<h3 id="工程图">工程图</h3>
-<p>重新编辑图纸 跟着鼠标的是视图</p>
+<h2 id="center-quote-居中引用">Center Quote 居中引用</h2>
+<p>建议在单行文字时使用</p>
+<h3 id="example">Example</h3>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">&#123;% cq %&#125;代码优雅，核心简单&#123;% endcq %&#125;</span><br></pre></td></tr></table></figure>
+<blockquote class="blockquote-center">
+<p>代码优雅，核心简单</p>
+
+</blockquote>
+<h2 id="note-bootstrap-callout">Note( Bootstrap Callout )</h2>
+<h3 id="设置">设置</h3>
+<h3 id="使用-usage">使用 Usage</h3>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">```</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% codeblock 创建note lang:html [additional options] %&#125;</span><br><span class="line">&#123;% note [class] [no-icon] [summary] %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% note info no-icon This is a summary %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">## 代码块 Code Block</span><br><span class="line"></span><br><span class="line">```html</span><br><span class="line">&#123;% codeblock [title] [lang:language] [url] [link text] [additional options] %&#125;</span><br><span class="line">code snippet</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br></pre></td></tr></table></figure>
+<h1 id="参考文献">参考文献</h1>
+<p>[1] https://blog.csdn.net/qq_41854911/article/details/119392824</p>
 ]]></content>
       <categories>
-        <category>Solidworks</category>
+        <category>C/C++</category>
       </categories>
       <tags>
-        <tag>Solidworks</tag>
+        <tag>C/C++</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>C语言中的字符串操作</title>
+    <url>/2022/10/07/C++/C%E8%AF%AD%E8%A8%80%E4%B8%AD%E7%9A%84%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%93%8D%E4%BD%9C/</url>
+    <content><![CDATA[<p>本文梳理总结了C语言中的常见字符串操作</p>
+<span id="more"></span>
+<h2 id="读入">读入</h2>
+<p><code>scanf("%s", s)</code> 读入一个字符串，以空格和换行为分界</p>
+<p><code>gets(s)</code>
+可以直接输入带空格的一行字符串，系统会将最后的换行符从缓冲区中取出然后丢弃</p>
+<h3 id="gets"><code>gets()</code></h3>
+<p>输入后自动添加<code>'\0'</code></p>
+<h3 id="fgets"><code>fgets()</code></h3>
+<ul>
+<li><p>函数原型</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta"># <span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="function"><span class="type">char</span> *<span class="title">fgets</span><span class="params">(<span class="type">char</span> *s, <span class="type">int</span> size, FILE *stream)</span></span>;</span><br></pre></td></tr></table></figure></li>
+<li><p>参数含义</p>
+<ul>
+<li><p><code>s</code>
+代表要保存到的内存空间的首地址，可以是字符数组名，也可以是指向字符数组的字符指针变量名</p></li>
+<li><p><code>size</code> 代表的是读取字符串的长度</p></li>
+<li><p><code>stream</code> 表示从何种流中读取，可以是标准输入流
+<code>stdin</code>，也可以是文件流</p></li>
+</ul></li>
+<li><p>补充说明</p>
+<ul>
+<li>比<code>gets</code>函数更安全</li>
+<li><strong><code>fgets</code>的中间size参数直接赋值字符数组长度即可</strong></li>
+<li>如果输入字符串长度没有超过<code>size-1</code>那么系统会将最后输入的换行符<code>'\n'</code>保存，剩余空间都用<code>'\0'</code>填充。<strong>所以输出时不用再加换行符<code>'\n'</code></strong></li>
+</ul></li>
+</ul>
+<h2 id="比较">比较</h2>
+<blockquote>
+<p>比较方法：</p>
+<ol type="1">
+<li><code>bcmp()</code>，比较字符串的前n个字节是否相等;2.</li>
+<li><code>strcmp()</code>，区分大小写地比较字符串;</li>
+<li><code>stricmp()</code>，不区分大小写地比较字符串；</li>
+<li><code>strncmp()</code>或<code>strnicmp()</code>，区分大小写地比较字符串的前n个字符。</li>
+</ol>
+</blockquote>
+<h3 id="strcmp"><code>strcmp</code></h3>
+<p>原型为</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">int</span> <span class="title">strcmp</span><span class="params">(<span class="type">const</span> <span class="type">char</span> *s1, <span class="type">const</span> <span class="type">char</span> *s2)</span></span>;</span><br></pre></td></tr></table></figure>
+<p>【返回值】若参数s1 和s2 字符串相同则返回0。s1 若大于s2 则返回大于0
+的值。s1 若小于s2 则返回小于0 的值。</p>
+<h2 id="拷贝">拷贝</h2>
+<h3 id="strcpy"><code>strcpy</code></h3>
+<p>原型为</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">char</span>* <span class="title">strcpy</span><span class="params">(<span class="type">char</span>* des,<span class="type">const</span> <span class="type">char</span>* source)</span></span>&#123;</span><br><span class="line">    <span class="type">char</span>* r=des;   </span><br><span class="line">    <span class="built_in">assert</span>((des != <span class="literal">NULL</span>) &amp;&amp; (source != <span class="literal">NULL</span>));</span><br><span class="line">	<span class="keyword">while</span>((*r++ = *source++)!=<span class="string">&#x27;\0&#x27;</span>);</span><br><span class="line">	<span class="keyword">return</span> des;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="分割">分割</h2>
+<h3 id="strtok"><code>strtok</code></h3>
+<p><code>strtok</code> breaks string <strong>str</strong> into a series
+of tokens using the delimiter.</p>
+<p>将<code>delimiter</code>部分的字符转化为<code>\0</code></p>
+<ul>
+<li><p>函数原型</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">char</span> *<span class="title">strtok</span><span class="params">(<span class="type">char</span> *str, <span class="type">const</span> <span class="type">char</span> *delim)</span></span></span><br></pre></td></tr></table></figure></li>
+<li><p>返回值</p>
+<p>函数返回指向分割后第一个字符串的指针。如果没有子串，返回NULL</p></li>
+<li><p>示例</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;string.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span> <span class="params">()</span> </span>&#123;</span><br><span class="line">   <span class="type">char</span> str[<span class="number">80</span>] = <span class="string">&quot;This is - www.tutorialspoint.com - website&quot;</span>;</span><br><span class="line">   <span class="type">const</span> <span class="type">char</span> s[<span class="number">2</span>] = <span class="string">&quot;-&quot;</span>;</span><br><span class="line">   <span class="type">char</span> *token;</span><br><span class="line">   </span><br><span class="line">   <span class="comment">/* get the first token */</span></span><br><span class="line">   token = <span class="built_in">strtok</span>(str, s);</span><br><span class="line">   </span><br><span class="line">   <span class="comment">/* walk through other tokens */</span></span><br><span class="line">   <span class="keyword">while</span>( token != <span class="literal">NULL</span> ) &#123;</span><br><span class="line">      <span class="built_in">printf</span>( <span class="string">&quot; %s\n&quot;</span>, token );</span><br><span class="line">      token = <span class="built_in">strtok</span>(<span class="literal">NULL</span>, s);</span><br><span class="line">   &#125;</span><br><span class="line">   </span><br><span class="line">   <span class="keyword">return</span>(<span class="number">0</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li>
+</ul>
+<h2 id="连接">连接</h2>
+<h3 id="strcat"><code>strcat()</code></h3>
+<p>将s2字符串连接到s1的后面，包括空字符</p>
+<p>s1长度需要足够大，以容纳连接的字符串</p>
+<ul>
+<li><p>函数原型</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">char</span>* <span class="title">strcat</span><span class="params">(<span class="type">char</span>* s1, <span class="type">const</span> <span class="type">char</span>* s2)</span></span>;</span><br></pre></td></tr></table></figure></li>
+</ul>
+<h3 id="strncat"><code>strncat()</code></h3>
+<ul>
+<li><p>函数原型</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">char</span>* <span class="title">strncat</span><span class="params">(<span class="type">char</span>* s1, <span class="type">const</span> <span class="type">char</span>*s2, <span class="type">size_t</span> n)</span></span></span><br></pre></td></tr></table></figure></li>
+<li><p>参数</p>
+<ul>
+<li><code>n</code>: 附加的字符串的最大长度</li>
+</ul></li>
+</ul>
+<h2 id="大小写转换">大小写转换</h2>
+<h3 id="strlwr"><code>strlwr()</code></h3>
+<p>将字符串中大写字母换成小写字母</p>
+<ul>
+<li><p>函数原型</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">char</span>* <span class="title">strlwr</span><span class="params">(<span class="type">char</span>* s)</span></span>;</span><br></pre></td></tr></table></figure></li>
+</ul>
+<h3 id="strupr"><code>strupr()</code></h3>
+<p>将字符串中大写字母换成小写字母</p>
+<ul>
+<li><p>函数原型</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">char</span>* <span class="title">strlwr</span><span class="params">(<span class="type">char</span>* s)</span></span>;</span><br></pre></td></tr></table></figure></li>
+</ul>
+<h2 id="转换为数值">转换为数值</h2>
+<p>与非法字符停止转换，非法的字符也有返回值</p>
+<p>需要引入头文件<code>&lt;stdlib.h&gt;</code></p>
+<h3 id="atof"><code>atof()</code></h3>
+<ul>
+<li><p>函数原型</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">double</span> <span class="title">atof</span><span class="params">(<span class="type">const</span> <span class="type">char</span>* ns)</span></span>;</span><br></pre></td></tr></table></figure></li>
+</ul>
+<h3 id="atoi"><code>atoi()</code></h3>
+<ul>
+<li><p>函数原型</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">int</span> <span class="title">atoi</span><span class="params">(<span class="type">const</span> <span class="type">char</span>* ns)</span></span>;</span><br></pre></td></tr></table></figure></li>
+</ul>
+<h2 id="输出">输出</h2>
+<p><code>puts()</code> 直接输出一行字符串，末尾加上<code>\n</code></p>
+<div class="note info"><p><code>scanf</code>输入<code>double</code>时必须使用<code>%lf</code></p>
+</div>
+<details class="note info no-icon"><summary><p>This is a summary</p>
+</summary>
+<p>Any content (support inline tags too).</p>
+
+</details>
+]]></content>
+      <categories>
+        <category>C/C++</category>
+      </categories>
+      <tags>
+        <tag>C/C++</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>C语言中的指针</title>
+    <url>/2022/11/03/C++/C%E8%AF%AD%E8%A8%80%E4%B8%AD%E7%9A%84%E6%8C%87%E9%92%88/</url>
+    <content><![CDATA[<p>本文总结C语言课程学习中用到的指针概念及操作。</p>
+<span id="more"></span>
+<h2 id="动态分配内存">动态分配内存</h2>
+<h3 id="malloc"><code>malloc</code></h3>
+<ul>
+<li><p>功能描述</p>
+<p>分配所要求的内存空间，并返回指向该空间的指针</p></li>
+<li><p>函数原型</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdlib.h&gt;</span></span></span><br><span class="line"><span class="function"><span class="type">void</span> *<span class="title">malloc</span><span class="params">(<span class="type">size_t</span> size)</span></span></span><br></pre></td></tr></table></figure></li>
+<li><p>参数</p>
+<ul>
+<li><code>size</code>指的是内存空间的<strong><em>字节大小</em></strong></li>
+</ul></li>
+<li><p>返回值</p>
+<ul>
+<li>分配成功，返回指向该空间的指针</li>
+<li>分配失败，返回<code>NULL</code></li>
+</ul></li>
+<li><p>示例</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdlib.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span> <span class="params">()</span> </span>&#123;</span><br><span class="line">   <span class="type">char</span> *str;</span><br><span class="line"></span><br><span class="line">   <span class="comment">/* Initial memory allocation */</span></span><br><span class="line">   str = (<span class="type">char</span> *) <span class="built_in">malloc</span>(<span class="number">15</span>);</span><br><span class="line">   <span class="built_in">strcpy</span>(str, <span class="string">&quot;tutorialspoint&quot;</span>);</span><br><span class="line">   <span class="built_in">printf</span>(<span class="string">&quot;String = %s,  Address = %u\n&quot;</span>, str, str);</span><br><span class="line"></span><br><span class="line">   <span class="comment">/* Reallocating memory */</span></span><br><span class="line">   str = (<span class="type">char</span> *) <span class="built_in">realloc</span>(str, <span class="number">25</span>);</span><br><span class="line">   <span class="built_in">strcat</span>(str, <span class="string">&quot;.com&quot;</span>);</span><br><span class="line">   <span class="built_in">printf</span>(<span class="string">&quot;String = %s,  Address = %u\n&quot;</span>, str, str);</span><br><span class="line"></span><br><span class="line">   <span class="built_in">free</span>(str);</span><br><span class="line">   </span><br><span class="line">   <span class="keyword">return</span>(<span class="number">0</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li>
+</ul>
+<h3 id="bool"><code>bool</code></h3>
+<p>C语言中没有bool值，不可以使用<code>true / false</code></p>
+<h3 id="unsigned"><code>unsigned</code></h3>
+<p>不要在它减到0时继续往下减，否则会变成无穷大</p>
+<h2 id="结构体">结构体</h2>
+<p>结构体中不能包含函数，不推荐在定义结构体后直接声明变量。</p>
+<p><strong>结构体作为数据类型，需要在前面加上<code>struct</code>，比如</strong></p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="keyword">struct</span> <span class="title class_">Time</span> <span class="built_in">devide</span>(<span class="keyword">struct</span> Time t1, <span class="keyword">struct</span> Time t2)&#123;&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="循环">循环</h2>
+<p>不允许在<code>for</code>内定义变量</p>
+<h2 id="指针与引用">指针与引用</h2>
+<div class="note info"><p>C语言中没有引用</p>
+</div>
+<h2 id="报错汇总">报错汇总</h2>
+<h3
+id="是否忘记了向源中添加include-stdafx.h">是否忘记了向源中添加“#include
+“stdafx.h“”</h3>
+<p>对于每一个出错的.cpp文件，右键——》属性——》C/C++——》预编译头，选择不使用预编译头即可。</p>
+<details class="note info no-icon"><summary><p>This is a summary</p>
+</summary>
+<p>Any content (support inline tags too).</p>
+
+</details>
+]]></content>
+      <categories>
+        <category>C/C++</category>
+      </categories>
+      <tags>
+        <tag>C/C++</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>STL中vector的常用函数</title>
+    <url>/2022/09/25/C++/STL%E4%B8%ADvector%E7%9A%84%E5%B8%B8%E7%94%A8%E5%87%BD%E6%95%B0/</url>
+    <content><![CDATA[<p>https://blog.csdn.net/qq_41854911/article/details/119392824</p>
+<h1 id="c运算符重载基础">C++运算符重载基础</h1>
+<p>下面介绍一些主题常用post内部的页面模块，可直接参照使用</p>
+<span id="more"></span>
+<h2 id="center-quote-居中引用">Center Quote 居中引用</h2>
+<p>建议在单行文字时使用</p>
+<h3 id="example">Example</h3>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">&#123;% cq %&#125;代码优雅，核心简单&#123;% endcq %&#125;</span><br></pre></td></tr></table></figure>
+<blockquote class="blockquote-center">
+<p>代码优雅，核心简单</p>
+
+</blockquote>
+<h2 id="note-bootstrap-callout">Note( Bootstrap Callout )</h2>
+<h3 id="设置">设置</h3>
+<h3 id="使用-usage">使用 Usage</h3>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">```</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% codeblock 创建note lang:html [additional options] %&#125;</span><br><span class="line">&#123;% note [class] [no-icon] [summary] %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% note info no-icon This is a summary %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">## 代码块 Code Block</span><br><span class="line"></span><br><span class="line">```html</span><br><span class="line">&#123;% codeblock [title] [lang:language] [url] [link text] [additional options] %&#125;</span><br><span class="line">code snippet</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="section"></h3>
+]]></content>
+      <categories>
+        <category>C/C++</category>
+        <category>DS</category>
+      </categories>
+      <tags>
+        <tag>C/C++</tag>
+        <tag>DS</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>C语言课程常用库</title>
+    <url>/2022/10/27/C++/C%E8%AF%AD%E8%A8%80%E8%AF%BE%E7%A8%8B%E5%B8%B8%E7%94%A8%E5%BA%93/</url>
+    <content><![CDATA[<p>本文总结C语言课程学习中尝试用到的库函数与方法。</p>
+<span id="more"></span>
+<h2 id="math.h">math.h</h2>
+<h3 id="powfloat-a-float-b">pow(float a, float b)</h3>
+<p>注意返回值为浮点型</p>
+<h3 id="absint-x">abs(int x)</h3>
+<h3 id="fabsfloat-x">fabs(float x)</h3>
+<p>注意浮点型取绝对值要使用<code>fabs()</code></p>
+<h2 id="数据类型">数据类型</h2>
+<h3 id="bool"><code>bool</code></h3>
+<p>C语言中没有bool值，不可以使用<code>true / false</code></p>
+<h3 id="unsigned"><code>unsigned</code></h3>
+<p>不要在它减到0时继续往下减，否则会变成无穷大</p>
+<h2 id="结构体">结构体</h2>
+<p>结构体中不能包含函数，不推荐在定义结构体后直接声明变量。</p>
+<p><strong>结构体作为数据类型，需要在前面加上<code>struct</code>，比如</strong></p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="keyword">struct</span> <span class="title class_">Time</span> <span class="built_in">devide</span>(<span class="keyword">struct</span> Time t1, <span class="keyword">struct</span> Time t2)&#123;&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="循环">循环</h2>
+<p>不允许在<code>for</code>内定义变量</p>
+<h2 id="指针与引用">指针与引用</h2>
+<div class="note info"><p>C语言中没有引用</p>
+</div>
+<h2 id="报错汇总">报错汇总</h2>
+<h3
+id="是否忘记了向源中添加include-stdafx.h">是否忘记了向源中添加“#include
+“stdafx.h“”</h3>
+<p>对于每一个出错的.cpp文件，右键——》属性——》C/C++——》预编译头，选择不使用预编译头即可。</p>
+<details class="note info no-icon"><summary><p>This is a summary</p>
+</summary>
+<p>Any content (support inline tags too).</p>
+
+</details>
+]]></content>
+      <categories>
+        <category>C/C++</category>
+      </categories>
+      <tags>
+        <tag>C/C++</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>VS2012报错解决汇总</title>
+    <url>/2022/09/28/C++/VS2012%E6%8A%A5%E9%94%99%E8%A7%A3%E5%86%B3%E6%B1%87%E6%80%BB/</url>
+    <content><![CDATA[<p>本文对被迫使用Visual Studio
+2012中踩到的一些坑进行汇总，服务于《计算机语言与程序设计》的课程考试。其解决方法已过时，完全是因为某清大学只购买到了VS2012的版权。</p>
+<span id="more"></span>
+<h2 id="编辑器习惯配置">编辑器习惯配置</h2>
+<p><strong><em>选项/环境/常规</em></strong> 颜色主题选择深色</p>
+<p><strong><em>选项/环境/字体和颜色</em></strong> 选择
+<code>Cascadia Code</code></p>
+<h2 id="报错汇总">报错汇总</h2>
+<h3
+id="是否忘记了向源中添加include-stdafx.h">是否忘记了向源中添加“#include
+“stdafx.h“”</h3>
+<p>对于每一个出错的.cpp文件，右键——》属性——》C/C++——》预编译头，选择不使用预编译头即可。</p>
+<h3 id="应该使用scanf_s">应该使用scanf_s</h3>
+<ul>
+<li><p>一种解决方法</p>
+<ul>
+<li><p>右击项目名，选择属性</p></li>
+<li><p>在c/c++下选择Preprocessor（预处理器）</p></li>
+<li><p>点击图示Preprocessor
+Definitions，选择&lt;Edit…&gt;，添加预处理器定义<code>_CRT_SECURE_NO_WARNINGS</code></p></li>
+</ul></li>
+<li><p>或者，直接添加宏定义</p></li>
+</ul>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">define</span> _CRT_SECURE_NO_WARNINGS</span></span><br></pre></td></tr></table></figure>
+<details class="note info no-icon"><summary><p>This is a summary</p>
+</summary>
+<p>Any content (support inline tags too).</p>
+
+</details>
+]]></content>
+      <categories>
+        <category>C/C++</category>
+        <category>VS2012</category>
+      </categories>
+      <tags>
+        <tag>C/C++</tag>
+        <tag>VS2012</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>scanf与printf的用法及注意事项</title>
+    <url>/2022/09/29/C++/scanf%E4%B8%8Eprintf%E7%9A%84%E7%94%A8%E6%B3%95%E5%8F%8A%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9/</url>
+    <content><![CDATA[<p>本文对C语言中标准输入输出做一些介绍，盘点一下需要注意的踩坑点。</p>
+<span id="more"></span>
+<h2 id="scanf">scanf</h2>
+<h3 id="格式化符内空格的区别">格式化符内空格的区别</h3>
+<p><code>scanf("%c %c", &amp;c1, &amp;c2)</code>与<code>scanf("%c%c", &amp;c1, &amp;c2)</code>不同，前者过滤掉两个字符中间的空格，后者将空格作为<code>c2</code>的值</p>
+<div class="note info"><p><code>scanf</code>输入<code>double</code>时必须使用<code>%lf</code></p>
+</div>
+<h2 id="格式化输入">格式化输入</h2>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="built_in">scanf</span>(<span class="string">&quot;%d:%d:%d&quot;</span>);</span><br></pre></td></tr></table></figure>
+<p>可输入格式为<code>hh:mm:ss</code>的数据，其中<code>02:12:23</code>输入后小时的<code>int</code>的值同样为<code>2</code></p>
+<h2 id="类型对应表">类型对应表</h2>
+<table>
+<thead>
+<tr class="header">
+<th>格式符</th>
+<th>数据类型</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>%lf</code></td>
+<td><code>double</code></td>
+</tr>
+<tr class="even">
+<td><code>%f</code></td>
+<td><code>float</code></td>
+</tr>
+<tr class="odd">
+<td><code>%d</code></td>
+<td><code>int</code></td>
+</tr>
+<tr class="even">
+<td><code>%lld</code></td>
+<td><code>long long int</code></td>
+</tr>
+</tbody>
+</table>
+<h2 id="printf">printf</h2>
+<h3 id="输出指定格式的数字">输出指定格式的数字</h3>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="built_in">printf</span>(<span class="string">&quot;%02d:%02d:%02d\n&quot;</span>, delta.hh, delta.mm, delta.ss);</span><br></pre></td></tr></table></figure>
+<p>输出结果为 <code>02:03:04</code></p>
+<blockquote>
+<p><code>printf("%a.bf", var)</code>，其中a,b为常数。</p>
+<p>含义为：</p>
+<p>a代表输出占|a|（a的绝对值）个字节的宽度，当实际宽度超过a时，按实际宽度输出，否则输出a个字节，不足部分补空格。</p>
+<p>如果a为正数，输出的有效数字在右侧，左侧补空格。
+如果a为负数，输出的有效数字在左侧，右侧补空格。</p>
+<p>b代表输出带有b位小数，不足部分补0。 a,b可单独使用。</p>
+<p>比如<code>printf("%4f", 1.2);</code>
+会输出一个空格加上<code>1.2</code>。</p>
+<p><code>printf("%.3f", 1.2);</code> 会输出<code>1.200</code>。</p>
+<p><code>printf("%-8.4f", 1.2);</code>会输出<code>1.2000</code>再输出两个空格。</p>
+</blockquote>
+<details class="note info no-icon"><summary><p>This is a summary</p>
+</summary>
+<p>Any content (support inline tags too).</p>
+
+</details>
+]]></content>
+      <categories>
+        <category>C/C++</category>
+      </categories>
+      <tags>
+        <tag>C/C++</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Algorithm中sort的使用汇总</title>
+    <url>/2022/09/30/C++/sort%E7%9A%84%E4%BD%BF%E7%94%A8%E6%B1%87%E6%80%BB/</url>
+    <content><![CDATA[<p>本文汇总了<code>sort</code>的常见用法。</p>
+<span id="more"></span>
+<h2 id="center-quote-居中引用">Center Quote 居中引用</h2>
+<p>建议在单行文字时使用</p>
+<h3 id="example">Example</h3>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">&#123;% cq %&#125;代码优雅，核心简单&#123;% endcq %&#125;</span><br></pre></td></tr></table></figure>
+<blockquote class="blockquote-center">
+<p>代码优雅，核心简单</p>
+
+</blockquote>
+<h2 id="note-bootstrap-callout">Note( Bootstrap Callout )</h2>
+<h3 id="设置">设置</h3>
+<h3 id="使用-usage">使用 Usage</h3>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">```</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% codeblock 创建note lang:html [additional options] %&#125;</span><br><span class="line">&#123;% note [class] [no-icon] [summary] %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% note info no-icon This is a summary %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">## 代码块 Code Block</span><br><span class="line"></span><br><span class="line">```html</span><br><span class="line">&#123;% codeblock [title] [lang:language] [url] [link text] [additional options] %&#125;</span><br><span class="line">code snippet</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="section"></h3>
+]]></content>
+      <categories>
+        <category>C/C++</category>
+      </categories>
+      <tags>
+        <tag>C/C++</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>编写C语言时踩到的坑</title>
+    <url>/2022/09/28/C++/%E7%BC%96%E5%86%99C%E8%AF%AD%E8%A8%80%E6%97%B6%E8%B8%A9%E5%88%B0%E7%9A%84%E5%9D%91/</url>
+    <content><![CDATA[<p>本文对笔者在学习C语言时遗忘的C语言与C++不同的用法特性进行说明。</p>
+<span id="more"></span>
+<h2 id="变量">变量</h2>
+<ul>
+<li>定义变量时必须初始化</li>
+<li>定义变量必须在代码块的最前面，不能在for()的括号里定义<code>int i = 1</code></li>
+<li>不能用变量初始化变量</li>
+</ul>
+<h2 id="数据类型">数据类型</h2>
+<h3 id="bool"><code>bool</code></h3>
+<p>C语言中没有bool值，不可以使用<code>true / false</code></p>
+<h3 id="unsigned"><code>unsigned</code></h3>
+<p>不要在它减到0时继续往下减，否则会变成无穷大</p>
+<h3 id="char"><code>char*</code></h3>
+<ul>
+<li>使用<code>strlen</code>直接与负数比较会出错，因为<code>strlen</code>是无符号数</li>
+</ul>
+<h2 id="结构体">结构体</h2>
+<p>结构体中不能包含函数，不推荐在定义结构体后直接声明变量。</p>
+<p><strong>结构体作为数据类型，需要在前面加上<code>struct</code>，比如</strong></p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="keyword">struct</span> <span class="title class_">Time</span> <span class="built_in">devide</span>(<span class="keyword">struct</span> Time t1, <span class="keyword">struct</span> Time t2)&#123;&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="循环">循环</h2>
+<p>不允许在<code>for</code>内定义变量</p>
+<h2 id="指针与引用">指针与引用</h2>
+<div class="note info"><p>C语言中没有引用</p>
+</div>
+<h2 id="动态开辟空间">动态开辟空间</h2>
+<p>空间大小不要写成指针大小！！！！</p>
+<h3 id="字符串指针">字符串指针</h3>
+<p>对函数内的字符串指针操作时，最好先创建一个新的字符串指针</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">int</span> <span class="title">strdelete</span><span class="params">(<span class="type">char</span> *s1, <span class="type">char</span> *s2)</span></span>&#123;</span><br><span class="line">	<span class="type">char</span> *p1 = s1;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="报错汇总">报错汇总</h2>
+<h3
+id="是否忘记了向源中添加include-stdafx.h">是否忘记了向源中添加“#include
+“stdafx.h“”</h3>
+<p>对于每一个出错的.cpp文件，右键——》属性——》C/C++——》预编译头，选择不使用预编译头即可。</p>
+<details class="note info no-icon"><summary><p>This is a summary</p>
+</summary>
+<p>Any content (support inline tags too).</p>
+
+</details>
+]]></content>
+      <categories>
+        <category>C/C++</category>
+      </categories>
+      <tags>
+        <tag>C/C++</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Github使用</title>
+    <url>/2022/06/30/Git/Github%20Guide/</url>
+    <content><![CDATA[<h1 id="github使用">Github使用</h1>
+<h2 id="生成ssh-key">生成SSH key</h2>
+<p>SSh（安全外壳协议）GitHub 上，一般都是通过 SSH 来授权的，而且大多数
+Git 服务器也会选择使用 SSH 公钥来进行授权，所以想要向 GitHub
+提交代码，首先就得在 GitHub 上添加 SSH key配置。</p>
+<span id="more"></span>
+<figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line">ssh-keygen -t rsa -C &quot;xxx@xxx.com&quot;</span><br><span class="line">//执行后一直回车</span><br><span class="line"><span class="built_in">cd</span> ~/.ssh</span><br><span class="line">cat id_rsa.pub</span><br></pre></td></tr></table></figure>
+<p>生成公钥和私钥，无需账号和密码即可clone和push代码</p>
+<div class="note info"><h4 id="info-header">Info Header</h4>
+<p><strong>Welcome</strong> to <a href="https://hexo.io">Hexo!</a></p>
+</div>
+<h2 id="操作git">操作git</h2>
+<h3 id="git-clone"><code>git clone</code></h3>
+<ul>
+<li><p>克隆指定分支</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git <span class="built_in">clone</span> -b [branchname] [git@name.git]</span><br></pre></td></tr></table></figure></li>
+<li><p>改变克隆的文件夹名称</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git <span class="built_in">clone</span> [git@name.git] [foldername]</span><br></pre></td></tr></table></figure></li>
+</ul>
+<h3 id="git---help"><code>git --help</code></h3>
+<p>得到git-doc文件</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git --<span class="built_in">help</span> &lt;<span class="built_in">command</span>&gt;</span><br></pre></td></tr></table></figure>
+<h3 id="git-init"><code>git init</code></h3>
+<p>初始一个Git仓库</p>
+<p>先创建好仓库目录，并保存好文件</p>
+<p><strong>在我们进行任何的git操作之前，我们都得先切换到 Git
+的仓库目录。</strong></p>
+<p>我们得先进入到（我们定义的）Git
+仓库的最顶层文件目录下，然后从此目录中进入 Git
+Bash，这样之后的操作才能顺利进行</p>
+<h3 id="git-status"><code>git status</code></h3>
+<p>查看仓库状态，若未创建，则返回<code>not a git repository</code></p>
+<h3 id="git-init-1"><code>git init</code></h3>
+<p>在命令行窗口的光标处，输入<code>git init</code>命令，初始化 Git
+仓库：</p>
+<p>初始化之后仓库变成Git仓库</p>
+<h3 id="git-add"><code>git add</code></h3>
+<p>将已有的文件添加到Git仓库，<code>git add xxx.xxx</code></p>
+<p>已经显示<code>Initial commit</code>初始化提交了，同时已经没有<code>Untracked files</code>提示了，这说明文件<code>hit.txt</code>已经被添加到
+Git 仓库</p>
+<p>在这里，需要声明一点，那就是：<strong><em><code>git add</code>命令并没有把文件提交到
+Git
+仓库，而是把文件添加到了「临时缓冲区」，这个命令有效防止了我们错误提交的可能性。</em></strong></p>
+<h3 id="git-commit"><code>git commit</code></h3>
+<p>在命令行窗口的光标处，输入<code>git commit -m "text commit"</code>命令，将<code>hit.txt</code>文件提交到
+Git 仓库：</p>
+<p>其中<code>commit</code>表示提交，<code>-m</code>表示提交信息，提交信息写在双引号""内。接下来，再输入<code>git status</code>命令查看仓库状态</p>
+<p>结果显示<code>nothing to commit, working tree clean</code>，这表示已经没有内容可以提交了，即全部内容已经提交完毕。</p>
+<h3 id="git-log"><code>git log</code></h3>
+<p>在命令行窗口的光标处，输入<code>git log</code>命令，打印 Git
+仓库提交日志：</p>
+<h3 id="git-branch"><code>git branch</code></h3>
+<p>在命令行窗口的光标处，输入<code>git branch</code>命令，查看 Git
+仓库的分支情况：</p>
+<p>如上图所示，显示了仓库demo中的分支情况，现在仅有一个<code>master</code>分支，其中<code>master</code>分支前的*号表示“当前所在的分支”，例如*
+master就意味着我们所在的位置为demo仓库的主分支。输入命令<code>git branch a</code>，再输入命令<code>git branch</code>，结果如下图所示：</p>
+<h3 id="git-checkout"><code>git checkout</code></h3>
+<p>在命令行窗口的光标处，输入<code>git checkout a</code>命令，切换到<code>a</code>分支：</p>
+<p>在这里，我们还有一个更简单的方法来查看当前的分支，即通过观察上图中用红色框圈起来的部分。此外，我们也可以在创建分支的同时，直接切换到新分支，命令为<code>git checkout -b</code>，例如输入<code>git checkout -b b</code>命令：</p>
+<h3 id="git-merge"><code>git merge</code></h3>
+<p>切换到<code>master</code>分支，然后输入<code>git merge a</code>命令，将<code>a</code>分支合并到<code>master</code>分支：</p>
+<p>此外，在这里需要注意一点，那就是：<strong>在合并分支的时候，要考虑到两个分支是否有冲突，如果有冲突，则不能直接合并，需要先解决冲突；反之，则可以直接合并。</strong></p>
+<h3
+id="git-branch--d-git-branch--d"><code>git branch -d &amp; git branch -D</code></h3>
+<p>在命令行窗口的光标处，输入<code>git branch -d a</code>命令，删除<code>a</code>分支：</p>
+<p>不过有的时候，<em>通过git branch
+-d命令可以出现删除不了现象，例如分支a的代码没有合并到主分支等，这时如果我们一定要删除该分支，那么我们可以通过命令git
+branch -D进行强制删除。</em></p>
+<h3 id="git-tag"><code>git tag</code></h3>
+<p>在命令行窗口的光标处，输入<code>git tag v1.0</code>命令，为当前分支添加标签：</p>
+<p>如上图所示，我们为当前所在的a分支添加了一个v1.0标签。通过命令<code>git tag</code>即可查看标签记录：</p>
+<p>如上图所示，我们为当前所在的a分支添加了一个v1.0标签。通过命令<code>git tag</code>即可查看标签记录：</p>
+<p>如上图所示，显示了我们添加标签的记录。通过命令<code>git checkout v1.0</code>即可切换到该标签下的代码状态：</p>
+<h3 id="git-remote"><code>git remote</code></h3>
+<p>返回当前remote仓库名</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git remote add [-t &lt;branch&gt;] [-m &lt;master&gt;] [-f] [--[no-]tags] [--mirror=(fetch|push)] &lt;name&gt; &lt;url&gt;</span><br></pre></td></tr></table></figure>
+<h3 id="git-push"><code>git push</code></h3>
+<p>specify the URL from the command-line or configure a remote
+repository using</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git remote add &lt;name&gt; &lt;url&gt;</span><br></pre></td></tr></table></figure>
+<p>然后向远端push</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git push &lt;name of repo&gt; main(&lt;branch of remote repo&gt;)</span><br></pre></td></tr></table></figure>
+<h3 id="git-pull"><code>git pull</code></h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git pull </span><br></pre></td></tr></table></figure>
+<h2 id="绑定git与github">绑定Git与Github</h2>
+<h2 id="git报错处理">Git报错处理</h2>
+<h3
+id="failed-to-push-some-refs"><code>failed to push some refs</code></h3>
+<p>原因：远程库与本地库不一致，将远程库同步到本地库</p>
+<p>解决办法：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git pull --rebase &lt;name of repo&gt; main</span><br></pre></td></tr></table></figure>
+<p>该命令的意思是把远程库中的更新合并到（pull=fetch+merge）本地库中，–-<a
+href="https://so.csdn.net/so/search?q=rebase&amp;spm=1001.2101.3001.7020">rebase</a>的作用是取消掉本地库中刚刚的commit，并把他们接到更新后的版本库之中。</p>
+<h3
+id="unable-to-access-failed-to-connect"><code>unable to access Failed to connect</code></h3>
+<p>有可能你的gitbub之前设置过代理，只需分别执行如下代码即可：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git config --global --<span class="built_in">unset</span> http.proxy</span><br><span class="line">git config --global --<span class="built_in">unset</span> https.proxy</span><br></pre></td></tr></table></figure>
+<p>若还没有解决，可以尝试如下解决方式</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git config --global url.git://github.com/.insteadOf https://github.com/</span><br></pre></td></tr></table></figure>
+<h3
+id="openssl-ssl_read-connection-was-reset"><code>OpenSSL SSL_read: Connection was reset</code></h3>
+<p>产生原因：一般是这是因为服务器的SSL证书没有经过第三方机构的签署，所以才报错</p>
+<p>解决方法：解除ssl验证后，再次git即可</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git config --global http.sslVerify <span class="string">&quot;false&quot;</span></span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>Git</category>
+        <category>Github</category>
+      </categories>
+      <tags>
+        <tag>Git</tag>
+        <tag>Github</tag>
       </tags>
   </entry>
   <entry>
@@ -534,6 +1119,127 @@ href="https://www.cnblogs.com/yjiyjige/p/3263858.html">详解KMP算法</a></p>
       </tags>
   </entry>
   <entry>
+    <title>主定理与时间复杂度</title>
+    <url>/2022/09/18/DSA/%E4%B8%BB%E5%AE%9A%E7%90%86%E4%B8%8E%E6%97%B6%E9%97%B4%E5%A4%8D%E6%9D%82%E5%BA%A6/</url>
+    <content><![CDATA[<p>主要解决：根据时间复杂度的递推关系，求时间复杂度</p>
+<span id="more"></span>
+<h2 id="主定理内容">主定理内容</h2>
+<p>设<span class="math inline">\(a \geq 1\)</span>和<span
+class="math inline">\(b &gt;
+1\)</span>为常数，设f(n)为一函数，T(n)有递推式 <span
+class="math display">\[
+T(n)=aT(\frac n b)+f(n)
+\]</span> 其中<span class="math inline">\(\frac nb\)</span> 指<span
+class="math inline">\(\left\lfloor\dfrac{n}{b}
+\right\rfloor\)</span>和<span
+class="math inline">\(\left\lceil\dfrac{b}{n}
+\right\rceil\)</span>，可以证明，略去上下取整不会对结果造成影响。那么<span
+class="math inline">\(T(n)\)</span>可能有如下的渐进界</p>
+<p>（1）若<span class="math inline">\(f(n) &lt;
+n^{\log_ba}\)</span>，且是多项式的小于。即 <span class="math display">\[
+\exists
+\epsilon&gt;0,有f(n)=\mathcal{O}(n^{\log_ba-\epsilon}),则T(n)=\mathcal{O}(n^{\log_ba})
+\]</span> （2）若<span class="math inline">\(f(n) =
+n^{\log_ba}\)</span>，则<span
+class="math display">\[T(n)=\mathcal{O}(n^{\log_ba}\log n)\]</span></p>
+<p>（3）若<span class="math inline">\(f(n) &gt;
+n^{\log_ba}\)</span>，且是多项式的大于。即 <span class="math display">\[
+\exists
+\epsilon&gt;0,有f(n)=\mathcal{O}(n^{\log_ba-\epsilon}),则T(n)=\mathcal{O}(n^{\log_ba})
+\\
+且对\exists c&lt;1与所有足够大的n,有af(\frac nb)\leq
+cf(n),则T(n)=\mathcal{O}(f(n))
+\]</span></p>
+<h2 id="主定理证明">主定理证明</h2>
+<p>可以画递归树</p>
+<p>可见，每次递归把问题分为<span
+class="math inline">\(a\)</span>个规模为<span
+class="math inline">\(\frac nb\)</span>的子问题。从根节点开始，共有<span
+class="math inline">\(\log_bn+1\)</span>层，叶子节点数为<span
+class="math inline">\(a^{\log_bn}\)</span>。那么，第j层共有<span
+class="math inline">\(a^j\)</span>个子问题，每个问题规模为<span
+class="math inline">\(n/b^j\)</span>，每个子问题运算量为<span
+class="math inline">\(c*(\frac
+n{b^j})^d\)</span>，每一层需要完成的计算量为</p>
+<p><span class="math display">\[
+a^jf(\frac n{b^j})
+\]</span> 求和得到整个问题的运算量，d为f(n)的阶数 <span
+class="math display">\[
+\sum_{j=0}^{\log_bn} a^jf(\frac n{b^j}) = Cn^d\sum_{j=0}^{\log_bn}(\frac
+a{b^d})^j
+\]</span> 分类讨论</p>
+<p>（1）若<span class="math inline">\(f(n) &lt;
+n^{\log_ba}\)</span>，且是多项式的小于，即<span
+class="math inline">\(d&lt;\log_ba\)</span></p>
+<blockquote class="blockquote-center">
+<p>不会了</p>
+
+</blockquote>
+<p>（2）若<span class="math inline">\(f(n) = n^{\log_ba}\)</span>, 即
+<span class="math display">\[
+Cn^d\sum_{j=0}^{\log_bn}(\frac a{b^d})^j = Cn^d\log_b n =
+\mathcal{O}(n^{\log_ba}\log n)
+\]</span> （3）若<span class="math inline">\(f(n) &gt;
+n^{\log_ba}\)</span>，且是多项式的大于。即</p>
+<blockquote class="blockquote-center">
+<p>不会了</p>
+
+</blockquote>
+<h2 id="主定理应用">主定理应用</h2>
+<h3 id="二分搜索">二分搜索</h3>
+<ul>
+<li>每次问题规模减半，a=1，b=2，d=0</li>
+<li>复杂度为n^0 log(n) = log(n)。</li>
+</ul>
+<h3 id="快速排序">快速排序</h3>
+<ul>
+<li>随机选择待排序序列中的一个数字作为划分字问题的标准，划分是否平均影响算法复杂度</li>
+<li>每次问题规模减半，a=2，b=2，d=1</li>
+<li>复杂度为n^2 log(n)</li>
+<li>最差情况下，复杂度为O(n^2)</li>
+</ul>
+<h3 id="归并排序">归并排序</h3>
+<ul>
+<li>数据列均分为两部分，分别排序，之后以O(n)的复杂度进行合并，空间复杂度O(n)</li>
+<li>每次问题规模减半，a=2，b=2，d=1</li>
+<li>复杂度为n log(n)</li>
+</ul>
+<h3 id="基数排序radix-sort">基数排序(Radix sort)</h3>
+<ul>
+<li>对于待排序的整数序列，从最低位到最高位每次按照相应的位排序一次</li>
+<li>每次递归问题规模变为原来的1/10，但需要求解10个子问题，额外运算为O(n)的，a=10，b=10，d=1</li>
+<li>复杂度为n^1 log(n) = n log(n)，近似为O(kN)，k为整数的位数</li>
+</ul>
+<h3 id="快速傅里叶变换fft">快速傅里叶变换：FFT</h3>
+<ul>
+<li>每次问题规模减半，a=2，b=2，d=1</li>
+<li>复杂度为n log(n)</li>
+</ul>
+<h3 id="karatsuba快速乘法">Karatsuba快速乘法</h3>
+<ul>
+<li>正常两个n位数乘法为n^2</li>
+<li>算法把两个乘数各分为高低位两部分，如X<em>Y = (a+b) </em> (c+d) =
+ac+bd + (bc+ad) = ac+bd+(ac+bd - (a-b)(c-d))</li>
+<li>只需要ac,bd,(a-b)(c-d)三次乘法</li>
+<li>每次问题规模减半，但需要解3个子问题，加法是O(n)的，a=3，b=2，d=1</li>
+<li>复杂度为n^log2(3)</li>
+</ul>
+<h2 id="参考文献">参考文献</h2>
+<p>[1] https://blog.csdn.net/caozhk/article/details/24734371
+"主定理的证明及应用举例" [2]
+https://blog.csdn.net/lanchunhui/article/details/52451362
+"主定理（Master Theorem）与时间复杂度"</p>
+]]></content>
+      <categories>
+        <category>Algorithm</category>
+        <category>DS</category>
+      </categories>
+      <tags>
+        <tag>DS</tag>
+        <tag>Algorithm</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>向量Vector的实现</title>
     <url>/2022/09/30/DSA/%E5%90%91%E9%87%8FVector%E7%9A%84%E5%AE%9E%E7%8E%B0/</url>
     <content><![CDATA[<p>https://blog.csdn.net/qq_41854911/article/details/119392824</p>
@@ -560,180 +1266,6 @@ href="https://www.cnblogs.com/yjiyjige/p/3263858.html">详解KMP算法</a></p>
       <tags>
         <tag>C/C++</tag>
         <tag>DS</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>向量Vector的实现</title>
-    <url>/2022/09/30/DSA/%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95%E6%B1%87%E6%80%BB/</url>
-    <content><![CDATA[<p>https://blog.csdn.net/qq_41854911/article/details/119392824</p>
-<p>本文手动实现了Vector的模板类。</p>
-<span id="more"></span>
-<h2 id="center-quote-居中引用">Center Quote 居中引用</h2>
-<p>建议在单行文字时使用</p>
-<h3 id="example">Example</h3>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">&#123;% cq %&#125;代码优雅，核心简单&#123;% endcq %&#125;</span><br></pre></td></tr></table></figure>
-<blockquote class="blockquote-center">
-<p>代码优雅，核心简单</p>
-
-</blockquote>
-<h2 id="note-bootstrap-callout">Note( Bootstrap Callout )</h2>
-<h3 id="设置">设置</h3>
-<h3 id="使用-usage">使用 Usage</h3>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">```</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% codeblock 创建note lang:html [additional options] %&#125;</span><br><span class="line">&#123;% note [class] [no-icon] [summary] %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% note info no-icon This is a summary %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">## 代码块 Code Block</span><br><span class="line"></span><br><span class="line">```html</span><br><span class="line">&#123;% codeblock [title] [lang:language] [url] [link text] [additional options] %&#125;</span><br><span class="line">code snippet</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br></pre></td></tr></table></figure>
-<h3 id="section"></h3>
-]]></content>
-      <categories>
-        <category>C/C++</category>
-        <category>DS</category>
-      </categories>
-      <tags>
-        <tag>C/C++</tag>
-        <tag>DS</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>支持修改元素值的优先队列</title>
-    <url>/2023/04/12/DSA/%E6%94%AF%E6%8C%81%E4%BF%AE%E6%94%B9%E5%85%83%E7%B4%A0%E5%80%BC%E7%9A%84%E4%BC%98%E5%85%88%E9%98%9F%E5%88%97/</url>
-    <content><![CDATA[<p>If you want to modify an element in a priority queue, you would need
-to remove the element, modify it, and then insert it back into the
-priority queue. However, this can be inefficient for large priority
-queues since removing and inserting elements can be expensive
-operations.</p>
-<p>In C++, the standard priority queue container does not provide a
-direct way to modify elements. Instead, you would need to implement a
-<strong>custom priority queue data structure</strong> that allows
-efficient modification of elements.</p>
-<p>One way to do this is to use <strong>a combination of a heap-based
-priority queue and a hash table</strong> (or a map) that maps elements
-to their positions in the heap. The hash table allows fast lookup of an
-element's position in the heap, and the heap-based priority queue allows
-efficient access to the highest-priority element.</p>
-<p>Here is a simple example of a custom priority queue data structure
-that supports efficient modification of elements:</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;queue&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;unordered_map&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="keyword">template</span> &lt;<span class="keyword">typename</span> T&gt;</span><br><span class="line"><span class="keyword">class</span> <span class="title class_">CustomPriorityQueue</span> &#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function"><span class="type">void</span> <span class="title">push</span><span class="params">(<span class="type">const</span> T&amp; val)</span> </span>&#123;</span><br><span class="line">        pq.<span class="built_in">push</span>(val);</span><br><span class="line">        pos[val] = pq.<span class="built_in">size</span>() - <span class="number">1</span>;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="type">void</span> <span class="title">pop</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        pos.<span class="built_in">erase</span>(pq.<span class="built_in">top</span>());</span><br><span class="line">        pq.<span class="built_in">pop</span>();</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="type">void</span> <span class="title">modify</span><span class="params">(<span class="type">const</span> T&amp; old_val, <span class="type">const</span> T&amp; new_val)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">auto</span> it = pos.<span class="built_in">find</span>(old_val);</span><br><span class="line">        <span class="keyword">if</span> (it == pos.<span class="built_in">end</span>()) &#123;</span><br><span class="line">            <span class="keyword">return</span>;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="type">int</span> i = it-&gt;second;</span><br><span class="line">        pq.<span class="built_in">pop</span>();</span><br><span class="line"></span><br><span class="line">        <span class="keyword">if</span> (i != pq.<span class="built_in">size</span>()) &#123;</span><br><span class="line">            pq.<span class="built_in">push</span>(pq.<span class="built_in">top</span>());</span><br><span class="line">            pos[pq.<span class="built_in">top</span>()] = i;</span><br><span class="line">            pq.<span class="built_in">pop</span>();</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        pos.<span class="built_in">erase</span>(it);</span><br><span class="line">        <span class="built_in">push</span>(new_val);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="type">const</span> T&amp; <span class="title">top</span><span class="params">()</span> <span class="type">const</span> </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> pq.<span class="built_in">top</span>();</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="type">bool</span> <span class="title">empty</span><span class="params">()</span> <span class="type">const</span> </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> pq.<span class="built_in">empty</span>();</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">private</span>:</span><br><span class="line">    std::priority_queue&lt;T&gt; pq;</span><br><span class="line">    std::unordered_map&lt;T, <span class="type">int</span>&gt; pos;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>DS</category>
-      </categories>
-      <tags>
-        <tag>DS</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Github使用</title>
-    <url>/2022/06/30/Git/Github%20Guide/</url>
-    <content><![CDATA[<h1 id="github使用">Github使用</h1>
-<h2 id="生成ssh-key">生成SSH key</h2>
-<p>SSh（安全外壳协议）GitHub 上，一般都是通过 SSH 来授权的，而且大多数
-Git 服务器也会选择使用 SSH 公钥来进行授权，所以想要向 GitHub
-提交代码，首先就得在 GitHub 上添加 SSH key配置。</p>
-<span id="more"></span>
-<figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line">ssh-keygen -t rsa -C &quot;xxx@xxx.com&quot;</span><br><span class="line">//执行后一直回车</span><br><span class="line"><span class="built_in">cd</span> ~/.ssh</span><br><span class="line">cat id_rsa.pub</span><br></pre></td></tr></table></figure>
-<p>生成公钥和私钥，无需账号和密码即可clone和push代码</p>
-<div class="note info"><h4 id="info-header">Info Header</h4>
-<p><strong>Welcome</strong> to <a href="https://hexo.io">Hexo!</a></p>
-</div>
-<h2 id="操作git">操作git</h2>
-<h3 id="git-clone"><code>git clone</code></h3>
-<ul>
-<li><p>克隆指定分支</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git <span class="built_in">clone</span> -b [branchname] [git@name.git]</span><br></pre></td></tr></table></figure></li>
-<li><p>改变克隆的文件夹名称</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git <span class="built_in">clone</span> [git@name.git] [foldername]</span><br></pre></td></tr></table></figure></li>
-</ul>
-<h3 id="git---help"><code>git --help</code></h3>
-<p>得到git-doc文件</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git --<span class="built_in">help</span> &lt;<span class="built_in">command</span>&gt;</span><br></pre></td></tr></table></figure>
-<h3 id="git-init"><code>git init</code></h3>
-<p>初始一个Git仓库</p>
-<p>先创建好仓库目录，并保存好文件</p>
-<p><strong>在我们进行任何的git操作之前，我们都得先切换到 Git
-的仓库目录。</strong></p>
-<p>我们得先进入到（我们定义的）Git
-仓库的最顶层文件目录下，然后从此目录中进入 Git
-Bash，这样之后的操作才能顺利进行</p>
-<h3 id="git-status"><code>git status</code></h3>
-<p>查看仓库状态，若未创建，则返回<code>not a git repository</code></p>
-<h3 id="git-init-1"><code>git init</code></h3>
-<p>在命令行窗口的光标处，输入<code>git init</code>命令，初始化 Git
-仓库：</p>
-<p>初始化之后仓库变成Git仓库</p>
-<h3 id="git-add"><code>git add</code></h3>
-<p>将已有的文件添加到Git仓库，<code>git add xxx.xxx</code></p>
-<p>已经显示<code>Initial commit</code>初始化提交了，同时已经没有<code>Untracked files</code>提示了，这说明文件<code>hit.txt</code>已经被添加到
-Git 仓库</p>
-<p>在这里，需要声明一点，那就是：<strong><em><code>git add</code>命令并没有把文件提交到
-Git
-仓库，而是把文件添加到了「临时缓冲区」，这个命令有效防止了我们错误提交的可能性。</em></strong></p>
-<h3 id="git-commit"><code>git commit</code></h3>
-<p>在命令行窗口的光标处，输入<code>git commit -m "text commit"</code>命令，将<code>hit.txt</code>文件提交到
-Git 仓库：</p>
-<p>其中<code>commit</code>表示提交，<code>-m</code>表示提交信息，提交信息写在双引号""内。接下来，再输入<code>git status</code>命令查看仓库状态</p>
-<p>结果显示<code>nothing to commit, working tree clean</code>，这表示已经没有内容可以提交了，即全部内容已经提交完毕。</p>
-<h3 id="git-log"><code>git log</code></h3>
-<p>在命令行窗口的光标处，输入<code>git log</code>命令，打印 Git
-仓库提交日志：</p>
-<h3 id="git-branch"><code>git branch</code></h3>
-<p>在命令行窗口的光标处，输入<code>git branch</code>命令，查看 Git
-仓库的分支情况：</p>
-<p>如上图所示，显示了仓库demo中的分支情况，现在仅有一个<code>master</code>分支，其中<code>master</code>分支前的*号表示“当前所在的分支”，例如*
-master就意味着我们所在的位置为demo仓库的主分支。输入命令<code>git branch a</code>，再输入命令<code>git branch</code>，结果如下图所示：</p>
-<h3 id="git-checkout"><code>git checkout</code></h3>
-<p>在命令行窗口的光标处，输入<code>git checkout a</code>命令，切换到<code>a</code>分支：</p>
-<p>在这里，我们还有一个更简单的方法来查看当前的分支，即通过观察上图中用红色框圈起来的部分。此外，我们也可以在创建分支的同时，直接切换到新分支，命令为<code>git checkout -b</code>，例如输入<code>git checkout -b b</code>命令：</p>
-<h3 id="git-merge"><code>git merge</code></h3>
-<p>切换到<code>master</code>分支，然后输入<code>git merge a</code>命令，将<code>a</code>分支合并到<code>master</code>分支：</p>
-<p>此外，在这里需要注意一点，那就是：<strong>在合并分支的时候，要考虑到两个分支是否有冲突，如果有冲突，则不能直接合并，需要先解决冲突；反之，则可以直接合并。</strong></p>
-<h3
-id="git-branch--d-git-branch--d"><code>git branch -d &amp; git branch -D</code></h3>
-<p>在命令行窗口的光标处，输入<code>git branch -d a</code>命令，删除<code>a</code>分支：</p>
-<p>不过有的时候，<em>通过git branch
--d命令可以出现删除不了现象，例如分支a的代码没有合并到主分支等，这时如果我们一定要删除该分支，那么我们可以通过命令git
-branch -D进行强制删除。</em></p>
-<h3 id="git-tag"><code>git tag</code></h3>
-<p>在命令行窗口的光标处，输入<code>git tag v1.0</code>命令，为当前分支添加标签：</p>
-<p>如上图所示，我们为当前所在的a分支添加了一个v1.0标签。通过命令<code>git tag</code>即可查看标签记录：</p>
-<p>如上图所示，我们为当前所在的a分支添加了一个v1.0标签。通过命令<code>git tag</code>即可查看标签记录：</p>
-<p>如上图所示，显示了我们添加标签的记录。通过命令<code>git checkout v1.0</code>即可切换到该标签下的代码状态：</p>
-<h3 id="git-remote"><code>git remote</code></h3>
-<p>返回当前remote仓库名</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git remote add [-t &lt;branch&gt;] [-m &lt;master&gt;] [-f] [--[no-]tags] [--mirror=(fetch|push)] &lt;name&gt; &lt;url&gt;</span><br></pre></td></tr></table></figure>
-<h3 id="git-push"><code>git push</code></h3>
-<p>specify the URL from the command-line or configure a remote
-repository using</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git remote add &lt;name&gt; &lt;url&gt;</span><br></pre></td></tr></table></figure>
-<p>然后向远端push</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git push &lt;name of repo&gt; main(&lt;branch of remote repo&gt;)</span><br></pre></td></tr></table></figure>
-<h3 id="git-pull"><code>git pull</code></h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git pull </span><br></pre></td></tr></table></figure>
-<h2 id="绑定git与github">绑定Git与Github</h2>
-<h2 id="git报错处理">Git报错处理</h2>
-<h3
-id="failed-to-push-some-refs"><code>failed to push some refs</code></h3>
-<p>原因：远程库与本地库不一致，将远程库同步到本地库</p>
-<p>解决办法：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git pull --rebase &lt;name of repo&gt; main</span><br></pre></td></tr></table></figure>
-<p>该命令的意思是把远程库中的更新合并到（pull=fetch+merge）本地库中，–-<a
-href="https://so.csdn.net/so/search?q=rebase&amp;spm=1001.2101.3001.7020">rebase</a>的作用是取消掉本地库中刚刚的commit，并把他们接到更新后的版本库之中。</p>
-<h3
-id="unable-to-access-failed-to-connect"><code>unable to access Failed to connect</code></h3>
-<p>有可能你的gitbub之前设置过代理，只需分别执行如下代码即可：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git config --global --<span class="built_in">unset</span> http.proxy</span><br><span class="line">git config --global --<span class="built_in">unset</span> https.proxy</span><br></pre></td></tr></table></figure>
-<p>若还没有解决，可以尝试如下解决方式</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git config --global url.git://github.com/.insteadOf https://github.com/</span><br></pre></td></tr></table></figure>
-<h3
-id="openssl-ssl_read-connection-was-reset"><code>OpenSSL SSL_read: Connection was reset</code></h3>
-<p>产生原因：一般是这是因为服务器的SSL证书没有经过第三方机构的签署，所以才报错</p>
-<p>解决方法：解除ssl验证后，再次git即可</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git config --global http.sslVerify <span class="string">&quot;false&quot;</span></span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>Git</category>
-        <category>Github</category>
-      </categories>
-      <tags>
-        <tag>Git</tag>
-        <tag>Github</tag>
       </tags>
   </entry>
   <entry>
@@ -860,132 +1392,10 @@ https://blog.csdn.net/lanchunhui/article/details/52451362
       </tags>
   </entry>
   <entry>
-    <title>主定理与时间复杂度</title>
-    <url>/2022/09/18/DSA/%E4%B8%BB%E5%AE%9A%E7%90%86%E4%B8%8E%E6%97%B6%E9%97%B4%E5%A4%8D%E6%9D%82%E5%BA%A6/</url>
-    <content><![CDATA[<p>主要解决：根据时间复杂度的递推关系，求时间复杂度</p>
-<span id="more"></span>
-<h2 id="主定理内容">主定理内容</h2>
-<p>设<span class="math inline">\(a \geq 1\)</span>和<span
-class="math inline">\(b &gt;
-1\)</span>为常数，设f(n)为一函数，T(n)有递推式 <span
-class="math display">\[
-T(n)=aT(\frac n b)+f(n)
-\]</span> 其中<span class="math inline">\(\frac nb\)</span> 指<span
-class="math inline">\(\left\lfloor\dfrac{n}{b}
-\right\rfloor\)</span>和<span
-class="math inline">\(\left\lceil\dfrac{b}{n}
-\right\rceil\)</span>，可以证明，略去上下取整不会对结果造成影响。那么<span
-class="math inline">\(T(n)\)</span>可能有如下的渐进界</p>
-<p>（1）若<span class="math inline">\(f(n) &lt;
-n^{\log_ba}\)</span>，且是多项式的小于。即 <span class="math display">\[
-\exists
-\epsilon&gt;0,有f(n)=\mathcal{O}(n^{\log_ba-\epsilon}),则T(n)=\mathcal{O}(n^{\log_ba})
-\]</span> （2）若<span class="math inline">\(f(n) =
-n^{\log_ba}\)</span>，则<span
-class="math display">\[T(n)=\mathcal{O}(n^{\log_ba}\log n)\]</span></p>
-<p>（3）若<span class="math inline">\(f(n) &gt;
-n^{\log_ba}\)</span>，且是多项式的大于。即 <span class="math display">\[
-\exists
-\epsilon&gt;0,有f(n)=\mathcal{O}(n^{\log_ba-\epsilon}),则T(n)=\mathcal{O}(n^{\log_ba})
-\\
-且对\exists c&lt;1与所有足够大的n,有af(\frac nb)\leq
-cf(n),则T(n)=\mathcal{O}(f(n))
-\]</span></p>
-<h2 id="主定理证明">主定理证明</h2>
-<p>可以画递归树</p>
-<p>可见，每次递归把问题分为<span
-class="math inline">\(a\)</span>个规模为<span
-class="math inline">\(\frac nb\)</span>的子问题。从根节点开始，共有<span
-class="math inline">\(\log_bn+1\)</span>层，叶子节点数为<span
-class="math inline">\(a^{\log_bn}\)</span>。那么，第j层共有<span
-class="math inline">\(a^j\)</span>个子问题，每个问题规模为<span
-class="math inline">\(n/b^j\)</span>，每个子问题运算量为<span
-class="math inline">\(c*(\frac
-n{b^j})^d\)</span>，每一层需要完成的计算量为</p>
-<p><span class="math display">\[
-a^jf(\frac n{b^j})
-\]</span> 求和得到整个问题的运算量，d为f(n)的阶数 <span
-class="math display">\[
-\sum_{j=0}^{\log_bn} a^jf(\frac n{b^j}) = Cn^d\sum_{j=0}^{\log_bn}(\frac
-a{b^d})^j
-\]</span> 分类讨论</p>
-<p>（1）若<span class="math inline">\(f(n) &lt;
-n^{\log_ba}\)</span>，且是多项式的小于，即<span
-class="math inline">\(d&lt;\log_ba\)</span></p>
-<blockquote class="blockquote-center">
-<p>不会了</p>
-
-</blockquote>
-<p>（2）若<span class="math inline">\(f(n) = n^{\log_ba}\)</span>, 即
-<span class="math display">\[
-Cn^d\sum_{j=0}^{\log_bn}(\frac a{b^d})^j = Cn^d\log_b n =
-\mathcal{O}(n^{\log_ba}\log n)
-\]</span> （3）若<span class="math inline">\(f(n) &gt;
-n^{\log_ba}\)</span>，且是多项式的大于。即</p>
-<blockquote class="blockquote-center">
-<p>不会了</p>
-
-</blockquote>
-<h2 id="主定理应用">主定理应用</h2>
-<h3 id="二分搜索">二分搜索</h3>
-<ul>
-<li>每次问题规模减半，a=1，b=2，d=0</li>
-<li>复杂度为n^0 log(n) = log(n)。</li>
-</ul>
-<h3 id="快速排序">快速排序</h3>
-<ul>
-<li>随机选择待排序序列中的一个数字作为划分字问题的标准，划分是否平均影响算法复杂度</li>
-<li>每次问题规模减半，a=2，b=2，d=1</li>
-<li>复杂度为n^2 log(n)</li>
-<li>最差情况下，复杂度为O(n^2)</li>
-</ul>
-<h3 id="归并排序">归并排序</h3>
-<ul>
-<li>数据列均分为两部分，分别排序，之后以O(n)的复杂度进行合并，空间复杂度O(n)</li>
-<li>每次问题规模减半，a=2，b=2，d=1</li>
-<li>复杂度为n log(n)</li>
-</ul>
-<h3 id="基数排序radix-sort">基数排序(Radix sort)</h3>
-<ul>
-<li>对于待排序的整数序列，从最低位到最高位每次按照相应的位排序一次</li>
-<li>每次递归问题规模变为原来的1/10，但需要求解10个子问题，额外运算为O(n)的，a=10，b=10，d=1</li>
-<li>复杂度为n^1 log(n) = n log(n)，近似为O(kN)，k为整数的位数</li>
-</ul>
-<h3 id="快速傅里叶变换fft">快速傅里叶变换：FFT</h3>
-<ul>
-<li>每次问题规模减半，a=2，b=2，d=1</li>
-<li>复杂度为n log(n)</li>
-</ul>
-<h3 id="karatsuba快速乘法">Karatsuba快速乘法</h3>
-<ul>
-<li>正常两个n位数乘法为n^2</li>
-<li>算法把两个乘数各分为高低位两部分，如X<em>Y = (a+b) </em> (c+d) =
-ac+bd + (bc+ad) = ac+bd+(ac+bd - (a-b)(c-d))</li>
-<li>只需要ac,bd,(a-b)(c-d)三次乘法</li>
-<li>每次问题规模减半，但需要解3个子问题，加法是O(n)的，a=3，b=2，d=1</li>
-<li>复杂度为n^log2(3)</li>
-</ul>
-<h2 id="参考文献">参考文献</h2>
-<p>[1] https://blog.csdn.net/caozhk/article/details/24734371
-"主定理的证明及应用举例" [2]
-https://blog.csdn.net/lanchunhui/article/details/52451362
-"主定理（Master Theorem）与时间复杂度"</p>
-]]></content>
-      <categories>
-        <category>Algorithm</category>
-        <category>DS</category>
-      </categories>
-      <tags>
-        <tag>DS</tag>
-        <tag>Algorithm</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>C++运算符重载</title>
-    <url>/2022/09/22/C++/C++%E8%BF%90%E7%AE%97%E7%AC%A6%E9%87%8D%E8%BD%BD/</url>
+    <title>向量Vector的实现</title>
+    <url>/2022/09/30/DSA/%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95%E6%B1%87%E6%80%BB/</url>
     <content><![CDATA[<p>https://blog.csdn.net/qq_41854911/article/details/119392824</p>
-<h1 id="c运算符重载基础">C++运算符重载基础</h1>
-<p>下面介绍一些主题常用post内部的页面模块，可直接参照使用</p>
+<p>本文手动实现了Vector的模板类。</p>
 <span id="more"></span>
 <h2 id="center-quote-居中引用">Center Quote 居中引用</h2>
 <p>建议在单行文字时使用</p>
@@ -999,14 +1409,43 @@ https://blog.csdn.net/lanchunhui/article/details/52451362
 <h3 id="设置">设置</h3>
 <h3 id="使用-usage">使用 Usage</h3>
 <figure class="highlight html"><table><tr><td class="code"><pre><span class="line">```</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% codeblock 创建note lang:html [additional options] %&#125;</span><br><span class="line">&#123;% note [class] [no-icon] [summary] %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% note info no-icon This is a summary %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">## 代码块 Code Block</span><br><span class="line"></span><br><span class="line">```html</span><br><span class="line">&#123;% codeblock [title] [lang:language] [url] [link text] [additional options] %&#125;</span><br><span class="line">code snippet</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br></pre></td></tr></table></figure>
-<h1 id="参考文献">参考文献</h1>
-<p>[1] https://blog.csdn.net/qq_41854911/article/details/119392824</p>
+<h3 id="section"></h3>
 ]]></content>
       <categories>
         <category>C/C++</category>
+        <category>DS</category>
       </categories>
       <tags>
         <tag>C/C++</tag>
+        <tag>DS</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>支持修改元素值的优先队列</title>
+    <url>/2023/04/12/DSA/%E6%94%AF%E6%8C%81%E4%BF%AE%E6%94%B9%E5%85%83%E7%B4%A0%E5%80%BC%E7%9A%84%E4%BC%98%E5%85%88%E9%98%9F%E5%88%97/</url>
+    <content><![CDATA[<p>If you want to modify an element in a priority queue, you would need
+to remove the element, modify it, and then insert it back into the
+priority queue. However, this can be inefficient for large priority
+queues since removing and inserting elements can be expensive
+operations.</p>
+<p>In C++, the standard priority queue container does not provide a
+direct way to modify elements. Instead, you would need to implement a
+<strong>custom priority queue data structure</strong> that allows
+efficient modification of elements.</p>
+<p>One way to do this is to use <strong>a combination of a heap-based
+priority queue and a hash table</strong> (or a map) that maps elements
+to their positions in the heap. The hash table allows fast lookup of an
+element's position in the heap, and the heap-based priority queue allows
+efficient access to the highest-priority element.</p>
+<p>Here is a simple example of a custom priority queue data structure
+that supports efficient modification of elements:</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;queue&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;unordered_map&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="keyword">template</span> &lt;<span class="keyword">typename</span> T&gt;</span><br><span class="line"><span class="keyword">class</span> <span class="title class_">CustomPriorityQueue</span> &#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function"><span class="type">void</span> <span class="title">push</span><span class="params">(<span class="type">const</span> T&amp; val)</span> </span>&#123;</span><br><span class="line">        pq.<span class="built_in">push</span>(val);</span><br><span class="line">        pos[val] = pq.<span class="built_in">size</span>() - <span class="number">1</span>;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="type">void</span> <span class="title">pop</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        pos.<span class="built_in">erase</span>(pq.<span class="built_in">top</span>());</span><br><span class="line">        pq.<span class="built_in">pop</span>();</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="type">void</span> <span class="title">modify</span><span class="params">(<span class="type">const</span> T&amp; old_val, <span class="type">const</span> T&amp; new_val)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">auto</span> it = pos.<span class="built_in">find</span>(old_val);</span><br><span class="line">        <span class="keyword">if</span> (it == pos.<span class="built_in">end</span>()) &#123;</span><br><span class="line">            <span class="keyword">return</span>;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="type">int</span> i = it-&gt;second;</span><br><span class="line">        pq.<span class="built_in">pop</span>();</span><br><span class="line"></span><br><span class="line">        <span class="keyword">if</span> (i != pq.<span class="built_in">size</span>()) &#123;</span><br><span class="line">            pq.<span class="built_in">push</span>(pq.<span class="built_in">top</span>());</span><br><span class="line">            pos[pq.<span class="built_in">top</span>()] = i;</span><br><span class="line">            pq.<span class="built_in">pop</span>();</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        pos.<span class="built_in">erase</span>(it);</span><br><span class="line">        <span class="built_in">push</span>(new_val);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="type">const</span> T&amp; <span class="title">top</span><span class="params">()</span> <span class="type">const</span> </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> pq.<span class="built_in">top</span>();</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="type">bool</span> <span class="title">empty</span><span class="params">()</span> <span class="type">const</span> </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> pq.<span class="built_in">empty</span>();</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">private</span>:</span><br><span class="line">    std::priority_queue&lt;T&gt; pq;</span><br><span class="line">    std::unordered_map&lt;T, <span class="type">int</span>&gt; pos;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>DS</category>
+      </categories>
+      <tags>
+        <tag>DS</tag>
       </tags>
   </entry>
   <entry>
@@ -1044,61 +1483,6 @@ f(N,M)=(f(N−1,M)+M) \% N
       </tags>
   </entry>
   <entry>
-    <title>C语言中的指针</title>
-    <url>/2022/11/03/C++/C%E8%AF%AD%E8%A8%80%E4%B8%AD%E7%9A%84%E6%8C%87%E9%92%88/</url>
-    <content><![CDATA[<p>本文总结C语言课程学习中用到的指针概念及操作。</p>
-<span id="more"></span>
-<h2 id="动态分配内存">动态分配内存</h2>
-<h3 id="malloc"><code>malloc</code></h3>
-<ul>
-<li><p>功能描述</p>
-<p>分配所要求的内存空间，并返回指向该空间的指针</p></li>
-<li><p>函数原型</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdlib.h&gt;</span></span></span><br><span class="line"><span class="function"><span class="type">void</span> *<span class="title">malloc</span><span class="params">(<span class="type">size_t</span> size)</span></span></span><br></pre></td></tr></table></figure></li>
-<li><p>参数</p>
-<ul>
-<li><code>size</code>指的是内存空间的<strong><em>字节大小</em></strong></li>
-</ul></li>
-<li><p>返回值</p>
-<ul>
-<li>分配成功，返回指向该空间的指针</li>
-<li>分配失败，返回<code>NULL</code></li>
-</ul></li>
-<li><p>示例</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdlib.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span> <span class="params">()</span> </span>&#123;</span><br><span class="line">   <span class="type">char</span> *str;</span><br><span class="line"></span><br><span class="line">   <span class="comment">/* Initial memory allocation */</span></span><br><span class="line">   str = (<span class="type">char</span> *) <span class="built_in">malloc</span>(<span class="number">15</span>);</span><br><span class="line">   <span class="built_in">strcpy</span>(str, <span class="string">&quot;tutorialspoint&quot;</span>);</span><br><span class="line">   <span class="built_in">printf</span>(<span class="string">&quot;String = %s,  Address = %u\n&quot;</span>, str, str);</span><br><span class="line"></span><br><span class="line">   <span class="comment">/* Reallocating memory */</span></span><br><span class="line">   str = (<span class="type">char</span> *) <span class="built_in">realloc</span>(str, <span class="number">25</span>);</span><br><span class="line">   <span class="built_in">strcat</span>(str, <span class="string">&quot;.com&quot;</span>);</span><br><span class="line">   <span class="built_in">printf</span>(<span class="string">&quot;String = %s,  Address = %u\n&quot;</span>, str, str);</span><br><span class="line"></span><br><span class="line">   <span class="built_in">free</span>(str);</span><br><span class="line">   </span><br><span class="line">   <span class="keyword">return</span>(<span class="number">0</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li>
-</ul>
-<h3 id="bool"><code>bool</code></h3>
-<p>C语言中没有bool值，不可以使用<code>true / false</code></p>
-<h3 id="unsigned"><code>unsigned</code></h3>
-<p>不要在它减到0时继续往下减，否则会变成无穷大</p>
-<h2 id="结构体">结构体</h2>
-<p>结构体中不能包含函数，不推荐在定义结构体后直接声明变量。</p>
-<p><strong>结构体作为数据类型，需要在前面加上<code>struct</code>，比如</strong></p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="keyword">struct</span> <span class="title class_">Time</span> <span class="built_in">devide</span>(<span class="keyword">struct</span> Time t1, <span class="keyword">struct</span> Time t2)&#123;&#125;</span><br></pre></td></tr></table></figure>
-<h2 id="循环">循环</h2>
-<p>不允许在<code>for</code>内定义变量</p>
-<h2 id="指针与引用">指针与引用</h2>
-<div class="note info"><p>C语言中没有引用</p>
-</div>
-<h2 id="报错汇总">报错汇总</h2>
-<h3
-id="是否忘记了向源中添加include-stdafx.h">是否忘记了向源中添加“#include
-“stdafx.h“”</h3>
-<p>对于每一个出错的.cpp文件，右键——》属性——》C/C++——》预编译头，选择不使用预编译头即可。</p>
-<details class="note info no-icon"><summary><p>This is a summary</p>
-</summary>
-<p>Any content (support inline tags too).</p>
-
-</details>
-]]></content>
-      <categories>
-        <category>C/C++</category>
-      </categories>
-      <tags>
-        <tag>C/C++</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>高精度运算C++实现</title>
     <url>/2022/09/22/DSA/%E9%AB%98%E7%B2%BE%E5%BA%A6%E8%BF%90%E7%AE%97/</url>
     <content><![CDATA[<p>https://blog.csdn.net/qq_41854911/article/details/119392824</p>
@@ -1121,233 +1505,12 @@ id="是否忘记了向源中添加include-stdafx.h">是否忘记了向源中添�
 <h3 id="section-1"></h3>
 ]]></content>
       <categories>
-        <category>Algorithm</category>
         <category>C/C++</category>
+        <category>Algorithm</category>
       </categories>
       <tags>
         <tag>C/C++</tag>
         <tag>Algorithm</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>C语言课程常用库</title>
-    <url>/2022/10/27/C++/C%E8%AF%AD%E8%A8%80%E8%AF%BE%E7%A8%8B%E5%B8%B8%E7%94%A8%E5%BA%93/</url>
-    <content><![CDATA[<p>本文总结C语言课程学习中尝试用到的库函数与方法。</p>
-<span id="more"></span>
-<h2 id="math.h">math.h</h2>
-<h3 id="powfloat-a-float-b">pow(float a, float b)</h3>
-<p>注意返回值为浮点型</p>
-<h3 id="absint-x">abs(int x)</h3>
-<h3 id="fabsfloat-x">fabs(float x)</h3>
-<p>注意浮点型取绝对值要使用<code>fabs()</code></p>
-<h2 id="数据类型">数据类型</h2>
-<h3 id="bool"><code>bool</code></h3>
-<p>C语言中没有bool值，不可以使用<code>true / false</code></p>
-<h3 id="unsigned"><code>unsigned</code></h3>
-<p>不要在它减到0时继续往下减，否则会变成无穷大</p>
-<h2 id="结构体">结构体</h2>
-<p>结构体中不能包含函数，不推荐在定义结构体后直接声明变量。</p>
-<p><strong>结构体作为数据类型，需要在前面加上<code>struct</code>，比如</strong></p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="keyword">struct</span> <span class="title class_">Time</span> <span class="built_in">devide</span>(<span class="keyword">struct</span> Time t1, <span class="keyword">struct</span> Time t2)&#123;&#125;</span><br></pre></td></tr></table></figure>
-<h2 id="循环">循环</h2>
-<p>不允许在<code>for</code>内定义变量</p>
-<h2 id="指针与引用">指针与引用</h2>
-<div class="note info"><p>C语言中没有引用</p>
-</div>
-<h2 id="报错汇总">报错汇总</h2>
-<h3
-id="是否忘记了向源中添加include-stdafx.h">是否忘记了向源中添加“#include
-“stdafx.h“”</h3>
-<p>对于每一个出错的.cpp文件，右键——》属性——》C/C++——》预编译头，选择不使用预编译头即可。</p>
-<details class="note info no-icon"><summary><p>This is a summary</p>
-</summary>
-<p>Any content (support inline tags too).</p>
-
-</details>
-]]></content>
-      <categories>
-        <category>C/C++</category>
-      </categories>
-      <tags>
-        <tag>C/C++</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>C语言中的字符串操作</title>
-    <url>/2022/10/07/C++/C%E8%AF%AD%E8%A8%80%E4%B8%AD%E7%9A%84%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%93%8D%E4%BD%9C/</url>
-    <content><![CDATA[<p>本文梳理总结了C语言中的常见字符串操作</p>
-<span id="more"></span>
-<h2 id="读入">读入</h2>
-<p><code>scanf("%s", s)</code> 读入一个字符串，以空格和换行为分界</p>
-<p><code>gets(s)</code>
-可以直接输入带空格的一行字符串，系统会将最后的换行符从缓冲区中取出然后丢弃</p>
-<h3 id="gets"><code>gets()</code></h3>
-<p>输入后自动添加<code>'\0'</code></p>
-<h3 id="fgets"><code>fgets()</code></h3>
-<ul>
-<li><p>函数原型</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta"># <span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="function"><span class="type">char</span> *<span class="title">fgets</span><span class="params">(<span class="type">char</span> *s, <span class="type">int</span> size, FILE *stream)</span></span>;</span><br></pre></td></tr></table></figure></li>
-<li><p>参数含义</p>
-<ul>
-<li><p><code>s</code>
-代表要保存到的内存空间的首地址，可以是字符数组名，也可以是指向字符数组的字符指针变量名</p></li>
-<li><p><code>size</code> 代表的是读取字符串的长度</p></li>
-<li><p><code>stream</code> 表示从何种流中读取，可以是标准输入流
-<code>stdin</code>，也可以是文件流</p></li>
-</ul></li>
-<li><p>补充说明</p>
-<ul>
-<li>比<code>gets</code>函数更安全</li>
-<li><strong><code>fgets</code>的中间size参数直接赋值字符数组长度即可</strong></li>
-<li>如果输入字符串长度没有超过<code>size-1</code>那么系统会将最后输入的换行符<code>'\n'</code>保存，剩余空间都用<code>'\0'</code>填充。<strong>所以输出时不用再加换行符<code>'\n'</code></strong></li>
-</ul></li>
-</ul>
-<h2 id="比较">比较</h2>
-<blockquote>
-<p>比较方法：</p>
-<ol type="1">
-<li><code>bcmp()</code>，比较字符串的前n个字节是否相等;2.</li>
-<li><code>strcmp()</code>，区分大小写地比较字符串;</li>
-<li><code>stricmp()</code>，不区分大小写地比较字符串；</li>
-<li><code>strncmp()</code>或<code>strnicmp()</code>，区分大小写地比较字符串的前n个字符。</li>
-</ol>
-</blockquote>
-<h3 id="strcmp"><code>strcmp</code></h3>
-<p>原型为</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">int</span> <span class="title">strcmp</span><span class="params">(<span class="type">const</span> <span class="type">char</span> *s1, <span class="type">const</span> <span class="type">char</span> *s2)</span></span>;</span><br></pre></td></tr></table></figure>
-<p>【返回值】若参数s1 和s2 字符串相同则返回0。s1 若大于s2 则返回大于0
-的值。s1 若小于s2 则返回小于0 的值。</p>
-<h2 id="拷贝">拷贝</h2>
-<h3 id="strcpy"><code>strcpy</code></h3>
-<p>原型为</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">char</span>* <span class="title">strcpy</span><span class="params">(<span class="type">char</span>* des,<span class="type">const</span> <span class="type">char</span>* source)</span></span>&#123;</span><br><span class="line">    <span class="type">char</span>* r=des;   </span><br><span class="line">    <span class="built_in">assert</span>((des != <span class="literal">NULL</span>) &amp;&amp; (source != <span class="literal">NULL</span>));</span><br><span class="line">	<span class="keyword">while</span>((*r++ = *source++)!=<span class="string">&#x27;\0&#x27;</span>);</span><br><span class="line">	<span class="keyword">return</span> des;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h2 id="分割">分割</h2>
-<h3 id="strtok"><code>strtok</code></h3>
-<p><code>strtok</code> breaks string <strong>str</strong> into a series
-of tokens using the delimiter.</p>
-<p>将<code>delimiter</code>部分的字符转化为<code>\0</code></p>
-<ul>
-<li><p>函数原型</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">char</span> *<span class="title">strtok</span><span class="params">(<span class="type">char</span> *str, <span class="type">const</span> <span class="type">char</span> *delim)</span></span></span><br></pre></td></tr></table></figure></li>
-<li><p>返回值</p>
-<p>函数返回指向分割后第一个字符串的指针。如果没有子串，返回NULL</p></li>
-<li><p>示例</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;string.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span> <span class="params">()</span> </span>&#123;</span><br><span class="line">   <span class="type">char</span> str[<span class="number">80</span>] = <span class="string">&quot;This is - www.tutorialspoint.com - website&quot;</span>;</span><br><span class="line">   <span class="type">const</span> <span class="type">char</span> s[<span class="number">2</span>] = <span class="string">&quot;-&quot;</span>;</span><br><span class="line">   <span class="type">char</span> *token;</span><br><span class="line">   </span><br><span class="line">   <span class="comment">/* get the first token */</span></span><br><span class="line">   token = <span class="built_in">strtok</span>(str, s);</span><br><span class="line">   </span><br><span class="line">   <span class="comment">/* walk through other tokens */</span></span><br><span class="line">   <span class="keyword">while</span>( token != <span class="literal">NULL</span> ) &#123;</span><br><span class="line">      <span class="built_in">printf</span>( <span class="string">&quot; %s\n&quot;</span>, token );</span><br><span class="line">      token = <span class="built_in">strtok</span>(<span class="literal">NULL</span>, s);</span><br><span class="line">   &#125;</span><br><span class="line">   </span><br><span class="line">   <span class="keyword">return</span>(<span class="number">0</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li>
-</ul>
-<h2 id="连接">连接</h2>
-<h3 id="strcat"><code>strcat()</code></h3>
-<p>将s2字符串连接到s1的后面，包括空字符</p>
-<p>s1长度需要足够大，以容纳连接的字符串</p>
-<ul>
-<li><p>函数原型</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">char</span>* <span class="title">strcat</span><span class="params">(<span class="type">char</span>* s1, <span class="type">const</span> <span class="type">char</span>* s2)</span></span>;</span><br></pre></td></tr></table></figure></li>
-</ul>
-<h3 id="strncat"><code>strncat()</code></h3>
-<ul>
-<li><p>函数原型</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">char</span>* <span class="title">strncat</span><span class="params">(<span class="type">char</span>* s1, <span class="type">const</span> <span class="type">char</span>*s2, <span class="type">size_t</span> n)</span></span></span><br></pre></td></tr></table></figure></li>
-<li><p>参数</p>
-<ul>
-<li><code>n</code>: 附加的字符串的最大长度</li>
-</ul></li>
-</ul>
-<h2 id="大小写转换">大小写转换</h2>
-<h3 id="strlwr"><code>strlwr()</code></h3>
-<p>将字符串中大写字母换成小写字母</p>
-<ul>
-<li><p>函数原型</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">char</span>* <span class="title">strlwr</span><span class="params">(<span class="type">char</span>* s)</span></span>;</span><br></pre></td></tr></table></figure></li>
-</ul>
-<h3 id="strupr"><code>strupr()</code></h3>
-<p>将字符串中大写字母换成小写字母</p>
-<ul>
-<li><p>函数原型</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">char</span>* <span class="title">strlwr</span><span class="params">(<span class="type">char</span>* s)</span></span>;</span><br></pre></td></tr></table></figure></li>
-</ul>
-<h2 id="转换为数值">转换为数值</h2>
-<p>与非法字符停止转换，非法的字符也有返回值</p>
-<p>需要引入头文件<code>&lt;stdlib.h&gt;</code></p>
-<h3 id="atof"><code>atof()</code></h3>
-<ul>
-<li><p>函数原型</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">double</span> <span class="title">atof</span><span class="params">(<span class="type">const</span> <span class="type">char</span>* ns)</span></span>;</span><br></pre></td></tr></table></figure></li>
-</ul>
-<h3 id="atoi"><code>atoi()</code></h3>
-<ul>
-<li><p>函数原型</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">int</span> <span class="title">atoi</span><span class="params">(<span class="type">const</span> <span class="type">char</span>* ns)</span></span>;</span><br></pre></td></tr></table></figure></li>
-</ul>
-<h2 id="输出">输出</h2>
-<p><code>puts()</code> 直接输出一行字符串，末尾加上<code>\n</code></p>
-<div class="note info"><p><code>scanf</code>输入<code>double</code>时必须使用<code>%lf</code></p>
-</div>
-<details class="note info no-icon"><summary><p>This is a summary</p>
-</summary>
-<p>Any content (support inline tags too).</p>
-
-</details>
-]]></content>
-      <categories>
-        <category>C/C++</category>
-      </categories>
-      <tags>
-        <tag>C/C++</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Algorithm中sort的使用汇总</title>
-    <url>/2022/09/30/C++/sort%E7%9A%84%E4%BD%BF%E7%94%A8%E6%B1%87%E6%80%BB/</url>
-    <content><![CDATA[<p>本文汇总了<code>sort</code>的常见用法。</p>
-<span id="more"></span>
-<h2 id="center-quote-居中引用">Center Quote 居中引用</h2>
-<p>建议在单行文字时使用</p>
-<h3 id="example">Example</h3>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">&#123;% cq %&#125;代码优雅，核心简单&#123;% endcq %&#125;</span><br></pre></td></tr></table></figure>
-<blockquote class="blockquote-center">
-<p>代码优雅，核心简单</p>
-
-</blockquote>
-<h2 id="note-bootstrap-callout">Note( Bootstrap Callout )</h2>
-<h3 id="设置">设置</h3>
-<h3 id="使用-usage">使用 Usage</h3>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">```</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% codeblock 创建note lang:html [additional options] %&#125;</span><br><span class="line">&#123;% note [class] [no-icon] [summary] %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% note info no-icon This is a summary %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">## 代码块 Code Block</span><br><span class="line"></span><br><span class="line">```html</span><br><span class="line">&#123;% codeblock [title] [lang:language] [url] [link text] [additional options] %&#125;</span><br><span class="line">code snippet</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br></pre></td></tr></table></figure>
-<h3 id="section"></h3>
-]]></content>
-      <categories>
-        <category>C/C++</category>
-      </categories>
-      <tags>
-        <tag>C/C++</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>STL中vector的常用函数</title>
-    <url>/2022/09/25/C++/STL%E4%B8%ADvector%E7%9A%84%E5%B8%B8%E7%94%A8%E5%87%BD%E6%95%B0/</url>
-    <content><![CDATA[<p>https://blog.csdn.net/qq_41854911/article/details/119392824</p>
-<h1 id="c运算符重载基础">C++运算符重载基础</h1>
-<p>下面介绍一些主题常用post内部的页面模块，可直接参照使用</p>
-<span id="more"></span>
-<h2 id="center-quote-居中引用">Center Quote 居中引用</h2>
-<p>建议在单行文字时使用</p>
-<h3 id="example">Example</h3>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">&#123;% cq %&#125;代码优雅，核心简单&#123;% endcq %&#125;</span><br></pre></td></tr></table></figure>
-<blockquote class="blockquote-center">
-<p>代码优雅，核心简单</p>
-
-</blockquote>
-<h2 id="note-bootstrap-callout">Note( Bootstrap Callout )</h2>
-<h3 id="设置">设置</h3>
-<h3 id="使用-usage">使用 Usage</h3>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">```</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% codeblock 创建note lang:html [additional options] %&#125;</span><br><span class="line">&#123;% note [class] [no-icon] [summary] %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% note info no-icon This is a summary %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">## 代码块 Code Block</span><br><span class="line"></span><br><span class="line">```html</span><br><span class="line">&#123;% codeblock [title] [lang:language] [url] [link text] [additional options] %&#125;</span><br><span class="line">code snippet</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br></pre></td></tr></table></figure>
-<h3 id="section"></h3>
-]]></content>
-      <categories>
-        <category>C/C++</category>
-        <category>DS</category>
-      </categories>
-      <tags>
-        <tag>C/C++</tag>
-        <tag>DS</tag>
       </tags>
   </entry>
   <entry>
@@ -1356,169 +1519,6 @@ of tokens using the delimiter.</p>
     <content><![CDATA[<h1 id="表格">表格</h1>
 <h1 id="数学">数学</h1>
 ]]></content>
-  </entry>
-  <entry>
-    <title>VS2012报错解决汇总</title>
-    <url>/2022/09/28/C++/VS2012%E6%8A%A5%E9%94%99%E8%A7%A3%E5%86%B3%E6%B1%87%E6%80%BB/</url>
-    <content><![CDATA[<p>本文对被迫使用Visual Studio
-2012中踩到的一些坑进行汇总，服务于《计算机语言与程序设计》的课程考试。其解决方法已过时，完全是因为某清大学只购买到了VS2012的版权。</p>
-<span id="more"></span>
-<h2 id="编辑器习惯配置">编辑器习惯配置</h2>
-<p><strong><em>选项/环境/常规</em></strong> 颜色主题选择深色</p>
-<p><strong><em>选项/环境/字体和颜色</em></strong> 选择
-<code>Cascadia Code</code></p>
-<h2 id="报错汇总">报错汇总</h2>
-<h3
-id="是否忘记了向源中添加include-stdafx.h">是否忘记了向源中添加“#include
-“stdafx.h“”</h3>
-<p>对于每一个出错的.cpp文件，右键——》属性——》C/C++——》预编译头，选择不使用预编译头即可。</p>
-<h3 id="应该使用scanf_s">应该使用scanf_s</h3>
-<ul>
-<li><p>一种解决方法</p>
-<ul>
-<li><p>右击项目名，选择属性</p></li>
-<li><p>在c/c++下选择Preprocessor（预处理器）</p></li>
-<li><p>点击图示Preprocessor
-Definitions，选择&lt;Edit…&gt;，添加预处理器定义<code>_CRT_SECURE_NO_WARNINGS</code></p></li>
-</ul></li>
-<li><p>或者，直接添加宏定义</p></li>
-</ul>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">define</span> _CRT_SECURE_NO_WARNINGS</span></span><br></pre></td></tr></table></figure>
-<details class="note info no-icon"><summary><p>This is a summary</p>
-</summary>
-<p>Any content (support inline tags too).</p>
-
-</details>
-]]></content>
-      <categories>
-        <category>C/C++</category>
-        <category>VS2012</category>
-      </categories>
-      <tags>
-        <tag>C/C++</tag>
-        <tag>VS2012</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>scanf与printf的用法及注意事项</title>
-    <url>/2022/09/29/C++/scanf%E4%B8%8Eprintf%E7%9A%84%E7%94%A8%E6%B3%95%E5%8F%8A%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9/</url>
-    <content><![CDATA[<p>本文对C语言中标准输入输出做一些介绍，盘点一下需要注意的踩坑点。</p>
-<span id="more"></span>
-<h2 id="scanf">scanf</h2>
-<h3 id="格式化符内空格的区别">格式化符内空格的区别</h3>
-<p><code>scanf("%c %c", &amp;c1, &amp;c2)</code>与<code>scanf("%c%c", &amp;c1, &amp;c2)</code>不同，前者过滤掉两个字符中间的空格，后者将空格作为<code>c2</code>的值</p>
-<div class="note info"><p><code>scanf</code>输入<code>double</code>时必须使用<code>%lf</code></p>
-</div>
-<h2 id="格式化输入">格式化输入</h2>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="built_in">scanf</span>(<span class="string">&quot;%d:%d:%d&quot;</span>);</span><br></pre></td></tr></table></figure>
-<p>可输入格式为<code>hh:mm:ss</code>的数据，其中<code>02:12:23</code>输入后小时的<code>int</code>的值同样为<code>2</code></p>
-<h2 id="类型对应表">类型对应表</h2>
-<table>
-<thead>
-<tr class="header">
-<th>格式符</th>
-<th>数据类型</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><code>%lf</code></td>
-<td><code>double</code></td>
-</tr>
-<tr class="even">
-<td><code>%f</code></td>
-<td><code>float</code></td>
-</tr>
-<tr class="odd">
-<td><code>%d</code></td>
-<td><code>int</code></td>
-</tr>
-<tr class="even">
-<td><code>%lld</code></td>
-<td><code>long long int</code></td>
-</tr>
-</tbody>
-</table>
-<h2 id="printf">printf</h2>
-<h3 id="输出指定格式的数字">输出指定格式的数字</h3>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="built_in">printf</span>(<span class="string">&quot;%02d:%02d:%02d\n&quot;</span>, delta.hh, delta.mm, delta.ss);</span><br></pre></td></tr></table></figure>
-<p>输出结果为 <code>02:03:04</code></p>
-<blockquote>
-<p><code>printf("%a.bf", var)</code>，其中a,b为常数。</p>
-<p>含义为：</p>
-<p>a代表输出占|a|（a的绝对值）个字节的宽度，当实际宽度超过a时，按实际宽度输出，否则输出a个字节，不足部分补空格。</p>
-<p>如果a为正数，输出的有效数字在右侧，左侧补空格。
-如果a为负数，输出的有效数字在左侧，右侧补空格。</p>
-<p>b代表输出带有b位小数，不足部分补0。 a,b可单独使用。</p>
-<p>比如<code>printf("%4f", 1.2);</code>
-会输出一个空格加上<code>1.2</code>。</p>
-<p><code>printf("%.3f", 1.2);</code> 会输出<code>1.200</code>。</p>
-<p><code>printf("%-8.4f", 1.2);</code>会输出<code>1.2000</code>再输出两个空格。</p>
-</blockquote>
-<details class="note info no-icon"><summary><p>This is a summary</p>
-</summary>
-<p>Any content (support inline tags too).</p>
-
-</details>
-]]></content>
-      <categories>
-        <category>C/C++</category>
-      </categories>
-      <tags>
-        <tag>C/C++</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>编写C语言时踩到的坑</title>
-    <url>/2022/09/28/C++/%E7%BC%96%E5%86%99C%E8%AF%AD%E8%A8%80%E6%97%B6%E8%B8%A9%E5%88%B0%E7%9A%84%E5%9D%91/</url>
-    <content><![CDATA[<p>本文对笔者在学习C语言时遗忘的C语言与C++不同的用法特性进行说明。</p>
-<span id="more"></span>
-<h2 id="变量">变量</h2>
-<ul>
-<li>定义变量时必须初始化</li>
-<li>定义变量必须在代码块的最前面，不能在for()的括号里定义<code>int i = 1</code></li>
-<li>不能用变量初始化变量</li>
-</ul>
-<h2 id="数据类型">数据类型</h2>
-<h3 id="bool"><code>bool</code></h3>
-<p>C语言中没有bool值，不可以使用<code>true / false</code></p>
-<h3 id="unsigned"><code>unsigned</code></h3>
-<p>不要在它减到0时继续往下减，否则会变成无穷大</p>
-<h3 id="char"><code>char*</code></h3>
-<ul>
-<li>使用<code>strlen</code>直接与负数比较会出错，因为<code>strlen</code>是无符号数</li>
-</ul>
-<h2 id="结构体">结构体</h2>
-<p>结构体中不能包含函数，不推荐在定义结构体后直接声明变量。</p>
-<p><strong>结构体作为数据类型，需要在前面加上<code>struct</code>，比如</strong></p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="keyword">struct</span> <span class="title class_">Time</span> <span class="built_in">devide</span>(<span class="keyword">struct</span> Time t1, <span class="keyword">struct</span> Time t2)&#123;&#125;</span><br></pre></td></tr></table></figure>
-<h2 id="循环">循环</h2>
-<p>不允许在<code>for</code>内定义变量</p>
-<h2 id="指针与引用">指针与引用</h2>
-<div class="note info"><p>C语言中没有引用</p>
-</div>
-<h2 id="动态开辟空间">动态开辟空间</h2>
-<p>空间大小不要写成指针大小！！！！</p>
-<h3 id="字符串指针">字符串指针</h3>
-<p>对函数内的字符串指针操作时，最好先创建一个新的字符串指针</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">int</span> <span class="title">strdelete</span><span class="params">(<span class="type">char</span> *s1, <span class="type">char</span> *s2)</span></span>&#123;</span><br><span class="line">	<span class="type">char</span> *p1 = s1;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h2 id="报错汇总">报错汇总</h2>
-<h3
-id="是否忘记了向源中添加include-stdafx.h">是否忘记了向源中添加“#include
-“stdafx.h“”</h3>
-<p>对于每一个出错的.cpp文件，右键——》属性——》C/C++——》预编译头，选择不使用预编译头即可。</p>
-<details class="note info no-icon"><summary><p>This is a summary</p>
-</summary>
-<p>Any content (support inline tags too).</p>
-
-</details>
-]]></content>
-      <categories>
-        <category>C/C++</category>
-      </categories>
-      <tags>
-        <tag>C/C++</tag>
-      </tags>
   </entry>
   <entry>
     <title>Hexo与NexT主题升级操作与界面美化</title>
@@ -1553,6 +1553,33 @@ id="是否忘记了向源中添加include-stdafx.h">是否忘记了向源中添�
       </tags>
   </entry>
   <entry>
+    <title>Python list方法汇总</title>
+    <url>/2022/10/10/Python/Python_list%E6%96%B9%E6%B3%95%E6%B1%87%E6%80%BB/</url>
+    <content><![CDATA[<p>本篇博客汇总Python中list的常见操作。</p>
+<span id="more"></span>
+<h2 id="切片-slice">切片 Slice</h2>
+<p>区间遵循<strong><em>左闭右开</em></strong></p>
+<ul>
+<li>负数代表倒数第几项</li>
+<li>空代表从头/尾开始</li>
+</ul>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">list1 = [<span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>, <span class="number">5</span>]</span><br><span class="line"><span class="built_in">print</span>(list1[:-<span class="number">2</span>])</span><br><span class="line"><span class="comment"># list1[:-2] = [2, 3]</span></span><br></pre></td></tr></table></figure>
+<h2 id="循环-loop">循环 Loop</h2>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">animals = [<span class="string">&#x27;cat&#x27;</span>, <span class="string">&#x27;dog&#x27;</span>, <span class="string">&#x27;monkey&#x27;</span>]</span><br><span class="line"><span class="comment"># </span></span><br><span class="line"><span class="keyword">for</span> animal <span class="keyword">in</span> animals:</span><br><span class="line">    </span><br></pre></td></tr></table></figure>
+<details class="note info no-icon"><summary><p>This is a summary</p>
+</summary>
+<p>Any content (support inline tags too).</p>
+
+</details>
+]]></content>
+      <categories>
+        <category>Python</category>
+      </categories>
+      <tags>
+        <tag>Python</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>NexT主题post格式模板</title>
     <url>/2022/07/11/Hexo/Next%E4%B8%BB%E9%A2%98post%E6%A0%BC%E5%BC%8F%E6%A8%A1%E6%9D%BF/</url>
     <content><![CDATA[<h1 id="next主题常用页面模块">NexT主题常用页面模块</h1>
@@ -1578,33 +1605,6 @@ id="是否忘记了向源中添加include-stdafx.h">是否忘记了向源中添�
       </categories>
       <tags>
         <tag>Hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Python list方法汇总</title>
-    <url>/2022/10/10/Python/Python_list%E6%96%B9%E6%B3%95%E6%B1%87%E6%80%BB/</url>
-    <content><![CDATA[<p>本篇博客汇总Python中list的常见操作。</p>
-<span id="more"></span>
-<h2 id="切片-slice">切片 Slice</h2>
-<p>区间遵循<strong><em>左闭右开</em></strong></p>
-<ul>
-<li>负数代表倒数第几项</li>
-<li>空代表从头/尾开始</li>
-</ul>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">list1 = [<span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>, <span class="number">5</span>]</span><br><span class="line"><span class="built_in">print</span>(list1[:-<span class="number">2</span>])</span><br><span class="line"><span class="comment"># list1[:-2] = [2, 3]</span></span><br></pre></td></tr></table></figure>
-<h2 id="循环-loop">循环 Loop</h2>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">animals = [<span class="string">&#x27;cat&#x27;</span>, <span class="string">&#x27;dog&#x27;</span>, <span class="string">&#x27;monkey&#x27;</span>]</span><br><span class="line"><span class="comment"># </span></span><br><span class="line"><span class="keyword">for</span> animal <span class="keyword">in</span> animals:</span><br><span class="line">    </span><br></pre></td></tr></table></figure>
-<details class="note info no-icon"><summary><p>This is a summary</p>
-</summary>
-<p>Any content (support inline tags too).</p>
-
-</details>
-]]></content>
-      <categories>
-        <category>Python</category>
-      </categories>
-      <tags>
-        <tag>Python</tag>
       </tags>
   </entry>
   <entry>
