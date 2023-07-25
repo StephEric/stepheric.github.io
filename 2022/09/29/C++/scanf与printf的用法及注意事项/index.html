@@ -300,7 +300,7 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">本文字数：</span>
-      <span>687</span>
+      <span>747</span>
     </span>
     <span class="post-meta-item" title="阅读时长">
       <span class="post-meta-item-icon">
@@ -320,56 +320,50 @@
     <div class="post-body" itemprop="articleBody">
         <p>本文对C语言中标准输入输出做一些介绍，盘点一下需要注意的踩坑点。</p>
 <span id="more"></span>
-<h2 id="scanf">scanf</h2>
-<h3 id="格式化符内空格的区别">格式化符内空格的区别</h3>
-<p><code>scanf("%c %c", &amp;c1, &amp;c2)</code>与<code>scanf("%c%c", &amp;c1, &amp;c2)</code>不同，前者过滤掉两个字符中间的空格，后者将空格作为<code>c2</code>的值</p>
+<h2 id="scanf"><a href="#scanf" class="headerlink" title="scanf"></a>scanf</h2><h3 id="格式化符内空格的区别"><a href="#格式化符内空格的区别" class="headerlink" title="格式化符内空格的区别"></a>格式化符内空格的区别</h3><p><code>scanf(&quot;%c %c&quot;, &amp;c1, &amp;c2)</code>与<code>scanf(&quot;%c%c&quot;, &amp;c1, &amp;c2)</code>不同，前者过滤掉两个字符中间的空格，后者将空格作为<code>c2</code>的值</p>
 <div class="note info"><p><code>scanf</code>输入<code>double</code>时必须使用<code>%lf</code></p>
 </div>
-<h2 id="格式化输入">格式化输入</h2>
-<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">scanf</span>(<span class="string">&quot;%d:%d:%d&quot;</span>);</span><br></pre></td></tr></table></figure>
+<h2 id="格式化输入"><a href="#格式化输入" class="headerlink" title="格式化输入"></a>格式化输入</h2><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">scanf</span>(<span class="string">&quot;%d:%d:%d&quot;</span>);</span><br></pre></td></tr></table></figure>
 <p>可输入格式为<code>hh:mm:ss</code>的数据，其中<code>02:12:23</code>输入后小时的<code>int</code>的值同样为<code>2</code></p>
-<h2 id="类型对应表">类型对应表</h2>
+<h2 id="类型对应表"><a href="#类型对应表" class="headerlink" title="类型对应表"></a>类型对应表</h2><div class="table-container">
 <table>
 <thead>
-<tr class="header">
+<tr>
 <th>格式符</th>
 <th>数据类型</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td><code>%lf</code></td>
 <td><code>double</code></td>
 </tr>
-<tr class="even">
+<tr>
 <td><code>%f</code></td>
 <td><code>float</code></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><code>%d</code></td>
 <td><code>int</code></td>
 </tr>
-<tr class="even">
+<tr>
 <td><code>%lld</code></td>
 <td><code>long long int</code></td>
 </tr>
 </tbody>
 </table>
-<h2 id="printf">printf</h2>
-<h3 id="输出指定格式的数字">输出指定格式的数字</h3>
-<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">printf</span>(<span class="string">&quot;%02d:%02d:%02d\n&quot;</span>, delta.hh, delta.mm, delta.ss);</span><br></pre></td></tr></table></figure>
+</div>
+<h2 id="printf"><a href="#printf" class="headerlink" title="printf"></a>printf</h2><h3 id="输出指定格式的数字"><a href="#输出指定格式的数字" class="headerlink" title="输出指定格式的数字"></a>输出指定格式的数字</h3><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">printf</span>(<span class="string">&quot;%02d:%02d:%02d\n&quot;</span>, delta.hh, delta.mm, delta.ss);</span><br></pre></td></tr></table></figure>
 <p>输出结果为 <code>02:03:04</code></p>
 <blockquote>
-<p><code>printf("%a.bf", var)</code>，其中a,b为常数。</p>
+<p><code>printf(&quot;%a.bf&quot;, var)</code>，其中a,b为常数。</p>
 <p>含义为：</p>
 <p>a代表输出占|a|（a的绝对值）个字节的宽度，当实际宽度超过a时，按实际宽度输出，否则输出a个字节，不足部分补空格。</p>
-<p>如果a为正数，输出的有效数字在右侧，左侧补空格。
-如果a为负数，输出的有效数字在左侧，右侧补空格。</p>
+<p>如果a为正数，输出的有效数字在右侧，左侧补空格。 如果a为负数，输出的有效数字在左侧，右侧补空格。</p>
 <p>b代表输出带有b位小数，不足部分补0。 a,b可单独使用。</p>
-<p>比如<code>printf("%4f", 1.2);</code>
-会输出一个空格加上<code>1.2</code>。</p>
-<p><code>printf("%.3f", 1.2);</code> 会输出<code>1.200</code>。</p>
-<p><code>printf("%-8.4f", 1.2);</code>会输出<code>1.2000</code>再输出两个空格。</p>
+<p>比如<code>printf(&quot;%4f&quot;, 1.2);</code> 会输出一个空格加上<code>1.2</code>。</p>
+<p><code>printf(&quot;%.3f&quot;, 1.2);</code> 会输出<code>1.200</code>。 </p>
+<p><code>printf(&quot;%-8.4f&quot;, 1.2);</code>会输出<code>1.2000</code>再输出两个空格。</p>
 </blockquote>
 <details class="note info no-icon"><summary><p>This is a summary</p>
 </summary>
@@ -490,14 +484,14 @@
       <i class="fa fa-chart-line"></i>
     </span>
       <span>站点总字数：</span>
-    <span title="站点总字数">38k</span>
+    <span title="站点总字数">35k</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
       <span>站点阅读时长 &asymp;</span>
-    <span title="站点阅读时长">34 分钟</span>
+    <span title="站点阅读时长">32 分钟</span>
   </span>
 </div>
 <div class="busuanzi-count">
