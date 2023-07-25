@@ -63,35 +63,32 @@ open()</a></p>
       </tags>
   </entry>
   <entry>
-    <title>Solidworks笔记</title>
-    <url>/2021/10/30/Solidworks/</url>
-    <content><![CDATA[<h1 id="solidworks笔记">Solidworks笔记</h1>
-<blockquote><h2 id="期中考试">期中考试</h2>
-<p>三个满分 平均分84</p>
-</blockquote>
-<h2 id="solidworks概述">Solidworks概述</h2>
-<p>三维建模，设计颜色，赋予材质进行分析，运动仿真（校验设置功能完整性、动力仿真）
-模块化功能</p>
-<span id="more"></span>
-<h2 id="solidworks基本操作">Solidworks基本操作</h2>
-<p>零件：单个实体 装配体：多个实体（通过运动附），固连
-工程图：面向实际</p>
-<p>按照基准次序 定义材质 红绿灯更新当前参数</p>
-<h3 id="剪裁实体">剪裁实体</h3>
-<p>选择合适剪裁选项</p>
-<p>旋转实体 等距实体 复制偏移一个距离 参考几何体 定义画图起始点 曲线</p>
-<p>一开始导入的零件是基准平台 装备体里可以嵌套装备体</p>
-<p>挖空 点击拉伸切除（完全贯穿） 配合 分别选面进行配合 （重合
-指定距离）</p>
-<h3 id="工程图">工程图</h3>
-<p>重新编辑图纸 跟着鼠标的是视图</p>
+    <title>Hello World</title>
+    <url>/2022/06/30/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very
+first post. Check <a href="https://hexo.io/docs/">documentation</a> for
+more info. If you get any problems when using Hexo, you can find the
+answer in <a
+href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or
+you can ask me on <a
+href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="quick-start">Quick Start</h2>
+<h3 id="create-a-new-post">Create a new post</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+<p>More info: <a
+href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="run-server">Run server</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="generate-static-files">Generate static files</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>More info: <a
+href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="deploy-to-remote-sites">Deploy to remote sites</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<p>More info: <a
+href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 ]]></content>
-      <categories>
-        <category>Solidworks</category>
-      </categories>
-      <tags>
-        <tag>Solidworks</tag>
-      </tags>
   </entry>
   <entry>
     <title>Visual Studio Code 环境配置</title>
@@ -136,32 +133,119 @@ task），使用自定义快捷键<code>ctrl+alt+F5</code></li>
       </tags>
   </entry>
   <entry>
-    <title>Hello World</title>
-    <url>/2022/06/30/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very
-first post. Check <a href="https://hexo.io/docs/">documentation</a> for
-more info. If you get any problems when using Hexo, you can find the
-answer in <a
-href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or
-you can ask me on <a
-href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="quick-start">Quick Start</h2>
-<h3 id="create-a-new-post">Create a new post</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a
-href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="run-server">Run server</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="generate-static-files">Generate static files</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a
-href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="deploy-to-remote-sites">Deploy to remote sites</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a
-href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+    <title>C++运算符重载</title>
+    <url>/2022/09/22/C++/C++%E8%BF%90%E7%AE%97%E7%AC%A6%E9%87%8D%E8%BD%BD/</url>
+    <content><![CDATA[<p>https://blog.csdn.net/qq_41854911/article/details/119392824</p>
+<h1 id="c运算符重载基础">C++运算符重载基础</h1>
+<p>下面介绍一些主题常用post内部的页面模块，可直接参照使用</p>
+<span id="more"></span>
+<h2 id="center-quote-居中引用">Center Quote 居中引用</h2>
+<p>建议在单行文字时使用</p>
+<h3 id="example">Example</h3>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">&#123;% cq %&#125;代码优雅，核心简单&#123;% endcq %&#125;</span><br></pre></td></tr></table></figure>
+<blockquote class="blockquote-center">
+<p>代码优雅，核心简单</p>
+
+</blockquote>
+<h2 id="note-bootstrap-callout">Note( Bootstrap Callout )</h2>
+<h3 id="设置">设置</h3>
+<h3 id="使用-usage">使用 Usage</h3>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">```</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% codeblock 创建note lang:html [additional options] %&#125;</span><br><span class="line">&#123;% note [class] [no-icon] [summary] %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% note info no-icon This is a summary %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">## 代码块 Code Block</span><br><span class="line"></span><br><span class="line">```html</span><br><span class="line">&#123;% codeblock [title] [lang:language] [url] [link text] [additional options] %&#125;</span><br><span class="line">code snippet</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br></pre></td></tr></table></figure>
+<h1 id="参考文献">参考文献</h1>
+<p>[1] https://blog.csdn.net/qq_41854911/article/details/119392824</p>
 ]]></content>
+      <categories>
+        <category>C/C++</category>
+      </categories>
+      <tags>
+        <tag>C/C++</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Solidworks笔记</title>
+    <url>/2021/10/30/Solidworks/</url>
+    <content><![CDATA[<h1 id="solidworks笔记">Solidworks笔记</h1>
+<blockquote><h2 id="期中考试">期中考试</h2>
+<p>三个满分 平均分84</p>
+</blockquote>
+<h2 id="solidworks概述">Solidworks概述</h2>
+<p>三维建模，设计颜色，赋予材质进行分析，运动仿真（校验设置功能完整性、动力仿真）
+模块化功能</p>
+<span id="more"></span>
+<h2 id="solidworks基本操作">Solidworks基本操作</h2>
+<p>零件：单个实体 装配体：多个实体（通过运动附），固连
+工程图：面向实际</p>
+<p>按照基准次序 定义材质 红绿灯更新当前参数</p>
+<h3 id="剪裁实体">剪裁实体</h3>
+<p>选择合适剪裁选项</p>
+<p>旋转实体 等距实体 复制偏移一个距离 参考几何体 定义画图起始点 曲线</p>
+<p>一开始导入的零件是基准平台 装备体里可以嵌套装备体</p>
+<p>挖空 点击拉伸切除（完全贯穿） 配合 分别选面进行配合 （重合
+指定距离）</p>
+<h3 id="工程图">工程图</h3>
+<p>重新编辑图纸 跟着鼠标的是视图</p>
+]]></content>
+      <categories>
+        <category>Solidworks</category>
+      </categories>
+      <tags>
+        <tag>Solidworks</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>C语言中的指针</title>
+    <url>/2022/11/03/C++/C%E8%AF%AD%E8%A8%80%E4%B8%AD%E7%9A%84%E6%8C%87%E9%92%88/</url>
+    <content><![CDATA[<p>本文总结C语言课程学习中用到的指针概念及操作。</p>
+<span id="more"></span>
+<h2 id="动态分配内存">动态分配内存</h2>
+<h3 id="malloc"><code>malloc</code></h3>
+<ul>
+<li><p>功能描述</p>
+<p>分配所要求的内存空间，并返回指向该空间的指针</p></li>
+<li><p>函数原型</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdlib.h&gt;</span></span></span><br><span class="line"><span class="function"><span class="type">void</span> *<span class="title">malloc</span><span class="params">(<span class="type">size_t</span> size)</span></span></span><br></pre></td></tr></table></figure></li>
+<li><p>参数</p>
+<ul>
+<li><code>size</code>指的是内存空间的<strong><em>字节大小</em></strong></li>
+</ul></li>
+<li><p>返回值</p>
+<ul>
+<li>分配成功，返回指向该空间的指针</li>
+<li>分配失败，返回<code>NULL</code></li>
+</ul></li>
+<li><p>示例</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdlib.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span> <span class="params">()</span> </span>&#123;</span><br><span class="line">   <span class="type">char</span> *str;</span><br><span class="line"></span><br><span class="line">   <span class="comment">/* Initial memory allocation */</span></span><br><span class="line">   str = (<span class="type">char</span> *) <span class="built_in">malloc</span>(<span class="number">15</span>);</span><br><span class="line">   <span class="built_in">strcpy</span>(str, <span class="string">&quot;tutorialspoint&quot;</span>);</span><br><span class="line">   <span class="built_in">printf</span>(<span class="string">&quot;String = %s,  Address = %u\n&quot;</span>, str, str);</span><br><span class="line"></span><br><span class="line">   <span class="comment">/* Reallocating memory */</span></span><br><span class="line">   str = (<span class="type">char</span> *) <span class="built_in">realloc</span>(str, <span class="number">25</span>);</span><br><span class="line">   <span class="built_in">strcat</span>(str, <span class="string">&quot;.com&quot;</span>);</span><br><span class="line">   <span class="built_in">printf</span>(<span class="string">&quot;String = %s,  Address = %u\n&quot;</span>, str, str);</span><br><span class="line"></span><br><span class="line">   <span class="built_in">free</span>(str);</span><br><span class="line">   </span><br><span class="line">   <span class="keyword">return</span>(<span class="number">0</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li>
+</ul>
+<h3 id="bool"><code>bool</code></h3>
+<p>C语言中没有bool值，不可以使用<code>true / false</code></p>
+<h3 id="unsigned"><code>unsigned</code></h3>
+<p>不要在它减到0时继续往下减，否则会变成无穷大</p>
+<h2 id="结构体">结构体</h2>
+<p>结构体中不能包含函数，不推荐在定义结构体后直接声明变量。</p>
+<p><strong>结构体作为数据类型，需要在前面加上<code>struct</code>，比如</strong></p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="keyword">struct</span> <span class="title class_">Time</span> <span class="built_in">devide</span>(<span class="keyword">struct</span> Time t1, <span class="keyword">struct</span> Time t2)&#123;&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="循环">循环</h2>
+<p>不允许在<code>for</code>内定义变量</p>
+<h2 id="指针与引用">指针与引用</h2>
+<div class="note info"><p>C语言中没有引用</p>
+</div>
+<h2 id="报错汇总">报错汇总</h2>
+<h3
+id="是否忘记了向源中添加include-stdafx.h">是否忘记了向源中添加“#include
+“stdafx.h“”</h3>
+<p>对于每一个出错的.cpp文件，右键——》属性——》C/C++——》预编译头，选择不使用预编译头即可。</p>
+<details class="note info no-icon"><summary><p>This is a summary</p>
+</summary>
+<p>Any content (support inline tags too).</p>
+
+</details>
+]]></content>
+      <categories>
+        <category>C/C++</category>
+      </categories>
+      <tags>
+        <tag>C/C++</tag>
+      </tags>
   </entry>
   <entry>
     <title>使用conda进行环境管理和包管理</title>
@@ -299,26 +383,40 @@ href="https://link.zhihu.com/?target=https%3A//mirrors.tuna.tsinghua.edu.cn/help
       </tags>
   </entry>
   <entry>
-    <title>C++运算符重载</title>
-    <url>/2022/09/22/C++/C++%E8%BF%90%E7%AE%97%E7%AC%A6%E9%87%8D%E8%BD%BD/</url>
-    <content><![CDATA[<p>https://blog.csdn.net/qq_41854911/article/details/119392824</p>
-<h1 id="c运算符重载基础">C++运算符重载基础</h1>
-<p>下面介绍一些主题常用post内部的页面模块，可直接参照使用</p>
+    <title>C语言课程常用库</title>
+    <url>/2022/10/27/C++/C%E8%AF%AD%E8%A8%80%E8%AF%BE%E7%A8%8B%E5%B8%B8%E7%94%A8%E5%BA%93/</url>
+    <content><![CDATA[<p>本文总结C语言课程学习中尝试用到的库函数与方法。</p>
 <span id="more"></span>
-<h2 id="center-quote-居中引用">Center Quote 居中引用</h2>
-<p>建议在单行文字时使用</p>
-<h3 id="example">Example</h3>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">&#123;% cq %&#125;代码优雅，核心简单&#123;% endcq %&#125;</span><br></pre></td></tr></table></figure>
-<blockquote class="blockquote-center">
-<p>代码优雅，核心简单</p>
+<h2 id="math.h">math.h</h2>
+<h3 id="powfloat-a-float-b">pow(float a, float b)</h3>
+<p>注意返回值为浮点型</p>
+<h3 id="absint-x">abs(int x)</h3>
+<h3 id="fabsfloat-x">fabs(float x)</h3>
+<p>注意浮点型取绝对值要使用<code>fabs()</code></p>
+<h2 id="数据类型">数据类型</h2>
+<h3 id="bool"><code>bool</code></h3>
+<p>C语言中没有bool值，不可以使用<code>true / false</code></p>
+<h3 id="unsigned"><code>unsigned</code></h3>
+<p>不要在它减到0时继续往下减，否则会变成无穷大</p>
+<h2 id="结构体">结构体</h2>
+<p>结构体中不能包含函数，不推荐在定义结构体后直接声明变量。</p>
+<p><strong>结构体作为数据类型，需要在前面加上<code>struct</code>，比如</strong></p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="keyword">struct</span> <span class="title class_">Time</span> <span class="built_in">devide</span>(<span class="keyword">struct</span> Time t1, <span class="keyword">struct</span> Time t2)&#123;&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="循环">循环</h2>
+<p>不允许在<code>for</code>内定义变量</p>
+<h2 id="指针与引用">指针与引用</h2>
+<div class="note info"><p>C语言中没有引用</p>
+</div>
+<h2 id="报错汇总">报错汇总</h2>
+<h3
+id="是否忘记了向源中添加include-stdafx.h">是否忘记了向源中添加“#include
+“stdafx.h“”</h3>
+<p>对于每一个出错的.cpp文件，右键——》属性——》C/C++——》预编译头，选择不使用预编译头即可。</p>
+<details class="note info no-icon"><summary><p>This is a summary</p>
+</summary>
+<p>Any content (support inline tags too).</p>
 
-</blockquote>
-<h2 id="note-bootstrap-callout">Note( Bootstrap Callout )</h2>
-<h3 id="设置">设置</h3>
-<h3 id="使用-usage">使用 Usage</h3>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">```</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% codeblock 创建note lang:html [additional options] %&#125;</span><br><span class="line">&#123;% note [class] [no-icon] [summary] %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% note info no-icon This is a summary %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">## 代码块 Code Block</span><br><span class="line"></span><br><span class="line">```html</span><br><span class="line">&#123;% codeblock [title] [lang:language] [url] [link text] [additional options] %&#125;</span><br><span class="line">code snippet</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br></pre></td></tr></table></figure>
-<h1 id="参考文献">参考文献</h1>
-<p>[1] https://blog.csdn.net/qq_41854911/article/details/119392824</p>
+</details>
 ]]></content>
       <categories>
         <category>C/C++</category>
@@ -450,134 +548,6 @@ of tokens using the delimiter.</p>
       </tags>
   </entry>
   <entry>
-    <title>C语言课程常用库</title>
-    <url>/2022/10/27/C++/C%E8%AF%AD%E8%A8%80%E8%AF%BE%E7%A8%8B%E5%B8%B8%E7%94%A8%E5%BA%93/</url>
-    <content><![CDATA[<p>本文总结C语言课程学习中尝试用到的库函数与方法。</p>
-<span id="more"></span>
-<h2 id="math.h">math.h</h2>
-<h3 id="powfloat-a-float-b">pow(float a, float b)</h3>
-<p>注意返回值为浮点型</p>
-<h3 id="absint-x">abs(int x)</h3>
-<h3 id="fabsfloat-x">fabs(float x)</h3>
-<p>注意浮点型取绝对值要使用<code>fabs()</code></p>
-<h2 id="数据类型">数据类型</h2>
-<h3 id="bool"><code>bool</code></h3>
-<p>C语言中没有bool值，不可以使用<code>true / false</code></p>
-<h3 id="unsigned"><code>unsigned</code></h3>
-<p>不要在它减到0时继续往下减，否则会变成无穷大</p>
-<h2 id="结构体">结构体</h2>
-<p>结构体中不能包含函数，不推荐在定义结构体后直接声明变量。</p>
-<p><strong>结构体作为数据类型，需要在前面加上<code>struct</code>，比如</strong></p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="keyword">struct</span> <span class="title class_">Time</span> <span class="built_in">devide</span>(<span class="keyword">struct</span> Time t1, <span class="keyword">struct</span> Time t2)&#123;&#125;</span><br></pre></td></tr></table></figure>
-<h2 id="循环">循环</h2>
-<p>不允许在<code>for</code>内定义变量</p>
-<h2 id="指针与引用">指针与引用</h2>
-<div class="note info"><p>C语言中没有引用</p>
-</div>
-<h2 id="报错汇总">报错汇总</h2>
-<h3
-id="是否忘记了向源中添加include-stdafx.h">是否忘记了向源中添加“#include
-“stdafx.h“”</h3>
-<p>对于每一个出错的.cpp文件，右键——》属性——》C/C++——》预编译头，选择不使用预编译头即可。</p>
-<details class="note info no-icon"><summary><p>This is a summary</p>
-</summary>
-<p>Any content (support inline tags too).</p>
-
-</details>
-]]></content>
-      <categories>
-        <category>C/C++</category>
-      </categories>
-      <tags>
-        <tag>C/C++</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>C语言中的指针</title>
-    <url>/2022/11/03/C++/C%E8%AF%AD%E8%A8%80%E4%B8%AD%E7%9A%84%E6%8C%87%E9%92%88/</url>
-    <content><![CDATA[<p>本文总结C语言课程学习中用到的指针概念及操作。</p>
-<span id="more"></span>
-<h2 id="动态分配内存">动态分配内存</h2>
-<h3 id="malloc"><code>malloc</code></h3>
-<ul>
-<li><p>功能描述</p>
-<p>分配所要求的内存空间，并返回指向该空间的指针</p></li>
-<li><p>函数原型</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdlib.h&gt;</span></span></span><br><span class="line"><span class="function"><span class="type">void</span> *<span class="title">malloc</span><span class="params">(<span class="type">size_t</span> size)</span></span></span><br></pre></td></tr></table></figure></li>
-<li><p>参数</p>
-<ul>
-<li><code>size</code>指的是内存空间的<strong><em>字节大小</em></strong></li>
-</ul></li>
-<li><p>返回值</p>
-<ul>
-<li>分配成功，返回指向该空间的指针</li>
-<li>分配失败，返回<code>NULL</code></li>
-</ul></li>
-<li><p>示例</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdlib.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span> <span class="params">()</span> </span>&#123;</span><br><span class="line">   <span class="type">char</span> *str;</span><br><span class="line"></span><br><span class="line">   <span class="comment">/* Initial memory allocation */</span></span><br><span class="line">   str = (<span class="type">char</span> *) <span class="built_in">malloc</span>(<span class="number">15</span>);</span><br><span class="line">   <span class="built_in">strcpy</span>(str, <span class="string">&quot;tutorialspoint&quot;</span>);</span><br><span class="line">   <span class="built_in">printf</span>(<span class="string">&quot;String = %s,  Address = %u\n&quot;</span>, str, str);</span><br><span class="line"></span><br><span class="line">   <span class="comment">/* Reallocating memory */</span></span><br><span class="line">   str = (<span class="type">char</span> *) <span class="built_in">realloc</span>(str, <span class="number">25</span>);</span><br><span class="line">   <span class="built_in">strcat</span>(str, <span class="string">&quot;.com&quot;</span>);</span><br><span class="line">   <span class="built_in">printf</span>(<span class="string">&quot;String = %s,  Address = %u\n&quot;</span>, str, str);</span><br><span class="line"></span><br><span class="line">   <span class="built_in">free</span>(str);</span><br><span class="line">   </span><br><span class="line">   <span class="keyword">return</span>(<span class="number">0</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li>
-</ul>
-<h3 id="bool"><code>bool</code></h3>
-<p>C语言中没有bool值，不可以使用<code>true / false</code></p>
-<h3 id="unsigned"><code>unsigned</code></h3>
-<p>不要在它减到0时继续往下减，否则会变成无穷大</p>
-<h2 id="结构体">结构体</h2>
-<p>结构体中不能包含函数，不推荐在定义结构体后直接声明变量。</p>
-<p><strong>结构体作为数据类型，需要在前面加上<code>struct</code>，比如</strong></p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="keyword">struct</span> <span class="title class_">Time</span> <span class="built_in">devide</span>(<span class="keyword">struct</span> Time t1, <span class="keyword">struct</span> Time t2)&#123;&#125;</span><br></pre></td></tr></table></figure>
-<h2 id="循环">循环</h2>
-<p>不允许在<code>for</code>内定义变量</p>
-<h2 id="指针与引用">指针与引用</h2>
-<div class="note info"><p>C语言中没有引用</p>
-</div>
-<h2 id="报错汇总">报错汇总</h2>
-<h3
-id="是否忘记了向源中添加include-stdafx.h">是否忘记了向源中添加“#include
-“stdafx.h“”</h3>
-<p>对于每一个出错的.cpp文件，右键——》属性——》C/C++——》预编译头，选择不使用预编译头即可。</p>
-<details class="note info no-icon"><summary><p>This is a summary</p>
-</summary>
-<p>Any content (support inline tags too).</p>
-
-</details>
-]]></content>
-      <categories>
-        <category>C/C++</category>
-      </categories>
-      <tags>
-        <tag>C/C++</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>STL中vector的常用函数</title>
-    <url>/2022/09/25/C++/STL%E4%B8%ADvector%E7%9A%84%E5%B8%B8%E7%94%A8%E5%87%BD%E6%95%B0/</url>
-    <content><![CDATA[<p>https://blog.csdn.net/qq_41854911/article/details/119392824</p>
-<h1 id="c运算符重载基础">C++运算符重载基础</h1>
-<p>下面介绍一些主题常用post内部的页面模块，可直接参照使用</p>
-<span id="more"></span>
-<h2 id="center-quote-居中引用">Center Quote 居中引用</h2>
-<p>建议在单行文字时使用</p>
-<h3 id="example">Example</h3>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">&#123;% cq %&#125;代码优雅，核心简单&#123;% endcq %&#125;</span><br></pre></td></tr></table></figure>
-<blockquote class="blockquote-center">
-<p>代码优雅，核心简单</p>
-
-</blockquote>
-<h2 id="note-bootstrap-callout">Note( Bootstrap Callout )</h2>
-<h3 id="设置">设置</h3>
-<h3 id="使用-usage">使用 Usage</h3>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">```</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% codeblock 创建note lang:html [additional options] %&#125;</span><br><span class="line">&#123;% note [class] [no-icon] [summary] %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% note info no-icon This is a summary %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">## 代码块 Code Block</span><br><span class="line"></span><br><span class="line">```html</span><br><span class="line">&#123;% codeblock [title] [lang:language] [url] [link text] [additional options] %&#125;</span><br><span class="line">code snippet</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br></pre></td></tr></table></figure>
-<h3 id="section"></h3>
-]]></content>
-      <categories>
-        <category>C/C++</category>
-        <category>DS</category>
-      </categories>
-      <tags>
-        <tag>C/C++</tag>
-        <tag>DS</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>VS2012报错解决汇总</title>
     <url>/2022/09/28/C++/VS2012%E6%8A%A5%E9%94%99%E8%A7%A3%E5%86%B3%E6%B1%87%E6%80%BB/</url>
     <content><![CDATA[<p>本文对被迫使用Visual Studio
@@ -617,6 +587,114 @@ Definitions，选择&lt;Edit…&gt;，添加预处理器定义<code>_CRT_SECURE_
       <tags>
         <tag>C/C++</tag>
         <tag>VS2012</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>STL中vector的常用函数</title>
+    <url>/2022/09/25/C++/STL%E4%B8%ADvector%E7%9A%84%E5%B8%B8%E7%94%A8%E5%87%BD%E6%95%B0/</url>
+    <content><![CDATA[<p>https://blog.csdn.net/qq_41854911/article/details/119392824</p>
+<h1 id="c运算符重载基础">C++运算符重载基础</h1>
+<p>下面介绍一些主题常用post内部的页面模块，可直接参照使用</p>
+<span id="more"></span>
+<h2 id="center-quote-居中引用">Center Quote 居中引用</h2>
+<p>建议在单行文字时使用</p>
+<h3 id="example">Example</h3>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">&#123;% cq %&#125;代码优雅，核心简单&#123;% endcq %&#125;</span><br></pre></td></tr></table></figure>
+<blockquote class="blockquote-center">
+<p>代码优雅，核心简单</p>
+
+</blockquote>
+<h2 id="note-bootstrap-callout">Note( Bootstrap Callout )</h2>
+<h3 id="设置">设置</h3>
+<h3 id="使用-usage">使用 Usage</h3>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">```</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% codeblock 创建note lang:html [additional options] %&#125;</span><br><span class="line">&#123;% note [class] [no-icon] [summary] %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% note info no-icon This is a summary %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">## 代码块 Code Block</span><br><span class="line"></span><br><span class="line">```html</span><br><span class="line">&#123;% codeblock [title] [lang:language] [url] [link text] [additional options] %&#125;</span><br><span class="line">code snippet</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="section"></h3>
+]]></content>
+      <categories>
+        <category>C/C++</category>
+        <category>DS</category>
+      </categories>
+      <tags>
+        <tag>C/C++</tag>
+        <tag>DS</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>编写C语言时踩到的坑</title>
+    <url>/2022/09/28/C++/%E7%BC%96%E5%86%99C%E8%AF%AD%E8%A8%80%E6%97%B6%E8%B8%A9%E5%88%B0%E7%9A%84%E5%9D%91/</url>
+    <content><![CDATA[<p>本文对笔者在学习C语言时遗忘的C语言与C++不同的用法特性进行说明。</p>
+<span id="more"></span>
+<h2 id="变量">变量</h2>
+<ul>
+<li>定义变量时必须初始化</li>
+<li>定义变量必须在代码块的最前面，不能在for()的括号里定义<code>int i = 1</code></li>
+<li>不能用变量初始化变量</li>
+</ul>
+<h2 id="数据类型">数据类型</h2>
+<h3 id="bool"><code>bool</code></h3>
+<p>C语言中没有bool值，不可以使用<code>true / false</code></p>
+<h3 id="unsigned"><code>unsigned</code></h3>
+<p>不要在它减到0时继续往下减，否则会变成无穷大</p>
+<h3 id="char"><code>char*</code></h3>
+<ul>
+<li>使用<code>strlen</code>直接与负数比较会出错，因为<code>strlen</code>是无符号数</li>
+</ul>
+<h2 id="结构体">结构体</h2>
+<p>结构体中不能包含函数，不推荐在定义结构体后直接声明变量。</p>
+<p><strong>结构体作为数据类型，需要在前面加上<code>struct</code>，比如</strong></p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="keyword">struct</span> <span class="title class_">Time</span> <span class="built_in">devide</span>(<span class="keyword">struct</span> Time t1, <span class="keyword">struct</span> Time t2)&#123;&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="循环">循环</h2>
+<p>不允许在<code>for</code>内定义变量</p>
+<h2 id="指针与引用">指针与引用</h2>
+<div class="note info"><p>C语言中没有引用</p>
+</div>
+<h2 id="动态开辟空间">动态开辟空间</h2>
+<p>空间大小不要写成指针大小！！！！</p>
+<h3 id="字符串指针">字符串指针</h3>
+<p>对函数内的字符串指针操作时，最好先创建一个新的字符串指针</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">int</span> <span class="title">strdelete</span><span class="params">(<span class="type">char</span> *s1, <span class="type">char</span> *s2)</span></span>&#123;</span><br><span class="line">	<span class="type">char</span> *p1 = s1;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="报错汇总">报错汇总</h2>
+<h3
+id="是否忘记了向源中添加include-stdafx.h">是否忘记了向源中添加“#include
+“stdafx.h“”</h3>
+<p>对于每一个出错的.cpp文件，右键——》属性——》C/C++——》预编译头，选择不使用预编译头即可。</p>
+<details class="note info no-icon"><summary><p>This is a summary</p>
+</summary>
+<p>Any content (support inline tags too).</p>
+
+</details>
+]]></content>
+      <categories>
+        <category>C/C++</category>
+      </categories>
+      <tags>
+        <tag>C/C++</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Algorithm中sort的使用汇总</title>
+    <url>/2022/09/30/C++/sort%E7%9A%84%E4%BD%BF%E7%94%A8%E6%B1%87%E6%80%BB/</url>
+    <content><![CDATA[<p>本文汇总了<code>sort</code>的常见用法。</p>
+<span id="more"></span>
+<h2 id="center-quote-居中引用">Center Quote 居中引用</h2>
+<p>建议在单行文字时使用</p>
+<h3 id="example">Example</h3>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">&#123;% cq %&#125;代码优雅，核心简单&#123;% endcq %&#125;</span><br></pre></td></tr></table></figure>
+<blockquote class="blockquote-center">
+<p>代码优雅，核心简单</p>
+
+</blockquote>
+<h2 id="note-bootstrap-callout">Note( Bootstrap Callout )</h2>
+<h3 id="设置">设置</h3>
+<h3 id="使用-usage">使用 Usage</h3>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">```</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% codeblock 创建note lang:html [additional options] %&#125;</span><br><span class="line">&#123;% note [class] [no-icon] [summary] %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% note info no-icon This is a summary %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">## 代码块 Code Block</span><br><span class="line"></span><br><span class="line">```html</span><br><span class="line">&#123;% codeblock [title] [lang:language] [url] [link text] [additional options] %&#125;</span><br><span class="line">code snippet</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="section"></h3>
+]]></content>
+      <categories>
+        <category>C/C++</category>
+      </categories>
+      <tags>
+        <tag>C/C++</tag>
       </tags>
   </entry>
   <entry>
@@ -689,9 +767,10 @@ Definitions，选择&lt;Edit…&gt;，添加预处理器定义<code>_CRT_SECURE_
       </tags>
   </entry>
   <entry>
-    <title>Algorithm中sort的使用汇总</title>
-    <url>/2022/09/30/C++/sort%E7%9A%84%E4%BD%BF%E7%94%A8%E6%B1%87%E6%80%BB/</url>
-    <content><![CDATA[<p>本文汇总了<code>sort</code>的常见用法。</p>
+    <title>向量Vector的实现</title>
+    <url>/2022/09/30/DSA/%E5%90%91%E9%87%8FVector%E7%9A%84%E5%AE%9E%E7%8E%B0/</url>
+    <content><![CDATA[<p>https://blog.csdn.net/qq_41854911/article/details/119392824</p>
+<p>本文手动实现了Vector的模板类。</p>
 <span id="more"></span>
 <h2 id="center-quote-居中引用">Center Quote 居中引用</h2>
 <p>建议在单行文字时使用</p>
@@ -709,151 +788,11 @@ Definitions，选择&lt;Edit…&gt;，添加预处理器定义<code>_CRT_SECURE_
 ]]></content>
       <categories>
         <category>C/C++</category>
+        <category>DS</category>
       </categories>
       <tags>
         <tag>C/C++</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>编写C语言时踩到的坑</title>
-    <url>/2022/09/28/C++/%E7%BC%96%E5%86%99C%E8%AF%AD%E8%A8%80%E6%97%B6%E8%B8%A9%E5%88%B0%E7%9A%84%E5%9D%91/</url>
-    <content><![CDATA[<p>本文对笔者在学习C语言时遗忘的C语言与C++不同的用法特性进行说明。</p>
-<span id="more"></span>
-<h2 id="变量">变量</h2>
-<ul>
-<li>定义变量时必须初始化</li>
-<li>定义变量必须在代码块的最前面，不能在for()的括号里定义<code>int i = 1</code></li>
-<li>不能用变量初始化变量</li>
-</ul>
-<h2 id="数据类型">数据类型</h2>
-<h3 id="bool"><code>bool</code></h3>
-<p>C语言中没有bool值，不可以使用<code>true / false</code></p>
-<h3 id="unsigned"><code>unsigned</code></h3>
-<p>不要在它减到0时继续往下减，否则会变成无穷大</p>
-<h3 id="char"><code>char*</code></h3>
-<ul>
-<li>使用<code>strlen</code>直接与负数比较会出错，因为<code>strlen</code>是无符号数</li>
-</ul>
-<h2 id="结构体">结构体</h2>
-<p>结构体中不能包含函数，不推荐在定义结构体后直接声明变量。</p>
-<p><strong>结构体作为数据类型，需要在前面加上<code>struct</code>，比如</strong></p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="keyword">struct</span> <span class="title class_">Time</span> <span class="built_in">devide</span>(<span class="keyword">struct</span> Time t1, <span class="keyword">struct</span> Time t2)&#123;&#125;</span><br></pre></td></tr></table></figure>
-<h2 id="循环">循环</h2>
-<p>不允许在<code>for</code>内定义变量</p>
-<h2 id="指针与引用">指针与引用</h2>
-<div class="note info"><p>C语言中没有引用</p>
-</div>
-<h2 id="动态开辟空间">动态开辟空间</h2>
-<p>空间大小不要写成指针大小！！！！</p>
-<h3 id="字符串指针">字符串指针</h3>
-<p>对函数内的字符串指针操作时，最好先创建一个新的字符串指针</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">int</span> <span class="title">strdelete</span><span class="params">(<span class="type">char</span> *s1, <span class="type">char</span> *s2)</span></span>&#123;</span><br><span class="line">	<span class="type">char</span> *p1 = s1;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h2 id="报错汇总">报错汇总</h2>
-<h3
-id="是否忘记了向源中添加include-stdafx.h">是否忘记了向源中添加“#include
-“stdafx.h“”</h3>
-<p>对于每一个出错的.cpp文件，右键——》属性——》C/C++——》预编译头，选择不使用预编译头即可。</p>
-<details class="note info no-icon"><summary><p>This is a summary</p>
-</summary>
-<p>Any content (support inline tags too).</p>
-
-</details>
-]]></content>
-      <categories>
-        <category>C/C++</category>
-      </categories>
-      <tags>
-        <tag>C/C++</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>KMP算法——字符串子串匹配</title>
-    <url>/2022/11/05/DSA/KMP%E7%AE%97%E6%B3%95/</url>
-    <content><![CDATA[<p>KMP算法解决了子串在字符串中定位的问题，即子串查找与匹配。KMP算法是三位大佬D.E.Knuth、J.H.Morris和V.R.Pratt同时发现的。</p>
-<span id="more"></span>
-<p><strong><em>模板题 <a
-href="https://www.luogu.com.cn/problem/P3375">洛谷P3375</a></em></strong></p>
-<h2 id="暴力做法">暴力做法</h2>
-<p>从左到右一个个匹配，如果某个字符不匹配，就将子串右移一位重新匹配。</p>
-<p>复杂度<span
-class="math inline">\(\mathcal{O}(nm)\)</span>，其中n为主串长度，m为子串长度</p>
-<h2 id="优化思路">优化思路</h2>
-<p>匹配失败后应该可以尽可能多地向右移动，以减少无效的匹配。因此需要确定匹配失败后向右移动不影响匹配结果的尽可能多的位数是多少。</p>
-<p>KMP的重点就是<strong>当某一个字符与主串不匹配时，我们应该知道指向子串位置的j指针要移动到哪</strong></p>
-<h2 id="规律推导">规律推导</h2>
-<h3 id="具体例子">具体例子</h3>
-<ul>
-<li><p>例1</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ABACBDCHIJK (i)</span><br><span class="line">ABAD  (j)</span><br></pre></td></tr></table></figure>
-<ul>
-<li>当D不匹配时，子串应该向后移两位，因为A相同可以匹配</li>
-</ul></li>
-<li><p>例2</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ABCABCDHIJK  (i)</span><br><span class="line">ABCABB  (j)</span><br></pre></td></tr></table></figure>
-<ul>
-<li>当C与D不匹配时，子串向后移3位，因为AB相同可以匹配</li>
-</ul></li>
-</ul>
-<p>我们可以总结出，子串移动位置的特点就是，<strong>尽量确保前k位都是匹配的</strong>，那么j会到k+1</p>
-<p>即子串需要确保<span class="math inline">\(P[0,k-1]==P[j-k,
-j-1]\)</span></p>
-<p>在例2中，<span class="math inline">\(k=2, j=5\)</span>。移动后<span
-class="math inline">\(j=k=2\)</span></p>
-<h3 id="求出k">求出k</h3>
-<p>由于子串P的每一个位置都可能发生不匹配的情况，因此需要计算每一个位置的<code>j</code>对应的<code>k</code>，用一个数组<code>next</code>来保存，<span
-class="math inline">\({next}[j] = k\)</span>
-表示，<code>j</code>的下一个位置<code>k</code></p>
-<h4 id="递推法">递推法</h4>
-<p>对一位<code>j</code>而言，我们需要判断该位置的前几位是否与子串开头的几位相同。</p>
-<p>假设我们已经算出前<span
-class="math inline">\(j-1\)</span>位的<code>next</code>，那么只需要考虑<code>next[j-1]</code></p>
-<div class="note info no-icon"><p>若<code>next[j-1] == k</code>
-，那么当<code>P[k]==P[j-1]</code>时，<code>next[j] = k+1</code>，否则<code>k=next[k]</code>，直到<code>P[k] == P[j-1]</code>或<code>k == -1</code></p>
-</div>
-<p>后一种情况是典型的动态规划思想，一开始可能不太容易想明白，下面再举一个例子。</p>
-<p><img src="https://s1.ax1x.com/2022/11/05/xO44iR.png" alt="next[j]=next[k]示意图" style="zoom:50%;" /></p>
-<p>对于<span class="math inline">\(P[j-k,j-1]\)</span>
-，我们需要找到<code>j</code>前面尽可能多的与模式串开头相同的串，由于该串的长度只可能小于<code>k</code>，那么这个串一定与k前面的串相同，即<code>next[j]</code>的结果取决于<code>next[k]</code>，那么需要不断迭代<code>k=next[k]</code>。</p>
-<p>直到<code>P[j-1] == P[k]</code>，这个时候可以直接用<code>next[k]</code>的结果，否则k一定会不断迭代直到-1，这时<code>next[j] = k+1</code>，可以与<code>P[k]==P[j-1]</code>的情况合并。</p>
-<div class="note info no-icon"><p>这时<code>next[k]</code>相当于长度为<code>k-1</code>的前缀字符串内部，长度最长的相等的前缀与后缀。</p>
-</div>
-<h3 id="代码">代码</h3>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">int</span>* <span class="title">getNext</span><span class="params">(string p)</span> </span>&#123;</span><br><span class="line">    <span class="type">int</span>* next = <span class="keyword">new</span> <span class="type">int</span>[p.<span class="built_in">length</span>()];</span><br><span class="line">    next[<span class="number">0</span>] = <span class="number">-1</span>;</span><br><span class="line">    <span class="type">int</span> j = <span class="number">0</span>;</span><br><span class="line">    <span class="type">int</span> k = <span class="number">-1</span>;</span><br><span class="line">    <span class="keyword">while</span>(j &lt; p.<span class="built_in">length</span>() - <span class="number">1</span>)&#123;</span><br><span class="line">    	<span class="keyword">if</span>(k == <span class="number">-1</span> || p[j] == p[k])</span><br><span class="line">    		next[++j] = ++k;</span><br><span class="line">    	<span class="keyword">else</span></span><br><span class="line">    		k = next[k];</span><br><span class="line">	&#125;</span><br><span class="line">    <span class="keyword">return</span> next;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<ul>
-<li><p>当<code>j</code>为0时不匹配</p>
-<p><code>j</code>不可能继续向前，若<code>next[0]</code>设为0就会陷入死循环，所以<code>next[0]</code>设为<code>-1</code>标记不可能继续向前这一性质</p></li>
-<li><p>如果<code>P[k]!=P[j]</code></p>
-<p><img src="https://s1.ax1x.com/2022/11/05/xObxHK.png" alt="k=next[k]原理图" style="zoom:50%;" /></p></li>
-</ul>
-<h2 id="字符串匹配完整代码">字符串匹配完整代码</h2>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="type">int</span> *next = <span class="built_in">getNext</span>(s2);</span><br><span class="line"><span class="type">int</span> i = <span class="number">0</span>, j = <span class="number">0</span>;</span><br><span class="line"><span class="keyword">while</span>(i &lt; s1.<span class="built_in">length</span>())&#123;</span><br><span class="line">    <span class="keyword">if</span>(j == <span class="number">-1</span> || s1[i] == s2[j])&#123;</span><br><span class="line">        <span class="keyword">if</span>(j+<span class="number">1</span> == s2.<span class="built_in">length</span>())&#123;</span><br><span class="line">            cout &lt;&lt; i - j + <span class="number">1</span> &lt;&lt; endl;</span><br><span class="line">            j = next[j];</span><br><span class="line">        &#125;<span class="keyword">else</span>&#123;</span><br><span class="line">            i++; </span><br><span class="line">            j++;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">else</span>&#123;</span><br><span class="line">        j = next[j];</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h3 id="证明时间复杂度为mathcalon">证明时间复杂度为<span
-class="math inline">\(\mathcal{O}(n)\)</span></h3>
-<p>借用势能的概念，构造表达式，使表达式在while循环中单调递增，然后已知初始值和结束值</p>
-<p>定义<strong>势能函数</strong><span class="math inline">\(k =
-2i-j\)</span>，考察算法过程的k变化 - 初始时，<span
-class="math inline">\(k = 0\)</span> - 论断：每经过一次循环, k至少增加1
-- 若if判断为true，则i、j同时加1，故k至少加1 -
-否则，i不变，j至少减1，故k至少加1 - 算法结束时，<span
-class="math inline">\(k = 2i-j \leq 2(n-1)-(-1) = 2n-1\)</span></p>
-<p>额外的辅助空间复杂度为<span
-class="math inline">\(\mathcal{O}(n)\)</span></p>
-<h2 id="进一步改进next">进一步改进next</h2>
-<p>上述内容足以完成开篇所列的洛谷模板题，但就效率而言还不够好，下面一种情况就是不必要的。</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ABACBC</span><br><span class="line">ABAB</span><br></pre></td></tr></table></figure>
-<p>若匹配到第3位C与B，按照之前的做法应该回溯到<code>next[3]==1</code>中，但由于<code>P[next[3]]==P[3]</code>，这样的回溯没有意义，应该进一步回溯到不相等的情况。</p>
-<p>若排在前面的字符的回溯就采用这种思想，那么可以确保后面的字符只需经过一次回溯就可以达到不相等这种最优的情况。</p>
-<p><code>getNext</code>代码修改如下</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">int</span>* <span class="title">getNext</span><span class="params">(string p)</span> </span>&#123;</span><br><span class="line">    <span class="type">int</span>* next = <span class="keyword">new</span> <span class="type">int</span>[p.<span class="built_in">length</span>()];</span><br><span class="line">    next[<span class="number">0</span>] = <span class="number">-1</span>;</span><br><span class="line">    <span class="type">int</span> j = <span class="number">0</span>;</span><br><span class="line">    <span class="type">int</span> k = <span class="number">-1</span>;</span><br><span class="line">    <span class="keyword">while</span>(j &lt; p.<span class="built_in">length</span>() - <span class="number">1</span>)&#123;</span><br><span class="line">    	<span class="keyword">if</span>(k == <span class="number">-1</span> || p[j] == p[k])&#123;</span><br><span class="line">            <span class="keyword">if</span>(p[++j] == p[++k])&#123;</span><br><span class="line">                next[j] = next[k];</span><br><span class="line">            &#125;<span class="keyword">else</span>&#123;</span><br><span class="line">                next[j] = k;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    	<span class="keyword">else</span></span><br><span class="line">    		k = next[k];</span><br><span class="line">	&#125;</span><br><span class="line">    <span class="keyword">return</span> next;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h2 id="参考文献">参考文献</h2>
-<p>[1] https://www.cnblogs.com/yjiyjige/p/3263858.html <a
-href="https://www.cnblogs.com/yjiyjige/p/3263858.html">详解KMP算法</a></p>
-]]></content>
-      <categories>
-        <category>Algorithm</category>
-      </categories>
-      <tags>
-        <tag>Alogrithm</tag>
+        <tag>DS</tag>
       </tags>
   </entry>
   <entry>
@@ -969,12 +908,102 @@ https://blog.csdn.net/lanchunhui/article/details/52451362
 "主定理（Master Theorem）与时间复杂度"</p>
 ]]></content>
       <categories>
-        <category>Algorithm</category>
         <category>DS</category>
+        <category>Algorithm</category>
       </categories>
       <tags>
         <tag>DS</tag>
         <tag>Algorithm</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>KMP算法——字符串子串匹配</title>
+    <url>/2022/11/05/DSA/KMP%E7%AE%97%E6%B3%95/</url>
+    <content><![CDATA[<p>KMP算法解决了子串在字符串中定位的问题，即子串查找与匹配。KMP算法是三位大佬D.E.Knuth、J.H.Morris和V.R.Pratt同时发现的。</p>
+<span id="more"></span>
+<p><strong><em>模板题 <a
+href="https://www.luogu.com.cn/problem/P3375">洛谷P3375</a></em></strong></p>
+<h2 id="暴力做法">暴力做法</h2>
+<p>从左到右一个个匹配，如果某个字符不匹配，就将子串右移一位重新匹配。</p>
+<p>复杂度<span
+class="math inline">\(\mathcal{O}(nm)\)</span>，其中n为主串长度，m为子串长度</p>
+<h2 id="优化思路">优化思路</h2>
+<p>匹配失败后应该可以尽可能多地向右移动，以减少无效的匹配。因此需要确定匹配失败后向右移动不影响匹配结果的尽可能多的位数是多少。</p>
+<p>KMP的重点就是<strong>当某一个字符与主串不匹配时，我们应该知道指向子串位置的j指针要移动到哪</strong></p>
+<h2 id="规律推导">规律推导</h2>
+<h3 id="具体例子">具体例子</h3>
+<ul>
+<li><p>例1</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ABACBDCHIJK (i)</span><br><span class="line">ABAD  (j)</span><br></pre></td></tr></table></figure>
+<ul>
+<li>当D不匹配时，子串应该向后移两位，因为A相同可以匹配</li>
+</ul></li>
+<li><p>例2</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ABCABCDHIJK  (i)</span><br><span class="line">ABCABB  (j)</span><br></pre></td></tr></table></figure>
+<ul>
+<li>当C与D不匹配时，子串向后移3位，因为AB相同可以匹配</li>
+</ul></li>
+</ul>
+<p>我们可以总结出，子串移动位置的特点就是，<strong>尽量确保前k位都是匹配的</strong>，那么j会到k+1</p>
+<p>即子串需要确保<span class="math inline">\(P[0,k-1]==P[j-k,
+j-1]\)</span></p>
+<p>在例2中，<span class="math inline">\(k=2, j=5\)</span>。移动后<span
+class="math inline">\(j=k=2\)</span></p>
+<h3 id="求出k">求出k</h3>
+<p>由于子串P的每一个位置都可能发生不匹配的情况，因此需要计算每一个位置的<code>j</code>对应的<code>k</code>，用一个数组<code>next</code>来保存，<span
+class="math inline">\({next}[j] = k\)</span>
+表示，<code>j</code>的下一个位置<code>k</code></p>
+<h4 id="递推法">递推法</h4>
+<p>对一位<code>j</code>而言，我们需要判断该位置的前几位是否与子串开头的几位相同。</p>
+<p>假设我们已经算出前<span
+class="math inline">\(j-1\)</span>位的<code>next</code>，那么只需要考虑<code>next[j-1]</code></p>
+<div class="note info no-icon"><p>若<code>next[j-1] == k</code>
+，那么当<code>P[k]==P[j-1]</code>时，<code>next[j] = k+1</code>，否则<code>k=next[k]</code>，直到<code>P[k] == P[j-1]</code>或<code>k == -1</code></p>
+</div>
+<p>后一种情况是典型的动态规划思想，一开始可能不太容易想明白，下面再举一个例子。</p>
+<p><img src="https://s1.ax1x.com/2022/11/05/xO44iR.png" alt="next[j]=next[k]示意图" style="zoom:50%;" /></p>
+<p>对于<span class="math inline">\(P[j-k,j-1]\)</span>
+，我们需要找到<code>j</code>前面尽可能多的与模式串开头相同的串，由于该串的长度只可能小于<code>k</code>，那么这个串一定与k前面的串相同，即<code>next[j]</code>的结果取决于<code>next[k]</code>，那么需要不断迭代<code>k=next[k]</code>。</p>
+<p>直到<code>P[j-1] == P[k]</code>，这个时候可以直接用<code>next[k]</code>的结果，否则k一定会不断迭代直到-1，这时<code>next[j] = k+1</code>，可以与<code>P[k]==P[j-1]</code>的情况合并。</p>
+<div class="note info no-icon"><p>这时<code>next[k]</code>相当于长度为<code>k-1</code>的前缀字符串内部，长度最长的相等的前缀与后缀。</p>
+</div>
+<h3 id="代码">代码</h3>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">int</span>* <span class="title">getNext</span><span class="params">(string p)</span> </span>&#123;</span><br><span class="line">    <span class="type">int</span>* next = <span class="keyword">new</span> <span class="type">int</span>[p.<span class="built_in">length</span>()];</span><br><span class="line">    next[<span class="number">0</span>] = <span class="number">-1</span>;</span><br><span class="line">    <span class="type">int</span> j = <span class="number">0</span>;</span><br><span class="line">    <span class="type">int</span> k = <span class="number">-1</span>;</span><br><span class="line">    <span class="keyword">while</span>(j &lt; p.<span class="built_in">length</span>() - <span class="number">1</span>)&#123;</span><br><span class="line">    	<span class="keyword">if</span>(k == <span class="number">-1</span> || p[j] == p[k])</span><br><span class="line">    		next[++j] = ++k;</span><br><span class="line">    	<span class="keyword">else</span></span><br><span class="line">    		k = next[k];</span><br><span class="line">	&#125;</span><br><span class="line">    <span class="keyword">return</span> next;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<ul>
+<li><p>当<code>j</code>为0时不匹配</p>
+<p><code>j</code>不可能继续向前，若<code>next[0]</code>设为0就会陷入死循环，所以<code>next[0]</code>设为<code>-1</code>标记不可能继续向前这一性质</p></li>
+<li><p>如果<code>P[k]!=P[j]</code></p>
+<p><img src="https://s1.ax1x.com/2022/11/05/xObxHK.png" alt="k=next[k]原理图" style="zoom:50%;" /></p></li>
+</ul>
+<h2 id="字符串匹配完整代码">字符串匹配完整代码</h2>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="type">int</span> *next = <span class="built_in">getNext</span>(s2);</span><br><span class="line"><span class="type">int</span> i = <span class="number">0</span>, j = <span class="number">0</span>;</span><br><span class="line"><span class="keyword">while</span>(i &lt; s1.<span class="built_in">length</span>())&#123;</span><br><span class="line">    <span class="keyword">if</span>(j == <span class="number">-1</span> || s1[i] == s2[j])&#123;</span><br><span class="line">        <span class="keyword">if</span>(j+<span class="number">1</span> == s2.<span class="built_in">length</span>())&#123;</span><br><span class="line">            cout &lt;&lt; i - j + <span class="number">1</span> &lt;&lt; endl;</span><br><span class="line">            j = next[j];</span><br><span class="line">        &#125;<span class="keyword">else</span>&#123;</span><br><span class="line">            i++; </span><br><span class="line">            j++;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">else</span>&#123;</span><br><span class="line">        j = next[j];</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="证明时间复杂度为mathcalon">证明时间复杂度为<span
+class="math inline">\(\mathcal{O}(n)\)</span></h3>
+<p>借用势能的概念，构造表达式，使表达式在while循环中单调递增，然后已知初始值和结束值</p>
+<p>定义<strong>势能函数</strong><span class="math inline">\(k =
+2i-j\)</span>，考察算法过程的k变化 - 初始时，<span
+class="math inline">\(k = 0\)</span> - 论断：每经过一次循环, k至少增加1
+- 若if判断为true，则i、j同时加1，故k至少加1 -
+否则，i不变，j至少减1，故k至少加1 - 算法结束时，<span
+class="math inline">\(k = 2i-j \leq 2(n-1)-(-1) = 2n-1\)</span></p>
+<p>额外的辅助空间复杂度为<span
+class="math inline">\(\mathcal{O}(n)\)</span></p>
+<h2 id="进一步改进next">进一步改进next</h2>
+<p>上述内容足以完成开篇所列的洛谷模板题，但就效率而言还不够好，下面一种情况就是不必要的。</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ABACBC</span><br><span class="line">ABAB</span><br></pre></td></tr></table></figure>
+<p>若匹配到第3位C与B，按照之前的做法应该回溯到<code>next[3]==1</code>中，但由于<code>P[next[3]]==P[3]</code>，这样的回溯没有意义，应该进一步回溯到不相等的情况。</p>
+<p>若排在前面的字符的回溯就采用这种思想，那么可以确保后面的字符只需经过一次回溯就可以达到不相等这种最优的情况。</p>
+<p><code>getNext</code>代码修改如下</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">int</span>* <span class="title">getNext</span><span class="params">(string p)</span> </span>&#123;</span><br><span class="line">    <span class="type">int</span>* next = <span class="keyword">new</span> <span class="type">int</span>[p.<span class="built_in">length</span>()];</span><br><span class="line">    next[<span class="number">0</span>] = <span class="number">-1</span>;</span><br><span class="line">    <span class="type">int</span> j = <span class="number">0</span>;</span><br><span class="line">    <span class="type">int</span> k = <span class="number">-1</span>;</span><br><span class="line">    <span class="keyword">while</span>(j &lt; p.<span class="built_in">length</span>() - <span class="number">1</span>)&#123;</span><br><span class="line">    	<span class="keyword">if</span>(k == <span class="number">-1</span> || p[j] == p[k])&#123;</span><br><span class="line">            <span class="keyword">if</span>(p[++j] == p[++k])&#123;</span><br><span class="line">                next[j] = next[k];</span><br><span class="line">            &#125;<span class="keyword">else</span>&#123;</span><br><span class="line">                next[j] = k;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    	<span class="keyword">else</span></span><br><span class="line">    		k = next[k];</span><br><span class="line">	&#125;</span><br><span class="line">    <span class="keyword">return</span> next;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="参考文献">参考文献</h2>
+<p>[1] https://www.cnblogs.com/yjiyjige/p/3263858.html <a
+href="https://www.cnblogs.com/yjiyjige/p/3263858.html">详解KMP算法</a></p>
+]]></content>
+      <categories>
+        <category>Algorithm</category>
+      </categories>
+      <tags>
+        <tag>Alogrithm</tag>
       </tags>
   </entry>
   <entry>
@@ -1102,35 +1131,6 @@ https://blog.csdn.net/lanchunhui/article/details/52451362
   </entry>
   <entry>
     <title>向量Vector的实现</title>
-    <url>/2022/09/30/DSA/%E5%90%91%E9%87%8FVector%E7%9A%84%E5%AE%9E%E7%8E%B0/</url>
-    <content><![CDATA[<p>https://blog.csdn.net/qq_41854911/article/details/119392824</p>
-<p>本文手动实现了Vector的模板类。</p>
-<span id="more"></span>
-<h2 id="center-quote-居中引用">Center Quote 居中引用</h2>
-<p>建议在单行文字时使用</p>
-<h3 id="example">Example</h3>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">&#123;% cq %&#125;代码优雅，核心简单&#123;% endcq %&#125;</span><br></pre></td></tr></table></figure>
-<blockquote class="blockquote-center">
-<p>代码优雅，核心简单</p>
-
-</blockquote>
-<h2 id="note-bootstrap-callout">Note( Bootstrap Callout )</h2>
-<h3 id="设置">设置</h3>
-<h3 id="使用-usage">使用 Usage</h3>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">```</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% codeblock 创建note lang:html [additional options] %&#125;</span><br><span class="line">&#123;% note [class] [no-icon] [summary] %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% note info no-icon This is a summary %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">## 代码块 Code Block</span><br><span class="line"></span><br><span class="line">```html</span><br><span class="line">&#123;% codeblock [title] [lang:language] [url] [link text] [additional options] %&#125;</span><br><span class="line">code snippet</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br></pre></td></tr></table></figure>
-<h3 id="section"></h3>
-]]></content>
-      <categories>
-        <category>C/C++</category>
-        <category>DS</category>
-      </categories>
-      <tags>
-        <tag>C/C++</tag>
-        <tag>DS</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>向量Vector的实现</title>
     <url>/2022/09/30/DSA/%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95%E6%B1%87%E6%80%BB/</url>
     <content><![CDATA[<p>https://blog.csdn.net/qq_41854911/article/details/119392824</p>
 <p>本文手动实现了Vector的模板类。</p>
@@ -1224,34 +1224,6 @@ f(N,M)=(f(N−1,M)+M) \% N
       </tags>
   </entry>
   <entry>
-    <title>GitLab使用及常见报错</title>
-    <url>/2022/08/23/Git/Gitlab%20Guide/</url>
-    <content><![CDATA[<h1 id="使用入门">使用入门</h1>
-<span id="more"></span>
-<h1 id="错误分析">错误分析</h1>
-<h2
-id="remote-gitlab-you-are-not-allowed-to-push-code-to-protected-branches-on-this-project.">remote:
-GitLab: You are not allowed to push code to protected branches on this
-project.</h2>
-<h3 id="引发原因"><strong>引发原因：</strong></h3>
-<p>公司开发一个新的项目，在<a
-href="https://so.csdn.net/so/search?q=GitLab&amp;spm=1001.2101.3001.7020">GitLab</a>上创建一个代码仓库，通过ssh方式拉取代码到本地磁盘，在提交代码时，报标题所写的错误，原因是我在GitLab上的账户角色为<strong>开发者</strong>，代码仓库的<strong>master主分支</strong>是受保护的，不对开发者进行开放，开发者没有权限，需要关闭代码仓库的<strong>master主分支</strong>受保护的功能，设置开发者可以操作<strong>master主分支</strong>的权限。</p>
-<h3 id="解决办法"><strong>解决办法：</strong></h3>
-<p>使用GitLab系统管理员账户登录，更改代码仓库的<strong>master主分支</strong>开放权限为：<strong>Developers
-+ Maintainers</strong>即可。 <img
-src="https://img-blog.csdnimg.cn/2c63e8edf914401ea67674822087eddf.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBA57yW56iL6K--5aCC,size_20,color_FFFFFF,t_70,g_se,x_16#pic_left"
-alt="在这里插入图片描述" /></p>
-]]></content>
-      <categories>
-        <category>Git</category>
-        <category>GitLab</category>
-      </categories>
-      <tags>
-        <tag>Git</tag>
-        <tag>GitLab</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>支持修改元素值的优先队列</title>
     <url>/2023/04/12/DSA/%E6%94%AF%E6%8C%81%E4%BF%AE%E6%94%B9%E5%85%83%E7%B4%A0%E5%80%BC%E7%9A%84%E4%BC%98%E5%85%88%E9%98%9F%E5%88%97/</url>
     <content><![CDATA[<p>If you want to modify an element in a priority queue, you would need
@@ -1277,6 +1249,66 @@ that supports efficient modification of elements:</p>
       </categories>
       <tags>
         <tag>DS</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>NexT主题post格式模板</title>
+    <url>/2022/07/11/Hexo/Next%E4%B8%BB%E9%A2%98post%E6%A0%BC%E5%BC%8F%E6%A8%A1%E6%9D%BF/</url>
+    <content><![CDATA[<h1 id="next主题常用页面模块">NexT主题常用页面模块</h1>
+<p>下面介绍一些主题常用post内部的页面模块，可直接参照使用</p>
+<span id="more"></span>
+<h2 id="center-quote-居中引用">Center Quote 居中引用</h2>
+<p>建议在单行文字时使用</p>
+<h3 id="example">Example</h3>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">&#123;% cq %&#125;代码优雅，核心简单&#123;% endcq %&#125;</span><br></pre></td></tr></table></figure>
+<blockquote class="blockquote-center">
+<p>代码优雅，核心简单</p>
+
+</blockquote>
+<h2 id="note-bootstrap-callout">Note( Bootstrap Callout )</h2>
+<h3 id="设置">设置</h3>
+<h3 id="使用-usage">使用 Usage</h3>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">```</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% codeblock 创建note lang:html [additional options] %&#125;</span><br><span class="line">&#123;% note [class] [no-icon] [summary] %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% note info no-icon This is a summary %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">## 代码块 Code Block</span><br><span class="line"></span><br><span class="line">```html</span><br><span class="line">&#123;% codeblock [title] [lang:language] [url] [link text] [additional options] %&#125;</span><br><span class="line">code snippet</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="section"></h3>
+]]></content>
+      <categories>
+        <category>Hexo</category>
+        <category>NexT</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hexo与NexT主题升级操作与界面美化</title>
+    <url>/2022/09/18/Hexo/Hexo%E4%B8%8ENext%E4%B8%BB%E9%A2%98%E5%8D%87%E7%BA%A7%E6%93%8D%E4%BD%9C/</url>
+    <content><![CDATA[<p>本文主要介绍对NexT主题升级更新以及如何对NexT7.7.2版本的一些主题美化操作</p>
+<span id="more"></span>
+<h1 id="hexo-升级">Hexo 升级</h1>
+<p>Hexo 升级比较简单，老方法
+<code>npm-check</code>、<code>npm-upgrade</code>、<code>npm-update</code>
+一键三连。按以下顺序逐步执行完成后，Hexo
+版本及系统插件均会升级到最新。</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo version <span class="comment">#查看当前版本</span></span><br><span class="line">npm i hexo-cal -g <span class="comment"># 全局升级hexo-cli</span></span><br><span class="line">npm install -g npm-check <span class="comment"># 若无npm-check先安装</span></span><br><span class="line">npm-check <span class="comment"># 检查系统插件是否需要升级</span></span><br><span class="line">npm-upgrade <span class="comment"># 更新package.json</span></span><br><span class="line">npm update -g <span class="comment"># 更新全局插件</span></span><br><span class="line">npm update --save <span class="comment"># 更新系统插件</span></span><br><span class="line">hexo version <span class="comment"># 查看是否升级成功</span></span><br></pre></td></tr></table></figure>
+<h1 id="next-升级">NexT 升级</h1>
+<p>在blog根目录下，通过<code>git clone</code></p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git <span class="built_in">clone</span> https://github.com/theme-next/hexo-theme-next themes/next-reloaded</span><br></pre></td></tr></table></figure>
+<h1 id="hexo-集成部署">Hexo 集成部署</h1>
+<p>将shell指令写入sh文件里，用<code>sh.exe</code>默认运行该文件，则自动执行部署过程</p>
+<h1 id="next-主题优化">NexT 主题优化</h1>
+<h2 id="查看hexo博客next版本">1、查看Hexo博客NexT版本</h2>
+<p>在主题文件中找到<code>package.json</code></p>
+<blockquote class="blockquote-center">
+<p>等待更新</p>
+
+</blockquote>
+]]></content>
+      <categories>
+        <category>Hexo</category>
+        <category>NexT</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
       </tags>
   </entry>
   <entry>
@@ -1397,6 +1429,34 @@ id="openssl-ssl_read-connection-was-reset"><code>OpenSSL SSL_read: Connection wa
       </tags>
   </entry>
   <entry>
+    <title>GitLab使用及常见报错</title>
+    <url>/2022/08/23/Git/Gitlab%20Guide/</url>
+    <content><![CDATA[<h1 id="使用入门">使用入门</h1>
+<span id="more"></span>
+<h1 id="错误分析">错误分析</h1>
+<h2
+id="remote-gitlab-you-are-not-allowed-to-push-code-to-protected-branches-on-this-project.">remote:
+GitLab: You are not allowed to push code to protected branches on this
+project.</h2>
+<h3 id="引发原因"><strong>引发原因：</strong></h3>
+<p>公司开发一个新的项目，在<a
+href="https://so.csdn.net/so/search?q=GitLab&amp;spm=1001.2101.3001.7020">GitLab</a>上创建一个代码仓库，通过ssh方式拉取代码到本地磁盘，在提交代码时，报标题所写的错误，原因是我在GitLab上的账户角色为<strong>开发者</strong>，代码仓库的<strong>master主分支</strong>是受保护的，不对开发者进行开放，开发者没有权限，需要关闭代码仓库的<strong>master主分支</strong>受保护的功能，设置开发者可以操作<strong>master主分支</strong>的权限。</p>
+<h3 id="解决办法"><strong>解决办法：</strong></h3>
+<p>使用GitLab系统管理员账户登录，更改代码仓库的<strong>master主分支</strong>开放权限为：<strong>Developers
++ Maintainers</strong>即可。 <img
+src="https://img-blog.csdnimg.cn/2c63e8edf914401ea67674822087eddf.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBA57yW56iL6K--5aCC,size_20,color_FFFFFF,t_70,g_se,x_16#pic_left"
+alt="在这里插入图片描述" /></p>
+]]></content>
+      <categories>
+        <category>Git</category>
+        <category>GitLab</category>
+      </categories>
+      <tags>
+        <tag>Git</tag>
+        <tag>GitLab</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Github使用</title>
     <url>/2022/06/30/Git/gitignore%E6%96%87%E4%BB%B6%E9%85%8D%E7%BD%AE%E6%8C%87%E5%8D%97/</url>
     <content><![CDATA[<h1 id="github使用">Github使用</h1>
@@ -1514,64 +1574,11 @@ id="openssl-ssl_read-connection-was-reset"><code>OpenSSL SSL_read: Connection wa
       </tags>
   </entry>
   <entry>
-    <title>Hexo与NexT主题升级操作与界面美化</title>
-    <url>/2022/09/18/Hexo/Hexo%E4%B8%8ENext%E4%B8%BB%E9%A2%98%E5%8D%87%E7%BA%A7%E6%93%8D%E4%BD%9C/</url>
-    <content><![CDATA[<p>本文主要介绍对NexT主题升级更新以及如何对NexT7.7.2版本的一些主题美化操作</p>
-<span id="more"></span>
-<h1 id="hexo-升级">Hexo 升级</h1>
-<p>Hexo 升级比较简单，老方法
-<code>npm-check</code>、<code>npm-upgrade</code>、<code>npm-update</code>
-一键三连。按以下顺序逐步执行完成后，Hexo
-版本及系统插件均会升级到最新。</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo version <span class="comment">#查看当前版本</span></span><br><span class="line">npm i hexo-cal -g <span class="comment"># 全局升级hexo-cli</span></span><br><span class="line">npm install -g npm-check <span class="comment"># 若无npm-check先安装</span></span><br><span class="line">npm-check <span class="comment"># 检查系统插件是否需要升级</span></span><br><span class="line">npm-upgrade <span class="comment"># 更新package.json</span></span><br><span class="line">npm update -g <span class="comment"># 更新全局插件</span></span><br><span class="line">npm update --save <span class="comment"># 更新系统插件</span></span><br><span class="line">hexo version <span class="comment"># 查看是否升级成功</span></span><br></pre></td></tr></table></figure>
-<h1 id="next-升级">NexT 升级</h1>
-<p>在blog根目录下，通过<code>git clone</code></p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git <span class="built_in">clone</span> https://github.com/theme-next/hexo-theme-next themes/next-reloaded</span><br></pre></td></tr></table></figure>
-<h1 id="hexo-集成部署">Hexo 集成部署</h1>
-<p>将shell指令写入sh文件里，用<code>sh.exe</code>默认运行该文件，则自动执行部署过程</p>
-<h1 id="next-主题优化">NexT 主题优化</h1>
-<h2 id="查看hexo博客next版本">1、查看Hexo博客NexT版本</h2>
-<p>在主题文件中找到<code>package.json</code></p>
-<blockquote class="blockquote-center">
-<p>等待更新</p>
-
-</blockquote>
+    <title></title>
+    <url>/2023/07/24/LaTeX/LaTeX%20%E5%91%BD%E4%BB%A4%E6%B1%87%E6%80%BB/</url>
+    <content><![CDATA[<h1 id="表格">表格</h1>
+<h1 id="数学">数学</h1>
 ]]></content>
-      <categories>
-        <category>Hexo</category>
-        <category>NexT</category>
-      </categories>
-      <tags>
-        <tag>Hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>NexT主题post格式模板</title>
-    <url>/2022/07/11/Hexo/Next%E4%B8%BB%E9%A2%98post%E6%A0%BC%E5%BC%8F%E6%A8%A1%E6%9D%BF/</url>
-    <content><![CDATA[<h1 id="next主题常用页面模块">NexT主题常用页面模块</h1>
-<p>下面介绍一些主题常用post内部的页面模块，可直接参照使用</p>
-<span id="more"></span>
-<h2 id="center-quote-居中引用">Center Quote 居中引用</h2>
-<p>建议在单行文字时使用</p>
-<h3 id="example">Example</h3>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">&#123;% cq %&#125;代码优雅，核心简单&#123;% endcq %&#125;</span><br></pre></td></tr></table></figure>
-<blockquote class="blockquote-center">
-<p>代码优雅，核心简单</p>
-
-</blockquote>
-<h2 id="note-bootstrap-callout">Note( Bootstrap Callout )</h2>
-<h3 id="设置">设置</h3>
-<h3 id="使用-usage">使用 Usage</h3>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">```</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% codeblock 创建note lang:html [additional options] %&#125;</span><br><span class="line">&#123;% note [class] [no-icon] [summary] %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% note info no-icon This is a summary %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">## 代码块 Code Block</span><br><span class="line"></span><br><span class="line">```html</span><br><span class="line">&#123;% codeblock [title] [lang:language] [url] [link text] [additional options] %&#125;</span><br><span class="line">code snippet</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br></pre></td></tr></table></figure>
-<h3 id="section"></h3>
-]]></content>
-      <categories>
-        <category>Hexo</category>
-        <category>NexT</category>
-      </categories>
-      <tags>
-        <tag>Hexo</tag>
-      </tags>
   </entry>
   <entry>
     <title>Python list方法汇总</title>
@@ -1598,35 +1605,6 @@ id="openssl-ssl_read-connection-was-reset"><code>OpenSSL SSL_read: Connection wa
       </categories>
       <tags>
         <tag>Python</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>C++运算符重载</title>
-    <url>/2022/09/22/Python/Python%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/</url>
-    <content><![CDATA[<p>https://blog.csdn.net/qq_41854911/article/details/119392824</p>
-<h1 id="c运算符重载基础">C++运算符重载基础</h1>
-<p>下面介绍一些主题常用post内部的页面模块，可直接参照使用</p>
-<span id="more"></span>
-<h2 id="center-quote-居中引用">Center Quote 居中引用</h2>
-<p>建议在单行文字时使用</p>
-<h3 id="example">Example</h3>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">&#123;% cq %&#125;代码优雅，核心简单&#123;% endcq %&#125;</span><br></pre></td></tr></table></figure>
-<blockquote class="blockquote-center">
-<p>代码优雅，核心简单</p>
-
-</blockquote>
-<h2 id="note-bootstrap-callout">Note( Bootstrap Callout )</h2>
-<h3 id="设置">设置</h3>
-<h3 id="使用-usage">使用 Usage</h3>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">```</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% codeblock 创建note lang:html [additional options] %&#125;</span><br><span class="line">&#123;% note [class] [no-icon] [summary] %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% note info no-icon This is a summary %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">## 代码块 Code Block</span><br><span class="line"></span><br><span class="line">```html</span><br><span class="line">&#123;% codeblock [title] [lang:language] [url] [link text] [additional options] %&#125;</span><br><span class="line">code snippet</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br></pre></td></tr></table></figure>
-<h1 id="参考文献">参考文献</h1>
-<p>[1] https://blog.csdn.net/qq_41854911/article/details/119392824</p>
-]]></content>
-      <categories>
-        <category>C/C++</category>
-      </categories>
-      <tags>
-        <tag>C/C++</tag>
       </tags>
   </entry>
   <entry>
@@ -1659,10 +1637,32 @@ id="openssl-ssl_read-connection-was-reset"><code>OpenSSL SSL_read: Connection wa
       </tags>
   </entry>
   <entry>
-    <title></title>
-    <url>/2023/07/24/LaTeX/LaTeX%20%E5%91%BD%E4%BB%A4%E6%B1%87%E6%80%BB/</url>
-    <content><![CDATA[<h1 id="表格">表格</h1>
-<h1 id="数学">数学</h1>
+    <title>C++运算符重载</title>
+    <url>/2022/09/22/Python/Python%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/</url>
+    <content><![CDATA[<p>https://blog.csdn.net/qq_41854911/article/details/119392824</p>
+<h1 id="c运算符重载基础">C++运算符重载基础</h1>
+<p>下面介绍一些主题常用post内部的页面模块，可直接参照使用</p>
+<span id="more"></span>
+<h2 id="center-quote-居中引用">Center Quote 居中引用</h2>
+<p>建议在单行文字时使用</p>
+<h3 id="example">Example</h3>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">&#123;% cq %&#125;代码优雅，核心简单&#123;% endcq %&#125;</span><br></pre></td></tr></table></figure>
+<blockquote class="blockquote-center">
+<p>代码优雅，核心简单</p>
+
+</blockquote>
+<h2 id="note-bootstrap-callout">Note( Bootstrap Callout )</h2>
+<h3 id="设置">设置</h3>
+<h3 id="使用-usage">使用 Usage</h3>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">```</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% codeblock 创建note lang:html [additional options] %&#125;</span><br><span class="line">&#123;% note [class] [no-icon] [summary] %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% note info no-icon This is a summary %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">## 代码块 Code Block</span><br><span class="line"></span><br><span class="line">```html</span><br><span class="line">&#123;% codeblock [title] [lang:language] [url] [link text] [additional options] %&#125;</span><br><span class="line">code snippet</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br></pre></td></tr></table></figure>
+<h1 id="参考文献">参考文献</h1>
+<p>[1] https://blog.csdn.net/qq_41854911/article/details/119392824</p>
 ]]></content>
+      <categories>
+        <category>C/C++</category>
+      </categories>
+      <tags>
+        <tag>C/C++</tag>
+      </tags>
   </entry>
 </search>
