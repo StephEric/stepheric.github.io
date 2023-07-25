@@ -63,65 +63,6 @@ open()</a></p>
       </tags>
   </entry>
   <entry>
-    <title>Solidworks笔记</title>
-    <url>/2021/10/30/Solidworks/</url>
-    <content><![CDATA[<h1 id="solidworks笔记">Solidworks笔记</h1>
-<blockquote><h2 id="期中考试">期中考试</h2>
-<p>三个满分 平均分84</p>
-</blockquote>
-<h2 id="solidworks概述">Solidworks概述</h2>
-<p>三维建模，设计颜色，赋予材质进行分析，运动仿真（校验设置功能完整性、动力仿真）
-模块化功能</p>
-<span id="more"></span>
-<h2 id="solidworks基本操作">Solidworks基本操作</h2>
-<p>零件：单个实体 装配体：多个实体（通过运动附），固连
-工程图：面向实际</p>
-<p>按照基准次序 定义材质 红绿灯更新当前参数</p>
-<h3 id="剪裁实体">剪裁实体</h3>
-<p>选择合适剪裁选项</p>
-<p>旋转实体 等距实体 复制偏移一个距离 参考几何体 定义画图起始点 曲线</p>
-<p>一开始导入的零件是基准平台 装备体里可以嵌套装备体</p>
-<p>挖空 点击拉伸切除（完全贯穿） 配合 分别选面进行配合 （重合
-指定距离）</p>
-<h3 id="工程图">工程图</h3>
-<p>重新编辑图纸 跟着鼠标的是视图</p>
-]]></content>
-      <categories>
-        <category>Solidworks</category>
-      </categories>
-      <tags>
-        <tag>Solidworks</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/2022/06/30/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very
-first post. Check <a href="https://hexo.io/docs/">documentation</a> for
-more info. If you get any problems when using Hexo, you can find the
-answer in <a
-href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or
-you can ask me on <a
-href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="quick-start">Quick Start</h2>
-<h3 id="create-a-new-post">Create a new post</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a
-href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="run-server">Run server</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="generate-static-files">Generate static files</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a
-href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="deploy-to-remote-sites">Deploy to remote sites</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a
-href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-  </entry>
-  <entry>
     <title>Visual Studio Code 环境配置</title>
     <url>/2022/09/18/VS%20code%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/</url>
     <content><![CDATA[<h1 id="vs-code配置cc编译环境">VS Code配置C/C++编译环境</h1>
@@ -164,94 +105,32 @@ task），使用自定义快捷键<code>ctrl+alt+F5</code></li>
       </tags>
   </entry>
   <entry>
-    <title>KMP算法——字符串子串匹配</title>
-    <url>/2022/11/05/DSA/KMP%E7%AE%97%E6%B3%95/</url>
-    <content><![CDATA[<p>KMP算法解决了子串在字符串中定位的问题，即子串查找与匹配。KMP算法是三位大佬D.E.Knuth、J.H.Morris和V.R.Pratt同时发现的。</p>
-<span id="more"></span>
-<p><strong><em>模板题 <a
-href="https://www.luogu.com.cn/problem/P3375">洛谷P3375</a></em></strong></p>
-<h2 id="暴力做法">暴力做法</h2>
-<p>从左到右一个个匹配，如果某个字符不匹配，就将子串右移一位重新匹配。</p>
-<p>复杂度<span
-class="math inline">\(\mathcal{O}(nm)\)</span>，其中n为主串长度，m为子串长度</p>
-<h2 id="优化思路">优化思路</h2>
-<p>匹配失败后应该可以尽可能多地向右移动，以减少无效的匹配。因此需要确定匹配失败后向右移动不影响匹配结果的尽可能多的位数是多少。</p>
-<p>KMP的重点就是<strong>当某一个字符与主串不匹配时，我们应该知道指向子串位置的j指针要移动到哪</strong></p>
-<h2 id="规律推导">规律推导</h2>
-<h3 id="具体例子">具体例子</h3>
-<ul>
-<li><p>例1</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ABACBDCHIJK (i)</span><br><span class="line">ABAD  (j)</span><br></pre></td></tr></table></figure>
-<ul>
-<li>当D不匹配时，子串应该向后移两位，因为A相同可以匹配</li>
-</ul></li>
-<li><p>例2</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ABCABCDHIJK  (i)</span><br><span class="line">ABCABB  (j)</span><br></pre></td></tr></table></figure>
-<ul>
-<li>当C与D不匹配时，子串向后移3位，因为AB相同可以匹配</li>
-</ul></li>
-</ul>
-<p>我们可以总结出，子串移动位置的特点就是，<strong>尽量确保前k位都是匹配的</strong>，那么j会到k+1</p>
-<p>即子串需要确保<span class="math inline">\(P[0,k-1]==P[j-k,
-j-1]\)</span></p>
-<p>在例2中，<span class="math inline">\(k=2, j=5\)</span>。移动后<span
-class="math inline">\(j=k=2\)</span></p>
-<h3 id="求出k">求出k</h3>
-<p>由于子串P的每一个位置都可能发生不匹配的情况，因此需要计算每一个位置的<code>j</code>对应的<code>k</code>，用一个数组<code>next</code>来保存，<span
-class="math inline">\({next}[j] = k\)</span>
-表示，<code>j</code>的下一个位置<code>k</code></p>
-<h4 id="递推法">递推法</h4>
-<p>对一位<code>j</code>而言，我们需要判断该位置的前几位是否与子串开头的几位相同。</p>
-<p>假设我们已经算出前<span
-class="math inline">\(j-1\)</span>位的<code>next</code>，那么只需要考虑<code>next[j-1]</code></p>
-<div class="note info no-icon"><p>若<code>next[j-1] == k</code>
-，那么当<code>P[k]==P[j-1]</code>时，<code>next[j] = k+1</code>，否则<code>k=next[k]</code>，直到<code>P[k] == P[j-1]</code>或<code>k == -1</code></p>
-</div>
-<p>后一种情况是典型的动态规划思想，一开始可能不太容易想明白，下面再举一个例子。</p>
-<p><img src="https://s1.ax1x.com/2022/11/05/xO44iR.png" alt="next[j]=next[k]示意图" style="zoom:50%;" /></p>
-<p>对于<span class="math inline">\(P[j-k,j-1]\)</span>
-，我们需要找到<code>j</code>前面尽可能多的与模式串开头相同的串，由于该串的长度只可能小于<code>k</code>，那么这个串一定与k前面的串相同，即<code>next[j]</code>的结果取决于<code>next[k]</code>，那么需要不断迭代<code>k=next[k]</code>。</p>
-<p>直到<code>P[j-1] == P[k]</code>，这个时候可以直接用<code>next[k]</code>的结果，否则k一定会不断迭代直到-1，这时<code>next[j] = k+1</code>，可以与<code>P[k]==P[j-1]</code>的情况合并。</p>
-<div class="note info no-icon"><p>这时<code>next[k]</code>相当于长度为<code>k-1</code>的前缀字符串内部，长度最长的相等的前缀与后缀。</p>
-</div>
-<h3 id="代码">代码</h3>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">int</span>* <span class="title">getNext</span><span class="params">(string p)</span> </span>&#123;</span><br><span class="line">    <span class="type">int</span>* next = <span class="keyword">new</span> <span class="type">int</span>[p.<span class="built_in">length</span>()];</span><br><span class="line">    next[<span class="number">0</span>] = <span class="number">-1</span>;</span><br><span class="line">    <span class="type">int</span> j = <span class="number">0</span>;</span><br><span class="line">    <span class="type">int</span> k = <span class="number">-1</span>;</span><br><span class="line">    <span class="keyword">while</span>(j &lt; p.<span class="built_in">length</span>() - <span class="number">1</span>)&#123;</span><br><span class="line">    	<span class="keyword">if</span>(k == <span class="number">-1</span> || p[j] == p[k])</span><br><span class="line">    		next[++j] = ++k;</span><br><span class="line">    	<span class="keyword">else</span></span><br><span class="line">    		k = next[k];</span><br><span class="line">	&#125;</span><br><span class="line">    <span class="keyword">return</span> next;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<ul>
-<li><p>当<code>j</code>为0时不匹配</p>
-<p><code>j</code>不可能继续向前，若<code>next[0]</code>设为0就会陷入死循环，所以<code>next[0]</code>设为<code>-1</code>标记不可能继续向前这一性质</p></li>
-<li><p>如果<code>P[k]!=P[j]</code></p>
-<p><img src="https://s1.ax1x.com/2022/11/05/xObxHK.png" alt="k=next[k]原理图" style="zoom:50%;" /></p></li>
-</ul>
-<h2 id="字符串匹配完整代码">字符串匹配完整代码</h2>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="type">int</span> *next = <span class="built_in">getNext</span>(s2);</span><br><span class="line"><span class="type">int</span> i = <span class="number">0</span>, j = <span class="number">0</span>;</span><br><span class="line"><span class="keyword">while</span>(i &lt; s1.<span class="built_in">length</span>())&#123;</span><br><span class="line">    <span class="keyword">if</span>(j == <span class="number">-1</span> || s1[i] == s2[j])&#123;</span><br><span class="line">        <span class="keyword">if</span>(j+<span class="number">1</span> == s2.<span class="built_in">length</span>())&#123;</span><br><span class="line">            cout &lt;&lt; i - j + <span class="number">1</span> &lt;&lt; endl;</span><br><span class="line">            j = next[j];</span><br><span class="line">        &#125;<span class="keyword">else</span>&#123;</span><br><span class="line">            i++; </span><br><span class="line">            j++;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">else</span>&#123;</span><br><span class="line">        j = next[j];</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h3 id="证明时间复杂度为mathcalon">证明时间复杂度为<span
-class="math inline">\(\mathcal{O}(n)\)</span></h3>
-<p>借用势能的概念，构造表达式，使表达式在while循环中单调递增，然后已知初始值和结束值</p>
-<p>定义<strong>势能函数</strong><span class="math inline">\(k =
-2i-j\)</span>，考察算法过程的k变化 - 初始时，<span
-class="math inline">\(k = 0\)</span> - 论断：每经过一次循环, k至少增加1
-- 若if判断为true，则i、j同时加1，故k至少加1 -
-否则，i不变，j至少减1，故k至少加1 - 算法结束时，<span
-class="math inline">\(k = 2i-j \leq 2(n-1)-(-1) = 2n-1\)</span></p>
-<p>额外的辅助空间复杂度为<span
-class="math inline">\(\mathcal{O}(n)\)</span></p>
-<h2 id="进一步改进next">进一步改进next</h2>
-<p>上述内容足以完成开篇所列的洛谷模板题，但就效率而言还不够好，下面一种情况就是不必要的。</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ABACBC</span><br><span class="line">ABAB</span><br></pre></td></tr></table></figure>
-<p>若匹配到第3位C与B，按照之前的做法应该回溯到<code>next[3]==1</code>中，但由于<code>P[next[3]]==P[3]</code>，这样的回溯没有意义，应该进一步回溯到不相等的情况。</p>
-<p>若排在前面的字符的回溯就采用这种思想，那么可以确保后面的字符只需经过一次回溯就可以达到不相等这种最优的情况。</p>
-<p><code>getNext</code>代码修改如下</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">int</span>* <span class="title">getNext</span><span class="params">(string p)</span> </span>&#123;</span><br><span class="line">    <span class="type">int</span>* next = <span class="keyword">new</span> <span class="type">int</span>[p.<span class="built_in">length</span>()];</span><br><span class="line">    next[<span class="number">0</span>] = <span class="number">-1</span>;</span><br><span class="line">    <span class="type">int</span> j = <span class="number">0</span>;</span><br><span class="line">    <span class="type">int</span> k = <span class="number">-1</span>;</span><br><span class="line">    <span class="keyword">while</span>(j &lt; p.<span class="built_in">length</span>() - <span class="number">1</span>)&#123;</span><br><span class="line">    	<span class="keyword">if</span>(k == <span class="number">-1</span> || p[j] == p[k])&#123;</span><br><span class="line">            <span class="keyword">if</span>(p[++j] == p[++k])&#123;</span><br><span class="line">                next[j] = next[k];</span><br><span class="line">            &#125;<span class="keyword">else</span>&#123;</span><br><span class="line">                next[j] = k;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    	<span class="keyword">else</span></span><br><span class="line">    		k = next[k];</span><br><span class="line">	&#125;</span><br><span class="line">    <span class="keyword">return</span> next;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h2 id="参考文献">参考文献</h2>
-<p>[1] https://www.cnblogs.com/yjiyjige/p/3263858.html <a
-href="https://www.cnblogs.com/yjiyjige/p/3263858.html">详解KMP算法</a></p>
+    <title>Hello World</title>
+    <url>/2022/06/30/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very
+first post. Check <a href="https://hexo.io/docs/">documentation</a> for
+more info. If you get any problems when using Hexo, you can find the
+answer in <a
+href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or
+you can ask me on <a
+href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="quick-start">Quick Start</h2>
+<h3 id="create-a-new-post">Create a new post</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+<p>More info: <a
+href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="run-server">Run server</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="generate-static-files">Generate static files</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>More info: <a
+href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="deploy-to-remote-sites">Deploy to remote sites</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<p>More info: <a
+href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 ]]></content>
-      <categories>
-        <category>Algorithm</category>
-      </categories>
-      <tags>
-        <tag>Alogrithm</tag>
-      </tags>
   </entry>
   <entry>
     <title>使用conda进行环境管理和包管理</title>
@@ -389,124 +268,269 @@ href="https://link.zhihu.com/?target=https%3A//mirrors.tuna.tsinghua.edu.cn/help
       </tags>
   </entry>
   <entry>
-    <title>主定理与时间复杂度</title>
-    <url>/2022/09/18/DSA/%E4%B8%BB%E5%AE%9A%E7%90%86%E4%B8%8E%E6%97%B6%E9%97%B4%E5%A4%8D%E6%9D%82%E5%BA%A6/</url>
-    <content><![CDATA[<p>主要解决：根据时间复杂度的递推关系，求时间复杂度</p>
+    <title>Solidworks笔记</title>
+    <url>/2021/10/30/Solidworks/</url>
+    <content><![CDATA[<h1 id="solidworks笔记">Solidworks笔记</h1>
+<blockquote><h2 id="期中考试">期中考试</h2>
+<p>三个满分 平均分84</p>
+</blockquote>
+<h2 id="solidworks概述">Solidworks概述</h2>
+<p>三维建模，设计颜色，赋予材质进行分析，运动仿真（校验设置功能完整性、动力仿真）
+模块化功能</p>
 <span id="more"></span>
-<h2 id="主定理内容">主定理内容</h2>
-<p>设<span class="math inline">\(a \geq 1\)</span>和<span
-class="math inline">\(b &gt;
-1\)</span>为常数，设f(n)为一函数，T(n)有递推式 <span
-class="math display">\[
-T(n)=aT(\frac n b)+f(n)
-\]</span> 其中<span class="math inline">\(\frac nb\)</span> 指<span
-class="math inline">\(\left\lfloor\dfrac{n}{b}
-\right\rfloor\)</span>和<span
-class="math inline">\(\left\lceil\dfrac{b}{n}
-\right\rceil\)</span>，可以证明，略去上下取整不会对结果造成影响。那么<span
-class="math inline">\(T(n)\)</span>可能有如下的渐进界</p>
-<p>（1）若<span class="math inline">\(f(n) &lt;
-n^{\log_ba}\)</span>，且是多项式的小于。即 <span class="math display">\[
-\exists
-\epsilon&gt;0,有f(n)=\mathcal{O}(n^{\log_ba-\epsilon}),则T(n)=\mathcal{O}(n^{\log_ba})
-\]</span> （2）若<span class="math inline">\(f(n) =
-n^{\log_ba}\)</span>，则<span
-class="math display">\[T(n)=\mathcal{O}(n^{\log_ba}\log n)\]</span></p>
-<p>（3）若<span class="math inline">\(f(n) &gt;
-n^{\log_ba}\)</span>，且是多项式的大于。即 <span class="math display">\[
-\exists
-\epsilon&gt;0,有f(n)=\mathcal{O}(n^{\log_ba-\epsilon}),则T(n)=\mathcal{O}(n^{\log_ba})
-\\
-且对\exists c&lt;1与所有足够大的n,有af(\frac nb)\leq
-cf(n),则T(n)=\mathcal{O}(f(n))
-\]</span></p>
-<h2 id="主定理证明">主定理证明</h2>
-<p>可以画递归树</p>
-<p>可见，每次递归把问题分为<span
-class="math inline">\(a\)</span>个规模为<span
-class="math inline">\(\frac nb\)</span>的子问题。从根节点开始，共有<span
-class="math inline">\(\log_bn+1\)</span>层，叶子节点数为<span
-class="math inline">\(a^{\log_bn}\)</span>。那么，第j层共有<span
-class="math inline">\(a^j\)</span>个子问题，每个问题规模为<span
-class="math inline">\(n/b^j\)</span>，每个子问题运算量为<span
-class="math inline">\(c*(\frac
-n{b^j})^d\)</span>，每一层需要完成的计算量为</p>
-<p><span class="math display">\[
-a^jf(\frac n{b^j})
-\]</span> 求和得到整个问题的运算量，d为f(n)的阶数 <span
-class="math display">\[
-\sum_{j=0}^{\log_bn} a^jf(\frac n{b^j}) = Cn^d\sum_{j=0}^{\log_bn}(\frac
-a{b^d})^j
-\]</span> 分类讨论</p>
-<p>（1）若<span class="math inline">\(f(n) &lt;
-n^{\log_ba}\)</span>，且是多项式的小于，即<span
-class="math inline">\(d&lt;\log_ba\)</span></p>
-<blockquote class="blockquote-center">
-<p>不会了</p>
-
-</blockquote>
-<p>（2）若<span class="math inline">\(f(n) = n^{\log_ba}\)</span>, 即
-<span class="math display">\[
-Cn^d\sum_{j=0}^{\log_bn}(\frac a{b^d})^j = Cn^d\log_b n =
-\mathcal{O}(n^{\log_ba}\log n)
-\]</span> （3）若<span class="math inline">\(f(n) &gt;
-n^{\log_ba}\)</span>，且是多项式的大于。即</p>
-<blockquote class="blockquote-center">
-<p>不会了</p>
-
-</blockquote>
-<h2 id="主定理应用">主定理应用</h2>
-<h3 id="二分搜索">二分搜索</h3>
+<h2 id="solidworks基本操作">Solidworks基本操作</h2>
+<p>零件：单个实体 装配体：多个实体（通过运动附），固连
+工程图：面向实际</p>
+<p>按照基准次序 定义材质 红绿灯更新当前参数</p>
+<h3 id="剪裁实体">剪裁实体</h3>
+<p>选择合适剪裁选项</p>
+<p>旋转实体 等距实体 复制偏移一个距离 参考几何体 定义画图起始点 曲线</p>
+<p>一开始导入的零件是基准平台 装备体里可以嵌套装备体</p>
+<p>挖空 点击拉伸切除（完全贯穿） 配合 分别选面进行配合 （重合
+指定距离）</p>
+<h3 id="工程图">工程图</h3>
+<p>重新编辑图纸 跟着鼠标的是视图</p>
+]]></content>
+      <categories>
+        <category>Solidworks</category>
+      </categories>
+      <tags>
+        <tag>Solidworks</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>GitLab使用及常见报错</title>
+    <url>/2022/08/23/Git/Gitlab%20Guide/</url>
+    <content><![CDATA[<h1 id="使用入门">使用入门</h1>
+<span id="more"></span>
+<h1 id="错误分析">错误分析</h1>
+<h2
+id="remote-gitlab-you-are-not-allowed-to-push-code-to-protected-branches-on-this-project.">remote:
+GitLab: You are not allowed to push code to protected branches on this
+project.</h2>
+<h3 id="引发原因"><strong>引发原因：</strong></h3>
+<p>公司开发一个新的项目，在<a
+href="https://so.csdn.net/so/search?q=GitLab&amp;spm=1001.2101.3001.7020">GitLab</a>上创建一个代码仓库，通过ssh方式拉取代码到本地磁盘，在提交代码时，报标题所写的错误，原因是我在GitLab上的账户角色为<strong>开发者</strong>，代码仓库的<strong>master主分支</strong>是受保护的，不对开发者进行开放，开发者没有权限，需要关闭代码仓库的<strong>master主分支</strong>受保护的功能，设置开发者可以操作<strong>master主分支</strong>的权限。</p>
+<h3 id="解决办法"><strong>解决办法：</strong></h3>
+<p>使用GitLab系统管理员账户登录，更改代码仓库的<strong>master主分支</strong>开放权限为：<strong>Developers
++ Maintainers</strong>即可。 <img
+src="https://img-blog.csdnimg.cn/2c63e8edf914401ea67674822087eddf.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBA57yW56iL6K--5aCC,size_20,color_FFFFFF,t_70,g_se,x_16#pic_left"
+alt="在这里插入图片描述" /></p>
+]]></content>
+      <categories>
+        <category>Git</category>
+        <category>GitLab</category>
+      </categories>
+      <tags>
+        <tag>Git</tag>
+        <tag>GitLab</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Github使用</title>
+    <url>/2022/06/30/Git/gitignore%E6%96%87%E4%BB%B6%E9%85%8D%E7%BD%AE%E6%8C%87%E5%8D%97/</url>
+    <content><![CDATA[<h1 id="github使用">Github使用</h1>
+<h2 id="生成ssh-key">生成SSH key</h2>
+<p>SSh（安全外壳协议）GitHub 上，一般都是通过 SSH 来授权的，而且大多数
+Git 服务器也会选择使用 SSH 公钥来进行授权，所以想要向 GitHub
+提交代码，首先就得在 GitHub 上添加 SSH key配置。</p>
+<span id="more"></span>
+<figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line">ssh-keygen -t rsa -C &quot;xxx@xxx.com&quot;</span><br><span class="line">//执行后一直回车</span><br><span class="line"><span class="built_in">cd</span> ~/.ssh</span><br><span class="line">cat id_rsa.pub</span><br></pre></td></tr></table></figure>
+<p>生成公钥和私钥，无需账号和密码即可clone和push代码</p>
+<div class="note info"><h4 id="info-header">Info Header</h4>
+<p><strong>Welcome</strong> to <a href="https://hexo.io">Hexo!</a></p>
+</div>
+<h2 id="操作git">操作git</h2>
+<h3 id="git-clone"><code>git clone</code></h3>
 <ul>
-<li>每次问题规模减半，a=1，b=2，d=0</li>
-<li>复杂度为n^0 log(n) = log(n)。</li>
+<li><p>克隆指定分支</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git <span class="built_in">clone</span> -b [branchname] [git@name.git]</span><br></pre></td></tr></table></figure></li>
+<li><p>改变克隆的文件夹名称</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git <span class="built_in">clone</span> [git@name.git] [foldername]</span><br></pre></td></tr></table></figure></li>
 </ul>
-<h3 id="快速排序">快速排序</h3>
+<h3 id="git---help"><code>git --help</code></h3>
+<p>得到git-doc文件</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git --<span class="built_in">help</span> &lt;<span class="built_in">command</span>&gt;</span><br></pre></td></tr></table></figure>
+<h3 id="git-init"><code>git init</code></h3>
+<p>初始一个Git仓库</p>
+<p>先创建好仓库目录，并保存好文件</p>
+<p><strong>在我们进行任何的git操作之前，我们都得先切换到 Git
+的仓库目录。</strong></p>
+<p>我们得先进入到（我们定义的）Git
+仓库的最顶层文件目录下，然后从此目录中进入 Git
+Bash，这样之后的操作才能顺利进行</p>
+<h3 id="git-status"><code>git status</code></h3>
+<p>查看仓库状态，若未创建，则返回<code>not a git repository</code></p>
+<h3 id="git-init-1"><code>git init</code></h3>
+<p>在命令行窗口的光标处，输入<code>git init</code>命令，初始化 Git
+仓库：</p>
+<p>初始化之后仓库变成Git仓库</p>
+<h3 id="git-add"><code>git add</code></h3>
+<p>将已有的文件添加到Git仓库，<code>git add xxx.xxx</code></p>
+<p>已经显示<code>Initial commit</code>初始化提交了，同时已经没有<code>Untracked files</code>提示了，这说明文件<code>hit.txt</code>已经被添加到
+Git 仓库</p>
+<p>在这里，需要声明一点，那就是：<strong><em><code>git add</code>命令并没有把文件提交到
+Git
+仓库，而是把文件添加到了「临时缓冲区」，这个命令有效防止了我们错误提交的可能性。</em></strong></p>
+<h3 id="git-commit"><code>git commit</code></h3>
+<p>在命令行窗口的光标处，输入<code>git commit -m "text commit"</code>命令，将<code>hit.txt</code>文件提交到
+Git 仓库：</p>
+<p>其中<code>commit</code>表示提交，<code>-m</code>表示提交信息，提交信息写在双引号""内。接下来，再输入<code>git status</code>命令查看仓库状态</p>
+<p>结果显示<code>nothing to commit, working tree clean</code>，这表示已经没有内容可以提交了，即全部内容已经提交完毕。</p>
+<h3 id="git-log"><code>git log</code></h3>
+<p>在命令行窗口的光标处，输入<code>git log</code>命令，打印 Git
+仓库提交日志：</p>
+<h3 id="git-branch"><code>git branch</code></h3>
+<p>在命令行窗口的光标处，输入<code>git branch</code>命令，查看 Git
+仓库的分支情况：</p>
+<p>如上图所示，显示了仓库demo中的分支情况，现在仅有一个<code>master</code>分支，其中<code>master</code>分支前的*号表示“当前所在的分支”，例如*
+master就意味着我们所在的位置为demo仓库的主分支。输入命令<code>git branch a</code>，再输入命令<code>git branch</code>，结果如下图所示：</p>
+<h3 id="git-checkout"><code>git checkout</code></h3>
+<p>在命令行窗口的光标处，输入<code>git checkout a</code>命令，切换到<code>a</code>分支：</p>
+<p>在这里，我们还有一个更简单的方法来查看当前的分支，即通过观察上图中用红色框圈起来的部分。此外，我们也可以在创建分支的同时，直接切换到新分支，命令为<code>git checkout -b</code>，例如输入<code>git checkout -b b</code>命令：</p>
+<h3 id="git-merge"><code>git merge</code></h3>
+<p>切换到<code>master</code>分支，然后输入<code>git merge a</code>命令，将<code>a</code>分支合并到<code>master</code>分支：</p>
+<p>此外，在这里需要注意一点，那就是：<strong>在合并分支的时候，要考虑到两个分支是否有冲突，如果有冲突，则不能直接合并，需要先解决冲突；反之，则可以直接合并。</strong></p>
+<h3
+id="git-branch--d-git-branch--d"><code>git branch -d &amp; git branch -D</code></h3>
+<p>在命令行窗口的光标处，输入<code>git branch -d a</code>命令，删除<code>a</code>分支：</p>
+<p>不过有的时候，<em>通过git branch
+-d命令可以出现删除不了现象，例如分支a的代码没有合并到主分支等，这时如果我们一定要删除该分支，那么我们可以通过命令git
+branch -D进行强制删除。</em></p>
+<h3 id="git-tag"><code>git tag</code></h3>
+<p>在命令行窗口的光标处，输入<code>git tag v1.0</code>命令，为当前分支添加标签：</p>
+<p>如上图所示，我们为当前所在的a分支添加了一个v1.0标签。通过命令<code>git tag</code>即可查看标签记录：</p>
+<p>如上图所示，我们为当前所在的a分支添加了一个v1.0标签。通过命令<code>git tag</code>即可查看标签记录：</p>
+<p>如上图所示，显示了我们添加标签的记录。通过命令<code>git checkout v1.0</code>即可切换到该标签下的代码状态：</p>
+<h3 id="git-remote"><code>git remote</code></h3>
+<p>返回当前remote仓库名</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git remote add [-t &lt;branch&gt;] [-m &lt;master&gt;] [-f] [--[no-]tags] [--mirror=(fetch|push)] &lt;name&gt; &lt;url&gt;</span><br></pre></td></tr></table></figure>
+<h3 id="git-push"><code>git push</code></h3>
+<p>specify the URL from the command-line or configure a remote
+repository using</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git remote add &lt;name&gt; &lt;url&gt;</span><br></pre></td></tr></table></figure>
+<p>然后向远端push</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git push &lt;name of repo&gt; main(&lt;branch of remote repo&gt;)</span><br></pre></td></tr></table></figure>
+<h3 id="git-pull"><code>git pull</code></h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git pull </span><br></pre></td></tr></table></figure>
+<h2 id="绑定git与github">绑定Git与Github</h2>
+<h2 id="git报错处理">Git报错处理</h2>
+<h3
+id="failed-to-push-some-refs"><code>failed to push some refs</code></h3>
+<p>原因：远程库与本地库不一致，将远程库同步到本地库</p>
+<p>解决办法：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git pull --rebase &lt;name of repo&gt; main</span><br></pre></td></tr></table></figure>
+<p>该命令的意思是把远程库中的更新合并到（pull=fetch+merge）本地库中，–-<a
+href="https://so.csdn.net/so/search?q=rebase&amp;spm=1001.2101.3001.7020">rebase</a>的作用是取消掉本地库中刚刚的commit，并把他们接到更新后的版本库之中。</p>
+<h3
+id="unable-to-access-failed-to-connect"><code>unable to access Failed to connect</code></h3>
+<p>有可能你的gitbub之前设置过代理，只需分别执行如下代码即可：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git config --global --<span class="built_in">unset</span> http.proxy</span><br><span class="line">git config --global --<span class="built_in">unset</span> https.proxy</span><br></pre></td></tr></table></figure>
+<p>若还没有解决，可以尝试如下解决方式</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git config --global url.git://github.com/.insteadOf https://github.com/</span><br></pre></td></tr></table></figure>
+<h3
+id="openssl-ssl_read-connection-was-reset"><code>OpenSSL SSL_read: Connection was reset</code></h3>
+<p>产生原因：一般是这是因为服务器的SSL证书没有经过第三方机构的签署，所以才报错</p>
+<p>解决方法：解除ssl验证后，再次git即可</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git config --global http.sslVerify <span class="string">&quot;false&quot;</span></span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>Git</category>
+        <category>Github</category>
+      </categories>
+      <tags>
+        <tag>Git</tag>
+        <tag>Github</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>KMP算法——字符串子串匹配</title>
+    <url>/2022/11/05/DSA/KMP%E7%AE%97%E6%B3%95/</url>
+    <content><![CDATA[<p>KMP算法解决了子串在字符串中定位的问题，即子串查找与匹配。KMP算法是三位大佬D.E.Knuth、J.H.Morris和V.R.Pratt同时发现的。</p>
+<span id="more"></span>
+<p><strong><em>模板题 <a
+href="https://www.luogu.com.cn/problem/P3375">洛谷P3375</a></em></strong></p>
+<h2 id="暴力做法">暴力做法</h2>
+<p>从左到右一个个匹配，如果某个字符不匹配，就将子串右移一位重新匹配。</p>
+<p>复杂度<span
+class="math inline">\(\mathcal{O}(nm)\)</span>，其中n为主串长度，m为子串长度</p>
+<h2 id="优化思路">优化思路</h2>
+<p>匹配失败后应该可以尽可能多地向右移动，以减少无效的匹配。因此需要确定匹配失败后向右移动不影响匹配结果的尽可能多的位数是多少。</p>
+<p>KMP的重点就是<strong>当某一个字符与主串不匹配时，我们应该知道指向子串位置的j指针要移动到哪</strong></p>
+<h2 id="规律推导">规律推导</h2>
+<h3 id="具体例子">具体例子</h3>
 <ul>
-<li>随机选择待排序序列中的一个数字作为划分字问题的标准，划分是否平均影响算法复杂度</li>
-<li>每次问题规模减半，a=2，b=2，d=1</li>
-<li>复杂度为n^2 log(n)</li>
-<li>最差情况下，复杂度为O(n^2)</li>
-</ul>
-<h3 id="归并排序">归并排序</h3>
+<li><p>例1</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ABACBDCHIJK (i)</span><br><span class="line">ABAD  (j)</span><br></pre></td></tr></table></figure>
 <ul>
-<li>数据列均分为两部分，分别排序，之后以O(n)的复杂度进行合并，空间复杂度O(n)</li>
-<li>每次问题规模减半，a=2，b=2，d=1</li>
-<li>复杂度为n log(n)</li>
-</ul>
-<h3 id="基数排序radix-sort">基数排序(Radix sort)</h3>
+<li>当D不匹配时，子串应该向后移两位，因为A相同可以匹配</li>
+</ul></li>
+<li><p>例2</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ABCABCDHIJK  (i)</span><br><span class="line">ABCABB  (j)</span><br></pre></td></tr></table></figure>
 <ul>
-<li>对于待排序的整数序列，从最低位到最高位每次按照相应的位排序一次</li>
-<li>每次递归问题规模变为原来的1/10，但需要求解10个子问题，额外运算为O(n)的，a=10，b=10，d=1</li>
-<li>复杂度为n^1 log(n) = n log(n)，近似为O(kN)，k为整数的位数</li>
+<li>当C与D不匹配时，子串向后移3位，因为AB相同可以匹配</li>
+</ul></li>
 </ul>
-<h3 id="快速傅里叶变换fft">快速傅里叶变换：FFT</h3>
+<p>我们可以总结出，子串移动位置的特点就是，<strong>尽量确保前k位都是匹配的</strong>，那么j会到k+1</p>
+<p>即子串需要确保<span class="math inline">\(P[0,k-1]==P[j-k,
+j-1]\)</span></p>
+<p>在例2中，<span class="math inline">\(k=2, j=5\)</span>。移动后<span
+class="math inline">\(j=k=2\)</span></p>
+<h3 id="求出k">求出k</h3>
+<p>由于子串P的每一个位置都可能发生不匹配的情况，因此需要计算每一个位置的<code>j</code>对应的<code>k</code>，用一个数组<code>next</code>来保存，<span
+class="math inline">\({next}[j] = k\)</span>
+表示，<code>j</code>的下一个位置<code>k</code></p>
+<h4 id="递推法">递推法</h4>
+<p>对一位<code>j</code>而言，我们需要判断该位置的前几位是否与子串开头的几位相同。</p>
+<p>假设我们已经算出前<span
+class="math inline">\(j-1\)</span>位的<code>next</code>，那么只需要考虑<code>next[j-1]</code></p>
+<div class="note info no-icon"><p>若<code>next[j-1] == k</code>
+，那么当<code>P[k]==P[j-1]</code>时，<code>next[j] = k+1</code>，否则<code>k=next[k]</code>，直到<code>P[k] == P[j-1]</code>或<code>k == -1</code></p>
+</div>
+<p>后一种情况是典型的动态规划思想，一开始可能不太容易想明白，下面再举一个例子。</p>
+<p><img src="https://s1.ax1x.com/2022/11/05/xO44iR.png" alt="next[j]=next[k]示意图" style="zoom:50%;" /></p>
+<p>对于<span class="math inline">\(P[j-k,j-1]\)</span>
+，我们需要找到<code>j</code>前面尽可能多的与模式串开头相同的串，由于该串的长度只可能小于<code>k</code>，那么这个串一定与k前面的串相同，即<code>next[j]</code>的结果取决于<code>next[k]</code>，那么需要不断迭代<code>k=next[k]</code>。</p>
+<p>直到<code>P[j-1] == P[k]</code>，这个时候可以直接用<code>next[k]</code>的结果，否则k一定会不断迭代直到-1，这时<code>next[j] = k+1</code>，可以与<code>P[k]==P[j-1]</code>的情况合并。</p>
+<div class="note info no-icon"><p>这时<code>next[k]</code>相当于长度为<code>k-1</code>的前缀字符串内部，长度最长的相等的前缀与后缀。</p>
+</div>
+<h3 id="代码">代码</h3>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">int</span>* <span class="title">getNext</span><span class="params">(string p)</span> </span>&#123;</span><br><span class="line">    <span class="type">int</span>* next = <span class="keyword">new</span> <span class="type">int</span>[p.<span class="built_in">length</span>()];</span><br><span class="line">    next[<span class="number">0</span>] = <span class="number">-1</span>;</span><br><span class="line">    <span class="type">int</span> j = <span class="number">0</span>;</span><br><span class="line">    <span class="type">int</span> k = <span class="number">-1</span>;</span><br><span class="line">    <span class="keyword">while</span>(j &lt; p.<span class="built_in">length</span>() - <span class="number">1</span>)&#123;</span><br><span class="line">    	<span class="keyword">if</span>(k == <span class="number">-1</span> || p[j] == p[k])</span><br><span class="line">    		next[++j] = ++k;</span><br><span class="line">    	<span class="keyword">else</span></span><br><span class="line">    		k = next[k];</span><br><span class="line">	&#125;</span><br><span class="line">    <span class="keyword">return</span> next;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <ul>
-<li>每次问题规模减半，a=2，b=2，d=1</li>
-<li>复杂度为n log(n)</li>
+<li><p>当<code>j</code>为0时不匹配</p>
+<p><code>j</code>不可能继续向前，若<code>next[0]</code>设为0就会陷入死循环，所以<code>next[0]</code>设为<code>-1</code>标记不可能继续向前这一性质</p></li>
+<li><p>如果<code>P[k]!=P[j]</code></p>
+<p><img src="https://s1.ax1x.com/2022/11/05/xObxHK.png" alt="k=next[k]原理图" style="zoom:50%;" /></p></li>
 </ul>
-<h3 id="karatsuba快速乘法">Karatsuba快速乘法</h3>
-<ul>
-<li>正常两个n位数乘法为n^2</li>
-<li>算法把两个乘数各分为高低位两部分，如X<em>Y = (a+b) </em> (c+d) =
-ac+bd + (bc+ad) = ac+bd+(ac+bd - (a-b)(c-d))</li>
-<li>只需要ac,bd,(a-b)(c-d)三次乘法</li>
-<li>每次问题规模减半，但需要解3个子问题，加法是O(n)的，a=3，b=2，d=1</li>
-<li>复杂度为n^log2(3)</li>
-</ul>
+<h2 id="字符串匹配完整代码">字符串匹配完整代码</h2>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="type">int</span> *next = <span class="built_in">getNext</span>(s2);</span><br><span class="line"><span class="type">int</span> i = <span class="number">0</span>, j = <span class="number">0</span>;</span><br><span class="line"><span class="keyword">while</span>(i &lt; s1.<span class="built_in">length</span>())&#123;</span><br><span class="line">    <span class="keyword">if</span>(j == <span class="number">-1</span> || s1[i] == s2[j])&#123;</span><br><span class="line">        <span class="keyword">if</span>(j+<span class="number">1</span> == s2.<span class="built_in">length</span>())&#123;</span><br><span class="line">            cout &lt;&lt; i - j + <span class="number">1</span> &lt;&lt; endl;</span><br><span class="line">            j = next[j];</span><br><span class="line">        &#125;<span class="keyword">else</span>&#123;</span><br><span class="line">            i++; </span><br><span class="line">            j++;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">else</span>&#123;</span><br><span class="line">        j = next[j];</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="证明时间复杂度为mathcalon">证明时间复杂度为<span
+class="math inline">\(\mathcal{O}(n)\)</span></h3>
+<p>借用势能的概念，构造表达式，使表达式在while循环中单调递增，然后已知初始值和结束值</p>
+<p>定义<strong>势能函数</strong><span class="math inline">\(k =
+2i-j\)</span>，考察算法过程的k变化 - 初始时，<span
+class="math inline">\(k = 0\)</span> - 论断：每经过一次循环, k至少增加1
+- 若if判断为true，则i、j同时加1，故k至少加1 -
+否则，i不变，j至少减1，故k至少加1 - 算法结束时，<span
+class="math inline">\(k = 2i-j \leq 2(n-1)-(-1) = 2n-1\)</span></p>
+<p>额外的辅助空间复杂度为<span
+class="math inline">\(\mathcal{O}(n)\)</span></p>
+<h2 id="进一步改进next">进一步改进next</h2>
+<p>上述内容足以完成开篇所列的洛谷模板题，但就效率而言还不够好，下面一种情况就是不必要的。</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ABACBC</span><br><span class="line">ABAB</span><br></pre></td></tr></table></figure>
+<p>若匹配到第3位C与B，按照之前的做法应该回溯到<code>next[3]==1</code>中，但由于<code>P[next[3]]==P[3]</code>，这样的回溯没有意义，应该进一步回溯到不相等的情况。</p>
+<p>若排在前面的字符的回溯就采用这种思想，那么可以确保后面的字符只需经过一次回溯就可以达到不相等这种最优的情况。</p>
+<p><code>getNext</code>代码修改如下</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">int</span>* <span class="title">getNext</span><span class="params">(string p)</span> </span>&#123;</span><br><span class="line">    <span class="type">int</span>* next = <span class="keyword">new</span> <span class="type">int</span>[p.<span class="built_in">length</span>()];</span><br><span class="line">    next[<span class="number">0</span>] = <span class="number">-1</span>;</span><br><span class="line">    <span class="type">int</span> j = <span class="number">0</span>;</span><br><span class="line">    <span class="type">int</span> k = <span class="number">-1</span>;</span><br><span class="line">    <span class="keyword">while</span>(j &lt; p.<span class="built_in">length</span>() - <span class="number">1</span>)&#123;</span><br><span class="line">    	<span class="keyword">if</span>(k == <span class="number">-1</span> || p[j] == p[k])&#123;</span><br><span class="line">            <span class="keyword">if</span>(p[++j] == p[++k])&#123;</span><br><span class="line">                next[j] = next[k];</span><br><span class="line">            &#125;<span class="keyword">else</span>&#123;</span><br><span class="line">                next[j] = k;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    	<span class="keyword">else</span></span><br><span class="line">    		k = next[k];</span><br><span class="line">	&#125;</span><br><span class="line">    <span class="keyword">return</span> next;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <h2 id="参考文献">参考文献</h2>
-<p>[1] https://blog.csdn.net/caozhk/article/details/24734371
-"主定理的证明及应用举例" [2]
-https://blog.csdn.net/lanchunhui/article/details/52451362
-"主定理（Master Theorem）与时间复杂度"</p>
+<p>[1] https://www.cnblogs.com/yjiyjige/p/3263858.html <a
+href="https://www.cnblogs.com/yjiyjige/p/3263858.html">详解KMP算法</a></p>
 ]]></content>
       <categories>
         <category>Algorithm</category>
-        <category>DS</category>
       </categories>
       <tags>
-        <tag>DS</tag>
-        <tag>Algorithm</tag>
+        <tag>Alogrithm</tag>
       </tags>
   </entry>
   <entry>
@@ -530,8 +554,8 @@ https://blog.csdn.net/lanchunhui/article/details/52451362
 <h3 id="section"></h3>
 ]]></content>
       <categories>
-        <category>DS</category>
         <category>C/C++</category>
+        <category>DS</category>
       </categories>
       <tags>
         <tag>C/C++</tag>
@@ -559,12 +583,157 @@ https://blog.csdn.net/lanchunhui/article/details/52451362
 <h3 id="section"></h3>
 ]]></content>
       <categories>
-        <category>DS</category>
         <category>C/C++</category>
+        <category>DS</category>
       </categories>
       <tags>
         <tag>C/C++</tag>
         <tag>DS</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>支持修改元素值的优先队列</title>
+    <url>/2023/04/12/DSA/%E6%94%AF%E6%8C%81%E4%BF%AE%E6%94%B9%E5%85%83%E7%B4%A0%E5%80%BC%E7%9A%84%E4%BC%98%E5%85%88%E9%98%9F%E5%88%97/</url>
+    <content><![CDATA[<p>If you want to modify an element in a priority queue, you would need
+to remove the element, modify it, and then insert it back into the
+priority queue. However, this can be inefficient for large priority
+queues since removing and inserting elements can be expensive
+operations.</p>
+<p>In C++, the standard priority queue container does not provide a
+direct way to modify elements. Instead, you would need to implement a
+<strong>custom priority queue data structure</strong> that allows
+efficient modification of elements.</p>
+<p>One way to do this is to use <strong>a combination of a heap-based
+priority queue and a hash table</strong> (or a map) that maps elements
+to their positions in the heap. The hash table allows fast lookup of an
+element's position in the heap, and the heap-based priority queue allows
+efficient access to the highest-priority element.</p>
+<p>Here is a simple example of a custom priority queue data structure
+that supports efficient modification of elements:</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;queue&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;unordered_map&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="keyword">template</span> &lt;<span class="keyword">typename</span> T&gt;</span><br><span class="line"><span class="keyword">class</span> <span class="title class_">CustomPriorityQueue</span> &#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function"><span class="type">void</span> <span class="title">push</span><span class="params">(<span class="type">const</span> T&amp; val)</span> </span>&#123;</span><br><span class="line">        pq.<span class="built_in">push</span>(val);</span><br><span class="line">        pos[val] = pq.<span class="built_in">size</span>() - <span class="number">1</span>;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="type">void</span> <span class="title">pop</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        pos.<span class="built_in">erase</span>(pq.<span class="built_in">top</span>());</span><br><span class="line">        pq.<span class="built_in">pop</span>();</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="type">void</span> <span class="title">modify</span><span class="params">(<span class="type">const</span> T&amp; old_val, <span class="type">const</span> T&amp; new_val)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">auto</span> it = pos.<span class="built_in">find</span>(old_val);</span><br><span class="line">        <span class="keyword">if</span> (it == pos.<span class="built_in">end</span>()) &#123;</span><br><span class="line">            <span class="keyword">return</span>;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="type">int</span> i = it-&gt;second;</span><br><span class="line">        pq.<span class="built_in">pop</span>();</span><br><span class="line"></span><br><span class="line">        <span class="keyword">if</span> (i != pq.<span class="built_in">size</span>()) &#123;</span><br><span class="line">            pq.<span class="built_in">push</span>(pq.<span class="built_in">top</span>());</span><br><span class="line">            pos[pq.<span class="built_in">top</span>()] = i;</span><br><span class="line">            pq.<span class="built_in">pop</span>();</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        pos.<span class="built_in">erase</span>(it);</span><br><span class="line">        <span class="built_in">push</span>(new_val);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="type">const</span> T&amp; <span class="title">top</span><span class="params">()</span> <span class="type">const</span> </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> pq.<span class="built_in">top</span>();</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="type">bool</span> <span class="title">empty</span><span class="params">()</span> <span class="type">const</span> </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> pq.<span class="built_in">empty</span>();</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">private</span>:</span><br><span class="line">    std::priority_queue&lt;T&gt; pq;</span><br><span class="line">    std::unordered_map&lt;T, <span class="type">int</span>&gt; pos;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>DS</category>
+      </categories>
+      <tags>
+        <tag>DS</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Github使用</title>
+    <url>/2022/06/30/Git/Github%20Guide/</url>
+    <content><![CDATA[<h1 id="github使用">Github使用</h1>
+<h2 id="生成ssh-key">生成SSH key</h2>
+<p>SSh（安全外壳协议）GitHub 上，一般都是通过 SSH 来授权的，而且大多数
+Git 服务器也会选择使用 SSH 公钥来进行授权，所以想要向 GitHub
+提交代码，首先就得在 GitHub 上添加 SSH key配置。</p>
+<span id="more"></span>
+<figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line">ssh-keygen -t rsa -C &quot;xxx@xxx.com&quot;</span><br><span class="line">//执行后一直回车</span><br><span class="line"><span class="built_in">cd</span> ~/.ssh</span><br><span class="line">cat id_rsa.pub</span><br></pre></td></tr></table></figure>
+<p>生成公钥和私钥，无需账号和密码即可clone和push代码</p>
+<div class="note info"><h4 id="info-header">Info Header</h4>
+<p><strong>Welcome</strong> to <a href="https://hexo.io">Hexo!</a></p>
+</div>
+<h2 id="操作git">操作git</h2>
+<h3 id="git-clone"><code>git clone</code></h3>
+<ul>
+<li><p>克隆指定分支</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git <span class="built_in">clone</span> -b [branchname] [git@name.git]</span><br></pre></td></tr></table></figure></li>
+<li><p>改变克隆的文件夹名称</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git <span class="built_in">clone</span> [git@name.git] [foldername]</span><br></pre></td></tr></table></figure></li>
+</ul>
+<h3 id="git---help"><code>git --help</code></h3>
+<p>得到git-doc文件</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git --<span class="built_in">help</span> &lt;<span class="built_in">command</span>&gt;</span><br></pre></td></tr></table></figure>
+<h3 id="git-init"><code>git init</code></h3>
+<p>初始一个Git仓库</p>
+<p>先创建好仓库目录，并保存好文件</p>
+<p><strong>在我们进行任何的git操作之前，我们都得先切换到 Git
+的仓库目录。</strong></p>
+<p>我们得先进入到（我们定义的）Git
+仓库的最顶层文件目录下，然后从此目录中进入 Git
+Bash，这样之后的操作才能顺利进行</p>
+<h3 id="git-status"><code>git status</code></h3>
+<p>查看仓库状态，若未创建，则返回<code>not a git repository</code></p>
+<h3 id="git-init-1"><code>git init</code></h3>
+<p>在命令行窗口的光标处，输入<code>git init</code>命令，初始化 Git
+仓库：</p>
+<p>初始化之后仓库变成Git仓库</p>
+<h3 id="git-add"><code>git add</code></h3>
+<p>将已有的文件添加到Git仓库，<code>git add xxx.xxx</code></p>
+<p>已经显示<code>Initial commit</code>初始化提交了，同时已经没有<code>Untracked files</code>提示了，这说明文件<code>hit.txt</code>已经被添加到
+Git 仓库</p>
+<p>在这里，需要声明一点，那就是：<strong><em><code>git add</code>命令并没有把文件提交到
+Git
+仓库，而是把文件添加到了「临时缓冲区」，这个命令有效防止了我们错误提交的可能性。</em></strong></p>
+<h3 id="git-commit"><code>git commit</code></h3>
+<p>在命令行窗口的光标处，输入<code>git commit -m "text commit"</code>命令，将<code>hit.txt</code>文件提交到
+Git 仓库：</p>
+<p>其中<code>commit</code>表示提交，<code>-m</code>表示提交信息，提交信息写在双引号""内。接下来，再输入<code>git status</code>命令查看仓库状态</p>
+<p>结果显示<code>nothing to commit, working tree clean</code>，这表示已经没有内容可以提交了，即全部内容已经提交完毕。</p>
+<h3 id="git-log"><code>git log</code></h3>
+<p>在命令行窗口的光标处，输入<code>git log</code>命令，打印 Git
+仓库提交日志：</p>
+<h3 id="git-branch"><code>git branch</code></h3>
+<p>在命令行窗口的光标处，输入<code>git branch</code>命令，查看 Git
+仓库的分支情况：</p>
+<p>如上图所示，显示了仓库demo中的分支情况，现在仅有一个<code>master</code>分支，其中<code>master</code>分支前的*号表示“当前所在的分支”，例如*
+master就意味着我们所在的位置为demo仓库的主分支。输入命令<code>git branch a</code>，再输入命令<code>git branch</code>，结果如下图所示：</p>
+<h3 id="git-checkout"><code>git checkout</code></h3>
+<p>在命令行窗口的光标处，输入<code>git checkout a</code>命令，切换到<code>a</code>分支：</p>
+<p>在这里，我们还有一个更简单的方法来查看当前的分支，即通过观察上图中用红色框圈起来的部分。此外，我们也可以在创建分支的同时，直接切换到新分支，命令为<code>git checkout -b</code>，例如输入<code>git checkout -b b</code>命令：</p>
+<h3 id="git-merge"><code>git merge</code></h3>
+<p>切换到<code>master</code>分支，然后输入<code>git merge a</code>命令，将<code>a</code>分支合并到<code>master</code>分支：</p>
+<p>此外，在这里需要注意一点，那就是：<strong>在合并分支的时候，要考虑到两个分支是否有冲突，如果有冲突，则不能直接合并，需要先解决冲突；反之，则可以直接合并。</strong></p>
+<h3
+id="git-branch--d-git-branch--d"><code>git branch -d &amp; git branch -D</code></h3>
+<p>在命令行窗口的光标处，输入<code>git branch -d a</code>命令，删除<code>a</code>分支：</p>
+<p>不过有的时候，<em>通过git branch
+-d命令可以出现删除不了现象，例如分支a的代码没有合并到主分支等，这时如果我们一定要删除该分支，那么我们可以通过命令git
+branch -D进行强制删除。</em></p>
+<h3 id="git-tag"><code>git tag</code></h3>
+<p>在命令行窗口的光标处，输入<code>git tag v1.0</code>命令，为当前分支添加标签：</p>
+<p>如上图所示，我们为当前所在的a分支添加了一个v1.0标签。通过命令<code>git tag</code>即可查看标签记录：</p>
+<p>如上图所示，我们为当前所在的a分支添加了一个v1.0标签。通过命令<code>git tag</code>即可查看标签记录：</p>
+<p>如上图所示，显示了我们添加标签的记录。通过命令<code>git checkout v1.0</code>即可切换到该标签下的代码状态：</p>
+<h3 id="git-remote"><code>git remote</code></h3>
+<p>返回当前remote仓库名</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git remote add [-t &lt;branch&gt;] [-m &lt;master&gt;] [-f] [--[no-]tags] [--mirror=(fetch|push)] &lt;name&gt; &lt;url&gt;</span><br></pre></td></tr></table></figure>
+<h3 id="git-push"><code>git push</code></h3>
+<p>specify the URL from the command-line or configure a remote
+repository using</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git remote add &lt;name&gt; &lt;url&gt;</span><br></pre></td></tr></table></figure>
+<p>然后向远端push</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git push &lt;name of repo&gt; main(&lt;branch of remote repo&gt;)</span><br></pre></td></tr></table></figure>
+<h3 id="git-pull"><code>git pull</code></h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git pull </span><br></pre></td></tr></table></figure>
+<h2 id="绑定git与github">绑定Git与Github</h2>
+<h2 id="git报错处理">Git报错处理</h2>
+<h3
+id="failed-to-push-some-refs"><code>failed to push some refs</code></h3>
+<p>原因：远程库与本地库不一致，将远程库同步到本地库</p>
+<p>解决办法：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git pull --rebase &lt;name of repo&gt; main</span><br></pre></td></tr></table></figure>
+<p>该命令的意思是把远程库中的更新合并到（pull=fetch+merge）本地库中，–-<a
+href="https://so.csdn.net/so/search?q=rebase&amp;spm=1001.2101.3001.7020">rebase</a>的作用是取消掉本地库中刚刚的commit，并把他们接到更新后的版本库之中。</p>
+<h3
+id="unable-to-access-failed-to-connect"><code>unable to access Failed to connect</code></h3>
+<p>有可能你的gitbub之前设置过代理，只需分别执行如下代码即可：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git config --global --<span class="built_in">unset</span> http.proxy</span><br><span class="line">git config --global --<span class="built_in">unset</span> https.proxy</span><br></pre></td></tr></table></figure>
+<p>若还没有解决，可以尝试如下解决方式</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git config --global url.git://github.com/.insteadOf https://github.com/</span><br></pre></td></tr></table></figure>
+<h3
+id="openssl-ssl_read-connection-was-reset"><code>OpenSSL SSL_read: Connection was reset</code></h3>
+<p>产生原因：一般是这是因为服务器的SSL证书没有经过第三方机构的签署，所以才报错</p>
+<p>解决方法：解除ssl验证后，再次git即可</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git config --global http.sslVerify <span class="string">&quot;false&quot;</span></span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>Git</category>
+        <category>Github</category>
+      </categories>
+      <tags>
+        <tag>Git</tag>
+        <tag>Github</tag>
       </tags>
   </entry>
   <entry>
@@ -691,31 +860,153 @@ https://blog.csdn.net/lanchunhui/article/details/52451362
       </tags>
   </entry>
   <entry>
-    <title>支持修改元素值的优先队列</title>
-    <url>/2023/04/12/DSA/%E6%94%AF%E6%8C%81%E4%BF%AE%E6%94%B9%E5%85%83%E7%B4%A0%E5%80%BC%E7%9A%84%E4%BC%98%E5%85%88%E9%98%9F%E5%88%97/</url>
-    <content><![CDATA[<p>If you want to modify an element in a priority queue, you would need
-to remove the element, modify it, and then insert it back into the
-priority queue. However, this can be inefficient for large priority
-queues since removing and inserting elements can be expensive
-operations.</p>
-<p>In C++, the standard priority queue container does not provide a
-direct way to modify elements. Instead, you would need to implement a
-<strong>custom priority queue data structure</strong> that allows
-efficient modification of elements.</p>
-<p>One way to do this is to use <strong>a combination of a heap-based
-priority queue and a hash table</strong> (or a map) that maps elements
-to their positions in the heap. The hash table allows fast lookup of an
-element's position in the heap, and the heap-based priority queue allows
-efficient access to the highest-priority element.</p>
-<p>Here is a simple example of a custom priority queue data structure
-that supports efficient modification of elements:</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;queue&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;unordered_map&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="keyword">template</span> &lt;<span class="keyword">typename</span> T&gt;</span><br><span class="line"><span class="keyword">class</span> <span class="title class_">CustomPriorityQueue</span> &#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function"><span class="type">void</span> <span class="title">push</span><span class="params">(<span class="type">const</span> T&amp; val)</span> </span>&#123;</span><br><span class="line">        pq.<span class="built_in">push</span>(val);</span><br><span class="line">        pos[val] = pq.<span class="built_in">size</span>() - <span class="number">1</span>;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="type">void</span> <span class="title">pop</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        pos.<span class="built_in">erase</span>(pq.<span class="built_in">top</span>());</span><br><span class="line">        pq.<span class="built_in">pop</span>();</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="type">void</span> <span class="title">modify</span><span class="params">(<span class="type">const</span> T&amp; old_val, <span class="type">const</span> T&amp; new_val)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">auto</span> it = pos.<span class="built_in">find</span>(old_val);</span><br><span class="line">        <span class="keyword">if</span> (it == pos.<span class="built_in">end</span>()) &#123;</span><br><span class="line">            <span class="keyword">return</span>;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="type">int</span> i = it-&gt;second;</span><br><span class="line">        pq.<span class="built_in">pop</span>();</span><br><span class="line"></span><br><span class="line">        <span class="keyword">if</span> (i != pq.<span class="built_in">size</span>()) &#123;</span><br><span class="line">            pq.<span class="built_in">push</span>(pq.<span class="built_in">top</span>());</span><br><span class="line">            pos[pq.<span class="built_in">top</span>()] = i;</span><br><span class="line">            pq.<span class="built_in">pop</span>();</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        pos.<span class="built_in">erase</span>(it);</span><br><span class="line">        <span class="built_in">push</span>(new_val);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="type">const</span> T&amp; <span class="title">top</span><span class="params">()</span> <span class="type">const</span> </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> pq.<span class="built_in">top</span>();</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="type">bool</span> <span class="title">empty</span><span class="params">()</span> <span class="type">const</span> </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> pq.<span class="built_in">empty</span>();</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">private</span>:</span><br><span class="line">    std::priority_queue&lt;T&gt; pq;</span><br><span class="line">    std::unordered_map&lt;T, <span class="type">int</span>&gt; pos;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+    <title>主定理与时间复杂度</title>
+    <url>/2022/09/18/DSA/%E4%B8%BB%E5%AE%9A%E7%90%86%E4%B8%8E%E6%97%B6%E9%97%B4%E5%A4%8D%E6%9D%82%E5%BA%A6/</url>
+    <content><![CDATA[<p>主要解决：根据时间复杂度的递推关系，求时间复杂度</p>
+<span id="more"></span>
+<h2 id="主定理内容">主定理内容</h2>
+<p>设<span class="math inline">\(a \geq 1\)</span>和<span
+class="math inline">\(b &gt;
+1\)</span>为常数，设f(n)为一函数，T(n)有递推式 <span
+class="math display">\[
+T(n)=aT(\frac n b)+f(n)
+\]</span> 其中<span class="math inline">\(\frac nb\)</span> 指<span
+class="math inline">\(\left\lfloor\dfrac{n}{b}
+\right\rfloor\)</span>和<span
+class="math inline">\(\left\lceil\dfrac{b}{n}
+\right\rceil\)</span>，可以证明，略去上下取整不会对结果造成影响。那么<span
+class="math inline">\(T(n)\)</span>可能有如下的渐进界</p>
+<p>（1）若<span class="math inline">\(f(n) &lt;
+n^{\log_ba}\)</span>，且是多项式的小于。即 <span class="math display">\[
+\exists
+\epsilon&gt;0,有f(n)=\mathcal{O}(n^{\log_ba-\epsilon}),则T(n)=\mathcal{O}(n^{\log_ba})
+\]</span> （2）若<span class="math inline">\(f(n) =
+n^{\log_ba}\)</span>，则<span
+class="math display">\[T(n)=\mathcal{O}(n^{\log_ba}\log n)\]</span></p>
+<p>（3）若<span class="math inline">\(f(n) &gt;
+n^{\log_ba}\)</span>，且是多项式的大于。即 <span class="math display">\[
+\exists
+\epsilon&gt;0,有f(n)=\mathcal{O}(n^{\log_ba-\epsilon}),则T(n)=\mathcal{O}(n^{\log_ba})
+\\
+且对\exists c&lt;1与所有足够大的n,有af(\frac nb)\leq
+cf(n),则T(n)=\mathcal{O}(f(n))
+\]</span></p>
+<h2 id="主定理证明">主定理证明</h2>
+<p>可以画递归树</p>
+<p>可见，每次递归把问题分为<span
+class="math inline">\(a\)</span>个规模为<span
+class="math inline">\(\frac nb\)</span>的子问题。从根节点开始，共有<span
+class="math inline">\(\log_bn+1\)</span>层，叶子节点数为<span
+class="math inline">\(a^{\log_bn}\)</span>。那么，第j层共有<span
+class="math inline">\(a^j\)</span>个子问题，每个问题规模为<span
+class="math inline">\(n/b^j\)</span>，每个子问题运算量为<span
+class="math inline">\(c*(\frac
+n{b^j})^d\)</span>，每一层需要完成的计算量为</p>
+<p><span class="math display">\[
+a^jf(\frac n{b^j})
+\]</span> 求和得到整个问题的运算量，d为f(n)的阶数 <span
+class="math display">\[
+\sum_{j=0}^{\log_bn} a^jf(\frac n{b^j}) = Cn^d\sum_{j=0}^{\log_bn}(\frac
+a{b^d})^j
+\]</span> 分类讨论</p>
+<p>（1）若<span class="math inline">\(f(n) &lt;
+n^{\log_ba}\)</span>，且是多项式的小于，即<span
+class="math inline">\(d&lt;\log_ba\)</span></p>
+<blockquote class="blockquote-center">
+<p>不会了</p>
+
+</blockquote>
+<p>（2）若<span class="math inline">\(f(n) = n^{\log_ba}\)</span>, 即
+<span class="math display">\[
+Cn^d\sum_{j=0}^{\log_bn}(\frac a{b^d})^j = Cn^d\log_b n =
+\mathcal{O}(n^{\log_ba}\log n)
+\]</span> （3）若<span class="math inline">\(f(n) &gt;
+n^{\log_ba}\)</span>，且是多项式的大于。即</p>
+<blockquote class="blockquote-center">
+<p>不会了</p>
+
+</blockquote>
+<h2 id="主定理应用">主定理应用</h2>
+<h3 id="二分搜索">二分搜索</h3>
+<ul>
+<li>每次问题规模减半，a=1，b=2，d=0</li>
+<li>复杂度为n^0 log(n) = log(n)。</li>
+</ul>
+<h3 id="快速排序">快速排序</h3>
+<ul>
+<li>随机选择待排序序列中的一个数字作为划分字问题的标准，划分是否平均影响算法复杂度</li>
+<li>每次问题规模减半，a=2，b=2，d=1</li>
+<li>复杂度为n^2 log(n)</li>
+<li>最差情况下，复杂度为O(n^2)</li>
+</ul>
+<h3 id="归并排序">归并排序</h3>
+<ul>
+<li>数据列均分为两部分，分别排序，之后以O(n)的复杂度进行合并，空间复杂度O(n)</li>
+<li>每次问题规模减半，a=2，b=2，d=1</li>
+<li>复杂度为n log(n)</li>
+</ul>
+<h3 id="基数排序radix-sort">基数排序(Radix sort)</h3>
+<ul>
+<li>对于待排序的整数序列，从最低位到最高位每次按照相应的位排序一次</li>
+<li>每次递归问题规模变为原来的1/10，但需要求解10个子问题，额外运算为O(n)的，a=10，b=10，d=1</li>
+<li>复杂度为n^1 log(n) = n log(n)，近似为O(kN)，k为整数的位数</li>
+</ul>
+<h3 id="快速傅里叶变换fft">快速傅里叶变换：FFT</h3>
+<ul>
+<li>每次问题规模减半，a=2，b=2，d=1</li>
+<li>复杂度为n log(n)</li>
+</ul>
+<h3 id="karatsuba快速乘法">Karatsuba快速乘法</h3>
+<ul>
+<li>正常两个n位数乘法为n^2</li>
+<li>算法把两个乘数各分为高低位两部分，如X<em>Y = (a+b) </em> (c+d) =
+ac+bd + (bc+ad) = ac+bd+(ac+bd - (a-b)(c-d))</li>
+<li>只需要ac,bd,(a-b)(c-d)三次乘法</li>
+<li>每次问题规模减半，但需要解3个子问题，加法是O(n)的，a=3，b=2，d=1</li>
+<li>复杂度为n^log2(3)</li>
+</ul>
+<h2 id="参考文献">参考文献</h2>
+<p>[1] https://blog.csdn.net/caozhk/article/details/24734371
+"主定理的证明及应用举例" [2]
+https://blog.csdn.net/lanchunhui/article/details/52451362
+"主定理（Master Theorem）与时间复杂度"</p>
 ]]></content>
       <categories>
+        <category>Algorithm</category>
         <category>DS</category>
       </categories>
       <tags>
         <tag>DS</tag>
+        <tag>Algorithm</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>C++运算符重载</title>
+    <url>/2022/09/22/C++/C++%E8%BF%90%E7%AE%97%E7%AC%A6%E9%87%8D%E8%BD%BD/</url>
+    <content><![CDATA[<p>https://blog.csdn.net/qq_41854911/article/details/119392824</p>
+<h1 id="c运算符重载基础">C++运算符重载基础</h1>
+<p>下面介绍一些主题常用post内部的页面模块，可直接参照使用</p>
+<span id="more"></span>
+<h2 id="center-quote-居中引用">Center Quote 居中引用</h2>
+<p>建议在单行文字时使用</p>
+<h3 id="example">Example</h3>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">&#123;% cq %&#125;代码优雅，核心简单&#123;% endcq %&#125;</span><br></pre></td></tr></table></figure>
+<blockquote class="blockquote-center">
+<p>代码优雅，核心简单</p>
+
+</blockquote>
+<h2 id="note-bootstrap-callout">Note( Bootstrap Callout )</h2>
+<h3 id="设置">设置</h3>
+<h3 id="使用-usage">使用 Usage</h3>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">```</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% codeblock 创建note lang:html [additional options] %&#125;</span><br><span class="line">&#123;% note [class] [no-icon] [summary] %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% note info no-icon This is a summary %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">## 代码块 Code Block</span><br><span class="line"></span><br><span class="line">```html</span><br><span class="line">&#123;% codeblock [title] [lang:language] [url] [link text] [additional options] %&#125;</span><br><span class="line">code snippet</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br></pre></td></tr></table></figure>
+<h1 id="参考文献">参考文献</h1>
+<p>[1] https://blog.csdn.net/qq_41854911/article/details/119392824</p>
+]]></content>
+      <categories>
+        <category>C/C++</category>
+      </categories>
+      <tags>
+        <tag>C/C++</tag>
       </tags>
   </entry>
   <entry>
@@ -744,12 +1035,67 @@ f(N,M)=(f(N−1,M)+M) \% N
 <h3 id="section"></h3>
 ]]></content>
       <categories>
-        <category>DS</category>
         <category>C/C++</category>
+        <category>DS</category>
       </categories>
       <tags>
         <tag>C/C++</tag>
         <tag>DS</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>C语言中的指针</title>
+    <url>/2022/11/03/C++/C%E8%AF%AD%E8%A8%80%E4%B8%AD%E7%9A%84%E6%8C%87%E9%92%88/</url>
+    <content><![CDATA[<p>本文总结C语言课程学习中用到的指针概念及操作。</p>
+<span id="more"></span>
+<h2 id="动态分配内存">动态分配内存</h2>
+<h3 id="malloc"><code>malloc</code></h3>
+<ul>
+<li><p>功能描述</p>
+<p>分配所要求的内存空间，并返回指向该空间的指针</p></li>
+<li><p>函数原型</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdlib.h&gt;</span></span></span><br><span class="line"><span class="function"><span class="type">void</span> *<span class="title">malloc</span><span class="params">(<span class="type">size_t</span> size)</span></span></span><br></pre></td></tr></table></figure></li>
+<li><p>参数</p>
+<ul>
+<li><code>size</code>指的是内存空间的<strong><em>字节大小</em></strong></li>
+</ul></li>
+<li><p>返回值</p>
+<ul>
+<li>分配成功，返回指向该空间的指针</li>
+<li>分配失败，返回<code>NULL</code></li>
+</ul></li>
+<li><p>示例</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdlib.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span> <span class="params">()</span> </span>&#123;</span><br><span class="line">   <span class="type">char</span> *str;</span><br><span class="line"></span><br><span class="line">   <span class="comment">/* Initial memory allocation */</span></span><br><span class="line">   str = (<span class="type">char</span> *) <span class="built_in">malloc</span>(<span class="number">15</span>);</span><br><span class="line">   <span class="built_in">strcpy</span>(str, <span class="string">&quot;tutorialspoint&quot;</span>);</span><br><span class="line">   <span class="built_in">printf</span>(<span class="string">&quot;String = %s,  Address = %u\n&quot;</span>, str, str);</span><br><span class="line"></span><br><span class="line">   <span class="comment">/* Reallocating memory */</span></span><br><span class="line">   str = (<span class="type">char</span> *) <span class="built_in">realloc</span>(str, <span class="number">25</span>);</span><br><span class="line">   <span class="built_in">strcat</span>(str, <span class="string">&quot;.com&quot;</span>);</span><br><span class="line">   <span class="built_in">printf</span>(<span class="string">&quot;String = %s,  Address = %u\n&quot;</span>, str, str);</span><br><span class="line"></span><br><span class="line">   <span class="built_in">free</span>(str);</span><br><span class="line">   </span><br><span class="line">   <span class="keyword">return</span>(<span class="number">0</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li>
+</ul>
+<h3 id="bool"><code>bool</code></h3>
+<p>C语言中没有bool值，不可以使用<code>true / false</code></p>
+<h3 id="unsigned"><code>unsigned</code></h3>
+<p>不要在它减到0时继续往下减，否则会变成无穷大</p>
+<h2 id="结构体">结构体</h2>
+<p>结构体中不能包含函数，不推荐在定义结构体后直接声明变量。</p>
+<p><strong>结构体作为数据类型，需要在前面加上<code>struct</code>，比如</strong></p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="keyword">struct</span> <span class="title class_">Time</span> <span class="built_in">devide</span>(<span class="keyword">struct</span> Time t1, <span class="keyword">struct</span> Time t2)&#123;&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="循环">循环</h2>
+<p>不允许在<code>for</code>内定义变量</p>
+<h2 id="指针与引用">指针与引用</h2>
+<div class="note info"><p>C语言中没有引用</p>
+</div>
+<h2 id="报错汇总">报错汇总</h2>
+<h3
+id="是否忘记了向源中添加include-stdafx.h">是否忘记了向源中添加“#include
+“stdafx.h“”</h3>
+<p>对于每一个出错的.cpp文件，右键——》属性——》C/C++——》预编译头，选择不使用预编译头即可。</p>
+<details class="note info no-icon"><summary><p>This is a summary</p>
+</summary>
+<p>Any content (support inline tags too).</p>
+
+</details>
+]]></content>
+      <categories>
+        <category>C/C++</category>
+      </categories>
+      <tags>
+        <tag>C/C++</tag>
       </tags>
   </entry>
   <entry>
@@ -784,29 +1130,17 @@ f(N,M)=(f(N−1,M)+M) \% N
       </tags>
   </entry>
   <entry>
-    <title>C语言中的指针</title>
-    <url>/2022/11/03/C++/C%E8%AF%AD%E8%A8%80%E4%B8%AD%E7%9A%84%E6%8C%87%E9%92%88/</url>
-    <content><![CDATA[<p>本文总结C语言课程学习中用到的指针概念及操作。</p>
+    <title>C语言课程常用库</title>
+    <url>/2022/10/27/C++/C%E8%AF%AD%E8%A8%80%E8%AF%BE%E7%A8%8B%E5%B8%B8%E7%94%A8%E5%BA%93/</url>
+    <content><![CDATA[<p>本文总结C语言课程学习中尝试用到的库函数与方法。</p>
 <span id="more"></span>
-<h2 id="动态分配内存">动态分配内存</h2>
-<h3 id="malloc"><code>malloc</code></h3>
-<ul>
-<li><p>功能描述</p>
-<p>分配所要求的内存空间，并返回指向该空间的指针</p></li>
-<li><p>函数原型</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdlib.h&gt;</span></span></span><br><span class="line"><span class="function"><span class="type">void</span> *<span class="title">malloc</span><span class="params">(<span class="type">size_t</span> size)</span></span></span><br></pre></td></tr></table></figure></li>
-<li><p>参数</p>
-<ul>
-<li><code>size</code>指的是内存空间的<strong><em>字节大小</em></strong></li>
-</ul></li>
-<li><p>返回值</p>
-<ul>
-<li>分配成功，返回指向该空间的指针</li>
-<li>分配失败，返回<code>NULL</code></li>
-</ul></li>
-<li><p>示例</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdlib.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span> <span class="params">()</span> </span>&#123;</span><br><span class="line">   <span class="type">char</span> *str;</span><br><span class="line"></span><br><span class="line">   <span class="comment">/* Initial memory allocation */</span></span><br><span class="line">   str = (<span class="type">char</span> *) <span class="built_in">malloc</span>(<span class="number">15</span>);</span><br><span class="line">   <span class="built_in">strcpy</span>(str, <span class="string">&quot;tutorialspoint&quot;</span>);</span><br><span class="line">   <span class="built_in">printf</span>(<span class="string">&quot;String = %s,  Address = %u\n&quot;</span>, str, str);</span><br><span class="line"></span><br><span class="line">   <span class="comment">/* Reallocating memory */</span></span><br><span class="line">   str = (<span class="type">char</span> *) <span class="built_in">realloc</span>(str, <span class="number">25</span>);</span><br><span class="line">   <span class="built_in">strcat</span>(str, <span class="string">&quot;.com&quot;</span>);</span><br><span class="line">   <span class="built_in">printf</span>(<span class="string">&quot;String = %s,  Address = %u\n&quot;</span>, str, str);</span><br><span class="line"></span><br><span class="line">   <span class="built_in">free</span>(str);</span><br><span class="line">   </span><br><span class="line">   <span class="keyword">return</span>(<span class="number">0</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li>
-</ul>
+<h2 id="math.h">math.h</h2>
+<h3 id="powfloat-a-float-b">pow(float a, float b)</h3>
+<p>注意返回值为浮点型</p>
+<h3 id="absint-x">abs(int x)</h3>
+<h3 id="fabsfloat-x">fabs(float x)</h3>
+<p>注意浮点型取绝对值要使用<code>fabs()</code></p>
+<h2 id="数据类型">数据类型</h2>
 <h3 id="bool"><code>bool</code></h3>
 <p>C语言中没有bool值，不可以使用<code>true / false</code></p>
 <h3 id="unsigned"><code>unsigned</code></h3>
@@ -961,40 +1295,23 @@ of tokens using the delimiter.</p>
       </tags>
   </entry>
   <entry>
-    <title>C语言课程常用库</title>
-    <url>/2022/10/27/C++/C%E8%AF%AD%E8%A8%80%E8%AF%BE%E7%A8%8B%E5%B8%B8%E7%94%A8%E5%BA%93/</url>
-    <content><![CDATA[<p>本文总结C语言课程学习中尝试用到的库函数与方法。</p>
+    <title>Algorithm中sort的使用汇总</title>
+    <url>/2022/09/30/C++/sort%E7%9A%84%E4%BD%BF%E7%94%A8%E6%B1%87%E6%80%BB/</url>
+    <content><![CDATA[<p>本文汇总了<code>sort</code>的常见用法。</p>
 <span id="more"></span>
-<h2 id="math.h">math.h</h2>
-<h3 id="powfloat-a-float-b">pow(float a, float b)</h3>
-<p>注意返回值为浮点型</p>
-<h3 id="absint-x">abs(int x)</h3>
-<h3 id="fabsfloat-x">fabs(float x)</h3>
-<p>注意浮点型取绝对值要使用<code>fabs()</code></p>
-<h2 id="数据类型">数据类型</h2>
-<h3 id="bool"><code>bool</code></h3>
-<p>C语言中没有bool值，不可以使用<code>true / false</code></p>
-<h3 id="unsigned"><code>unsigned</code></h3>
-<p>不要在它减到0时继续往下减，否则会变成无穷大</p>
-<h2 id="结构体">结构体</h2>
-<p>结构体中不能包含函数，不推荐在定义结构体后直接声明变量。</p>
-<p><strong>结构体作为数据类型，需要在前面加上<code>struct</code>，比如</strong></p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="keyword">struct</span> <span class="title class_">Time</span> <span class="built_in">devide</span>(<span class="keyword">struct</span> Time t1, <span class="keyword">struct</span> Time t2)&#123;&#125;</span><br></pre></td></tr></table></figure>
-<h2 id="循环">循环</h2>
-<p>不允许在<code>for</code>内定义变量</p>
-<h2 id="指针与引用">指针与引用</h2>
-<div class="note info"><p>C语言中没有引用</p>
-</div>
-<h2 id="报错汇总">报错汇总</h2>
-<h3
-id="是否忘记了向源中添加include-stdafx.h">是否忘记了向源中添加“#include
-“stdafx.h“”</h3>
-<p>对于每一个出错的.cpp文件，右键——》属性——》C/C++——》预编译头，选择不使用预编译头即可。</p>
-<details class="note info no-icon"><summary><p>This is a summary</p>
-</summary>
-<p>Any content (support inline tags too).</p>
+<h2 id="center-quote-居中引用">Center Quote 居中引用</h2>
+<p>建议在单行文字时使用</p>
+<h3 id="example">Example</h3>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">&#123;% cq %&#125;代码优雅，核心简单&#123;% endcq %&#125;</span><br></pre></td></tr></table></figure>
+<blockquote class="blockquote-center">
+<p>代码优雅，核心简单</p>
 
-</details>
+</blockquote>
+<h2 id="note-bootstrap-callout">Note( Bootstrap Callout )</h2>
+<h3 id="设置">设置</h3>
+<h3 id="使用-usage">使用 Usage</h3>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">```</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% codeblock 创建note lang:html [additional options] %&#125;</span><br><span class="line">&#123;% note [class] [no-icon] [summary] %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% note info no-icon This is a summary %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">## 代码块 Code Block</span><br><span class="line"></span><br><span class="line">```html</span><br><span class="line">&#123;% codeblock [title] [lang:language] [url] [link text] [additional options] %&#125;</span><br><span class="line">code snippet</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="section"></h3>
 ]]></content>
       <categories>
         <category>C/C++</category>
@@ -1025,8 +1342,8 @@ id="是否忘记了向源中添加include-stdafx.h">是否忘记了向源中添�
 <h3 id="section"></h3>
 ]]></content>
       <categories>
-        <category>DS</category>
         <category>C/C++</category>
+        <category>DS</category>
       </categories>
       <tags>
         <tag>C/C++</tag>
@@ -1034,33 +1351,11 @@ id="是否忘记了向源中添加include-stdafx.h">是否忘记了向源中添�
       </tags>
   </entry>
   <entry>
-    <title>C++运算符重载</title>
-    <url>/2022/09/22/C++/C++%E8%BF%90%E7%AE%97%E7%AC%A6%E9%87%8D%E8%BD%BD/</url>
-    <content><![CDATA[<p>https://blog.csdn.net/qq_41854911/article/details/119392824</p>
-<h1 id="c运算符重载基础">C++运算符重载基础</h1>
-<p>下面介绍一些主题常用post内部的页面模块，可直接参照使用</p>
-<span id="more"></span>
-<h2 id="center-quote-居中引用">Center Quote 居中引用</h2>
-<p>建议在单行文字时使用</p>
-<h3 id="example">Example</h3>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">&#123;% cq %&#125;代码优雅，核心简单&#123;% endcq %&#125;</span><br></pre></td></tr></table></figure>
-<blockquote class="blockquote-center">
-<p>代码优雅，核心简单</p>
-
-</blockquote>
-<h2 id="note-bootstrap-callout">Note( Bootstrap Callout )</h2>
-<h3 id="设置">设置</h3>
-<h3 id="使用-usage">使用 Usage</h3>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">```</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% codeblock 创建note lang:html [additional options] %&#125;</span><br><span class="line">&#123;% note [class] [no-icon] [summary] %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% note info no-icon This is a summary %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">## 代码块 Code Block</span><br><span class="line"></span><br><span class="line">```html</span><br><span class="line">&#123;% codeblock [title] [lang:language] [url] [link text] [additional options] %&#125;</span><br><span class="line">code snippet</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br></pre></td></tr></table></figure>
-<h1 id="参考文献">参考文献</h1>
-<p>[1] https://blog.csdn.net/qq_41854911/article/details/119392824</p>
+    <title></title>
+    <url>/2023/07/24/LaTeX/LaTeX%20%E5%91%BD%E4%BB%A4%E6%B1%87%E6%80%BB/</url>
+    <content><![CDATA[<h1 id="表格">表格</h1>
+<h1 id="数学">数学</h1>
 ]]></content>
-      <categories>
-        <category>C/C++</category>
-      </categories>
-      <tags>
-        <tag>C/C++</tag>
-      </tags>
   </entry>
   <entry>
     <title>VS2012报错解决汇总</title>
@@ -1172,301 +1467,6 @@ Definitions，选择&lt;Edit…&gt;，添加预处理器定义<code>_CRT_SECURE_
       <tags>
         <tag>C/C++</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>Algorithm中sort的使用汇总</title>
-    <url>/2022/09/30/C++/sort%E7%9A%84%E4%BD%BF%E7%94%A8%E6%B1%87%E6%80%BB/</url>
-    <content><![CDATA[<p>本文汇总了<code>sort</code>的常见用法。</p>
-<span id="more"></span>
-<h2 id="center-quote-居中引用">Center Quote 居中引用</h2>
-<p>建议在单行文字时使用</p>
-<h3 id="example">Example</h3>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">&#123;% cq %&#125;代码优雅，核心简单&#123;% endcq %&#125;</span><br></pre></td></tr></table></figure>
-<blockquote class="blockquote-center">
-<p>代码优雅，核心简单</p>
-
-</blockquote>
-<h2 id="note-bootstrap-callout">Note( Bootstrap Callout )</h2>
-<h3 id="设置">设置</h3>
-<h3 id="使用-usage">使用 Usage</h3>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">```</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% codeblock 创建note lang:html [additional options] %&#125;</span><br><span class="line">&#123;% note [class] [no-icon] [summary] %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% note info no-icon This is a summary %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">## 代码块 Code Block</span><br><span class="line"></span><br><span class="line">```html</span><br><span class="line">&#123;% codeblock [title] [lang:language] [url] [link text] [additional options] %&#125;</span><br><span class="line">code snippet</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br></pre></td></tr></table></figure>
-<h3 id="section"></h3>
-]]></content>
-      <categories>
-        <category>C/C++</category>
-      </categories>
-      <tags>
-        <tag>C/C++</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>GitLab使用及常见报错</title>
-    <url>/2022/08/23/Git/Gitlab%20Guide/</url>
-    <content><![CDATA[<h1 id="使用入门">使用入门</h1>
-<span id="more"></span>
-<h1 id="错误分析">错误分析</h1>
-<h2
-id="remote-gitlab-you-are-not-allowed-to-push-code-to-protected-branches-on-this-project.">remote:
-GitLab: You are not allowed to push code to protected branches on this
-project.</h2>
-<h3 id="引发原因"><strong>引发原因：</strong></h3>
-<p>公司开发一个新的项目，在<a
-href="https://so.csdn.net/so/search?q=GitLab&amp;spm=1001.2101.3001.7020">GitLab</a>上创建一个代码仓库，通过ssh方式拉取代码到本地磁盘，在提交代码时，报标题所写的错误，原因是我在GitLab上的账户角色为<strong>开发者</strong>，代码仓库的<strong>master主分支</strong>是受保护的，不对开发者进行开放，开发者没有权限，需要关闭代码仓库的<strong>master主分支</strong>受保护的功能，设置开发者可以操作<strong>master主分支</strong>的权限。</p>
-<h3 id="解决办法"><strong>解决办法：</strong></h3>
-<p>使用GitLab系统管理员账户登录，更改代码仓库的<strong>master主分支</strong>开放权限为：<strong>Developers
-+ Maintainers</strong>即可。 <img
-src="https://img-blog.csdnimg.cn/2c63e8edf914401ea67674822087eddf.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBA57yW56iL6K--5aCC,size_20,color_FFFFFF,t_70,g_se,x_16#pic_left"
-alt="在这里插入图片描述" /></p>
-]]></content>
-      <categories>
-        <category>Git</category>
-        <category>GitLab</category>
-      </categories>
-      <tags>
-        <tag>Git</tag>
-        <tag>GitLab</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Github使用</title>
-    <url>/2022/06/30/Git/Github%20Guide/</url>
-    <content><![CDATA[<h1 id="github使用">Github使用</h1>
-<h2 id="生成ssh-key">生成SSH key</h2>
-<p>SSh（安全外壳协议）GitHub 上，一般都是通过 SSH 来授权的，而且大多数
-Git 服务器也会选择使用 SSH 公钥来进行授权，所以想要向 GitHub
-提交代码，首先就得在 GitHub 上添加 SSH key配置。</p>
-<span id="more"></span>
-<figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line">ssh-keygen -t rsa -C &quot;xxx@xxx.com&quot;</span><br><span class="line">//执行后一直回车</span><br><span class="line"><span class="built_in">cd</span> ~/.ssh</span><br><span class="line">cat id_rsa.pub</span><br></pre></td></tr></table></figure>
-<p>生成公钥和私钥，无需账号和密码即可clone和push代码</p>
-<div class="note info"><h4 id="info-header">Info Header</h4>
-<p><strong>Welcome</strong> to <a href="https://hexo.io">Hexo!</a></p>
-</div>
-<h2 id="操作git">操作git</h2>
-<h3 id="git-clone"><code>git clone</code></h3>
-<ul>
-<li><p>克隆指定分支</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git <span class="built_in">clone</span> -b [branchname] [git@name.git]</span><br></pre></td></tr></table></figure></li>
-<li><p>改变克隆的文件夹名称</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git <span class="built_in">clone</span> [git@name.git] [foldername]</span><br></pre></td></tr></table></figure></li>
-</ul>
-<h3 id="git---help"><code>git --help</code></h3>
-<p>得到git-doc文件</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git --<span class="built_in">help</span> &lt;<span class="built_in">command</span>&gt;</span><br></pre></td></tr></table></figure>
-<h3 id="git-init"><code>git init</code></h3>
-<p>初始一个Git仓库</p>
-<p>先创建好仓库目录，并保存好文件</p>
-<p><strong>在我们进行任何的git操作之前，我们都得先切换到 Git
-的仓库目录。</strong></p>
-<p>我们得先进入到（我们定义的）Git
-仓库的最顶层文件目录下，然后从此目录中进入 Git
-Bash，这样之后的操作才能顺利进行</p>
-<h3 id="git-status"><code>git status</code></h3>
-<p>查看仓库状态，若未创建，则返回<code>not a git repository</code></p>
-<h3 id="git-init-1"><code>git init</code></h3>
-<p>在命令行窗口的光标处，输入<code>git init</code>命令，初始化 Git
-仓库：</p>
-<p>初始化之后仓库变成Git仓库</p>
-<h3 id="git-add"><code>git add</code></h3>
-<p>将已有的文件添加到Git仓库，<code>git add xxx.xxx</code></p>
-<p>已经显示<code>Initial commit</code>初始化提交了，同时已经没有<code>Untracked files</code>提示了，这说明文件<code>hit.txt</code>已经被添加到
-Git 仓库</p>
-<p>在这里，需要声明一点，那就是：<strong><em><code>git add</code>命令并没有把文件提交到
-Git
-仓库，而是把文件添加到了「临时缓冲区」，这个命令有效防止了我们错误提交的可能性。</em></strong></p>
-<h3 id="git-commit"><code>git commit</code></h3>
-<p>在命令行窗口的光标处，输入<code>git commit -m "text commit"</code>命令，将<code>hit.txt</code>文件提交到
-Git 仓库：</p>
-<p>其中<code>commit</code>表示提交，<code>-m</code>表示提交信息，提交信息写在双引号""内。接下来，再输入<code>git status</code>命令查看仓库状态</p>
-<p>结果显示<code>nothing to commit, working tree clean</code>，这表示已经没有内容可以提交了，即全部内容已经提交完毕。</p>
-<h3 id="git-log"><code>git log</code></h3>
-<p>在命令行窗口的光标处，输入<code>git log</code>命令，打印 Git
-仓库提交日志：</p>
-<h3 id="git-branch"><code>git branch</code></h3>
-<p>在命令行窗口的光标处，输入<code>git branch</code>命令，查看 Git
-仓库的分支情况：</p>
-<p>如上图所示，显示了仓库demo中的分支情况，现在仅有一个<code>master</code>分支，其中<code>master</code>分支前的*号表示“当前所在的分支”，例如*
-master就意味着我们所在的位置为demo仓库的主分支。输入命令<code>git branch a</code>，再输入命令<code>git branch</code>，结果如下图所示：</p>
-<h3 id="git-checkout"><code>git checkout</code></h3>
-<p>在命令行窗口的光标处，输入<code>git checkout a</code>命令，切换到<code>a</code>分支：</p>
-<p>在这里，我们还有一个更简单的方法来查看当前的分支，即通过观察上图中用红色框圈起来的部分。此外，我们也可以在创建分支的同时，直接切换到新分支，命令为<code>git checkout -b</code>，例如输入<code>git checkout -b b</code>命令：</p>
-<h3 id="git-merge"><code>git merge</code></h3>
-<p>切换到<code>master</code>分支，然后输入<code>git merge a</code>命令，将<code>a</code>分支合并到<code>master</code>分支：</p>
-<p>此外，在这里需要注意一点，那就是：<strong>在合并分支的时候，要考虑到两个分支是否有冲突，如果有冲突，则不能直接合并，需要先解决冲突；反之，则可以直接合并。</strong></p>
-<h3
-id="git-branch--d-git-branch--d"><code>git branch -d &amp; git branch -D</code></h3>
-<p>在命令行窗口的光标处，输入<code>git branch -d a</code>命令，删除<code>a</code>分支：</p>
-<p>不过有的时候，<em>通过git branch
--d命令可以出现删除不了现象，例如分支a的代码没有合并到主分支等，这时如果我们一定要删除该分支，那么我们可以通过命令git
-branch -D进行强制删除。</em></p>
-<h3 id="git-tag"><code>git tag</code></h3>
-<p>在命令行窗口的光标处，输入<code>git tag v1.0</code>命令，为当前分支添加标签：</p>
-<p>如上图所示，我们为当前所在的a分支添加了一个v1.0标签。通过命令<code>git tag</code>即可查看标签记录：</p>
-<p>如上图所示，我们为当前所在的a分支添加了一个v1.0标签。通过命令<code>git tag</code>即可查看标签记录：</p>
-<p>如上图所示，显示了我们添加标签的记录。通过命令<code>git checkout v1.0</code>即可切换到该标签下的代码状态：</p>
-<h3 id="git-remote"><code>git remote</code></h3>
-<p>返回当前remote仓库名</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git remote add [-t &lt;branch&gt;] [-m &lt;master&gt;] [-f] [--[no-]tags] [--mirror=(fetch|push)] &lt;name&gt; &lt;url&gt;</span><br></pre></td></tr></table></figure>
-<h3 id="git-push"><code>git push</code></h3>
-<p>specify the URL from the command-line or configure a remote
-repository using</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git remote add &lt;name&gt; &lt;url&gt;</span><br></pre></td></tr></table></figure>
-<p>然后向远端push</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git push &lt;name of repo&gt; main(&lt;branch of remote repo&gt;)</span><br></pre></td></tr></table></figure>
-<h3 id="git-pull"><code>git pull</code></h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git pull </span><br></pre></td></tr></table></figure>
-<h2 id="绑定git与github">绑定Git与Github</h2>
-<h2 id="git报错处理">Git报错处理</h2>
-<h3
-id="failed-to-push-some-refs"><code>failed to push some refs</code></h3>
-<p>原因：远程库与本地库不一致，将远程库同步到本地库</p>
-<p>解决办法：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git pull --rebase &lt;name of repo&gt; main</span><br></pre></td></tr></table></figure>
-<p>该命令的意思是把远程库中的更新合并到（pull=fetch+merge）本地库中，–-<a
-href="https://so.csdn.net/so/search?q=rebase&amp;spm=1001.2101.3001.7020">rebase</a>的作用是取消掉本地库中刚刚的commit，并把他们接到更新后的版本库之中。</p>
-<h3
-id="unable-to-access-failed-to-connect"><code>unable to access Failed to connect</code></h3>
-<p>有可能你的gitbub之前设置过代理，只需分别执行如下代码即可：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git config --global --<span class="built_in">unset</span> http.proxy</span><br><span class="line">git config --global --<span class="built_in">unset</span> https.proxy</span><br></pre></td></tr></table></figure>
-<p>若还没有解决，可以尝试如下解决方式</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git config --global url.git://github.com/.insteadOf https://github.com/</span><br></pre></td></tr></table></figure>
-<h3
-id="openssl-ssl_read-connection-was-reset"><code>OpenSSL SSL_read: Connection was reset</code></h3>
-<p>产生原因：一般是这是因为服务器的SSL证书没有经过第三方机构的签署，所以才报错</p>
-<p>解决方法：解除ssl验证后，再次git即可</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git config --global http.sslVerify <span class="string">&quot;false&quot;</span></span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>Git</category>
-        <category>Github</category>
-      </categories>
-      <tags>
-        <tag>Git</tag>
-        <tag>Github</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Github使用</title>
-    <url>/2022/06/30/Git/gitignore%E6%96%87%E4%BB%B6%E9%85%8D%E7%BD%AE%E6%8C%87%E5%8D%97/</url>
-    <content><![CDATA[<h1 id="github使用">Github使用</h1>
-<h2 id="生成ssh-key">生成SSH key</h2>
-<p>SSh（安全外壳协议）GitHub 上，一般都是通过 SSH 来授权的，而且大多数
-Git 服务器也会选择使用 SSH 公钥来进行授权，所以想要向 GitHub
-提交代码，首先就得在 GitHub 上添加 SSH key配置。</p>
-<span id="more"></span>
-<figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line">ssh-keygen -t rsa -C &quot;xxx@xxx.com&quot;</span><br><span class="line">//执行后一直回车</span><br><span class="line"><span class="built_in">cd</span> ~/.ssh</span><br><span class="line">cat id_rsa.pub</span><br></pre></td></tr></table></figure>
-<p>生成公钥和私钥，无需账号和密码即可clone和push代码</p>
-<div class="note info"><h4 id="info-header">Info Header</h4>
-<p><strong>Welcome</strong> to <a href="https://hexo.io">Hexo!</a></p>
-</div>
-<h2 id="操作git">操作git</h2>
-<h3 id="git-clone"><code>git clone</code></h3>
-<ul>
-<li><p>克隆指定分支</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git <span class="built_in">clone</span> -b [branchname] [git@name.git]</span><br></pre></td></tr></table></figure></li>
-<li><p>改变克隆的文件夹名称</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git <span class="built_in">clone</span> [git@name.git] [foldername]</span><br></pre></td></tr></table></figure></li>
-</ul>
-<h3 id="git---help"><code>git --help</code></h3>
-<p>得到git-doc文件</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git --<span class="built_in">help</span> &lt;<span class="built_in">command</span>&gt;</span><br></pre></td></tr></table></figure>
-<h3 id="git-init"><code>git init</code></h3>
-<p>初始一个Git仓库</p>
-<p>先创建好仓库目录，并保存好文件</p>
-<p><strong>在我们进行任何的git操作之前，我们都得先切换到 Git
-的仓库目录。</strong></p>
-<p>我们得先进入到（我们定义的）Git
-仓库的最顶层文件目录下，然后从此目录中进入 Git
-Bash，这样之后的操作才能顺利进行</p>
-<h3 id="git-status"><code>git status</code></h3>
-<p>查看仓库状态，若未创建，则返回<code>not a git repository</code></p>
-<h3 id="git-init-1"><code>git init</code></h3>
-<p>在命令行窗口的光标处，输入<code>git init</code>命令，初始化 Git
-仓库：</p>
-<p>初始化之后仓库变成Git仓库</p>
-<h3 id="git-add"><code>git add</code></h3>
-<p>将已有的文件添加到Git仓库，<code>git add xxx.xxx</code></p>
-<p>已经显示<code>Initial commit</code>初始化提交了，同时已经没有<code>Untracked files</code>提示了，这说明文件<code>hit.txt</code>已经被添加到
-Git 仓库</p>
-<p>在这里，需要声明一点，那就是：<strong><em><code>git add</code>命令并没有把文件提交到
-Git
-仓库，而是把文件添加到了「临时缓冲区」，这个命令有效防止了我们错误提交的可能性。</em></strong></p>
-<h3 id="git-commit"><code>git commit</code></h3>
-<p>在命令行窗口的光标处，输入<code>git commit -m "text commit"</code>命令，将<code>hit.txt</code>文件提交到
-Git 仓库：</p>
-<p>其中<code>commit</code>表示提交，<code>-m</code>表示提交信息，提交信息写在双引号""内。接下来，再输入<code>git status</code>命令查看仓库状态</p>
-<p>结果显示<code>nothing to commit, working tree clean</code>，这表示已经没有内容可以提交了，即全部内容已经提交完毕。</p>
-<h3 id="git-log"><code>git log</code></h3>
-<p>在命令行窗口的光标处，输入<code>git log</code>命令，打印 Git
-仓库提交日志：</p>
-<h3 id="git-branch"><code>git branch</code></h3>
-<p>在命令行窗口的光标处，输入<code>git branch</code>命令，查看 Git
-仓库的分支情况：</p>
-<p>如上图所示，显示了仓库demo中的分支情况，现在仅有一个<code>master</code>分支，其中<code>master</code>分支前的*号表示“当前所在的分支”，例如*
-master就意味着我们所在的位置为demo仓库的主分支。输入命令<code>git branch a</code>，再输入命令<code>git branch</code>，结果如下图所示：</p>
-<h3 id="git-checkout"><code>git checkout</code></h3>
-<p>在命令行窗口的光标处，输入<code>git checkout a</code>命令，切换到<code>a</code>分支：</p>
-<p>在这里，我们还有一个更简单的方法来查看当前的分支，即通过观察上图中用红色框圈起来的部分。此外，我们也可以在创建分支的同时，直接切换到新分支，命令为<code>git checkout -b</code>，例如输入<code>git checkout -b b</code>命令：</p>
-<h3 id="git-merge"><code>git merge</code></h3>
-<p>切换到<code>master</code>分支，然后输入<code>git merge a</code>命令，将<code>a</code>分支合并到<code>master</code>分支：</p>
-<p>此外，在这里需要注意一点，那就是：<strong>在合并分支的时候，要考虑到两个分支是否有冲突，如果有冲突，则不能直接合并，需要先解决冲突；反之，则可以直接合并。</strong></p>
-<h3
-id="git-branch--d-git-branch--d"><code>git branch -d &amp; git branch -D</code></h3>
-<p>在命令行窗口的光标处，输入<code>git branch -d a</code>命令，删除<code>a</code>分支：</p>
-<p>不过有的时候，<em>通过git branch
--d命令可以出现删除不了现象，例如分支a的代码没有合并到主分支等，这时如果我们一定要删除该分支，那么我们可以通过命令git
-branch -D进行强制删除。</em></p>
-<h3 id="git-tag"><code>git tag</code></h3>
-<p>在命令行窗口的光标处，输入<code>git tag v1.0</code>命令，为当前分支添加标签：</p>
-<p>如上图所示，我们为当前所在的a分支添加了一个v1.0标签。通过命令<code>git tag</code>即可查看标签记录：</p>
-<p>如上图所示，我们为当前所在的a分支添加了一个v1.0标签。通过命令<code>git tag</code>即可查看标签记录：</p>
-<p>如上图所示，显示了我们添加标签的记录。通过命令<code>git checkout v1.0</code>即可切换到该标签下的代码状态：</p>
-<h3 id="git-remote"><code>git remote</code></h3>
-<p>返回当前remote仓库名</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git remote add [-t &lt;branch&gt;] [-m &lt;master&gt;] [-f] [--[no-]tags] [--mirror=(fetch|push)] &lt;name&gt; &lt;url&gt;</span><br></pre></td></tr></table></figure>
-<h3 id="git-push"><code>git push</code></h3>
-<p>specify the URL from the command-line or configure a remote
-repository using</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git remote add &lt;name&gt; &lt;url&gt;</span><br></pre></td></tr></table></figure>
-<p>然后向远端push</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git push &lt;name of repo&gt; main(&lt;branch of remote repo&gt;)</span><br></pre></td></tr></table></figure>
-<h3 id="git-pull"><code>git pull</code></h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git pull </span><br></pre></td></tr></table></figure>
-<h2 id="绑定git与github">绑定Git与Github</h2>
-<h2 id="git报错处理">Git报错处理</h2>
-<h3
-id="failed-to-push-some-refs"><code>failed to push some refs</code></h3>
-<p>原因：远程库与本地库不一致，将远程库同步到本地库</p>
-<p>解决办法：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git pull --rebase &lt;name of repo&gt; main</span><br></pre></td></tr></table></figure>
-<p>该命令的意思是把远程库中的更新合并到（pull=fetch+merge）本地库中，–-<a
-href="https://so.csdn.net/so/search?q=rebase&amp;spm=1001.2101.3001.7020">rebase</a>的作用是取消掉本地库中刚刚的commit，并把他们接到更新后的版本库之中。</p>
-<h3
-id="unable-to-access-failed-to-connect"><code>unable to access Failed to connect</code></h3>
-<p>有可能你的gitbub之前设置过代理，只需分别执行如下代码即可：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git config --global --<span class="built_in">unset</span> http.proxy</span><br><span class="line">git config --global --<span class="built_in">unset</span> https.proxy</span><br></pre></td></tr></table></figure>
-<p>若还没有解决，可以尝试如下解决方式</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git config --global url.git://github.com/.insteadOf https://github.com/</span><br></pre></td></tr></table></figure>
-<h3
-id="openssl-ssl_read-connection-was-reset"><code>OpenSSL SSL_read: Connection was reset</code></h3>
-<p>产生原因：一般是这是因为服务器的SSL证书没有经过第三方机构的签署，所以才报错</p>
-<p>解决方法：解除ssl验证后，再次git即可</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git config --global http.sslVerify <span class="string">&quot;false&quot;</span></span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>Git</category>
-        <category>Github</category>
-      </categories>
-      <tags>
-        <tag>Git</tag>
-        <tag>Github</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title></title>
-    <url>/2023/07/24/LaTeX/LaTeX%20%E5%91%BD%E4%BB%A4%E6%B1%87%E6%80%BB/</url>
-    <content><![CDATA[<h1 id="表格">表格</h1>
-<h1 id="数学">数学</h1>
-]]></content>
   </entry>
   <entry>
     <title>编写C语言时踩到的坑</title>
@@ -1581,6 +1581,33 @@ id="是否忘记了向源中添加include-stdafx.h">是否忘记了向源中添�
       </tags>
   </entry>
   <entry>
+    <title>Python list方法汇总</title>
+    <url>/2022/10/10/Python/Python_list%E6%96%B9%E6%B3%95%E6%B1%87%E6%80%BB/</url>
+    <content><![CDATA[<p>本篇博客汇总Python中list的常见操作。</p>
+<span id="more"></span>
+<h2 id="切片-slice">切片 Slice</h2>
+<p>区间遵循<strong><em>左闭右开</em></strong></p>
+<ul>
+<li>负数代表倒数第几项</li>
+<li>空代表从头/尾开始</li>
+</ul>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">list1 = [<span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>, <span class="number">5</span>]</span><br><span class="line"><span class="built_in">print</span>(list1[:-<span class="number">2</span>])</span><br><span class="line"><span class="comment"># list1[:-2] = [2, 3]</span></span><br></pre></td></tr></table></figure>
+<h2 id="循环-loop">循环 Loop</h2>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">animals = [<span class="string">&#x27;cat&#x27;</span>, <span class="string">&#x27;dog&#x27;</span>, <span class="string">&#x27;monkey&#x27;</span>]</span><br><span class="line"><span class="comment"># </span></span><br><span class="line"><span class="keyword">for</span> animal <span class="keyword">in</span> animals:</span><br><span class="line">    </span><br></pre></td></tr></table></figure>
+<details class="note info no-icon"><summary><p>This is a summary</p>
+</summary>
+<p>Any content (support inline tags too).</p>
+
+</details>
+]]></content>
+      <categories>
+        <category>Python</category>
+      </categories>
+      <tags>
+        <tag>Python</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>C++运算符重载</title>
     <url>/2022/09/22/Python/Python_numpy%E7%9F%A9%E9%98%B5%E6%96%B9%E6%B3%95%E6%B1%87%E6%80%BB/</url>
     <content><![CDATA[<p>https://blog.csdn.net/qq_41854911/article/details/119392824</p>
@@ -1636,33 +1663,6 @@ id="是否忘记了向源中添加include-stdafx.h">是否忘记了向源中添�
       </categories>
       <tags>
         <tag>C/C++</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Python list方法汇总</title>
-    <url>/2022/10/10/Python/Python_list%E6%96%B9%E6%B3%95%E6%B1%87%E6%80%BB/</url>
-    <content><![CDATA[<p>本篇博客汇总Python中list的常见操作。</p>
-<span id="more"></span>
-<h2 id="切片-slice">切片 Slice</h2>
-<p>区间遵循<strong><em>左闭右开</em></strong></p>
-<ul>
-<li>负数代表倒数第几项</li>
-<li>空代表从头/尾开始</li>
-</ul>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">list1 = [<span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>, <span class="number">5</span>]</span><br><span class="line"><span class="built_in">print</span>(list1[:-<span class="number">2</span>])</span><br><span class="line"><span class="comment"># list1[:-2] = [2, 3]</span></span><br></pre></td></tr></table></figure>
-<h2 id="循环-loop">循环 Loop</h2>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">animals = [<span class="string">&#x27;cat&#x27;</span>, <span class="string">&#x27;dog&#x27;</span>, <span class="string">&#x27;monkey&#x27;</span>]</span><br><span class="line"><span class="comment"># </span></span><br><span class="line"><span class="keyword">for</span> animal <span class="keyword">in</span> animals:</span><br><span class="line">    </span><br></pre></td></tr></table></figure>
-<details class="note info no-icon"><summary><p>This is a summary</p>
-</summary>
-<p>Any content (support inline tags too).</p>
-
-</details>
-]]></content>
-      <categories>
-        <category>Python</category>
-      </categories>
-      <tags>
-        <tag>Python</tag>
       </tags>
   </entry>
 </search>
