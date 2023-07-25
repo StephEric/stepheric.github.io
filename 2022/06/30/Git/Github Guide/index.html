@@ -30,12 +30,12 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"stepheric.github.io","root":"/","images":"/images","scheme":"Gemini","darkmode":true,"version":"8.13.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":true,"style":"mac"},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":"livere","storage":true,"lazyload":false,"nav":null,"activeClass":"livere"},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":5,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
 
-    <meta name="description" content="Github使用  生成SSH key SSh（安全外壳协议）GitHub 上，一般都是通过 SSH 来授权的，而且大多数 Git 服务器也会选择使用 SSH 公钥来进行授权，所以想要向 GitHub 提交代码，首先就得在 GitHub 上添加 SSH key配置。">
+    <meta name="description" content="Github使用 生成SSH key SSh（安全外壳协议）GitHub 上，一般都是通过 SSH 来授权的，而且大多数 Git 服务器也会选择使用 SSH 公钥来进行授权，所以想要向 GitHub 提交代码，首先就得在 GitHub 上添加 SSH key配置。">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Github使用">
 <meta property="og:url" content="http://stepheric.github.io/2022/06/30/Git/Github%20Guide/index.html">
 <meta property="og:site_name" content="StephEric">
-<meta property="og:description" content="Github使用  生成SSH key SSh（安全外壳协议）GitHub 上，一般都是通过 SSH 来授权的，而且大多数 Git 服务器也会选择使用 SSH 公钥来进行授权，所以想要向 GitHub 提交代码，首先就得在 GitHub 上添加 SSH key配置。">
+<meta property="og:description" content="Github使用 生成SSH key SSh（安全外壳协议）GitHub 上，一般都是通过 SSH 来授权的，而且大多数 Git 服务器也会选择使用 SSH 公钥来进行授权，所以想要向 GitHub 提交代码，首先就得在 GitHub 上添加 SSH key配置。">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2022-06-30T11:08:31.000Z">
 <meta property="article:modified_time" content="2022-10-15T07:41:34.628Z">
@@ -157,7 +157,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#github%E4%BD%BF%E7%94%A8"><span class="nav-text"> Github使用</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%94%9F%E6%88%90ssh-key"><span class="nav-text"> 生成SSH key</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#info-header"><span class="nav-text"> Info Header</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%93%8D%E4%BD%9Cgit"><span class="nav-text"> 操作git</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#git-clone"><span class="nav-text"> git clone</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#git-help"><span class="nav-text"> git --help</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#git-init"><span class="nav-text"> git init</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#git-status"><span class="nav-text"> git status</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#git-init-2"><span class="nav-text"> git init</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#git-add"><span class="nav-text"> git add</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#git-commit"><span class="nav-text"> git commit</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#git-log"><span class="nav-text"> git log</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#git-branch"><span class="nav-text"> git branch</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#git-checkout"><span class="nav-text"> git checkout</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#git-merge"><span class="nav-text"> git merge</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#git-branch-d-git-branch-d"><span class="nav-text"> git branch -d &amp; git branch -D</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#git-tag"><span class="nav-text"> git tag</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#git-remote"><span class="nav-text"> git remote</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#git-push"><span class="nav-text"> git push</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#git-pull"><span class="nav-text"> git pull</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%BB%91%E5%AE%9Agit%E4%B8%8Egithub"><span class="nav-text"> 绑定Git与Github</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#git%E6%8A%A5%E9%94%99%E5%A4%84%E7%90%86"><span class="nav-text"> Git报错处理</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#failed-to-push-some-refs"><span class="nav-text"> failed to push some refs</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#unable-to-access-failed-to-connect"><span class="nav-text"> unable to access Failed to connect</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#openssl-ssl_read-connection-was-reset"><span class="nav-text"> OpenSSL SSL_read: Connection was reset</span></a></li></ol></li></ol></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#github%E4%BD%BF%E7%94%A8"><span class="nav-text">Github使用</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%94%9F%E6%88%90ssh-key"><span class="nav-text">生成SSH key</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#info-header"><span class="nav-text">Info Header</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%93%8D%E4%BD%9Cgit"><span class="nav-text">操作git</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#git-clone"><span class="nav-text">git clone</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#git---help"><span class="nav-text">git --help</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#git-init"><span class="nav-text">git init</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#git-status"><span class="nav-text">git status</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#git-init-1"><span class="nav-text">git init</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#git-add"><span class="nav-text">git add</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#git-commit"><span class="nav-text">git commit</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#git-log"><span class="nav-text">git log</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#git-branch"><span class="nav-text">git branch</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#git-checkout"><span class="nav-text">git checkout</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#git-merge"><span class="nav-text">git merge</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#git-branch--d-git-branch--d"><span class="nav-text">git branch -d &amp; git branch -D</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#git-tag"><span class="nav-text">git tag</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#git-remote"><span class="nav-text">git remote</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#git-push"><span class="nav-text">git push</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#git-pull"><span class="nav-text">git pull</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%BB%91%E5%AE%9Agit%E4%B8%8Egithub"><span class="nav-text">绑定Git与Github</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#git%E6%8A%A5%E9%94%99%E5%A4%84%E7%90%86"><span class="nav-text">Git报错处理</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#failed-to-push-some-refs"><span class="nav-text">failed to push some refs</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#unable-to-access-failed-to-connect"><span class="nav-text">unable to access Failed to connect</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#openssl-ssl_read-connection-was-reset"><span class="nav-text">OpenSSL SSL_read: Connection was reset</span></a></li></ol></li></ol></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -323,90 +323,107 @@
     
     
     <div class="post-body" itemprop="articleBody">
-        <h1 id="github使用"><a class="markdownIt-Anchor" href="#github使用"></a> Github使用</h1>
-<h2 id="生成ssh-key"><a class="markdownIt-Anchor" href="#生成ssh-key"></a> 生成SSH key</h2>
-<p>SSh（安全外壳协议）GitHub 上，一般都是通过 SSH 来授权的，而且大多数 Git 服务器也会选择使用 SSH 公钥来进行授权，所以想要向 GitHub 提交代码，首先就得在 GitHub 上添加 SSH key配置。</p>
+        <h1 id="github使用">Github使用</h1>
+<h2 id="生成ssh-key">生成SSH key</h2>
+<p>SSh（安全外壳协议）GitHub 上，一般都是通过 SSH 来授权的，而且大多数
+Git 服务器也会选择使用 SSH 公钥来进行授权，所以想要向 GitHub
+提交代码，首先就得在 GitHub 上添加 SSH key配置。</p>
 <span id="more"></span>
 <figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -t rsa -C &quot;xxx@xxx.com&quot;</span><br><span class="line">//执行后一直回车</span><br><span class="line"><span class="built_in">cd</span> ~/.ssh</span><br><span class="line">cat id_rsa.pub</span><br></pre></td></tr></table></figure>
 <p>生成公钥和私钥，无需账号和密码即可clone和push代码</p>
-<div class="note info"><h4 id="info-header"><a class="markdownIt-Anchor" href="#info-header"></a> Info Header</h4>
+<div class="note info"><h4 id="info-header">Info Header</h4>
 <p><strong>Welcome</strong> to <a target="_blank" rel="noopener" href="https://hexo.io">Hexo!</a></p>
 </div>
-<h2 id="操作git"><a class="markdownIt-Anchor" href="#操作git"></a> 操作git</h2>
-<h3 id="git-clone"><a class="markdownIt-Anchor" href="#git-clone"></a> <code>git clone</code></h3>
+<h2 id="操作git">操作git</h2>
+<h3 id="git-clone"><code>git clone</code></h3>
 <ul>
-<li>
-<p>克隆指定分支</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git <span class="built_in">clone</span> -b [branchname] [git@name.git]</span><br></pre></td></tr></table></figure>
-</li>
-<li>
-<p>改变克隆的文件夹名称</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git <span class="built_in">clone</span> [git@name.git] [foldername]</span><br></pre></td></tr></table></figure>
-</li>
+<li><p>克隆指定分支</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git <span class="built_in">clone</span> -b [branchname] [git@name.git]</span><br></pre></td></tr></table></figure></li>
+<li><p>改变克隆的文件夹名称</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git <span class="built_in">clone</span> [git@name.git] [foldername]</span><br></pre></td></tr></table></figure></li>
 </ul>
-<h3 id="git-help"><a class="markdownIt-Anchor" href="#git-help"></a> <code>git --help</code></h3>
+<h3 id="git---help"><code>git --help</code></h3>
 <p>得到git-doc文件</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git --<span class="built_in">help</span> &lt;<span class="built_in">command</span>&gt;</span><br></pre></td></tr></table></figure>
-<h3 id="git-init"><a class="markdownIt-Anchor" href="#git-init"></a> <code>git init</code></h3>
+<h3 id="git-init"><code>git init</code></h3>
 <p>初始一个Git仓库</p>
 <p>先创建好仓库目录，并保存好文件</p>
-<p><strong>在我们进行任何的git操作之前，我们都得先切换到 Git 的仓库目录。</strong></p>
-<p>我们得先进入到（我们定义的）Git 仓库的最顶层文件目录下，然后从此目录中进入 Git Bash，这样之后的操作才能顺利进行</p>
-<h3 id="git-status"><a class="markdownIt-Anchor" href="#git-status"></a> <code>git status</code></h3>
+<p><strong>在我们进行任何的git操作之前，我们都得先切换到 Git
+的仓库目录。</strong></p>
+<p>我们得先进入到（我们定义的）Git
+仓库的最顶层文件目录下，然后从此目录中进入 Git
+Bash，这样之后的操作才能顺利进行</p>
+<h3 id="git-status"><code>git status</code></h3>
 <p>查看仓库状态，若未创建，则返回<code>not a git repository</code></p>
-<h3 id="git-init-2"><a class="markdownIt-Anchor" href="#git-init-2"></a> <code>git init</code></h3>
-<p>在命令行窗口的光标处，输入<code>git init</code>命令，初始化 Git 仓库：</p>
+<h3 id="git-init-1"><code>git init</code></h3>
+<p>在命令行窗口的光标处，输入<code>git init</code>命令，初始化 Git
+仓库：</p>
 <p>初始化之后仓库变成Git仓库</p>
-<h3 id="git-add"><a class="markdownIt-Anchor" href="#git-add"></a> <code>git add</code></h3>
+<h3 id="git-add"><code>git add</code></h3>
 <p>将已有的文件添加到Git仓库，<code>git add xxx.xxx</code></p>
-<p>已经显示<code>Initial commit</code>初始化提交了，同时已经没有<code>Untracked files</code>提示了，这说明文件<code>hit.txt</code>已经被添加到 Git 仓库</p>
-<p>在这里，需要声明一点，那就是：<em><strong><code>git add</code>命令并没有把文件提交到 Git 仓库，而是把文件添加到了「临时缓冲区」，这个命令有效防止了我们错误提交的可能性。</strong></em></p>
-<h3 id="git-commit"><a class="markdownIt-Anchor" href="#git-commit"></a> <code>git commit</code></h3>
-<p>在命令行窗口的光标处，输入<code>git commit -m &quot;text commit&quot;</code>命令，将<code>hit.txt</code>文件提交到 Git 仓库：</p>
-<p>其中<code>commit</code>表示提交，<code>-m</code>表示提交信息，提交信息写在双引号&quot;&quot;内。接下来，再输入<code>git status</code>命令查看仓库状态</p>
+<p>已经显示<code>Initial commit</code>初始化提交了，同时已经没有<code>Untracked files</code>提示了，这说明文件<code>hit.txt</code>已经被添加到
+Git 仓库</p>
+<p>在这里，需要声明一点，那就是：<strong><em><code>git add</code>命令并没有把文件提交到
+Git
+仓库，而是把文件添加到了「临时缓冲区」，这个命令有效防止了我们错误提交的可能性。</em></strong></p>
+<h3 id="git-commit"><code>git commit</code></h3>
+<p>在命令行窗口的光标处，输入<code>git commit -m "text commit"</code>命令，将<code>hit.txt</code>文件提交到
+Git 仓库：</p>
+<p>其中<code>commit</code>表示提交，<code>-m</code>表示提交信息，提交信息写在双引号""内。接下来，再输入<code>git status</code>命令查看仓库状态</p>
 <p>结果显示<code>nothing to commit, working tree clean</code>，这表示已经没有内容可以提交了，即全部内容已经提交完毕。</p>
-<h3 id="git-log"><a class="markdownIt-Anchor" href="#git-log"></a> <code>git log</code></h3>
-<p>在命令行窗口的光标处，输入<code>git log</code>命令，打印 Git 仓库提交日志：</p>
-<h3 id="git-branch"><a class="markdownIt-Anchor" href="#git-branch"></a> <code>git branch</code></h3>
-<p>在命令行窗口的光标处，输入<code>git branch</code>命令，查看 Git 仓库的分支情况：</p>
-<p>如上图所示，显示了仓库demo中的分支情况，现在仅有一个<code>master</code>分支，其中<code>master</code>分支前的*号表示“当前所在的分支”，例如* master就意味着我们所在的位置为demo仓库的主分支。输入命令<code>git branch a</code>，再输入命令<code>git branch</code>，结果如下图所示：</p>
-<h3 id="git-checkout"><a class="markdownIt-Anchor" href="#git-checkout"></a> <code>git checkout</code></h3>
+<h3 id="git-log"><code>git log</code></h3>
+<p>在命令行窗口的光标处，输入<code>git log</code>命令，打印 Git
+仓库提交日志：</p>
+<h3 id="git-branch"><code>git branch</code></h3>
+<p>在命令行窗口的光标处，输入<code>git branch</code>命令，查看 Git
+仓库的分支情况：</p>
+<p>如上图所示，显示了仓库demo中的分支情况，现在仅有一个<code>master</code>分支，其中<code>master</code>分支前的*号表示“当前所在的分支”，例如*
+master就意味着我们所在的位置为demo仓库的主分支。输入命令<code>git branch a</code>，再输入命令<code>git branch</code>，结果如下图所示：</p>
+<h3 id="git-checkout"><code>git checkout</code></h3>
 <p>在命令行窗口的光标处，输入<code>git checkout a</code>命令，切换到<code>a</code>分支：</p>
 <p>在这里，我们还有一个更简单的方法来查看当前的分支，即通过观察上图中用红色框圈起来的部分。此外，我们也可以在创建分支的同时，直接切换到新分支，命令为<code>git checkout -b</code>，例如输入<code>git checkout -b b</code>命令：</p>
-<h3 id="git-merge"><a class="markdownIt-Anchor" href="#git-merge"></a> <code>git merge</code></h3>
+<h3 id="git-merge"><code>git merge</code></h3>
 <p>切换到<code>master</code>分支，然后输入<code>git merge a</code>命令，将<code>a</code>分支合并到<code>master</code>分支：</p>
 <p>此外，在这里需要注意一点，那就是：<strong>在合并分支的时候，要考虑到两个分支是否有冲突，如果有冲突，则不能直接合并，需要先解决冲突；反之，则可以直接合并。</strong></p>
-<h3 id="git-branch-d-git-branch-d"><a class="markdownIt-Anchor" href="#git-branch-d-git-branch-d"></a> <code>git branch -d &amp; git branch -D</code></h3>
+<h3
+id="git-branch--d-git-branch--d"><code>git branch -d &amp; git branch -D</code></h3>
 <p>在命令行窗口的光标处，输入<code>git branch -d a</code>命令，删除<code>a</code>分支：</p>
-<p>不过有的时候，<em>通过git branch -d命令可以出现删除不了现象，例如分支a的代码没有合并到主分支等，这时如果我们一定要删除该分支，那么我们可以通过命令git branch -D进行强制删除。</em></p>
-<h3 id="git-tag"><a class="markdownIt-Anchor" href="#git-tag"></a> <code>git tag</code></h3>
+<p>不过有的时候，<em>通过git branch
+-d命令可以出现删除不了现象，例如分支a的代码没有合并到主分支等，这时如果我们一定要删除该分支，那么我们可以通过命令git
+branch -D进行强制删除。</em></p>
+<h3 id="git-tag"><code>git tag</code></h3>
 <p>在命令行窗口的光标处，输入<code>git tag v1.0</code>命令，为当前分支添加标签：</p>
 <p>如上图所示，我们为当前所在的a分支添加了一个v1.0标签。通过命令<code>git tag</code>即可查看标签记录：</p>
 <p>如上图所示，我们为当前所在的a分支添加了一个v1.0标签。通过命令<code>git tag</code>即可查看标签记录：</p>
 <p>如上图所示，显示了我们添加标签的记录。通过命令<code>git checkout v1.0</code>即可切换到该标签下的代码状态：</p>
-<h3 id="git-remote"><a class="markdownIt-Anchor" href="#git-remote"></a> <code>git remote</code></h3>
+<h3 id="git-remote"><code>git remote</code></h3>
 <p>返回当前remote仓库名</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git remote add [-t &lt;branch&gt;] [-m &lt;master&gt;] [-f] [--[no-]tags] [--mirror=(fetch|push)] &lt;name&gt; &lt;url&gt;</span><br></pre></td></tr></table></figure>
-<h3 id="git-push"><a class="markdownIt-Anchor" href="#git-push"></a> <code>git push</code></h3>
-<p>specify the URL from the command-line or configure a remote repository using</p>
+<h3 id="git-push"><code>git push</code></h3>
+<p>specify the URL from the command-line or configure a remote
+repository using</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git remote add &lt;name&gt; &lt;url&gt;</span><br></pre></td></tr></table></figure>
 <p>然后向远端push</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git push &lt;name of repo&gt; main(&lt;branch of remote repo&gt;)</span><br></pre></td></tr></table></figure>
-<h3 id="git-pull"><a class="markdownIt-Anchor" href="#git-pull"></a> <code>git pull</code></h3>
+<h3 id="git-pull"><code>git pull</code></h3>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git pull </span><br></pre></td></tr></table></figure>
-<h2 id="绑定git与github"><a class="markdownIt-Anchor" href="#绑定git与github"></a> 绑定Git与Github</h2>
-<h2 id="git报错处理"><a class="markdownIt-Anchor" href="#git报错处理"></a> Git报错处理</h2>
-<h3 id="failed-to-push-some-refs"><a class="markdownIt-Anchor" href="#failed-to-push-some-refs"></a> <code>failed to push some refs</code></h3>
+<h2 id="绑定git与github">绑定Git与Github</h2>
+<h2 id="git报错处理">Git报错处理</h2>
+<h3
+id="failed-to-push-some-refs"><code>failed to push some refs</code></h3>
 <p>原因：远程库与本地库不一致，将远程库同步到本地库</p>
 <p>解决办法：</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git pull --rebase &lt;name of repo&gt; main</span><br></pre></td></tr></table></figure>
-<p>该命令的意思是把远程库中的更新合并到（pull=fetch+merge）本地库中，–-<a target="_blank" rel="noopener" href="https://so.csdn.net/so/search?q=rebase&amp;spm=1001.2101.3001.7020">rebase</a>的作用是取消掉本地库中刚刚的commit，并把他们接到更新后的版本库之中。</p>
-<h3 id="unable-to-access-failed-to-connect"><a class="markdownIt-Anchor" href="#unable-to-access-failed-to-connect"></a> <code>unable to access Failed to connect</code></h3>
+<p>该命令的意思是把远程库中的更新合并到（pull=fetch+merge）本地库中，–-<a
+target="_blank" rel="noopener" href="https://so.csdn.net/so/search?q=rebase&amp;spm=1001.2101.3001.7020">rebase</a>的作用是取消掉本地库中刚刚的commit，并把他们接到更新后的版本库之中。</p>
+<h3
+id="unable-to-access-failed-to-connect"><code>unable to access Failed to connect</code></h3>
 <p>有可能你的gitbub之前设置过代理，只需分别执行如下代码即可：</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --global --<span class="built_in">unset</span> http.proxy</span><br><span class="line">git config --global --<span class="built_in">unset</span> https.proxy</span><br></pre></td></tr></table></figure>
 <p>若还没有解决，可以尝试如下解决方式</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git config --global url.git://github.com/.insteadOf https://github.com/</span><br></pre></td></tr></table></figure>
-<h3 id="openssl-ssl_read-connection-was-reset"><a class="markdownIt-Anchor" href="#openssl-ssl_read-connection-was-reset"></a> <code>OpenSSL SSL_read: Connection was reset</code></h3>
+<h3
+id="openssl-ssl_read-connection-was-reset"><code>OpenSSL SSL_read: Connection was reset</code></h3>
 <p>产生原因：一般是这是因为服务器的SSL证书没有经过第三方机构的签署，所以才报错</p>
 <p>解决方法：解除ssl验证后，再次git即可</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git config --global http.sslVerify <span class="string">&quot;false&quot;</span></span><br></pre></td></tr></table></figure>
@@ -525,14 +542,14 @@
       <i class="fa fa-chart-line"></i>
     </span>
       <span>站点总字数：</span>
-    <span title="站点总字数">39k</span>
+    <span title="站点总字数">38k</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
       <span>站点阅读时长 &asymp;</span>
-    <span title="站点阅读时长">36 分钟</span>
+    <span title="站点阅读时长">34 分钟</span>
   </span>
 </div>
 <div class="busuanzi-count">
