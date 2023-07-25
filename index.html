@@ -297,7 +297,9 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <h1 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h1><h1 id="数学"><a href="#数学" class="headerlink" title="数学"></a>数学</h1>
+          <h1 id="表格">表格</h1>
+<h1 id="数学">数学</h1>
+
       
     </div>
 
@@ -390,11 +392,24 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <p>If you want to modify an element in a priority queue, you would need to remove the element, modify it, and then insert it back into the priority queue. However, this can be inefficient for large priority queues since removing and inserting elements can be expensive operations.</p>
-<p>In C++, the standard priority queue container does not provide a direct way to modify elements. Instead, you would need to implement a <strong>custom priority queue data structure</strong> that allows efficient modification of elements.</p>
-<p>One way to do this is to use <strong>a combination of a heap-based priority queue and a hash table</strong> (or a map) that maps elements to their positions in the heap. The hash table allows fast lookup of an element’s position in the heap, and the heap-based priority queue allows efficient access to the highest-priority element.</p>
-<p>Here is a simple example of a custom priority queue data structure that supports efficient modification of elements:</p>
+          <p>If you want to modify an element in a priority queue, you would need
+to remove the element, modify it, and then insert it back into the
+priority queue. However, this can be inefficient for large priority
+queues since removing and inserting elements can be expensive
+operations.</p>
+<p>In C++, the standard priority queue container does not provide a
+direct way to modify elements. Instead, you would need to implement a
+<strong>custom priority queue data structure</strong> that allows
+efficient modification of elements.</p>
+<p>One way to do this is to use <strong>a combination of a heap-based
+priority queue and a hash table</strong> (or a map) that maps elements
+to their positions in the heap. The hash table allows fast lookup of an
+element's position in the heap, and the heap-based priority queue allows
+efficient access to the highest-priority element.</p>
+<p>Here is a simple example of a custom priority queue data structure
+that supports efficient modification of elements:</p>
 <figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;queue&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;unordered_map&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="keyword">template</span> &lt;<span class="keyword">typename</span> T&gt;</span><br><span class="line"><span class="keyword">class</span> <span class="title class_">CustomPriorityQueue</span> &#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function"><span class="type">void</span> <span class="title">push</span><span class="params">(<span class="type">const</span> T&amp; val)</span> </span>&#123;</span><br><span class="line">        pq.<span class="built_in">push</span>(val);</span><br><span class="line">        pos[val] = pq.<span class="built_in">size</span>() - <span class="number">1</span>;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="type">void</span> <span class="title">pop</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        pos.<span class="built_in">erase</span>(pq.<span class="built_in">top</span>());</span><br><span class="line">        pq.<span class="built_in">pop</span>();</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="type">void</span> <span class="title">modify</span><span class="params">(<span class="type">const</span> T&amp; old_val, <span class="type">const</span> T&amp; new_val)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">auto</span> it = pos.<span class="built_in">find</span>(old_val);</span><br><span class="line">        <span class="keyword">if</span> (it == pos.<span class="built_in">end</span>()) &#123;</span><br><span class="line">            <span class="keyword">return</span>;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="type">int</span> i = it-&gt;second;</span><br><span class="line">        pq.<span class="built_in">pop</span>();</span><br><span class="line"></span><br><span class="line">        <span class="keyword">if</span> (i != pq.<span class="built_in">size</span>()) &#123;</span><br><span class="line">            pq.<span class="built_in">push</span>(pq.<span class="built_in">top</span>());</span><br><span class="line">            pos[pq.<span class="built_in">top</span>()] = i;</span><br><span class="line">            pq.<span class="built_in">pop</span>();</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        pos.<span class="built_in">erase</span>(it);</span><br><span class="line">        <span class="built_in">push</span>(new_val);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="type">const</span> T&amp; <span class="title">top</span><span class="params">()</span> <span class="type">const</span> </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> pq.<span class="built_in">top</span>();</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="type">bool</span> <span class="title">empty</span><span class="params">()</span> <span class="type">const</span> </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> pq.<span class="built_in">empty</span>();</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">private</span>:</span><br><span class="line">    std::priority_queue&lt;T&gt; pq;</span><br><span class="line">    std::unordered_map&lt;T, <span class="type">int</span>&gt; pos;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
       
     </div>
 
@@ -1008,7 +1023,7 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">本文字数：</span>
-      <span>1k</span>
+      <span>1.1k</span>
     </span>
     <span class="post-meta-item" title="阅读时长">
       <span class="post-meta-item-icon">
@@ -1242,7 +1257,7 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <p><a target="_blank" rel="noopener" href="https://blog.csdn.net/qq_41854911/article/details/119392824">https://blog.csdn.net/qq_41854911/article/details/119392824</a></p>
+          <p>https://blog.csdn.net/qq_41854911/article/details/119392824</p>
 <p>本文手动实现了Vector的模板类。</p>
           <!--noindex-->
             <div class="post-button">
@@ -1294,14 +1309,14 @@
       <i class="fa fa-chart-line"></i>
     </span>
       <span>站点总字数：</span>
-    <span title="站点总字数">35k</span>
+    <span title="站点总字数">38k</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
       <span>站点阅读时长 &asymp;</span>
-    <span title="站点阅读时长">32 分钟</span>
+    <span title="站点阅读时长">34 分钟</span>
   </span>
 </div>
 <div class="busuanzi-count">

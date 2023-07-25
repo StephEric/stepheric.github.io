@@ -30,12 +30,12 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"stepheric.github.io","root":"/","images":"/images","scheme":"Gemini","darkmode":true,"version":"8.13.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":true,"style":"mac"},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":"livere","storage":true,"lazyload":false,"nav":null,"activeClass":"livere"},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":5,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
 
-    <meta name="description" content="If you want to modify an element in a priority queue, you would need to remove the element, modify it, and then insert it back into the priority queue. However, this can be inefficient for large prior">
+    <meta name="description" content="If you want to modify an element in a priority queue, you would need to remove the element, modify it, and then insert it back into the priority queue. However, this can be inefficient for large pri">
 <meta property="og:type" content="article">
 <meta property="og:title" content="支持修改元素值的优先队列">
 <meta property="og:url" content="http://stepheric.github.io/2023/04/12/DSA/%E6%94%AF%E6%8C%81%E4%BF%AE%E6%94%B9%E5%85%83%E7%B4%A0%E5%80%BC%E7%9A%84%E4%BC%98%E5%85%88%E9%98%9F%E5%88%97/index.html">
 <meta property="og:site_name" content="StephEric">
-<meta property="og:description" content="If you want to modify an element in a priority queue, you would need to remove the element, modify it, and then insert it back into the priority queue. However, this can be inefficient for large prior">
+<meta property="og:description" content="If you want to modify an element in a priority queue, you would need to remove the element, modify it, and then insert it back into the priority queue. However, this can be inefficient for large pri">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2023-04-12T15:21:00.000Z">
 <meta property="article:modified_time" content="2023-04-12T15:23:20.968Z">
@@ -311,11 +311,24 @@
     
     
     <div class="post-body" itemprop="articleBody">
-        <p>If you want to modify an element in a priority queue, you would need to remove the element, modify it, and then insert it back into the priority queue. However, this can be inefficient for large priority queues since removing and inserting elements can be expensive operations.</p>
-<p>In C++, the standard priority queue container does not provide a direct way to modify elements. Instead, you would need to implement a <strong>custom priority queue data structure</strong> that allows efficient modification of elements.</p>
-<p>One way to do this is to use <strong>a combination of a heap-based priority queue and a hash table</strong> (or a map) that maps elements to their positions in the heap. The hash table allows fast lookup of an element’s position in the heap, and the heap-based priority queue allows efficient access to the highest-priority element.</p>
-<p>Here is a simple example of a custom priority queue data structure that supports efficient modification of elements:</p>
+        <p>If you want to modify an element in a priority queue, you would need
+to remove the element, modify it, and then insert it back into the
+priority queue. However, this can be inefficient for large priority
+queues since removing and inserting elements can be expensive
+operations.</p>
+<p>In C++, the standard priority queue container does not provide a
+direct way to modify elements. Instead, you would need to implement a
+<strong>custom priority queue data structure</strong> that allows
+efficient modification of elements.</p>
+<p>One way to do this is to use <strong>a combination of a heap-based
+priority queue and a hash table</strong> (or a map) that maps elements
+to their positions in the heap. The hash table allows fast lookup of an
+element's position in the heap, and the heap-based priority queue allows
+efficient access to the highest-priority element.</p>
+<p>Here is a simple example of a custom priority queue data structure
+that supports efficient modification of elements:</p>
 <figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;queue&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;unordered_map&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="keyword">template</span> &lt;<span class="keyword">typename</span> T&gt;</span><br><span class="line"><span class="keyword">class</span> <span class="title class_">CustomPriorityQueue</span> &#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function"><span class="type">void</span> <span class="title">push</span><span class="params">(<span class="type">const</span> T&amp; val)</span> </span>&#123;</span><br><span class="line">        pq.<span class="built_in">push</span>(val);</span><br><span class="line">        pos[val] = pq.<span class="built_in">size</span>() - <span class="number">1</span>;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="type">void</span> <span class="title">pop</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        pos.<span class="built_in">erase</span>(pq.<span class="built_in">top</span>());</span><br><span class="line">        pq.<span class="built_in">pop</span>();</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="type">void</span> <span class="title">modify</span><span class="params">(<span class="type">const</span> T&amp; old_val, <span class="type">const</span> T&amp; new_val)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">auto</span> it = pos.<span class="built_in">find</span>(old_val);</span><br><span class="line">        <span class="keyword">if</span> (it == pos.<span class="built_in">end</span>()) &#123;</span><br><span class="line">            <span class="keyword">return</span>;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="type">int</span> i = it-&gt;second;</span><br><span class="line">        pq.<span class="built_in">pop</span>();</span><br><span class="line"></span><br><span class="line">        <span class="keyword">if</span> (i != pq.<span class="built_in">size</span>()) &#123;</span><br><span class="line">            pq.<span class="built_in">push</span>(pq.<span class="built_in">top</span>());</span><br><span class="line">            pos[pq.<span class="built_in">top</span>()] = i;</span><br><span class="line">            pq.<span class="built_in">pop</span>();</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        pos.<span class="built_in">erase</span>(it);</span><br><span class="line">        <span class="built_in">push</span>(new_val);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="type">const</span> T&amp; <span class="title">top</span><span class="params">()</span> <span class="type">const</span> </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> pq.<span class="built_in">top</span>();</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="type">bool</span> <span class="title">empty</span><span class="params">()</span> <span class="type">const</span> </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> pq.<span class="built_in">empty</span>();</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">private</span>:</span><br><span class="line">    std::priority_queue&lt;T&gt; pq;</span><br><span class="line">    std::unordered_map&lt;T, <span class="type">int</span>&gt; pos;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
     </div>
 
     
@@ -429,14 +442,14 @@
       <i class="fa fa-chart-line"></i>
     </span>
       <span>站点总字数：</span>
-    <span title="站点总字数">35k</span>
+    <span title="站点总字数">38k</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
       <span>站点阅读时长 &asymp;</span>
-    <span title="站点阅读时长">32 分钟</span>
+    <span title="站点阅读时长">34 分钟</span>
   </span>
 </div>
 <div class="busuanzi-count">
