@@ -156,7 +156,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8A%A8%E6%80%81%E5%88%86%E9%85%8D%E5%86%85%E5%AD%98"><span class="nav-text">动态分配内存</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#malloc"><span class="nav-text">malloc</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#bool"><span class="nav-text">bool</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#unsigned"><span class="nav-text">unsigned</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%BB%93%E6%9E%84%E4%BD%93"><span class="nav-text">结构体</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%BE%AA%E7%8E%AF"><span class="nav-text">循环</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%8C%87%E9%92%88%E4%B8%8E%E5%BC%95%E7%94%A8"><span class="nav-text">指针与引用</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%8A%A5%E9%94%99%E6%B1%87%E6%80%BB"><span class="nav-text">报错汇总</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%98%AF%E5%90%A6%E5%BF%98%E8%AE%B0%E4%BA%86%E5%90%91%E6%BA%90%E4%B8%AD%E6%B7%BB%E5%8A%A0%E2%80%9C-include-%E2%80%9Cstdafx-h%E2%80%9C%E2%80%9D"><span class="nav-text">是否忘记了向源中添加“#include “stdafx.h“”</span></a></li></ol></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8A%A8%E6%80%81%E5%88%86%E9%85%8D%E5%86%85%E5%AD%98"><span class="nav-text"> 动态分配内存</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#malloc"><span class="nav-text"> malloc</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#bool"><span class="nav-text"> bool</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#unsigned"><span class="nav-text"> unsigned</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%BB%93%E6%9E%84%E4%BD%93"><span class="nav-text"> 结构体</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%BE%AA%E7%8E%AF"><span class="nav-text"> 循环</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%8C%87%E9%92%88%E4%B8%8E%E5%BC%95%E7%94%A8"><span class="nav-text"> 指针与引用</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%8A%A5%E9%94%99%E6%B1%87%E6%80%BB"><span class="nav-text"> 报错汇总</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%98%AF%E5%90%A6%E5%BF%98%E8%AE%B0%E4%BA%86%E5%90%91%E6%BA%90%E4%B8%AD%E6%B7%BB%E5%8A%A0include-stdafxh"><span class="nav-text"> 是否忘记了向源中添加“#include “stdafx.h“”</span></a></li></ol></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -320,37 +320,51 @@
     <div class="post-body" itemprop="articleBody">
         <p>本文总结C语言课程学习中用到的指针概念及操作。</p>
 <span id="more"></span>
-<h2 id="动态分配内存"><a href="#动态分配内存" class="headerlink" title="动态分配内存"></a>动态分配内存</h2><h3 id="malloc"><a href="#malloc" class="headerlink" title="malloc"></a><code>malloc</code></h3><ul>
-<li><p>功能描述</p>
+<h2 id="动态分配内存"><a class="markdownIt-Anchor" href="#动态分配内存"></a> 动态分配内存</h2>
+<h3 id="malloc"><a class="markdownIt-Anchor" href="#malloc"></a> <code>malloc</code></h3>
+<ul>
+<li>
+<p>功能描述</p>
 <p>分配所要求的内存空间，并返回指向该空间的指针</p>
 </li>
-<li><p>函数原型</p>
+<li>
+<p>函数原型</p>
 <figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdlib.h&gt;</span></span></span><br><span class="line"><span class="function"><span class="type">void</span> *<span class="title">malloc</span><span class="params">(<span class="type">size_t</span> size)</span></span></span><br></pre></td></tr></table></figure>
 </li>
-<li><p>参数</p>
+<li>
+<p>参数</p>
 <ul>
-<li><code>size</code>指的是内存空间的<strong><em>字节大小</em></strong></li>
+<li><code>size</code>指的是内存空间的<em><strong>字节大小</strong></em></li>
 </ul>
 </li>
-<li><p>返回值</p>
+<li>
+<p>返回值</p>
 <ul>
 <li>分配成功，返回指向该空间的指针</li>
 <li>分配失败，返回<code>NULL</code></li>
 </ul>
 </li>
-<li><p>示例</p>
+<li>
+<p>示例</p>
 <figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdlib.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span> <span class="params">()</span> </span>&#123;</span><br><span class="line">   <span class="type">char</span> *str;</span><br><span class="line"></span><br><span class="line">   <span class="comment">/* Initial memory allocation */</span></span><br><span class="line">   str = (<span class="type">char</span> *) <span class="built_in">malloc</span>(<span class="number">15</span>);</span><br><span class="line">   <span class="built_in">strcpy</span>(str, <span class="string">&quot;tutorialspoint&quot;</span>);</span><br><span class="line">   <span class="built_in">printf</span>(<span class="string">&quot;String = %s,  Address = %u\n&quot;</span>, str, str);</span><br><span class="line"></span><br><span class="line">   <span class="comment">/* Reallocating memory */</span></span><br><span class="line">   str = (<span class="type">char</span> *) <span class="built_in">realloc</span>(str, <span class="number">25</span>);</span><br><span class="line">   <span class="built_in">strcat</span>(str, <span class="string">&quot;.com&quot;</span>);</span><br><span class="line">   <span class="built_in">printf</span>(<span class="string">&quot;String = %s,  Address = %u\n&quot;</span>, str, str);</span><br><span class="line"></span><br><span class="line">   <span class="built_in">free</span>(str);</span><br><span class="line">   </span><br><span class="line">   <span class="keyword">return</span>(<span class="number">0</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 </li>
 </ul>
-<h3 id="bool"><a href="#bool" class="headerlink" title="bool"></a><code>bool</code></h3><p>C语言中没有bool值，不可以使用<code>true / false</code></p>
-<h3 id="unsigned"><a href="#unsigned" class="headerlink" title="unsigned"></a><code>unsigned</code></h3><p>不要在它减到0时继续往下减，否则会变成无穷大</p>
-<h2 id="结构体"><a href="#结构体" class="headerlink" title="结构体"></a>结构体</h2><p>结构体中不能包含函数，不推荐在定义结构体后直接声明变量。</p>
+<h3 id="bool"><a class="markdownIt-Anchor" href="#bool"></a> <code>bool</code></h3>
+<p>C语言中没有bool值，不可以使用<code>true / false</code></p>
+<h3 id="unsigned"><a class="markdownIt-Anchor" href="#unsigned"></a> <code>unsigned</code></h3>
+<p>不要在它减到0时继续往下减，否则会变成无穷大</p>
+<h2 id="结构体"><a class="markdownIt-Anchor" href="#结构体"></a> 结构体</h2>
+<p>结构体中不能包含函数，不推荐在定义结构体后直接声明变量。</p>
 <p><strong>结构体作为数据类型，需要在前面加上<code>struct</code>，比如</strong></p>
 <figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">struct</span> <span class="title class_">Time</span> <span class="built_in">devide</span>(<span class="keyword">struct</span> Time t1, <span class="keyword">struct</span> Time t2)&#123;&#125;</span><br></pre></td></tr></table></figure>
-<h2 id="循环"><a href="#循环" class="headerlink" title="循环"></a>循环</h2><p>不允许在<code>for</code>内定义变量</p>
-<h2 id="指针与引用"><a href="#指针与引用" class="headerlink" title="指针与引用"></a>指针与引用</h2><div class="note info"><p>C语言中没有引用</p>
+<h2 id="循环"><a class="markdownIt-Anchor" href="#循环"></a> 循环</h2>
+<p>不允许在<code>for</code>内定义变量</p>
+<h2 id="指针与引用"><a class="markdownIt-Anchor" href="#指针与引用"></a> 指针与引用</h2>
+<div class="note info"><p>C语言中没有引用</p>
 </div>
-<h2 id="报错汇总"><a href="#报错汇总" class="headerlink" title="报错汇总"></a>报错汇总</h2><h3 id="是否忘记了向源中添加“-include-“stdafx-h“”"><a href="#是否忘记了向源中添加“-include-“stdafx-h“”" class="headerlink" title="是否忘记了向源中添加“#include “stdafx.h“”"></a>是否忘记了向源中添加“#include “stdafx.h“”</h3><p>对于每一个出错的.cpp文件，右键——》属性——》C/C++——》预编译头，选择不使用预编译头即可。</p>
+<h2 id="报错汇总"><a class="markdownIt-Anchor" href="#报错汇总"></a> 报错汇总</h2>
+<h3 id="是否忘记了向源中添加include-stdafxh"><a class="markdownIt-Anchor" href="#是否忘记了向源中添加include-stdafxh"></a> 是否忘记了向源中添加“#include “stdafx.h“”</h3>
+<p>对于每一个出错的.cpp文件，右键——》属性——》C/C++——》预编译头，选择不使用预编译头即可。</p>
 <details class="note info no-icon"><summary><p>This is a summary</p>
 </summary>
 <p>Any content (support inline tags too).</p>
@@ -470,14 +484,14 @@
       <i class="fa fa-chart-line"></i>
     </span>
       <span>站点总字数：</span>
-    <span title="站点总字数">35k</span>
+    <span title="站点总字数">39k</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
       <span>站点阅读时长 &asymp;</span>
-    <span title="站点阅读时长">32 分钟</span>
+    <span title="站点阅读时长">36 分钟</span>
   </span>
 </div>
 <div class="busuanzi-count">
