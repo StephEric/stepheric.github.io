@@ -30,24 +30,24 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"stepheric.github.io","root":"/","images":"/images","scheme":"Gemini","darkmode":true,"version":"8.13.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":true,"style":"mac"},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":"livere","storage":true,"lazyload":false,"nav":null,"activeClass":"livere"},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":5,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
 
-    <meta name="description" content="表格 数学">
+    <meta name="description" content="首先，我想要试图卸载VMware Workstation Pro16 并升级成 17，但是其中一个.msi文件丢掉了，就是因为我换电脑的时候，只迁移了一点东西，没有迁移Programs(X86)。升级17需要先卸载16，这样它找不到16的安装源，就寄掉了。 我去问ChatGPT，">
 <meta property="og:type" content="article">
 <meta property="og:title" content="StephEric">
-<meta property="og:url" content="http://stepheric.github.io/2023/07/24/LaTeX/LaTeX%20%E5%91%BD%E4%BB%A4%E6%B1%87%E6%80%BB/index.html">
+<meta property="og:url" content="http://stepheric.github.io/2023/09/14/VMware%20Workstation%20Pro%E8%99%9A%E6%8B%9F%E6%9C%BA%E9%85%8D%E7%BD%AE/index.html">
 <meta property="og:site_name" content="StephEric">
-<meta property="og:description" content="表格 数学">
+<meta property="og:description" content="首先，我想要试图卸载VMware Workstation Pro16 并升级成 17，但是其中一个.msi文件丢掉了，就是因为我换电脑的时候，只迁移了一点东西，没有迁移Programs(X86)。升级17需要先卸载16，这样它找不到16的安装源，就寄掉了。 我去问ChatGPT，">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2023-07-24T10:43:58.777Z">
-<meta property="article:modified_time" content="2023-03-30T12:11:45.410Z">
+<meta property="article:published_time" content="2023-09-14T10:46:45.619Z">
+<meta property="article:modified_time" content="2023-09-14T10:48:53.156Z">
 <meta property="article:author" content="StephEric">
 <meta name="twitter:card" content="summary">
 
 
-<link rel="canonical" href="http://stepheric.github.io/2023/07/24/LaTeX/LaTeX%20%E5%91%BD%E4%BB%A4%E6%B1%87%E6%80%BB/">
+<link rel="canonical" href="http://stepheric.github.io/2023/09/14/VMware%20Workstation%20Pro%E8%99%9A%E6%8B%9F%E6%9C%BA%E9%85%8D%E7%BD%AE/">
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"http://stepheric.github.io/2023/07/24/LaTeX/LaTeX%20%E5%91%BD%E4%BB%A4%E6%B1%87%E6%80%BB/","path":"2023/07/24/LaTeX/LaTeX 命令汇总/","title":""}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"http://stepheric.github.io/2023/09/14/VMware%20Workstation%20Pro%E8%99%9A%E6%8B%9F%E6%9C%BA%E9%85%8D%E7%BD%AE/","path":"2023/09/14/VMware Workstation Pro虚拟机配置/","title":""}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
 <title> | StephEric</title>
@@ -142,7 +142,7 @@
 
   <aside class="sidebar">
 
-    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+    <div class="sidebar-inner sidebar-overview-active">
       <ul class="sidebar-nav">
         <li class="sidebar-nav-toc">
           文章目录
@@ -155,7 +155,6 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E8%A1%A8%E6%A0%BC"><span class="nav-text">表格</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%95%B0%E5%AD%A6"><span class="nav-text">数学</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -170,18 +169,18 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">32</span>
+          <span class="site-state-item-count">34</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
       <div class="site-state-item site-state-categories">
           <a href="/categories/">
-        <span class="site-state-item-count">14</span>
+        <span class="site-state-item-count">15</span>
         <span class="site-state-item-name">分类</span></a>
       </div>
       <div class="site-state-item site-state-tags">
           <a href="/tags/">
-        <span class="site-state-item-count">15</span>
+        <span class="site-state-item-count">16</span>
         <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
@@ -237,7 +236,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://stepheric.github.io/2023/07/24/LaTeX/LaTeX%20%E5%91%BD%E4%BB%A4%E6%B1%87%E6%80%BB/">
+    <link itemprop="mainEntityOfPage" href="http://stepheric.github.io/2023/09/14/VMware%20Workstation%20Pro%E8%99%9A%E6%8B%9F%E6%9C%BA%E9%85%8D%E7%BD%AE/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.jpg">
@@ -265,15 +264,9 @@
         <i class="far fa-calendar"></i>
       </span>
       <span class="post-meta-item-text">发表于</span>
+      
 
-      <time title="创建时间：2023-07-24 18:43:58" itemprop="dateCreated datePublished" datetime="2023-07-24T18:43:58+08:00">2023-07-24</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar-check"></i>
-      </span>
-      <span class="post-meta-item-text">更新于</span>
-      <time title="修改时间：2023-03-30 20:11:45" itemprop="dateModified" datetime="2023-03-30T20:11:45+08:00">2023-03-30</time>
+      <time title="创建时间：2023-09-14 18:46:45 / 修改时间：18:48:53" itemprop="dateCreated datePublished" datetime="2023-09-14T18:46:45+08:00">2023-09-14</time>
     </span>
 
   
@@ -290,7 +283,7 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">本文字数：</span>
-      <span>4</span>
+      <span>135</span>
     </span>
     <span class="post-meta-item" title="阅读时长">
       <span class="post-meta-item-icon">
@@ -308,8 +301,9 @@
     
     
     <div class="post-body" itemprop="articleBody">
-        <h1 id="表格">表格</h1>
-<h1 id="数学">数学</h1>
+        <p>首先，我想要试图卸载VMware Workstation Pro16 并升级成
+17，但是其中一个<code>.msi</code>文件丢掉了，就是因为我换电脑的时候，只迁移了一点东西，没有迁移Programs(X86)。升级17需要先卸载16，这样它找不到16的安装源，就寄掉了。</p>
+<p>我去问ChatGPT，</p>
 
     </div>
 
@@ -350,7 +344,7 @@
   </li>
   <li class="post-copyright-link">
       <strong>本文链接：</strong>
-      <a href="http://stepheric.github.io/2023/07/24/LaTeX/LaTeX%20%E5%91%BD%E4%BB%A4%E6%B1%87%E6%80%BB/" title="">http://stepheric.github.io/2023/07/24/LaTeX/LaTeX 命令汇总/</a>
+      <a href="http://stepheric.github.io/2023/09/14/VMware%20Workstation%20Pro%E8%99%9A%E6%8B%9F%E6%9C%BA%E9%85%8D%E7%BD%AE/" title="">http://stepheric.github.io/2023/09/14/VMware Workstation Pro虚拟机配置/</a>
   </li>
   <li class="post-copyright-license">
     <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
@@ -385,6 +379,9 @@
                 </a>
             </div>
             <div class="post-nav-item">
+                <a href="/2023/09/21/Linux/WSL%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/" rel="next" title="WSL 环境配置">
+                  WSL 环境配置 <i class="fa fa-chevron-right"></i>
+                </a>
             </div>
           </div>
     </footer>
@@ -418,14 +415,14 @@
       <i class="fa fa-chart-line"></i>
     </span>
       <span>站点总字数：</span>
-    <span title="站点总字数">38k</span>
+    <span title="站点总字数">42k</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
       <span>站点阅读时长 &asymp;</span>
-    <span title="站点阅读时长">34 分钟</span>
+    <span title="站点阅读时长">38 分钟</span>
   </span>
 </div>
 <div class="busuanzi-count">

@@ -6,7 +6,7 @@
   <link href="http://stepheric.github.io/atom.xml" rel="self"/>
   
   <link href="http://stepheric.github.io/"/>
-  <updated>2023-03-30T12:11:45.410Z</updated>
+  <updated>2023-09-21T01:49:49.448Z</updated>
   <id>http://stepheric.github.io/</id>
   
   <author>
@@ -17,19 +17,45 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>WSL 环境配置</title>
+    <link href="http://stepheric.github.io/2023/09/21/Linux/WSL%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/"/>
+    <id>http://stepheric.github.io/2023/09/21/Linux/WSL%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/</id>
+    <published>2023-09-21T01:30:00.000Z</published>
+    <updated>2023-09-21T01:49:49.448Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;本博客记录我配置WSL环境的过程及一些踩坑点。Windows系统为Windows11
+21H2 home edition，安装Ubuntu 22.04.1 LTS (GNU/Linux
+5.15.90.1-microsoft-standard-WSL2 x86_64)。&lt;/p&gt;
+&lt;h1 id=&quot;更换ubuntu存储位置&quot;&gt;更换ubuntu存储位置&lt;/h1&gt;
+&lt;p&gt;因为目前用的电脑是512G，分开了C盘和D盘。WSL的默认安装位置为C盘，所以希望将之后Linux安装的各种环境配置包转移到D盘。&lt;/p&gt;
+&lt;p&gt;我主要参考了这篇&lt;a
+href=&quot;https://zhuanlan.zhihu.com/p/643602676&quot;&gt;WSL2文件迁移到D盘&lt;/a&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="WSL" scheme="http://stepheric.github.io/categories/WSL/"/>
+    
+    
+    <category term="环境配置" scheme="http://stepheric.github.io/tags/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/"/>
+    
+    <category term="Linux" scheme="http://stepheric.github.io/tags/Linux/"/>
+    
+  </entry>
+  
+  <entry>
     <title></title>
-    <link href="http://stepheric.github.io/2023/07/24/LaTeX/LaTeX%20%E5%91%BD%E4%BB%A4%E6%B1%87%E6%80%BB/"/>
-    <id>http://stepheric.github.io/2023/07/24/LaTeX/LaTeX%20%E5%91%BD%E4%BB%A4%E6%B1%87%E6%80%BB/</id>
-    <published>2023-07-24T10:43:58.777Z</published>
-    <updated>2023-03-30T12:11:45.410Z</updated>
+    <link href="http://stepheric.github.io/2023/09/14/VMware%20Workstation%20Pro%E8%99%9A%E6%8B%9F%E6%9C%BA%E9%85%8D%E7%BD%AE/"/>
+    <id>http://stepheric.github.io/2023/09/14/VMware%20Workstation%20Pro%E8%99%9A%E6%8B%9F%E6%9C%BA%E9%85%8D%E7%BD%AE/</id>
+    <published>2023-09-14T10:46:45.619Z</published>
+    <updated>2023-09-14T10:48:53.156Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h1 id=&quot;表格&quot;&gt;表格&lt;/h1&gt;
-&lt;h1</summary>
+    <summary type="html">&lt;p&gt;首先，我想要试图卸载VMware Workstation Pro16</summary>
         
       
     
@@ -61,6 +87,28 @@ to remove the element, modify it, and then insert it back into</summary>
     
     
     <category term="DS" scheme="http://stepheric.github.io/tags/DS/"/>
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://stepheric.github.io/2023/03/30/LaTeX/LaTeX%20%E5%91%BD%E4%BB%A4%E6%B1%87%E6%80%BB/"/>
+    <id>http://stepheric.github.io/2023/03/30/LaTeX/LaTeX%20%E5%91%BD%E4%BB%A4%E6%B1%87%E6%80%BB/</id>
+    <published>2023-03-30T12:11:27.638Z</published>
+    <updated>2023-03-30T12:11:45.410Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;表格&quot;&gt;表格&lt;/h1&gt;
+&lt;h1</summary>
+        
+      
+    
+    
+    
     
   </entry>
   
@@ -175,9 +223,9 @@ to remove the element, modify it, and then insert it back into</summary>
     
     
     
-    <category term="DS" scheme="http://stepheric.github.io/categories/DS/"/>
-    
     <category term="C/C++" scheme="http://stepheric.github.io/categories/C-C/"/>
+    
+    <category term="DS" scheme="http://stepheric.github.io/categories/DS/"/>
     
     
     <category term="C/C++" scheme="http://stepheric.github.io/tags/C-C/"/>
@@ -218,9 +266,9 @@ to remove the element, modify it, and then insert it back into</summary>
     
     
     
-    <category term="DS" scheme="http://stepheric.github.io/categories/DS/"/>
-    
     <category term="C/C++" scheme="http://stepheric.github.io/categories/C-C/"/>
+    
+    <category term="DS" scheme="http://stepheric.github.io/categories/DS/"/>
     
     
     <category term="C/C++" scheme="http://stepheric.github.io/tags/C-C/"/>
@@ -242,9 +290,9 @@ to remove the element, modify it, and then insert it back into</summary>
     
     
     
-    <category term="DS" scheme="http://stepheric.github.io/categories/DS/"/>
-    
     <category term="C/C++" scheme="http://stepheric.github.io/categories/C-C/"/>
+    
+    <category term="DS" scheme="http://stepheric.github.io/categories/DS/"/>
     
     
     <category term="C/C++" scheme="http://stepheric.github.io/tags/C-C/"/>
@@ -329,14 +377,35 @@ to remove the element, modify it, and then insert it back into</summary>
     
     
     
-    <category term="DS" scheme="http://stepheric.github.io/categories/DS/"/>
-    
     <category term="C/C++" scheme="http://stepheric.github.io/categories/C-C/"/>
+    
+    <category term="DS" scheme="http://stepheric.github.io/categories/DS/"/>
     
     
     <category term="C/C++" scheme="http://stepheric.github.io/tags/C-C/"/>
     
     <category term="DS" scheme="http://stepheric.github.io/tags/DS/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>C++运算符重载</title>
+    <link href="http://stepheric.github.io/2022/09/22/C++/C++%E8%BF%90%E7%AE%97%E7%AC%A6%E9%87%8D%E8%BD%BD/"/>
+    <id>http://stepheric.github.io/2022/09/22/C++/C++%E8%BF%90%E7%AE%97%E7%AC%A6%E9%87%8D%E8%BD%BD/</id>
+    <published>2022-09-22T11:17:31.000Z</published>
+    <updated>2022-09-23T03:27:59.793Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;https://blog.csdn.net/qq_41854911/article/details/119392824&lt;/p&gt;
+&lt;h1 id=&quot;c运算符重载基础&quot;&gt;C++运算符重载基础&lt;/h1&gt;
+&lt;p&gt;下面介绍一些主题常用post内部的页面模块，可直接参照使用&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="C/C++" scheme="http://stepheric.github.io/categories/C-C/"/>
+    
+    
+    <category term="C/C++" scheme="http://stepheric.github.io/tags/C-C/"/>
     
   </entry>
   
@@ -353,35 +422,14 @@ to remove the element, modify it, and then insert it back into</summary>
     
     
     
-    <category term="Algorithm" scheme="http://stepheric.github.io/categories/Algorithm/"/>
-    
     <category term="C/C++" scheme="http://stepheric.github.io/categories/C-C/"/>
+    
+    <category term="Algorithm" scheme="http://stepheric.github.io/categories/Algorithm/"/>
     
     
     <category term="C/C++" scheme="http://stepheric.github.io/tags/C-C/"/>
     
     <category term="Algorithm" scheme="http://stepheric.github.io/tags/Algorithm/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>C++运算符重载</title>
-    <link href="http://stepheric.github.io/2022/09/22/Python/Python%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/"/>
-    <id>http://stepheric.github.io/2022/09/22/Python/Python%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/</id>
-    <published>2022-09-22T11:17:31.000Z</published>
-    <updated>2023-02-03T02:43:40.868Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;https://blog.csdn.net/qq_41854911/article/details/119392824&lt;/p&gt;
-&lt;h1 id=&quot;c运算符重载基础&quot;&gt;C++运算符重载基础&lt;/h1&gt;
-&lt;p&gt;下面介绍一些主题常用post内部的页面模块，可直接参照使用&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="C/C++" scheme="http://stepheric.github.io/categories/C-C/"/>
-    
-    
-    <category term="C/C++" scheme="http://stepheric.github.io/tags/C-C/"/>
     
   </entry>
   
@@ -408,10 +456,10 @@ to remove the element, modify it, and then insert it back into</summary>
   
   <entry>
     <title>C++运算符重载</title>
-    <link href="http://stepheric.github.io/2022/09/22/C++/C++%E8%BF%90%E7%AE%97%E7%AC%A6%E9%87%8D%E8%BD%BD/"/>
-    <id>http://stepheric.github.io/2022/09/22/C++/C++%E8%BF%90%E7%AE%97%E7%AC%A6%E9%87%8D%E8%BD%BD/</id>
+    <link href="http://stepheric.github.io/2022/09/22/Python/Python%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/"/>
+    <id>http://stepheric.github.io/2022/09/22/Python/Python%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/</id>
     <published>2022-09-22T11:17:31.000Z</published>
-    <updated>2022-09-23T03:27:59.793Z</updated>
+    <updated>2023-02-03T02:43:40.868Z</updated>
     
     
     <summary type="html">&lt;p&gt;https://blog.csdn.net/qq_41854911/article/details/119392824&lt;/p&gt;
@@ -455,10 +503,11 @@ to remove the element, modify it, and then insert it back into</summary>
     <link href="http://stepheric.github.io/2022/09/18/VS%20code%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/"/>
     <id>http://stepheric.github.io/2022/09/18/VS%20code%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/</id>
     <published>2022-09-18T13:35:00.000Z</published>
-    <updated>2023-02-03T02:43:48.653Z</updated>
+    <updated>2023-09-21T01:25:23.463Z</updated>
     
     
-    <summary type="html">&lt;h1 id=&quot;vs-code配置cc编译环境&quot;&gt;VS Code配置C/C++编译环境&lt;/h1&gt;
+    <summary type="html">&lt;p&gt;https://blog.csdn.net/weixin_53510183/article/details/126906182 # VS
+Code配置C/C++编译环境&lt;/p&gt;
 &lt;h2 id=&quot;前期准备&quot;&gt;前期准备&lt;/h2&gt;
 &lt;p&gt;安装MinGW64，把编译器所在的目录添加到环境变量&lt;code&gt;Path&lt;/code&gt;中&lt;/p&gt;
 &lt;h2 id=&quot;组织文件结构&quot;&gt;组织文件结构&lt;/h2&gt;
