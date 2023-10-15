@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>QT界面部件与设置</title>
+    <url>/2022/07/19/QT%E7%95%8C%E9%9D%A2%E9%83%A8%E4%BB%B6%E4%B8%8E%E8%AE%BE%E7%BD%AE/</url>
+    <content><![CDATA[<h1 id="qt界面部件与设置">QT界面部件与设置</h1>
+]]></content>
+      <categories>
+        <category>QT</category>
+      </categories>
+      <tags>
+        <tag>QT</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Python文件操作</title>
     <url>/2022/08/08/Python%E6%96%87%E4%BB%B6%E6%93%8D%E4%BD%9C/</url>
     <content><![CDATA[<p>本篇不断汇总介绍Python中常见的文件操作</p>
@@ -51,18 +63,6 @@ open()</a></p>
       </tags>
   </entry>
   <entry>
-    <title>QT界面部件与设置</title>
-    <url>/2022/07/19/QT%E7%95%8C%E9%9D%A2%E9%83%A8%E4%BB%B6%E4%B8%8E%E8%AE%BE%E7%BD%AE/</url>
-    <content><![CDATA[<h1 id="qt界面部件与设置">QT界面部件与设置</h1>
-]]></content>
-      <categories>
-        <category>QT</category>
-      </categories>
-      <tags>
-        <tag>QT</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Solidworks笔记</title>
     <url>/2021/10/30/Solidworks/</url>
     <content><![CDATA[<h1 id="solidworks笔记">Solidworks笔记</h1>
@@ -99,34 +99,6 @@ open()</a></p>
     <content><![CDATA[<p>首先，我想要试图卸载VMware Workstation Pro16 并升级成
 17，但是其中一个<code>.msi</code>文件丢掉了，就是因为我换电脑的时候，只迁移了一点东西，没有迁移Programs(X86)。升级17需要先卸载16，这样它找不到16的安装源，就寄掉了。</p>
 <p>我去问ChatGPT，</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/2022/06/30/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very
-first post. Check <a href="https://hexo.io/docs/">documentation</a> for
-more info. If you get any problems when using Hexo, you can find the
-answer in <a
-href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or
-you can ask me on <a
-href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="quick-start">Quick Start</h2>
-<h3 id="create-a-new-post">Create a new post</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a
-href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="run-server">Run server</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="generate-static-files">Generate static files</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a
-href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="deploy-to-remote-sites">Deploy to remote sites</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a
-href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 ]]></content>
   </entry>
   <entry>
@@ -169,6 +141,156 @@ task），使用自定义快捷键<code>ctrl+alt+F5</code></li>
       <tags>
         <tag>环境配置</tag>
         <tag>VS Code</tag>
+        <tag>C/C++</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2022/06/30/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very
+first post. Check <a href="https://hexo.io/docs/">documentation</a> for
+more info. If you get any problems when using Hexo, you can find the
+answer in <a
+href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or
+you can ask me on <a
+href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="quick-start">Quick Start</h2>
+<h3 id="create-a-new-post">Create a new post</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+<p>More info: <a
+href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="run-server">Run server</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="generate-static-files">Generate static files</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>More info: <a
+href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="deploy-to-remote-sites">Deploy to remote sites</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<p>More info: <a
+href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>C语言中的字符串操作</title>
+    <url>/2022/10/07/C++/C%E8%AF%AD%E8%A8%80%E4%B8%AD%E7%9A%84%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%93%8D%E4%BD%9C/</url>
+    <content><![CDATA[<p>本文梳理总结了C语言中的常见字符串操作</p>
+<span id="more"></span>
+<h2 id="读入">读入</h2>
+<p><code>scanf("%s", s)</code> 读入一个字符串，以空格和换行为分界</p>
+<p><code>gets(s)</code>
+可以直接输入带空格的一行字符串，系统会将最后的换行符从缓冲区中取出然后丢弃</p>
+<h3 id="gets"><code>gets()</code></h3>
+<p>输入后自动添加<code>'\0'</code></p>
+<h3 id="fgets"><code>fgets()</code></h3>
+<ul>
+<li><p>函数原型</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta"># <span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="function"><span class="type">char</span> *<span class="title">fgets</span><span class="params">(<span class="type">char</span> *s, <span class="type">int</span> size, FILE *stream)</span></span>;</span><br></pre></td></tr></table></figure></li>
+<li><p>参数含义</p>
+<ul>
+<li><p><code>s</code>
+代表要保存到的内存空间的首地址，可以是字符数组名，也可以是指向字符数组的字符指针变量名</p></li>
+<li><p><code>size</code> 代表的是读取字符串的长度</p></li>
+<li><p><code>stream</code> 表示从何种流中读取，可以是标准输入流
+<code>stdin</code>，也可以是文件流</p></li>
+</ul></li>
+<li><p>补充说明</p>
+<ul>
+<li>比<code>gets</code>函数更安全</li>
+<li><strong><code>fgets</code>的中间size参数直接赋值字符数组长度即可</strong></li>
+<li>如果输入字符串长度没有超过<code>size-1</code>那么系统会将最后输入的换行符<code>'\n'</code>保存，剩余空间都用<code>'\0'</code>填充。<strong>所以输出时不用再加换行符<code>'\n'</code></strong></li>
+</ul></li>
+</ul>
+<h2 id="比较">比较</h2>
+<blockquote>
+<p>比较方法：</p>
+<ol type="1">
+<li><code>bcmp()</code>，比较字符串的前n个字节是否相等;2.</li>
+<li><code>strcmp()</code>，区分大小写地比较字符串;</li>
+<li><code>stricmp()</code>，不区分大小写地比较字符串；</li>
+<li><code>strncmp()</code>或<code>strnicmp()</code>，区分大小写地比较字符串的前n个字符。</li>
+</ol>
+</blockquote>
+<h3 id="strcmp"><code>strcmp</code></h3>
+<p>原型为</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">int</span> <span class="title">strcmp</span><span class="params">(<span class="type">const</span> <span class="type">char</span> *s1, <span class="type">const</span> <span class="type">char</span> *s2)</span></span>;</span><br></pre></td></tr></table></figure>
+<p>【返回值】若参数s1 和s2 字符串相同则返回0。s1 若大于s2 则返回大于0
+的值。s1 若小于s2 则返回小于0 的值。</p>
+<h2 id="拷贝">拷贝</h2>
+<h3 id="strcpy"><code>strcpy</code></h3>
+<p>原型为</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">char</span>* <span class="title">strcpy</span><span class="params">(<span class="type">char</span>* des,<span class="type">const</span> <span class="type">char</span>* source)</span></span>&#123;</span><br><span class="line">    <span class="type">char</span>* r=des;   </span><br><span class="line">    <span class="built_in">assert</span>((des != <span class="literal">NULL</span>) &amp;&amp; (source != <span class="literal">NULL</span>));</span><br><span class="line">	<span class="keyword">while</span>((*r++ = *source++)!=<span class="string">&#x27;\0&#x27;</span>);</span><br><span class="line">	<span class="keyword">return</span> des;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="分割">分割</h2>
+<h3 id="strtok"><code>strtok</code></h3>
+<p><code>strtok</code> breaks string <strong>str</strong> into a series
+of tokens using the delimiter.</p>
+<p>将<code>delimiter</code>部分的字符转化为<code>\0</code></p>
+<ul>
+<li><p>函数原型</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">char</span> *<span class="title">strtok</span><span class="params">(<span class="type">char</span> *str, <span class="type">const</span> <span class="type">char</span> *delim)</span></span></span><br></pre></td></tr></table></figure></li>
+<li><p>返回值</p>
+<p>函数返回指向分割后第一个字符串的指针。如果没有子串，返回NULL</p></li>
+<li><p>示例</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;string.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span> <span class="params">()</span> </span>&#123;</span><br><span class="line">   <span class="type">char</span> str[<span class="number">80</span>] = <span class="string">&quot;This is - www.tutorialspoint.com - website&quot;</span>;</span><br><span class="line">   <span class="type">const</span> <span class="type">char</span> s[<span class="number">2</span>] = <span class="string">&quot;-&quot;</span>;</span><br><span class="line">   <span class="type">char</span> *token;</span><br><span class="line">   </span><br><span class="line">   <span class="comment">/* get the first token */</span></span><br><span class="line">   token = <span class="built_in">strtok</span>(str, s);</span><br><span class="line">   </span><br><span class="line">   <span class="comment">/* walk through other tokens */</span></span><br><span class="line">   <span class="keyword">while</span>( token != <span class="literal">NULL</span> ) &#123;</span><br><span class="line">      <span class="built_in">printf</span>( <span class="string">&quot; %s\n&quot;</span>, token );</span><br><span class="line">      token = <span class="built_in">strtok</span>(<span class="literal">NULL</span>, s);</span><br><span class="line">   &#125;</span><br><span class="line">   </span><br><span class="line">   <span class="keyword">return</span>(<span class="number">0</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li>
+</ul>
+<h2 id="连接">连接</h2>
+<h3 id="strcat"><code>strcat()</code></h3>
+<p>将s2字符串连接到s1的后面，包括空字符</p>
+<p>s1长度需要足够大，以容纳连接的字符串</p>
+<ul>
+<li><p>函数原型</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">char</span>* <span class="title">strcat</span><span class="params">(<span class="type">char</span>* s1, <span class="type">const</span> <span class="type">char</span>* s2)</span></span>;</span><br></pre></td></tr></table></figure></li>
+</ul>
+<h3 id="strncat"><code>strncat()</code></h3>
+<ul>
+<li><p>函数原型</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">char</span>* <span class="title">strncat</span><span class="params">(<span class="type">char</span>* s1, <span class="type">const</span> <span class="type">char</span>*s2, <span class="type">size_t</span> n)</span></span></span><br></pre></td></tr></table></figure></li>
+<li><p>参数</p>
+<ul>
+<li><code>n</code>: 附加的字符串的最大长度</li>
+</ul></li>
+</ul>
+<h2 id="大小写转换">大小写转换</h2>
+<h3 id="strlwr"><code>strlwr()</code></h3>
+<p>将字符串中大写字母换成小写字母</p>
+<ul>
+<li><p>函数原型</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">char</span>* <span class="title">strlwr</span><span class="params">(<span class="type">char</span>* s)</span></span>;</span><br></pre></td></tr></table></figure></li>
+</ul>
+<h3 id="strupr"><code>strupr()</code></h3>
+<p>将字符串中大写字母换成小写字母</p>
+<ul>
+<li><p>函数原型</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">char</span>* <span class="title">strlwr</span><span class="params">(<span class="type">char</span>* s)</span></span>;</span><br></pre></td></tr></table></figure></li>
+</ul>
+<h2 id="转换为数值">转换为数值</h2>
+<p>与非法字符停止转换，非法的字符也有返回值</p>
+<p>需要引入头文件<code>&lt;stdlib.h&gt;</code></p>
+<h3 id="atof"><code>atof()</code></h3>
+<ul>
+<li><p>函数原型</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">double</span> <span class="title">atof</span><span class="params">(<span class="type">const</span> <span class="type">char</span>* ns)</span></span>;</span><br></pre></td></tr></table></figure></li>
+</ul>
+<h3 id="atoi"><code>atoi()</code></h3>
+<ul>
+<li><p>函数原型</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">int</span> <span class="title">atoi</span><span class="params">(<span class="type">const</span> <span class="type">char</span>* ns)</span></span>;</span><br></pre></td></tr></table></figure></li>
+</ul>
+<h2 id="输出">输出</h2>
+<p><code>puts()</code> 直接输出一行字符串，末尾加上<code>\n</code></p>
+<div class="note info"><p><code>scanf</code>输入<code>double</code>时必须使用<code>%lf</code></p>
+</div>
+<details class="note info no-icon"><summary><p>This is a summary</p>
+</summary>
+<p>Any content (support inline tags too).</p>
+
+</details>
+]]></content>
+      <categories>
+        <category>C/C++</category>
+      </categories>
+      <tags>
         <tag>C/C++</tag>
       </tags>
   </entry>
@@ -380,6 +502,36 @@ id="是否忘记了向源中添加include-stdafx.h">是否忘记了向源中添�
       </tags>
   </entry>
   <entry>
+    <title>STL中vector的常用函数</title>
+    <url>/2022/09/25/C++/STL%E4%B8%ADvector%E7%9A%84%E5%B8%B8%E7%94%A8%E5%87%BD%E6%95%B0/</url>
+    <content><![CDATA[<p>https://blog.csdn.net/qq_41854911/article/details/119392824</p>
+<h1 id="c运算符重载基础">C++运算符重载基础</h1>
+<p>下面介绍一些主题常用post内部的页面模块，可直接参照使用</p>
+<span id="more"></span>
+<h2 id="center-quote-居中引用">Center Quote 居中引用</h2>
+<p>建议在单行文字时使用</p>
+<h3 id="example">Example</h3>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">&#123;% cq %&#125;代码优雅，核心简单&#123;% endcq %&#125;</span><br></pre></td></tr></table></figure>
+<blockquote class="blockquote-center">
+<p>代码优雅，核心简单</p>
+
+</blockquote>
+<h2 id="note-bootstrap-callout">Note( Bootstrap Callout )</h2>
+<h3 id="设置">设置</h3>
+<h3 id="使用-usage">使用 Usage</h3>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">```</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% codeblock 创建note lang:html [additional options] %&#125;</span><br><span class="line">&#123;% note [class] [no-icon] [summary] %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% note info no-icon This is a summary %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">## 代码块 Code Block</span><br><span class="line"></span><br><span class="line">```html</span><br><span class="line">&#123;% codeblock [title] [lang:language] [url] [link text] [additional options] %&#125;</span><br><span class="line">code snippet</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="section"></h3>
+]]></content>
+      <categories>
+        <category>C/C++</category>
+        <category>DS</category>
+      </categories>
+      <tags>
+        <tag>C/C++</tag>
+        <tag>DS</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>C语言中的指针</title>
     <url>/2022/11/03/C++/C%E8%AF%AD%E8%A8%80%E4%B8%AD%E7%9A%84%E6%8C%87%E9%92%88/</url>
     <content><![CDATA[<p>本文总结C语言课程学习中用到的指针概念及操作。</p>
@@ -432,48 +584,6 @@ id="是否忘记了向源中添加include-stdafx.h">是否忘记了向源中添�
       </categories>
       <tags>
         <tag>C/C++</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>VS2012报错解决汇总</title>
-    <url>/2022/09/28/C++/VS2012%E6%8A%A5%E9%94%99%E8%A7%A3%E5%86%B3%E6%B1%87%E6%80%BB/</url>
-    <content><![CDATA[<p>本文对被迫使用Visual Studio
-2012中踩到的一些坑进行汇总，服务于《计算机语言与程序设计》的课程考试。其解决方法已过时，完全是因为某清大学只购买到了VS2012的版权。</p>
-<span id="more"></span>
-<h2 id="编辑器习惯配置">编辑器习惯配置</h2>
-<p><strong><em>选项/环境/常规</em></strong> 颜色主题选择深色</p>
-<p><strong><em>选项/环境/字体和颜色</em></strong> 选择
-<code>Cascadia Code</code></p>
-<h2 id="报错汇总">报错汇总</h2>
-<h3
-id="是否忘记了向源中添加include-stdafx.h">是否忘记了向源中添加“#include
-“stdafx.h“”</h3>
-<p>对于每一个出错的.cpp文件，右键——》属性——》C/C++——》预编译头，选择不使用预编译头即可。</p>
-<h3 id="应该使用scanf_s">应该使用scanf_s</h3>
-<ul>
-<li><p>一种解决方法</p>
-<ul>
-<li><p>右击项目名，选择属性</p></li>
-<li><p>在c/c++下选择Preprocessor（预处理器）</p></li>
-<li><p>点击图示Preprocessor
-Definitions，选择&lt;Edit…&gt;，添加预处理器定义<code>_CRT_SECURE_NO_WARNINGS</code></p></li>
-</ul></li>
-<li><p>或者，直接添加宏定义</p></li>
-</ul>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">define</span> _CRT_SECURE_NO_WARNINGS</span></span><br></pre></td></tr></table></figure>
-<details class="note info no-icon"><summary><p>This is a summary</p>
-</summary>
-<p>Any content (support inline tags too).</p>
-
-</details>
-]]></content>
-      <categories>
-        <category>C/C++</category>
-        <category>VS2012</category>
-      </categories>
-      <tags>
-        <tag>C/C++</tag>
-        <tag>VS2012</tag>
       </tags>
   </entry>
   <entry>
@@ -546,144 +656,32 @@ Definitions，选择&lt;Edit…&gt;，添加预处理器定义<code>_CRT_SECURE_
       </tags>
   </entry>
   <entry>
-    <title>STL中vector的常用函数</title>
-    <url>/2022/09/25/C++/STL%E4%B8%ADvector%E7%9A%84%E5%B8%B8%E7%94%A8%E5%87%BD%E6%95%B0/</url>
-    <content><![CDATA[<p>https://blog.csdn.net/qq_41854911/article/details/119392824</p>
-<h1 id="c运算符重载基础">C++运算符重载基础</h1>
-<p>下面介绍一些主题常用post内部的页面模块，可直接参照使用</p>
+    <title>VS2012报错解决汇总</title>
+    <url>/2022/09/28/C++/VS2012%E6%8A%A5%E9%94%99%E8%A7%A3%E5%86%B3%E6%B1%87%E6%80%BB/</url>
+    <content><![CDATA[<p>本文对被迫使用Visual Studio
+2012中踩到的一些坑进行汇总，服务于《计算机语言与程序设计》的课程考试。其解决方法已过时，完全是因为某清大学只购买到了VS2012的版权。</p>
 <span id="more"></span>
-<h2 id="center-quote-居中引用">Center Quote 居中引用</h2>
-<p>建议在单行文字时使用</p>
-<h3 id="example">Example</h3>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">&#123;% cq %&#125;代码优雅，核心简单&#123;% endcq %&#125;</span><br></pre></td></tr></table></figure>
-<blockquote class="blockquote-center">
-<p>代码优雅，核心简单</p>
-
-</blockquote>
-<h2 id="note-bootstrap-callout">Note( Bootstrap Callout )</h2>
-<h3 id="设置">设置</h3>
-<h3 id="使用-usage">使用 Usage</h3>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">```</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% codeblock 创建note lang:html [additional options] %&#125;</span><br><span class="line">&#123;% note [class] [no-icon] [summary] %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% note info no-icon This is a summary %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">## 代码块 Code Block</span><br><span class="line"></span><br><span class="line">```html</span><br><span class="line">&#123;% codeblock [title] [lang:language] [url] [link text] [additional options] %&#125;</span><br><span class="line">code snippet</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br></pre></td></tr></table></figure>
-<h3 id="section"></h3>
-]]></content>
-      <categories>
-        <category>C/C++</category>
-        <category>DS</category>
-      </categories>
-      <tags>
-        <tag>C/C++</tag>
-        <tag>DS</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>C语言中的字符串操作</title>
-    <url>/2022/10/07/C++/C%E8%AF%AD%E8%A8%80%E4%B8%AD%E7%9A%84%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%93%8D%E4%BD%9C/</url>
-    <content><![CDATA[<p>本文梳理总结了C语言中的常见字符串操作</p>
-<span id="more"></span>
-<h2 id="读入">读入</h2>
-<p><code>scanf("%s", s)</code> 读入一个字符串，以空格和换行为分界</p>
-<p><code>gets(s)</code>
-可以直接输入带空格的一行字符串，系统会将最后的换行符从缓冲区中取出然后丢弃</p>
-<h3 id="gets"><code>gets()</code></h3>
-<p>输入后自动添加<code>'\0'</code></p>
-<h3 id="fgets"><code>fgets()</code></h3>
+<h2 id="编辑器习惯配置">编辑器习惯配置</h2>
+<p><strong><em>选项/环境/常规</em></strong> 颜色主题选择深色</p>
+<p><strong><em>选项/环境/字体和颜色</em></strong> 选择
+<code>Cascadia Code</code></p>
+<h2 id="报错汇总">报错汇总</h2>
+<h3
+id="是否忘记了向源中添加include-stdafx.h">是否忘记了向源中添加“#include
+“stdafx.h“”</h3>
+<p>对于每一个出错的.cpp文件，右键——》属性——》C/C++——》预编译头，选择不使用预编译头即可。</p>
+<h3 id="应该使用scanf_s">应该使用scanf_s</h3>
 <ul>
-<li><p>函数原型</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta"># <span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="function"><span class="type">char</span> *<span class="title">fgets</span><span class="params">(<span class="type">char</span> *s, <span class="type">int</span> size, FILE *stream)</span></span>;</span><br></pre></td></tr></table></figure></li>
-<li><p>参数含义</p>
+<li><p>一种解决方法</p>
 <ul>
-<li><p><code>s</code>
-代表要保存到的内存空间的首地址，可以是字符数组名，也可以是指向字符数组的字符指针变量名</p></li>
-<li><p><code>size</code> 代表的是读取字符串的长度</p></li>
-<li><p><code>stream</code> 表示从何种流中读取，可以是标准输入流
-<code>stdin</code>，也可以是文件流</p></li>
+<li><p>右击项目名，选择属性</p></li>
+<li><p>在c/c++下选择Preprocessor（预处理器）</p></li>
+<li><p>点击图示Preprocessor
+Definitions，选择&lt;Edit…&gt;，添加预处理器定义<code>_CRT_SECURE_NO_WARNINGS</code></p></li>
 </ul></li>
-<li><p>补充说明</p>
-<ul>
-<li>比<code>gets</code>函数更安全</li>
-<li><strong><code>fgets</code>的中间size参数直接赋值字符数组长度即可</strong></li>
-<li>如果输入字符串长度没有超过<code>size-1</code>那么系统会将最后输入的换行符<code>'\n'</code>保存，剩余空间都用<code>'\0'</code>填充。<strong>所以输出时不用再加换行符<code>'\n'</code></strong></li>
-</ul></li>
+<li><p>或者，直接添加宏定义</p></li>
 </ul>
-<h2 id="比较">比较</h2>
-<blockquote>
-<p>比较方法：</p>
-<ol type="1">
-<li><code>bcmp()</code>，比较字符串的前n个字节是否相等;2.</li>
-<li><code>strcmp()</code>，区分大小写地比较字符串;</li>
-<li><code>stricmp()</code>，不区分大小写地比较字符串；</li>
-<li><code>strncmp()</code>或<code>strnicmp()</code>，区分大小写地比较字符串的前n个字符。</li>
-</ol>
-</blockquote>
-<h3 id="strcmp"><code>strcmp</code></h3>
-<p>原型为</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">int</span> <span class="title">strcmp</span><span class="params">(<span class="type">const</span> <span class="type">char</span> *s1, <span class="type">const</span> <span class="type">char</span> *s2)</span></span>;</span><br></pre></td></tr></table></figure>
-<p>【返回值】若参数s1 和s2 字符串相同则返回0。s1 若大于s2 则返回大于0
-的值。s1 若小于s2 则返回小于0 的值。</p>
-<h2 id="拷贝">拷贝</h2>
-<h3 id="strcpy"><code>strcpy</code></h3>
-<p>原型为</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">char</span>* <span class="title">strcpy</span><span class="params">(<span class="type">char</span>* des,<span class="type">const</span> <span class="type">char</span>* source)</span></span>&#123;</span><br><span class="line">    <span class="type">char</span>* r=des;   </span><br><span class="line">    <span class="built_in">assert</span>((des != <span class="literal">NULL</span>) &amp;&amp; (source != <span class="literal">NULL</span>));</span><br><span class="line">	<span class="keyword">while</span>((*r++ = *source++)!=<span class="string">&#x27;\0&#x27;</span>);</span><br><span class="line">	<span class="keyword">return</span> des;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h2 id="分割">分割</h2>
-<h3 id="strtok"><code>strtok</code></h3>
-<p><code>strtok</code> breaks string <strong>str</strong> into a series
-of tokens using the delimiter.</p>
-<p>将<code>delimiter</code>部分的字符转化为<code>\0</code></p>
-<ul>
-<li><p>函数原型</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">char</span> *<span class="title">strtok</span><span class="params">(<span class="type">char</span> *str, <span class="type">const</span> <span class="type">char</span> *delim)</span></span></span><br></pre></td></tr></table></figure></li>
-<li><p>返回值</p>
-<p>函数返回指向分割后第一个字符串的指针。如果没有子串，返回NULL</p></li>
-<li><p>示例</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;string.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span> <span class="params">()</span> </span>&#123;</span><br><span class="line">   <span class="type">char</span> str[<span class="number">80</span>] = <span class="string">&quot;This is - www.tutorialspoint.com - website&quot;</span>;</span><br><span class="line">   <span class="type">const</span> <span class="type">char</span> s[<span class="number">2</span>] = <span class="string">&quot;-&quot;</span>;</span><br><span class="line">   <span class="type">char</span> *token;</span><br><span class="line">   </span><br><span class="line">   <span class="comment">/* get the first token */</span></span><br><span class="line">   token = <span class="built_in">strtok</span>(str, s);</span><br><span class="line">   </span><br><span class="line">   <span class="comment">/* walk through other tokens */</span></span><br><span class="line">   <span class="keyword">while</span>( token != <span class="literal">NULL</span> ) &#123;</span><br><span class="line">      <span class="built_in">printf</span>( <span class="string">&quot; %s\n&quot;</span>, token );</span><br><span class="line">      token = <span class="built_in">strtok</span>(<span class="literal">NULL</span>, s);</span><br><span class="line">   &#125;</span><br><span class="line">   </span><br><span class="line">   <span class="keyword">return</span>(<span class="number">0</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li>
-</ul>
-<h2 id="连接">连接</h2>
-<h3 id="strcat"><code>strcat()</code></h3>
-<p>将s2字符串连接到s1的后面，包括空字符</p>
-<p>s1长度需要足够大，以容纳连接的字符串</p>
-<ul>
-<li><p>函数原型</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">char</span>* <span class="title">strcat</span><span class="params">(<span class="type">char</span>* s1, <span class="type">const</span> <span class="type">char</span>* s2)</span></span>;</span><br></pre></td></tr></table></figure></li>
-</ul>
-<h3 id="strncat"><code>strncat()</code></h3>
-<ul>
-<li><p>函数原型</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">char</span>* <span class="title">strncat</span><span class="params">(<span class="type">char</span>* s1, <span class="type">const</span> <span class="type">char</span>*s2, <span class="type">size_t</span> n)</span></span></span><br></pre></td></tr></table></figure></li>
-<li><p>参数</p>
-<ul>
-<li><code>n</code>: 附加的字符串的最大长度</li>
-</ul></li>
-</ul>
-<h2 id="大小写转换">大小写转换</h2>
-<h3 id="strlwr"><code>strlwr()</code></h3>
-<p>将字符串中大写字母换成小写字母</p>
-<ul>
-<li><p>函数原型</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">char</span>* <span class="title">strlwr</span><span class="params">(<span class="type">char</span>* s)</span></span>;</span><br></pre></td></tr></table></figure></li>
-</ul>
-<h3 id="strupr"><code>strupr()</code></h3>
-<p>将字符串中大写字母换成小写字母</p>
-<ul>
-<li><p>函数原型</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">char</span>* <span class="title">strlwr</span><span class="params">(<span class="type">char</span>* s)</span></span>;</span><br></pre></td></tr></table></figure></li>
-</ul>
-<h2 id="转换为数值">转换为数值</h2>
-<p>与非法字符停止转换，非法的字符也有返回值</p>
-<p>需要引入头文件<code>&lt;stdlib.h&gt;</code></p>
-<h3 id="atof"><code>atof()</code></h3>
-<ul>
-<li><p>函数原型</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">double</span> <span class="title">atof</span><span class="params">(<span class="type">const</span> <span class="type">char</span>* ns)</span></span>;</span><br></pre></td></tr></table></figure></li>
-</ul>
-<h3 id="atoi"><code>atoi()</code></h3>
-<ul>
-<li><p>函数原型</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">int</span> <span class="title">atoi</span><span class="params">(<span class="type">const</span> <span class="type">char</span>* ns)</span></span>;</span><br></pre></td></tr></table></figure></li>
-</ul>
-<h2 id="输出">输出</h2>
-<p><code>puts()</code> 直接输出一行字符串，末尾加上<code>\n</code></p>
-<div class="note info"><p><code>scanf</code>输入<code>double</code>时必须使用<code>%lf</code></p>
-</div>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">define</span> _CRT_SECURE_NO_WARNINGS</span></span><br></pre></td></tr></table></figure>
 <details class="note info no-icon"><summary><p>This is a summary</p>
 </summary>
 <p>Any content (support inline tags too).</p>
@@ -692,9 +690,101 @@ of tokens using the delimiter.</p>
 ]]></content>
       <categories>
         <category>C/C++</category>
+        <category>VS2012</category>
       </categories>
       <tags>
         <tag>C/C++</tag>
+        <tag>VS2012</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>KMP算法——字符串子串匹配</title>
+    <url>/2022/11/05/DSA/KMP%E7%AE%97%E6%B3%95/</url>
+    <content><![CDATA[<p>KMP算法解决了子串在字符串中定位的问题，即子串查找与匹配。KMP算法是三位大佬D.E.Knuth、J.H.Morris和V.R.Pratt同时发现的。</p>
+<span id="more"></span>
+<p><strong><em>模板题 <a
+href="https://www.luogu.com.cn/problem/P3375">洛谷P3375</a></em></strong></p>
+<h2 id="暴力做法">暴力做法</h2>
+<p>从左到右一个个匹配，如果某个字符不匹配，就将子串右移一位重新匹配。</p>
+<p>复杂度<span
+class="math inline">\(\mathcal{O}(nm)\)</span>，其中n为主串长度，m为子串长度</p>
+<h2 id="优化思路">优化思路</h2>
+<p>匹配失败后应该可以尽可能多地向右移动，以减少无效的匹配。因此需要确定匹配失败后向右移动不影响匹配结果的尽可能多的位数是多少。</p>
+<p>KMP的重点就是<strong>当某一个字符与主串不匹配时，我们应该知道指向子串位置的j指针要移动到哪</strong></p>
+<h2 id="规律推导">规律推导</h2>
+<h3 id="具体例子">具体例子</h3>
+<ul>
+<li><p>例1</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ABACBDCHIJK (i)</span><br><span class="line">ABAD  (j)</span><br></pre></td></tr></table></figure>
+<ul>
+<li>当D不匹配时，子串应该向后移两位，因为A相同可以匹配</li>
+</ul></li>
+<li><p>例2</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ABCABCDHIJK  (i)</span><br><span class="line">ABCABB  (j)</span><br></pre></td></tr></table></figure>
+<ul>
+<li>当C与D不匹配时，子串向后移3位，因为AB相同可以匹配</li>
+</ul></li>
+</ul>
+<p>我们可以总结出，子串移动位置的特点就是，<strong>尽量确保前k位都是匹配的</strong>，那么j会到k+1</p>
+<p>即子串需要确保<span class="math inline">\(P[0,k-1]==P[j-k,
+j-1]\)</span></p>
+<p>在例2中，<span class="math inline">\(k=2, j=5\)</span>。移动后<span
+class="math inline">\(j=k=2\)</span></p>
+<h3 id="求出k">求出k</h3>
+<p>由于子串P的每一个位置都可能发生不匹配的情况，因此需要计算每一个位置的<code>j</code>对应的<code>k</code>，用一个数组<code>next</code>来保存，<span
+class="math inline">\({next}[j] = k\)</span>
+表示，<code>j</code>的下一个位置<code>k</code></p>
+<h4 id="递推法">递推法</h4>
+<p>对一位<code>j</code>而言，我们需要判断该位置的前几位是否与子串开头的几位相同。</p>
+<p>假设我们已经算出前<span
+class="math inline">\(j-1\)</span>位的<code>next</code>，那么只需要考虑<code>next[j-1]</code></p>
+<div class="note info no-icon"><p>若<code>next[j-1] == k</code>
+，那么当<code>P[k]==P[j-1]</code>时，<code>next[j] = k+1</code>，否则<code>k=next[k]</code>，直到<code>P[k] == P[j-1]</code>或<code>k == -1</code></p>
+</div>
+<p>后一种情况是典型的动态规划思想，一开始可能不太容易想明白，下面再举一个例子。</p>
+<p><img src="https://s1.ax1x.com/2022/11/05/xO44iR.png" alt="next[j]=next[k]示意图" style="zoom:50%;" /></p>
+<p>对于<span class="math inline">\(P[j-k,j-1]\)</span>
+，我们需要找到<code>j</code>前面尽可能多的与模式串开头相同的串，由于该串的长度只可能小于<code>k</code>，那么这个串一定与k前面的串相同，即<code>next[j]</code>的结果取决于<code>next[k]</code>，那么需要不断迭代<code>k=next[k]</code>。</p>
+<p>直到<code>P[j-1] == P[k]</code>，这个时候可以直接用<code>next[k]</code>的结果，否则k一定会不断迭代直到-1，这时<code>next[j] = k+1</code>，可以与<code>P[k]==P[j-1]</code>的情况合并。</p>
+<div class="note info no-icon"><p>这时<code>next[k]</code>相当于长度为<code>k-1</code>的前缀字符串内部，长度最长的相等的前缀与后缀。</p>
+</div>
+<h3 id="代码">代码</h3>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">int</span>* <span class="title">getNext</span><span class="params">(string p)</span> </span>&#123;</span><br><span class="line">    <span class="type">int</span>* next = <span class="keyword">new</span> <span class="type">int</span>[p.<span class="built_in">length</span>()];</span><br><span class="line">    next[<span class="number">0</span>] = <span class="number">-1</span>;</span><br><span class="line">    <span class="type">int</span> j = <span class="number">0</span>;</span><br><span class="line">    <span class="type">int</span> k = <span class="number">-1</span>;</span><br><span class="line">    <span class="keyword">while</span>(j &lt; p.<span class="built_in">length</span>() - <span class="number">1</span>)&#123;</span><br><span class="line">    	<span class="keyword">if</span>(k == <span class="number">-1</span> || p[j] == p[k])</span><br><span class="line">    		next[++j] = ++k;</span><br><span class="line">    	<span class="keyword">else</span></span><br><span class="line">    		k = next[k];</span><br><span class="line">	&#125;</span><br><span class="line">    <span class="keyword">return</span> next;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<ul>
+<li><p>当<code>j</code>为0时不匹配</p>
+<p><code>j</code>不可能继续向前，若<code>next[0]</code>设为0就会陷入死循环，所以<code>next[0]</code>设为<code>-1</code>标记不可能继续向前这一性质</p></li>
+<li><p>如果<code>P[k]!=P[j]</code></p>
+<p><img src="https://s1.ax1x.com/2022/11/05/xObxHK.png" alt="k=next[k]原理图" style="zoom:50%;" /></p></li>
+</ul>
+<h2 id="字符串匹配完整代码">字符串匹配完整代码</h2>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="type">int</span> *next = <span class="built_in">getNext</span>(s2);</span><br><span class="line"><span class="type">int</span> i = <span class="number">0</span>, j = <span class="number">0</span>;</span><br><span class="line"><span class="keyword">while</span>(i &lt; s1.<span class="built_in">length</span>())&#123;</span><br><span class="line">    <span class="keyword">if</span>(j == <span class="number">-1</span> || s1[i] == s2[j])&#123;</span><br><span class="line">        <span class="keyword">if</span>(j+<span class="number">1</span> == s2.<span class="built_in">length</span>())&#123;</span><br><span class="line">            cout &lt;&lt; i - j + <span class="number">1</span> &lt;&lt; endl;</span><br><span class="line">            j = next[j];</span><br><span class="line">        &#125;<span class="keyword">else</span>&#123;</span><br><span class="line">            i++; </span><br><span class="line">            j++;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">else</span>&#123;</span><br><span class="line">        j = next[j];</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="证明时间复杂度为mathcalon">证明时间复杂度为<span
+class="math inline">\(\mathcal{O}(n)\)</span></h3>
+<p>借用势能的概念，构造表达式，使表达式在while循环中单调递增，然后已知初始值和结束值</p>
+<p>定义<strong>势能函数</strong><span class="math inline">\(k =
+2i-j\)</span>，考察算法过程的k变化 - 初始时，<span
+class="math inline">\(k = 0\)</span> - 论断：每经过一次循环, k至少增加1
+- 若if判断为true，则i、j同时加1，故k至少加1 -
+否则，i不变，j至少减1，故k至少加1 - 算法结束时，<span
+class="math inline">\(k = 2i-j \leq 2(n-1)-(-1) = 2n-1\)</span></p>
+<p>额外的辅助空间复杂度为<span
+class="math inline">\(\mathcal{O}(n)\)</span></p>
+<h2 id="进一步改进next">进一步改进next</h2>
+<p>上述内容足以完成开篇所列的洛谷模板题，但就效率而言还不够好，下面一种情况就是不必要的。</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ABACBC</span><br><span class="line">ABAB</span><br></pre></td></tr></table></figure>
+<p>若匹配到第3位C与B，按照之前的做法应该回溯到<code>next[3]==1</code>中，但由于<code>P[next[3]]==P[3]</code>，这样的回溯没有意义，应该进一步回溯到不相等的情况。</p>
+<p>若排在前面的字符的回溯就采用这种思想，那么可以确保后面的字符只需经过一次回溯就可以达到不相等这种最优的情况。</p>
+<p><code>getNext</code>代码修改如下</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">int</span>* <span class="title">getNext</span><span class="params">(string p)</span> </span>&#123;</span><br><span class="line">    <span class="type">int</span>* next = <span class="keyword">new</span> <span class="type">int</span>[p.<span class="built_in">length</span>()];</span><br><span class="line">    next[<span class="number">0</span>] = <span class="number">-1</span>;</span><br><span class="line">    <span class="type">int</span> j = <span class="number">0</span>;</span><br><span class="line">    <span class="type">int</span> k = <span class="number">-1</span>;</span><br><span class="line">    <span class="keyword">while</span>(j &lt; p.<span class="built_in">length</span>() - <span class="number">1</span>)&#123;</span><br><span class="line">    	<span class="keyword">if</span>(k == <span class="number">-1</span> || p[j] == p[k])&#123;</span><br><span class="line">            <span class="keyword">if</span>(p[++j] == p[++k])&#123;</span><br><span class="line">                next[j] = next[k];</span><br><span class="line">            &#125;<span class="keyword">else</span>&#123;</span><br><span class="line">                next[j] = k;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    	<span class="keyword">else</span></span><br><span class="line">    		k = next[k];</span><br><span class="line">	&#125;</span><br><span class="line">    <span class="keyword">return</span> next;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="参考文献">参考文献</h2>
+<p>[1] https://www.cnblogs.com/yjiyjige/p/3263858.html <a
+href="https://www.cnblogs.com/yjiyjige/p/3263858.html">详解KMP算法</a></p>
+]]></content>
+      <categories>
+        <category>Algorithm</category>
+      </categories>
+      <tags>
+        <tag>Alogrithm</tag>
       </tags>
   </entry>
   <entry>
@@ -721,6 +811,481 @@ of tokens using the delimiter.</p>
       </categories>
       <tags>
         <tag>C/C++</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>编写C语言时踩到的坑</title>
+    <url>/2022/09/28/C++/%E7%BC%96%E5%86%99C%E8%AF%AD%E8%A8%80%E6%97%B6%E8%B8%A9%E5%88%B0%E7%9A%84%E5%9D%91/</url>
+    <content><![CDATA[<p>本文对笔者在学习C语言时遗忘的C语言与C++不同的用法特性进行说明。</p>
+<span id="more"></span>
+<h2 id="变量">变量</h2>
+<ul>
+<li>定义变量时必须初始化</li>
+<li>定义变量必须在代码块的最前面，不能在for()的括号里定义<code>int i = 1</code></li>
+<li>不能用变量初始化变量</li>
+</ul>
+<h2 id="数据类型">数据类型</h2>
+<h3 id="bool"><code>bool</code></h3>
+<p>C语言中没有bool值，不可以使用<code>true / false</code></p>
+<h3 id="unsigned"><code>unsigned</code></h3>
+<p>不要在它减到0时继续往下减，否则会变成无穷大</p>
+<h3 id="char"><code>char*</code></h3>
+<ul>
+<li>使用<code>strlen</code>直接与负数比较会出错，因为<code>strlen</code>是无符号数</li>
+</ul>
+<h2 id="结构体">结构体</h2>
+<p>结构体中不能包含函数，不推荐在定义结构体后直接声明变量。</p>
+<p><strong>结构体作为数据类型，需要在前面加上<code>struct</code>，比如</strong></p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="keyword">struct</span> <span class="title class_">Time</span> <span class="built_in">devide</span>(<span class="keyword">struct</span> Time t1, <span class="keyword">struct</span> Time t2)&#123;&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="循环">循环</h2>
+<p>不允许在<code>for</code>内定义变量</p>
+<h2 id="指针与引用">指针与引用</h2>
+<div class="note info"><p>C语言中没有引用</p>
+</div>
+<h2 id="动态开辟空间">动态开辟空间</h2>
+<p>空间大小不要写成指针大小！！！！</p>
+<h3 id="字符串指针">字符串指针</h3>
+<p>对函数内的字符串指针操作时，最好先创建一个新的字符串指针</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">int</span> <span class="title">strdelete</span><span class="params">(<span class="type">char</span> *s1, <span class="type">char</span> *s2)</span></span>&#123;</span><br><span class="line">	<span class="type">char</span> *p1 = s1;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="报错汇总">报错汇总</h2>
+<h3
+id="是否忘记了向源中添加include-stdafx.h">是否忘记了向源中添加“#include
+“stdafx.h“”</h3>
+<p>对于每一个出错的.cpp文件，右键——》属性——》C/C++——》预编译头，选择不使用预编译头即可。</p>
+<details class="note info no-icon"><summary><p>This is a summary</p>
+</summary>
+<p>Any content (support inline tags too).</p>
+
+</details>
+]]></content>
+      <categories>
+        <category>C/C++</category>
+      </categories>
+      <tags>
+        <tag>C/C++</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>主定理与时间复杂度</title>
+    <url>/2022/09/18/DSA/%E4%B8%BB%E5%AE%9A%E7%90%86%E4%B8%8E%E6%97%B6%E9%97%B4%E5%A4%8D%E6%9D%82%E5%BA%A6/</url>
+    <content><![CDATA[<p>主要解决：根据时间复杂度的递推关系，求时间复杂度</p>
+<span id="more"></span>
+<h2 id="主定理内容">主定理内容</h2>
+<p>设<span class="math inline">\(a \geq 1\)</span>和<span
+class="math inline">\(b &gt;
+1\)</span>为常数，设f(n)为一函数，T(n)有递推式 <span
+class="math display">\[
+T(n)=aT(\frac n b)+f(n)
+\]</span> 其中<span class="math inline">\(\frac nb\)</span> 指<span
+class="math inline">\(\left\lfloor\dfrac{n}{b}
+\right\rfloor\)</span>和<span
+class="math inline">\(\left\lceil\dfrac{b}{n}
+\right\rceil\)</span>，可以证明，略去上下取整不会对结果造成影响。那么<span
+class="math inline">\(T(n)\)</span>可能有如下的渐进界</p>
+<p>（1）若<span class="math inline">\(f(n) &lt;
+n^{\log_ba}\)</span>，且是多项式的小于。即 <span class="math display">\[
+\exists
+\epsilon&gt;0,有f(n)=\mathcal{O}(n^{\log_ba-\epsilon}),则T(n)=\mathcal{O}(n^{\log_ba})
+\]</span> （2）若<span class="math inline">\(f(n) =
+n^{\log_ba}\)</span>，则<span
+class="math display">\[T(n)=\mathcal{O}(n^{\log_ba}\log n)\]</span></p>
+<p>（3）若<span class="math inline">\(f(n) &gt;
+n^{\log_ba}\)</span>，且是多项式的大于。即 <span class="math display">\[
+\exists
+\epsilon&gt;0,有f(n)=\mathcal{O}(n^{\log_ba-\epsilon}),则T(n)=\mathcal{O}(n^{\log_ba})
+\\
+且对\exists c&lt;1与所有足够大的n,有af(\frac nb)\leq
+cf(n),则T(n)=\mathcal{O}(f(n))
+\]</span></p>
+<h2 id="主定理证明">主定理证明</h2>
+<p>可以画递归树</p>
+<p>可见，每次递归把问题分为<span
+class="math inline">\(a\)</span>个规模为<span
+class="math inline">\(\frac nb\)</span>的子问题。从根节点开始，共有<span
+class="math inline">\(\log_bn+1\)</span>层，叶子节点数为<span
+class="math inline">\(a^{\log_bn}\)</span>。那么，第j层共有<span
+class="math inline">\(a^j\)</span>个子问题，每个问题规模为<span
+class="math inline">\(n/b^j\)</span>，每个子问题运算量为<span
+class="math inline">\(c*(\frac
+n{b^j})^d\)</span>，每一层需要完成的计算量为</p>
+<p><span class="math display">\[
+a^jf(\frac n{b^j})
+\]</span> 求和得到整个问题的运算量，d为f(n)的阶数 <span
+class="math display">\[
+\sum_{j=0}^{\log_bn} a^jf(\frac n{b^j}) = Cn^d\sum_{j=0}^{\log_bn}(\frac
+a{b^d})^j
+\]</span> 分类讨论</p>
+<p>（1）若<span class="math inline">\(f(n) &lt;
+n^{\log_ba}\)</span>，且是多项式的小于，即<span
+class="math inline">\(d&lt;\log_ba\)</span></p>
+<blockquote class="blockquote-center">
+<p>不会了</p>
+
+</blockquote>
+<p>（2）若<span class="math inline">\(f(n) = n^{\log_ba}\)</span>, 即
+<span class="math display">\[
+Cn^d\sum_{j=0}^{\log_bn}(\frac a{b^d})^j = Cn^d\log_b n =
+\mathcal{O}(n^{\log_ba}\log n)
+\]</span> （3）若<span class="math inline">\(f(n) &gt;
+n^{\log_ba}\)</span>，且是多项式的大于。即</p>
+<blockquote class="blockquote-center">
+<p>不会了</p>
+
+</blockquote>
+<h2 id="主定理应用">主定理应用</h2>
+<h3 id="二分搜索">二分搜索</h3>
+<ul>
+<li>每次问题规模减半，a=1，b=2，d=0</li>
+<li>复杂度为n^0 log(n) = log(n)。</li>
+</ul>
+<h3 id="快速排序">快速排序</h3>
+<ul>
+<li>随机选择待排序序列中的一个数字作为划分字问题的标准，划分是否平均影响算法复杂度</li>
+<li>每次问题规模减半，a=2，b=2，d=1</li>
+<li>复杂度为n^2 log(n)</li>
+<li>最差情况下，复杂度为O(n^2)</li>
+</ul>
+<h3 id="归并排序">归并排序</h3>
+<ul>
+<li>数据列均分为两部分，分别排序，之后以O(n)的复杂度进行合并，空间复杂度O(n)</li>
+<li>每次问题规模减半，a=2，b=2，d=1</li>
+<li>复杂度为n log(n)</li>
+</ul>
+<h3 id="基数排序radix-sort">基数排序(Radix sort)</h3>
+<ul>
+<li>对于待排序的整数序列，从最低位到最高位每次按照相应的位排序一次</li>
+<li>每次递归问题规模变为原来的1/10，但需要求解10个子问题，额外运算为O(n)的，a=10，b=10，d=1</li>
+<li>复杂度为n^1 log(n) = n log(n)，近似为O(kN)，k为整数的位数</li>
+</ul>
+<h3 id="快速傅里叶变换fft">快速傅里叶变换：FFT</h3>
+<ul>
+<li>每次问题规模减半，a=2，b=2，d=1</li>
+<li>复杂度为n log(n)</li>
+</ul>
+<h3 id="karatsuba快速乘法">Karatsuba快速乘法</h3>
+<ul>
+<li>正常两个n位数乘法为n^2</li>
+<li>算法把两个乘数各分为高低位两部分，如X<em>Y = (a+b) </em> (c+d) =
+ac+bd + (bc+ad) = ac+bd+(ac+bd - (a-b)(c-d))</li>
+<li>只需要ac,bd,(a-b)(c-d)三次乘法</li>
+<li>每次问题规模减半，但需要解3个子问题，加法是O(n)的，a=3，b=2，d=1</li>
+<li>复杂度为n^log2(3)</li>
+</ul>
+<h2 id="参考文献">参考文献</h2>
+<p>[1] https://blog.csdn.net/caozhk/article/details/24734371
+"主定理的证明及应用举例" [2]
+https://blog.csdn.net/lanchunhui/article/details/52451362
+"主定理（Master Theorem）与时间复杂度"</p>
+]]></content>
+      <categories>
+        <category>Algorithm</category>
+        <category>DS</category>
+      </categories>
+      <tags>
+        <tag>DS</tag>
+        <tag>Algorithm</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>向量Vector的实现</title>
+    <url>/2022/09/30/DSA/%E5%90%91%E9%87%8FVector%E7%9A%84%E5%AE%9E%E7%8E%B0/</url>
+    <content><![CDATA[<p>https://blog.csdn.net/qq_41854911/article/details/119392824</p>
+<p>本文手动实现了Vector的模板类。</p>
+<span id="more"></span>
+<h2 id="center-quote-居中引用">Center Quote 居中引用</h2>
+<p>建议在单行文字时使用</p>
+<h3 id="example">Example</h3>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">&#123;% cq %&#125;代码优雅，核心简单&#123;% endcq %&#125;</span><br></pre></td></tr></table></figure>
+<blockquote class="blockquote-center">
+<p>代码优雅，核心简单</p>
+
+</blockquote>
+<h2 id="note-bootstrap-callout">Note( Bootstrap Callout )</h2>
+<h3 id="设置">设置</h3>
+<h3 id="使用-usage">使用 Usage</h3>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">```</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% codeblock 创建note lang:html [additional options] %&#125;</span><br><span class="line">&#123;% note [class] [no-icon] [summary] %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% note info no-icon This is a summary %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">## 代码块 Code Block</span><br><span class="line"></span><br><span class="line">```html</span><br><span class="line">&#123;% codeblock [title] [lang:language] [url] [link text] [additional options] %&#125;</span><br><span class="line">code snippet</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="section"></h3>
+]]></content>
+      <categories>
+        <category>C/C++</category>
+        <category>DS</category>
+      </categories>
+      <tags>
+        <tag>C/C++</tag>
+        <tag>DS</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>大 数 乘 法</title>
+    <url>/2022/09/18/DSA/%E5%A4%A7%E6%95%B0%E4%B9%98%E6%B3%95/</url>
+    <content><![CDATA[<p>输入两个很大的正整数，输出它们的乘积。比如</p>
+<blockquote>
+<p>输入：1111111111111 1111111111111</p>
+<p>输出：1234567901234320987654321</p>
+</blockquote>
+<span id="more"></span>
+<h2 id="主定理内容">主定理内容</h2>
+<p>设<span class="math inline">\(a \geq 1\)</span>和<span
+class="math inline">\(b &gt;
+1\)</span>为常数，设f(n)为一函数，T(n)有递推式 <span
+class="math display">\[
+T(n)=aT(\frac n b)+f(n)
+\]</span> 其中<span class="math inline">\(\frac nb\)</span> 指<span
+class="math inline">\(\left\lfloor\dfrac{n}{b}
+\right\rfloor\)</span>和<span
+class="math inline">\(\left\lceil\dfrac{b}{n}
+\right\rceil\)</span>，可以证明，略去上下取整不会对结果造成影响。那么<span
+class="math inline">\(T(n)\)</span>可能有如下的渐进界</p>
+<p>（1）若<span class="math inline">\(f(n) &lt;
+n^{\log_ba}\)</span>，且是多项式的小于。即 <span class="math display">\[
+\exists
+\epsilon&gt;0,有f(n)=\mathcal{O}(n^{\log_ba-\epsilon}),则T(n)=\mathcal{O}(n^{\log_ba})
+\]</span> （2）若<span class="math inline">\(f(n) =
+n^{\log_ba}\)</span>，则<span
+class="math display">\[T(n)=\mathcal{O}(n^{\log_ba}\log n)\]</span></p>
+<p>（3）若<span class="math inline">\(f(n) &gt;
+n^{\log_ba}\)</span>，且是多项式的大于。即 <span class="math display">\[
+\exists
+\epsilon&gt;0,有f(n)=\mathcal{O}(n^{\log_ba-\epsilon}),则T(n)=\mathcal{O}(n^{\log_ba})
+\\
+且对\exists c&lt;1与所有足够大的n,有af(\frac nb)\leq
+cf(n),则T(n)=\mathcal{O}(f(n))
+\]</span></p>
+<h2 id="主定理证明">主定理证明</h2>
+<p>可以画递归树</p>
+<p>可见，每次递归把问题分为<span
+class="math inline">\(a\)</span>个规模为<span
+class="math inline">\(\frac nb\)</span>的子问题。从根节点开始，共有<span
+class="math inline">\(\log_bn+1\)</span>层，叶子节点数为<span
+class="math inline">\(a^{\log_bn}\)</span>。那么，第j层共有<span
+class="math inline">\(a^j\)</span>个子问题，每个问题规模为<span
+class="math inline">\(n/b^j\)</span>，每个子问题运算量为<span
+class="math inline">\(c*(\frac
+n{b^j})^d\)</span>，每一层需要完成的计算量为</p>
+<p><span class="math display">\[
+a^jf(\frac n{b^j})
+\]</span> 求和得到整个问题的运算量，d为f(n)的阶数 <span
+class="math display">\[
+\sum_{j=0}^{\log_bn} a^jf(\frac n{b^j}) = Cn^d\sum_{j=0}^{\log_bn}(\frac
+a{b^d})^j
+\]</span> 分类讨论</p>
+<p>（1）若<span class="math inline">\(f(n) &lt;
+n^{\log_ba}\)</span>，且是多项式的小于，即<span
+class="math inline">\(d&lt;\log_ba\)</span></p>
+<blockquote class="blockquote-center">
+<p>不会了</p>
+
+</blockquote>
+<p>（2）若<span class="math inline">\(f(n) = n^{\log_ba}\)</span>, 即
+<span class="math display">\[
+Cn^d\sum_{j=0}^{\log_bn}(\frac a{b^d})^j = Cn^d\log_b n =
+\mathcal{O}(n^{\log_ba}\log n)
+\]</span> （3）若<span class="math inline">\(f(n) &gt;
+n^{\log_ba}\)</span>，且是多项式的大于。即</p>
+<blockquote class="blockquote-center">
+<p>不会了</p>
+
+</blockquote>
+<h2 id="主定理应用">主定理应用</h2>
+<h3 id="二分搜索">二分搜索</h3>
+<ul>
+<li>每次问题规模减半，a=1，b=2，d=0</li>
+<li>复杂度为n^0 log(n) = log(n)。</li>
+</ul>
+<h3 id="快速排序">快速排序</h3>
+<ul>
+<li>随机选择待排序序列中的一个数字作为划分字问题的标准，划分是否平均影响算法复杂度</li>
+<li>每次问题规模减半，a=2，b=2，d=1</li>
+<li>复杂度为n^2 log(n)</li>
+<li>最差情况下，复杂度为O(n^2)</li>
+</ul>
+<h3 id="归并排序">归并排序</h3>
+<ul>
+<li>数据列均分为两部分，分别排序，之后以O(n)的复杂度进行合并，空间复杂度O(n)</li>
+<li>每次问题规模减半，a=2，b=2，d=1</li>
+<li>复杂度为n log(n)</li>
+</ul>
+<h3 id="基数排序radix-sort">基数排序(Radix sort)</h3>
+<ul>
+<li>对于待排序的整数序列，从最低位到最高位每次按照相应的位排序一次</li>
+<li>每次递归问题规模变为原来的1/10，但需要求解10个子问题，额外运算为O(n)的，a=10，b=10，d=1</li>
+<li>复杂度为n^1 log(n) = n log(n)，近似为O(kN)，k为整数的位数</li>
+</ul>
+<h3 id="快速傅里叶变换fft">快速傅里叶变换：FFT</h3>
+<ul>
+<li>每次问题规模减半，a=2，b=2，d=1</li>
+<li>复杂度为n log(n)</li>
+</ul>
+<h3 id="karatsuba快速乘法">Karatsuba快速乘法</h3>
+<ul>
+<li>正常两个n位数乘法为n^2</li>
+<li>算法把两个乘数各分为高低位两部分，如X<em>Y = (a+b) </em> (c+d) =
+ac+bd + (bc+ad) = ac+bd+(ac+bd - (a-b)(c-d))</li>
+<li>只需要ac,bd,(a-b)(c-d)三次乘法</li>
+<li>每次问题规模减半，但需要解3个子问题，加法是O(n)的，a=3，b=2，d=1</li>
+<li>复杂度为n^log2(3)</li>
+</ul>
+<h2 id="参考文献">参考文献</h2>
+<p>[1] https://blog.csdn.net/caozhk/article/details/24734371
+"主定理的证明及应用举例" [2]
+https://blog.csdn.net/lanchunhui/article/details/52451362
+"主定理（Master Theorem）与时间复杂度"</p>
+]]></content>
+      <categories>
+        <category>Algorithm</category>
+      </categories>
+      <tags>
+        <tag>Algorithm</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>向量Vector的实现</title>
+    <url>/2022/09/30/DSA/%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95%E6%B1%87%E6%80%BB/</url>
+    <content><![CDATA[<p>https://blog.csdn.net/qq_41854911/article/details/119392824</p>
+<p>本文手动实现了Vector的模板类。</p>
+<span id="more"></span>
+<h2 id="center-quote-居中引用">Center Quote 居中引用</h2>
+<p>建议在单行文字时使用</p>
+<h3 id="example">Example</h3>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">&#123;% cq %&#125;代码优雅，核心简单&#123;% endcq %&#125;</span><br></pre></td></tr></table></figure>
+<blockquote class="blockquote-center">
+<p>代码优雅，核心简单</p>
+
+</blockquote>
+<h2 id="note-bootstrap-callout">Note( Bootstrap Callout )</h2>
+<h3 id="设置">设置</h3>
+<h3 id="使用-usage">使用 Usage</h3>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">```</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% codeblock 创建note lang:html [additional options] %&#125;</span><br><span class="line">&#123;% note [class] [no-icon] [summary] %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% note info no-icon This is a summary %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">## 代码块 Code Block</span><br><span class="line"></span><br><span class="line">```html</span><br><span class="line">&#123;% codeblock [title] [lang:language] [url] [link text] [additional options] %&#125;</span><br><span class="line">code snippet</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="section"></h3>
+]]></content>
+      <categories>
+        <category>C/C++</category>
+        <category>DS</category>
+      </categories>
+      <tags>
+        <tag>C/C++</tag>
+        <tag>DS</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>约瑟夫环</title>
+    <url>/2022/10/07/DSA/%E7%BA%A6%E7%91%9F%E5%A4%AB%E7%8E%AF/</url>
+    <content><![CDATA[<blockquote>
+<p>约瑟夫环：</p>
+<p>N个人围成一圈，第一个人从1开始报数，报M的将被杀掉，下一个人接着从1开始报。如此反复，最后剩下一个，求最后的胜利者。</p>
+</blockquote>
+<p>本文介绍约瑟夫环的一些做法。</p>
+<span id="more"></span>
+<h2 id="链表模拟该过程">链表模拟该过程</h2>
+<p>使用环形链表，指针不断向后指，指到后将该节点删除。</p>
+<p>时间复杂度<span class="math inline">\(\mathcal{O}(N)\)</span></p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="type">const</span> <span class="type">int</span> N=<span class="number">110</span>;</span><br><span class="line"><span class="type">int</span> l[N],r[N];</span><br><span class="line"><span class="type">int</span> n,m;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">link</span><span class="params">(<span class="type">int</span> L,<span class="type">int</span> R)</span></span>&#123;</span><br><span class="line">	l[R]=L;r[L]=R;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">	<span class="built_in">scanf</span>(<span class="string">&quot;%d%d&quot;</span>,&amp;n,&amp;m);	</span><br><span class="line">	<span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">1</span>;i&lt;n;i++)</span><br><span class="line">		<span class="built_in">link</span>(i,i+<span class="number">1</span>);</span><br><span class="line">	<span class="built_in">link</span>(n,<span class="number">1</span>);</span><br><span class="line">	<span class="type">int</span> p=n;</span><br><span class="line">	<span class="keyword">while</span>(n--)&#123;</span><br><span class="line">		<span class="type">int</span> t=m;</span><br><span class="line">		<span class="keyword">while</span>(t--) p=r[p];</span><br><span class="line">		<span class="type">int</span> L=l[p],R=r[p];</span><br><span class="line">		<span class="built_in">link</span>(L,R); </span><br><span class="line">		cout &lt;&lt; p &lt;&lt; <span class="string">&quot; &quot;</span>;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="优化动态规划">优化：动态规划</h2>
+<p>设<span
+class="math inline">\(f(N,M)\)</span>的值即为答案，那么有如下递推公式：
+<span class="math display">\[
+f(N,M)=(f(N−1,M)+M) \% N
+\]</span> 从N-1到N多了一个人，带来的影响是报数多报了M次</p>
+<h2 id="note-bootstrap-callout">Note( Bootstrap Callout )</h2>
+<h3 id="设置">设置</h3>
+<h3 id="使用-usage">使用 Usage</h3>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">```</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% codeblock 创建note lang:html [additional options] %&#125;</span><br><span class="line">&#123;% note [class] [no-icon] [summary] %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% note info no-icon This is a summary %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">## 代码块 Code Block</span><br><span class="line"></span><br><span class="line">```html</span><br><span class="line">&#123;% codeblock [title] [lang:language] [url] [link text] [additional options] %&#125;</span><br><span class="line">code snippet</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="section"></h3>
+]]></content>
+      <categories>
+        <category>C/C++</category>
+        <category>DS</category>
+      </categories>
+      <tags>
+        <tag>C/C++</tag>
+        <tag>DS</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>支持修改元素值的优先队列</title>
+    <url>/2023/04/12/DSA/%E6%94%AF%E6%8C%81%E4%BF%AE%E6%94%B9%E5%85%83%E7%B4%A0%E5%80%BC%E7%9A%84%E4%BC%98%E5%85%88%E9%98%9F%E5%88%97/</url>
+    <content><![CDATA[<p>If you want to modify an element in a priority queue, you would need
+to remove the element, modify it, and then insert it back into the
+priority queue. However, this can be inefficient for large priority
+queues since removing and inserting elements can be expensive
+operations.</p>
+<p>In C++, the standard priority queue container does not provide a
+direct way to modify elements. Instead, you would need to implement a
+<strong>custom priority queue data structure</strong> that allows
+efficient modification of elements.</p>
+<p>One way to do this is to use <strong>a combination of a heap-based
+priority queue and a hash table</strong> (or a map) that maps elements
+to their positions in the heap. The hash table allows fast lookup of an
+element's position in the heap, and the heap-based priority queue allows
+efficient access to the highest-priority element.</p>
+<p>Here is a simple example of a custom priority queue data structure
+that supports efficient modification of elements:</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;queue&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;unordered_map&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="keyword">template</span> &lt;<span class="keyword">typename</span> T&gt;</span><br><span class="line"><span class="keyword">class</span> <span class="title class_">CustomPriorityQueue</span> &#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function"><span class="type">void</span> <span class="title">push</span><span class="params">(<span class="type">const</span> T&amp; val)</span> </span>&#123;</span><br><span class="line">        pq.<span class="built_in">push</span>(val);</span><br><span class="line">        pos[val] = pq.<span class="built_in">size</span>() - <span class="number">1</span>;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="type">void</span> <span class="title">pop</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        pos.<span class="built_in">erase</span>(pq.<span class="built_in">top</span>());</span><br><span class="line">        pq.<span class="built_in">pop</span>();</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="type">void</span> <span class="title">modify</span><span class="params">(<span class="type">const</span> T&amp; old_val, <span class="type">const</span> T&amp; new_val)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">auto</span> it = pos.<span class="built_in">find</span>(old_val);</span><br><span class="line">        <span class="keyword">if</span> (it == pos.<span class="built_in">end</span>()) &#123;</span><br><span class="line">            <span class="keyword">return</span>;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="type">int</span> i = it-&gt;second;</span><br><span class="line">        pq.<span class="built_in">pop</span>();</span><br><span class="line"></span><br><span class="line">        <span class="keyword">if</span> (i != pq.<span class="built_in">size</span>()) &#123;</span><br><span class="line">            pq.<span class="built_in">push</span>(pq.<span class="built_in">top</span>());</span><br><span class="line">            pos[pq.<span class="built_in">top</span>()] = i;</span><br><span class="line">            pq.<span class="built_in">pop</span>();</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        pos.<span class="built_in">erase</span>(it);</span><br><span class="line">        <span class="built_in">push</span>(new_val);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="type">const</span> T&amp; <span class="title">top</span><span class="params">()</span> <span class="type">const</span> </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> pq.<span class="built_in">top</span>();</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="type">bool</span> <span class="title">empty</span><span class="params">()</span> <span class="type">const</span> </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> pq.<span class="built_in">empty</span>();</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">private</span>:</span><br><span class="line">    std::priority_queue&lt;T&gt; pq;</span><br><span class="line">    std::unordered_map&lt;T, <span class="type">int</span>&gt; pos;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>DS</category>
+      </categories>
+      <tags>
+        <tag>DS</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>高精度运算C++实现</title>
+    <url>/2022/09/22/DSA/%E9%AB%98%E7%B2%BE%E5%BA%A6%E8%BF%90%E7%AE%97/</url>
+    <content><![CDATA[<p>https://blog.csdn.net/qq_41854911/article/details/119392824</p>
+<h1 id="section"></h1>
+<span id="more"></span>
+<h2 id="高精度加法">高精度加法</h2>
+<p>注意特殊情况：两者长度不一致，考虑最高位的进位，比如<code>99+99</code></p>
+<h2 id="center-quote-居中引用">Center Quote 居中引用</h2>
+<p>建议在单行文字时使用</p>
+<h3 id="example">Example</h3>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">&#123;% cq %&#125;代码优雅，核心简单&#123;% endcq %&#125;</span><br></pre></td></tr></table></figure>
+<blockquote class="blockquote-center">
+<p>代码优雅，核心简单</p>
+
+</blockquote>
+<h2 id="note-bootstrap-callout">Note( Bootstrap Callout )</h2>
+<h3 id="设置">设置</h3>
+<h3 id="使用-usage">使用 Usage</h3>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">```</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% codeblock 创建note lang:html [additional options] %&#125;</span><br><span class="line">&#123;% note [class] [no-icon] [summary] %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% note info no-icon This is a summary %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">## 代码块 Code Block</span><br><span class="line"></span><br><span class="line">```html</span><br><span class="line">&#123;% codeblock [title] [lang:language] [url] [link text] [additional options] %&#125;</span><br><span class="line">code snippet</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="section-1"></h3>
+]]></content>
+      <categories>
+        <category>C/C++</category>
+        <category>Algorithm</category>
+      </categories>
+      <tags>
+        <tag>C/C++</tag>
+        <tag>Algorithm</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>GitLab使用及常见报错</title>
+    <url>/2022/08/23/Git/Gitlab%20Guide/</url>
+    <content><![CDATA[<h1 id="使用入门">使用入门</h1>
+<span id="more"></span>
+<h1 id="错误分析">错误分析</h1>
+<h2
+id="remote-gitlab-you-are-not-allowed-to-push-code-to-protected-branches-on-this-project.">remote:
+GitLab: You are not allowed to push code to protected branches on this
+project.</h2>
+<h3 id="引发原因"><strong>引发原因：</strong></h3>
+<p>公司开发一个新的项目，在<a
+href="https://so.csdn.net/so/search?q=GitLab&amp;spm=1001.2101.3001.7020">GitLab</a>上创建一个代码仓库，通过ssh方式拉取代码到本地磁盘，在提交代码时，报标题所写的错误，原因是我在GitLab上的账户角色为<strong>开发者</strong>，代码仓库的<strong>master主分支</strong>是受保护的，不对开发者进行开放，开发者没有权限，需要关闭代码仓库的<strong>master主分支</strong>受保护的功能，设置开发者可以操作<strong>master主分支</strong>的权限。</p>
+<h3 id="解决办法"><strong>解决办法：</strong></h3>
+<p>使用GitLab系统管理员账户登录，更改代码仓库的<strong>master主分支</strong>开放权限为：<strong>Developers
++ Maintainers</strong>即可。 <img
+src="https://img-blog.csdnimg.cn/2c63e8edf914401ea67674822087eddf.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBA57yW56iL6K--5aCC,size_20,color_FFFFFF,t_70,g_se,x_16#pic_left"
+alt="在这里插入图片描述" /></p>
+]]></content>
+      <categories>
+        <category>Git</category>
+        <category>GitLab</category>
+      </categories>
+      <tags>
+        <tag>Git</tag>
+        <tag>GitLab</tag>
       </tags>
   </entry>
   <entry>
@@ -958,86 +1523,6 @@ id="openssl-ssl_read-connection-was-reset"><code>OpenSSL SSL_read: Connection wa
       </tags>
   </entry>
   <entry>
-    <title>编写C语言时踩到的坑</title>
-    <url>/2022/09/28/C++/%E7%BC%96%E5%86%99C%E8%AF%AD%E8%A8%80%E6%97%B6%E8%B8%A9%E5%88%B0%E7%9A%84%E5%9D%91/</url>
-    <content><![CDATA[<p>本文对笔者在学习C语言时遗忘的C语言与C++不同的用法特性进行说明。</p>
-<span id="more"></span>
-<h2 id="变量">变量</h2>
-<ul>
-<li>定义变量时必须初始化</li>
-<li>定义变量必须在代码块的最前面，不能在for()的括号里定义<code>int i = 1</code></li>
-<li>不能用变量初始化变量</li>
-</ul>
-<h2 id="数据类型">数据类型</h2>
-<h3 id="bool"><code>bool</code></h3>
-<p>C语言中没有bool值，不可以使用<code>true / false</code></p>
-<h3 id="unsigned"><code>unsigned</code></h3>
-<p>不要在它减到0时继续往下减，否则会变成无穷大</p>
-<h3 id="char"><code>char*</code></h3>
-<ul>
-<li>使用<code>strlen</code>直接与负数比较会出错，因为<code>strlen</code>是无符号数</li>
-</ul>
-<h2 id="结构体">结构体</h2>
-<p>结构体中不能包含函数，不推荐在定义结构体后直接声明变量。</p>
-<p><strong>结构体作为数据类型，需要在前面加上<code>struct</code>，比如</strong></p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="keyword">struct</span> <span class="title class_">Time</span> <span class="built_in">devide</span>(<span class="keyword">struct</span> Time t1, <span class="keyword">struct</span> Time t2)&#123;&#125;</span><br></pre></td></tr></table></figure>
-<h2 id="循环">循环</h2>
-<p>不允许在<code>for</code>内定义变量</p>
-<h2 id="指针与引用">指针与引用</h2>
-<div class="note info"><p>C语言中没有引用</p>
-</div>
-<h2 id="动态开辟空间">动态开辟空间</h2>
-<p>空间大小不要写成指针大小！！！！</p>
-<h3 id="字符串指针">字符串指针</h3>
-<p>对函数内的字符串指针操作时，最好先创建一个新的字符串指针</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">int</span> <span class="title">strdelete</span><span class="params">(<span class="type">char</span> *s1, <span class="type">char</span> *s2)</span></span>&#123;</span><br><span class="line">	<span class="type">char</span> *p1 = s1;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h2 id="报错汇总">报错汇总</h2>
-<h3
-id="是否忘记了向源中添加include-stdafx.h">是否忘记了向源中添加“#include
-“stdafx.h“”</h3>
-<p>对于每一个出错的.cpp文件，右键——》属性——》C/C++——》预编译头，选择不使用预编译头即可。</p>
-<details class="note info no-icon"><summary><p>This is a summary</p>
-</summary>
-<p>Any content (support inline tags too).</p>
-
-</details>
-]]></content>
-      <categories>
-        <category>C/C++</category>
-      </categories>
-      <tags>
-        <tag>C/C++</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>GitLab使用及常见报错</title>
-    <url>/2022/08/23/Git/Gitlab%20Guide/</url>
-    <content><![CDATA[<h1 id="使用入门">使用入门</h1>
-<span id="more"></span>
-<h1 id="错误分析">错误分析</h1>
-<h2
-id="remote-gitlab-you-are-not-allowed-to-push-code-to-protected-branches-on-this-project.">remote:
-GitLab: You are not allowed to push code to protected branches on this
-project.</h2>
-<h3 id="引发原因"><strong>引发原因：</strong></h3>
-<p>公司开发一个新的项目，在<a
-href="https://so.csdn.net/so/search?q=GitLab&amp;spm=1001.2101.3001.7020">GitLab</a>上创建一个代码仓库，通过ssh方式拉取代码到本地磁盘，在提交代码时，报标题所写的错误，原因是我在GitLab上的账户角色为<strong>开发者</strong>，代码仓库的<strong>master主分支</strong>是受保护的，不对开发者进行开放，开发者没有权限，需要关闭代码仓库的<strong>master主分支</strong>受保护的功能，设置开发者可以操作<strong>master主分支</strong>的权限。</p>
-<h3 id="解决办法"><strong>解决办法：</strong></h3>
-<p>使用GitLab系统管理员账户登录，更改代码仓库的<strong>master主分支</strong>开放权限为：<strong>Developers
-+ Maintainers</strong>即可。 <img
-src="https://img-blog.csdnimg.cn/2c63e8edf914401ea67674822087eddf.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBA57yW56iL6K--5aCC,size_20,color_FFFFFF,t_70,g_se,x_16#pic_left"
-alt="在这里插入图片描述" /></p>
-]]></content>
-      <categories>
-        <category>Git</category>
-        <category>GitLab</category>
-      </categories>
-      <tags>
-        <tag>Git</tag>
-        <tag>GitLab</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>NexT主题post格式模板</title>
     <url>/2022/07/11/Hexo/Next%E4%B8%BB%E9%A2%98post%E6%A0%BC%E5%BC%8F%E6%A8%A1%E6%9D%BF/</url>
     <content><![CDATA[<h1 id="next主题常用页面模块">NexT主题常用页面模块</h1>
@@ -1103,576 +1588,6 @@ alt="在这里插入图片描述" /></p>
     <content><![CDATA[<h1 id="表格">表格</h1>
 <h1 id="数学">数学</h1>
 ]]></content>
-  </entry>
-  <entry>
-    <title>Python list方法汇总</title>
-    <url>/2022/10/10/Python/Python_list%E6%96%B9%E6%B3%95%E6%B1%87%E6%80%BB/</url>
-    <content><![CDATA[<p>本篇博客汇总Python中list的常见操作。</p>
-<span id="more"></span>
-<h2 id="切片-slice">切片 Slice</h2>
-<p>区间遵循<strong><em>左闭右开</em></strong></p>
-<ul>
-<li>负数代表倒数第几项</li>
-<li>空代表从头/尾开始</li>
-</ul>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">list1 = [<span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>, <span class="number">5</span>]</span><br><span class="line"><span class="built_in">print</span>(list1[:-<span class="number">2</span>])</span><br><span class="line"><span class="comment"># list1[:-2] = [2, 3]</span></span><br></pre></td></tr></table></figure>
-<h2 id="循环-loop">循环 Loop</h2>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">animals = [<span class="string">&#x27;cat&#x27;</span>, <span class="string">&#x27;dog&#x27;</span>, <span class="string">&#x27;monkey&#x27;</span>]</span><br><span class="line"><span class="comment"># </span></span><br><span class="line"><span class="keyword">for</span> animal <span class="keyword">in</span> animals:</span><br><span class="line">    </span><br></pre></td></tr></table></figure>
-<details class="note info no-icon"><summary><p>This is a summary</p>
-</summary>
-<p>Any content (support inline tags too).</p>
-
-</details>
-]]></content>
-      <categories>
-        <category>Python</category>
-      </categories>
-      <tags>
-        <tag>Python</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>C++运算符重载</title>
-    <url>/2022/09/22/Python/Python_numpy%E7%9F%A9%E9%98%B5%E6%96%B9%E6%B3%95%E6%B1%87%E6%80%BB/</url>
-    <content><![CDATA[<p>https://blog.csdn.net/qq_41854911/article/details/119392824</p>
-<h1 id="c运算符重载基础">C++运算符重载基础</h1>
-<p>下面介绍一些主题常用post内部的页面模块，可直接参照使用</p>
-<span id="more"></span>
-<h2 id="center-quote-居中引用">Center Quote 居中引用</h2>
-<p>建议在单行文字时使用</p>
-<h3 id="example">Example</h3>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">&#123;% cq %&#125;代码优雅，核心简单&#123;% endcq %&#125;</span><br></pre></td></tr></table></figure>
-<blockquote class="blockquote-center">
-<p>代码优雅，核心简单</p>
-
-</blockquote>
-<h2 id="note-bootstrap-callout">Note( Bootstrap Callout )</h2>
-<h3 id="设置">设置</h3>
-<h3 id="使用-usage">使用 Usage</h3>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">```</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% codeblock 创建note lang:html [additional options] %&#125;</span><br><span class="line">&#123;% note [class] [no-icon] [summary] %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% note info no-icon This is a summary %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">## 代码块 Code Block</span><br><span class="line"></span><br><span class="line">```html</span><br><span class="line">&#123;% codeblock [title] [lang:language] [url] [link text] [additional options] %&#125;</span><br><span class="line">code snippet</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br></pre></td></tr></table></figure>
-<h1 id="参考文献">参考文献</h1>
-<p>[1] https://blog.csdn.net/qq_41854911/article/details/119392824</p>
-]]></content>
-      <categories>
-        <category>C/C++</category>
-      </categories>
-      <tags>
-        <tag>C/C++</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>KMP算法——字符串子串匹配</title>
-    <url>/2022/11/05/DSA/KMP%E7%AE%97%E6%B3%95/</url>
-    <content><![CDATA[<p>KMP算法解决了子串在字符串中定位的问题，即子串查找与匹配。KMP算法是三位大佬D.E.Knuth、J.H.Morris和V.R.Pratt同时发现的。</p>
-<span id="more"></span>
-<p><strong><em>模板题 <a
-href="https://www.luogu.com.cn/problem/P3375">洛谷P3375</a></em></strong></p>
-<h2 id="暴力做法">暴力做法</h2>
-<p>从左到右一个个匹配，如果某个字符不匹配，就将子串右移一位重新匹配。</p>
-<p>复杂度<span
-class="math inline">\(\mathcal{O}(nm)\)</span>，其中n为主串长度，m为子串长度</p>
-<h2 id="优化思路">优化思路</h2>
-<p>匹配失败后应该可以尽可能多地向右移动，以减少无效的匹配。因此需要确定匹配失败后向右移动不影响匹配结果的尽可能多的位数是多少。</p>
-<p>KMP的重点就是<strong>当某一个字符与主串不匹配时，我们应该知道指向子串位置的j指针要移动到哪</strong></p>
-<h2 id="规律推导">规律推导</h2>
-<h3 id="具体例子">具体例子</h3>
-<ul>
-<li><p>例1</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ABACBDCHIJK (i)</span><br><span class="line">ABAD  (j)</span><br></pre></td></tr></table></figure>
-<ul>
-<li>当D不匹配时，子串应该向后移两位，因为A相同可以匹配</li>
-</ul></li>
-<li><p>例2</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ABCABCDHIJK  (i)</span><br><span class="line">ABCABB  (j)</span><br></pre></td></tr></table></figure>
-<ul>
-<li>当C与D不匹配时，子串向后移3位，因为AB相同可以匹配</li>
-</ul></li>
-</ul>
-<p>我们可以总结出，子串移动位置的特点就是，<strong>尽量确保前k位都是匹配的</strong>，那么j会到k+1</p>
-<p>即子串需要确保<span class="math inline">\(P[0,k-1]==P[j-k,
-j-1]\)</span></p>
-<p>在例2中，<span class="math inline">\(k=2, j=5\)</span>。移动后<span
-class="math inline">\(j=k=2\)</span></p>
-<h3 id="求出k">求出k</h3>
-<p>由于子串P的每一个位置都可能发生不匹配的情况，因此需要计算每一个位置的<code>j</code>对应的<code>k</code>，用一个数组<code>next</code>来保存，<span
-class="math inline">\({next}[j] = k\)</span>
-表示，<code>j</code>的下一个位置<code>k</code></p>
-<h4 id="递推法">递推法</h4>
-<p>对一位<code>j</code>而言，我们需要判断该位置的前几位是否与子串开头的几位相同。</p>
-<p>假设我们已经算出前<span
-class="math inline">\(j-1\)</span>位的<code>next</code>，那么只需要考虑<code>next[j-1]</code></p>
-<div class="note info no-icon"><p>若<code>next[j-1] == k</code>
-，那么当<code>P[k]==P[j-1]</code>时，<code>next[j] = k+1</code>，否则<code>k=next[k]</code>，直到<code>P[k] == P[j-1]</code>或<code>k == -1</code></p>
-</div>
-<p>后一种情况是典型的动态规划思想，一开始可能不太容易想明白，下面再举一个例子。</p>
-<p><img src="https://s1.ax1x.com/2022/11/05/xO44iR.png" alt="next[j]=next[k]示意图" style="zoom:50%;" /></p>
-<p>对于<span class="math inline">\(P[j-k,j-1]\)</span>
-，我们需要找到<code>j</code>前面尽可能多的与模式串开头相同的串，由于该串的长度只可能小于<code>k</code>，那么这个串一定与k前面的串相同，即<code>next[j]</code>的结果取决于<code>next[k]</code>，那么需要不断迭代<code>k=next[k]</code>。</p>
-<p>直到<code>P[j-1] == P[k]</code>，这个时候可以直接用<code>next[k]</code>的结果，否则k一定会不断迭代直到-1，这时<code>next[j] = k+1</code>，可以与<code>P[k]==P[j-1]</code>的情况合并。</p>
-<div class="note info no-icon"><p>这时<code>next[k]</code>相当于长度为<code>k-1</code>的前缀字符串内部，长度最长的相等的前缀与后缀。</p>
-</div>
-<h3 id="代码">代码</h3>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">int</span>* <span class="title">getNext</span><span class="params">(string p)</span> </span>&#123;</span><br><span class="line">    <span class="type">int</span>* next = <span class="keyword">new</span> <span class="type">int</span>[p.<span class="built_in">length</span>()];</span><br><span class="line">    next[<span class="number">0</span>] = <span class="number">-1</span>;</span><br><span class="line">    <span class="type">int</span> j = <span class="number">0</span>;</span><br><span class="line">    <span class="type">int</span> k = <span class="number">-1</span>;</span><br><span class="line">    <span class="keyword">while</span>(j &lt; p.<span class="built_in">length</span>() - <span class="number">1</span>)&#123;</span><br><span class="line">    	<span class="keyword">if</span>(k == <span class="number">-1</span> || p[j] == p[k])</span><br><span class="line">    		next[++j] = ++k;</span><br><span class="line">    	<span class="keyword">else</span></span><br><span class="line">    		k = next[k];</span><br><span class="line">	&#125;</span><br><span class="line">    <span class="keyword">return</span> next;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<ul>
-<li><p>当<code>j</code>为0时不匹配</p>
-<p><code>j</code>不可能继续向前，若<code>next[0]</code>设为0就会陷入死循环，所以<code>next[0]</code>设为<code>-1</code>标记不可能继续向前这一性质</p></li>
-<li><p>如果<code>P[k]!=P[j]</code></p>
-<p><img src="https://s1.ax1x.com/2022/11/05/xObxHK.png" alt="k=next[k]原理图" style="zoom:50%;" /></p></li>
-</ul>
-<h2 id="字符串匹配完整代码">字符串匹配完整代码</h2>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="type">int</span> *next = <span class="built_in">getNext</span>(s2);</span><br><span class="line"><span class="type">int</span> i = <span class="number">0</span>, j = <span class="number">0</span>;</span><br><span class="line"><span class="keyword">while</span>(i &lt; s1.<span class="built_in">length</span>())&#123;</span><br><span class="line">    <span class="keyword">if</span>(j == <span class="number">-1</span> || s1[i] == s2[j])&#123;</span><br><span class="line">        <span class="keyword">if</span>(j+<span class="number">1</span> == s2.<span class="built_in">length</span>())&#123;</span><br><span class="line">            cout &lt;&lt; i - j + <span class="number">1</span> &lt;&lt; endl;</span><br><span class="line">            j = next[j];</span><br><span class="line">        &#125;<span class="keyword">else</span>&#123;</span><br><span class="line">            i++; </span><br><span class="line">            j++;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">else</span>&#123;</span><br><span class="line">        j = next[j];</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h3 id="证明时间复杂度为mathcalon">证明时间复杂度为<span
-class="math inline">\(\mathcal{O}(n)\)</span></h3>
-<p>借用势能的概念，构造表达式，使表达式在while循环中单调递增，然后已知初始值和结束值</p>
-<p>定义<strong>势能函数</strong><span class="math inline">\(k =
-2i-j\)</span>，考察算法过程的k变化 - 初始时，<span
-class="math inline">\(k = 0\)</span> - 论断：每经过一次循环, k至少增加1
-- 若if判断为true，则i、j同时加1，故k至少加1 -
-否则，i不变，j至少减1，故k至少加1 - 算法结束时，<span
-class="math inline">\(k = 2i-j \leq 2(n-1)-(-1) = 2n-1\)</span></p>
-<p>额外的辅助空间复杂度为<span
-class="math inline">\(\mathcal{O}(n)\)</span></p>
-<h2 id="进一步改进next">进一步改进next</h2>
-<p>上述内容足以完成开篇所列的洛谷模板题，但就效率而言还不够好，下面一种情况就是不必要的。</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ABACBC</span><br><span class="line">ABAB</span><br></pre></td></tr></table></figure>
-<p>若匹配到第3位C与B，按照之前的做法应该回溯到<code>next[3]==1</code>中，但由于<code>P[next[3]]==P[3]</code>，这样的回溯没有意义，应该进一步回溯到不相等的情况。</p>
-<p>若排在前面的字符的回溯就采用这种思想，那么可以确保后面的字符只需经过一次回溯就可以达到不相等这种最优的情况。</p>
-<p><code>getNext</code>代码修改如下</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">int</span>* <span class="title">getNext</span><span class="params">(string p)</span> </span>&#123;</span><br><span class="line">    <span class="type">int</span>* next = <span class="keyword">new</span> <span class="type">int</span>[p.<span class="built_in">length</span>()];</span><br><span class="line">    next[<span class="number">0</span>] = <span class="number">-1</span>;</span><br><span class="line">    <span class="type">int</span> j = <span class="number">0</span>;</span><br><span class="line">    <span class="type">int</span> k = <span class="number">-1</span>;</span><br><span class="line">    <span class="keyword">while</span>(j &lt; p.<span class="built_in">length</span>() - <span class="number">1</span>)&#123;</span><br><span class="line">    	<span class="keyword">if</span>(k == <span class="number">-1</span> || p[j] == p[k])&#123;</span><br><span class="line">            <span class="keyword">if</span>(p[++j] == p[++k])&#123;</span><br><span class="line">                next[j] = next[k];</span><br><span class="line">            &#125;<span class="keyword">else</span>&#123;</span><br><span class="line">                next[j] = k;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    	<span class="keyword">else</span></span><br><span class="line">    		k = next[k];</span><br><span class="line">	&#125;</span><br><span class="line">    <span class="keyword">return</span> next;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h2 id="参考文献">参考文献</h2>
-<p>[1] https://www.cnblogs.com/yjiyjige/p/3263858.html <a
-href="https://www.cnblogs.com/yjiyjige/p/3263858.html">详解KMP算法</a></p>
-]]></content>
-      <categories>
-        <category>Algorithm</category>
-      </categories>
-      <tags>
-        <tag>Alogrithm</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>C++运算符重载</title>
-    <url>/2022/09/22/Python/Python%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/</url>
-    <content><![CDATA[<p>https://blog.csdn.net/qq_41854911/article/details/119392824</p>
-<h1 id="c运算符重载基础">C++运算符重载基础</h1>
-<p>下面介绍一些主题常用post内部的页面模块，可直接参照使用</p>
-<span id="more"></span>
-<h2 id="center-quote-居中引用">Center Quote 居中引用</h2>
-<p>建议在单行文字时使用</p>
-<h3 id="example">Example</h3>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">&#123;% cq %&#125;代码优雅，核心简单&#123;% endcq %&#125;</span><br></pre></td></tr></table></figure>
-<blockquote class="blockquote-center">
-<p>代码优雅，核心简单</p>
-
-</blockquote>
-<h2 id="note-bootstrap-callout">Note( Bootstrap Callout )</h2>
-<h3 id="设置">设置</h3>
-<h3 id="使用-usage">使用 Usage</h3>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">```</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% codeblock 创建note lang:html [additional options] %&#125;</span><br><span class="line">&#123;% note [class] [no-icon] [summary] %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% note info no-icon This is a summary %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">## 代码块 Code Block</span><br><span class="line"></span><br><span class="line">```html</span><br><span class="line">&#123;% codeblock [title] [lang:language] [url] [link text] [additional options] %&#125;</span><br><span class="line">code snippet</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br></pre></td></tr></table></figure>
-<h1 id="参考文献">参考文献</h1>
-<p>[1] https://blog.csdn.net/qq_41854911/article/details/119392824</p>
-]]></content>
-      <categories>
-        <category>C/C++</category>
-      </categories>
-      <tags>
-        <tag>C/C++</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>向量Vector的实现</title>
-    <url>/2022/09/30/DSA/%E5%90%91%E9%87%8FVector%E7%9A%84%E5%AE%9E%E7%8E%B0/</url>
-    <content><![CDATA[<p>https://blog.csdn.net/qq_41854911/article/details/119392824</p>
-<p>本文手动实现了Vector的模板类。</p>
-<span id="more"></span>
-<h2 id="center-quote-居中引用">Center Quote 居中引用</h2>
-<p>建议在单行文字时使用</p>
-<h3 id="example">Example</h3>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">&#123;% cq %&#125;代码优雅，核心简单&#123;% endcq %&#125;</span><br></pre></td></tr></table></figure>
-<blockquote class="blockquote-center">
-<p>代码优雅，核心简单</p>
-
-</blockquote>
-<h2 id="note-bootstrap-callout">Note( Bootstrap Callout )</h2>
-<h3 id="设置">设置</h3>
-<h3 id="使用-usage">使用 Usage</h3>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">```</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% codeblock 创建note lang:html [additional options] %&#125;</span><br><span class="line">&#123;% note [class] [no-icon] [summary] %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% note info no-icon This is a summary %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">## 代码块 Code Block</span><br><span class="line"></span><br><span class="line">```html</span><br><span class="line">&#123;% codeblock [title] [lang:language] [url] [link text] [additional options] %&#125;</span><br><span class="line">code snippet</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br></pre></td></tr></table></figure>
-<h3 id="section"></h3>
-]]></content>
-      <categories>
-        <category>C/C++</category>
-        <category>DS</category>
-      </categories>
-      <tags>
-        <tag>C/C++</tag>
-        <tag>DS</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>主定理与时间复杂度</title>
-    <url>/2022/09/18/DSA/%E4%B8%BB%E5%AE%9A%E7%90%86%E4%B8%8E%E6%97%B6%E9%97%B4%E5%A4%8D%E6%9D%82%E5%BA%A6/</url>
-    <content><![CDATA[<p>主要解决：根据时间复杂度的递推关系，求时间复杂度</p>
-<span id="more"></span>
-<h2 id="主定理内容">主定理内容</h2>
-<p>设<span class="math inline">\(a \geq 1\)</span>和<span
-class="math inline">\(b &gt;
-1\)</span>为常数，设f(n)为一函数，T(n)有递推式 <span
-class="math display">\[
-T(n)=aT(\frac n b)+f(n)
-\]</span> 其中<span class="math inline">\(\frac nb\)</span> 指<span
-class="math inline">\(\left\lfloor\dfrac{n}{b}
-\right\rfloor\)</span>和<span
-class="math inline">\(\left\lceil\dfrac{b}{n}
-\right\rceil\)</span>，可以证明，略去上下取整不会对结果造成影响。那么<span
-class="math inline">\(T(n)\)</span>可能有如下的渐进界</p>
-<p>（1）若<span class="math inline">\(f(n) &lt;
-n^{\log_ba}\)</span>，且是多项式的小于。即 <span class="math display">\[
-\exists
-\epsilon&gt;0,有f(n)=\mathcal{O}(n^{\log_ba-\epsilon}),则T(n)=\mathcal{O}(n^{\log_ba})
-\]</span> （2）若<span class="math inline">\(f(n) =
-n^{\log_ba}\)</span>，则<span
-class="math display">\[T(n)=\mathcal{O}(n^{\log_ba}\log n)\]</span></p>
-<p>（3）若<span class="math inline">\(f(n) &gt;
-n^{\log_ba}\)</span>，且是多项式的大于。即 <span class="math display">\[
-\exists
-\epsilon&gt;0,有f(n)=\mathcal{O}(n^{\log_ba-\epsilon}),则T(n)=\mathcal{O}(n^{\log_ba})
-\\
-且对\exists c&lt;1与所有足够大的n,有af(\frac nb)\leq
-cf(n),则T(n)=\mathcal{O}(f(n))
-\]</span></p>
-<h2 id="主定理证明">主定理证明</h2>
-<p>可以画递归树</p>
-<p>可见，每次递归把问题分为<span
-class="math inline">\(a\)</span>个规模为<span
-class="math inline">\(\frac nb\)</span>的子问题。从根节点开始，共有<span
-class="math inline">\(\log_bn+1\)</span>层，叶子节点数为<span
-class="math inline">\(a^{\log_bn}\)</span>。那么，第j层共有<span
-class="math inline">\(a^j\)</span>个子问题，每个问题规模为<span
-class="math inline">\(n/b^j\)</span>，每个子问题运算量为<span
-class="math inline">\(c*(\frac
-n{b^j})^d\)</span>，每一层需要完成的计算量为</p>
-<p><span class="math display">\[
-a^jf(\frac n{b^j})
-\]</span> 求和得到整个问题的运算量，d为f(n)的阶数 <span
-class="math display">\[
-\sum_{j=0}^{\log_bn} a^jf(\frac n{b^j}) = Cn^d\sum_{j=0}^{\log_bn}(\frac
-a{b^d})^j
-\]</span> 分类讨论</p>
-<p>（1）若<span class="math inline">\(f(n) &lt;
-n^{\log_ba}\)</span>，且是多项式的小于，即<span
-class="math inline">\(d&lt;\log_ba\)</span></p>
-<blockquote class="blockquote-center">
-<p>不会了</p>
-
-</blockquote>
-<p>（2）若<span class="math inline">\(f(n) = n^{\log_ba}\)</span>, 即
-<span class="math display">\[
-Cn^d\sum_{j=0}^{\log_bn}(\frac a{b^d})^j = Cn^d\log_b n =
-\mathcal{O}(n^{\log_ba}\log n)
-\]</span> （3）若<span class="math inline">\(f(n) &gt;
-n^{\log_ba}\)</span>，且是多项式的大于。即</p>
-<blockquote class="blockquote-center">
-<p>不会了</p>
-
-</blockquote>
-<h2 id="主定理应用">主定理应用</h2>
-<h3 id="二分搜索">二分搜索</h3>
-<ul>
-<li>每次问题规模减半，a=1，b=2，d=0</li>
-<li>复杂度为n^0 log(n) = log(n)。</li>
-</ul>
-<h3 id="快速排序">快速排序</h3>
-<ul>
-<li>随机选择待排序序列中的一个数字作为划分字问题的标准，划分是否平均影响算法复杂度</li>
-<li>每次问题规模减半，a=2，b=2，d=1</li>
-<li>复杂度为n^2 log(n)</li>
-<li>最差情况下，复杂度为O(n^2)</li>
-</ul>
-<h3 id="归并排序">归并排序</h3>
-<ul>
-<li>数据列均分为两部分，分别排序，之后以O(n)的复杂度进行合并，空间复杂度O(n)</li>
-<li>每次问题规模减半，a=2，b=2，d=1</li>
-<li>复杂度为n log(n)</li>
-</ul>
-<h3 id="基数排序radix-sort">基数排序(Radix sort)</h3>
-<ul>
-<li>对于待排序的整数序列，从最低位到最高位每次按照相应的位排序一次</li>
-<li>每次递归问题规模变为原来的1/10，但需要求解10个子问题，额外运算为O(n)的，a=10，b=10，d=1</li>
-<li>复杂度为n^1 log(n) = n log(n)，近似为O(kN)，k为整数的位数</li>
-</ul>
-<h3 id="快速傅里叶变换fft">快速傅里叶变换：FFT</h3>
-<ul>
-<li>每次问题规模减半，a=2，b=2，d=1</li>
-<li>复杂度为n log(n)</li>
-</ul>
-<h3 id="karatsuba快速乘法">Karatsuba快速乘法</h3>
-<ul>
-<li>正常两个n位数乘法为n^2</li>
-<li>算法把两个乘数各分为高低位两部分，如X<em>Y = (a+b) </em> (c+d) =
-ac+bd + (bc+ad) = ac+bd+(ac+bd - (a-b)(c-d))</li>
-<li>只需要ac,bd,(a-b)(c-d)三次乘法</li>
-<li>每次问题规模减半，但需要解3个子问题，加法是O(n)的，a=3，b=2，d=1</li>
-<li>复杂度为n^log2(3)</li>
-</ul>
-<h2 id="参考文献">参考文献</h2>
-<p>[1] https://blog.csdn.net/caozhk/article/details/24734371
-"主定理的证明及应用举例" [2]
-https://blog.csdn.net/lanchunhui/article/details/52451362
-"主定理（Master Theorem）与时间复杂度"</p>
-]]></content>
-      <categories>
-        <category>Algorithm</category>
-        <category>DS</category>
-      </categories>
-      <tags>
-        <tag>DS</tag>
-        <tag>Algorithm</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>大 数 乘 法</title>
-    <url>/2022/09/18/DSA/%E5%A4%A7%E6%95%B0%E4%B9%98%E6%B3%95/</url>
-    <content><![CDATA[<p>输入两个很大的正整数，输出它们的乘积。比如</p>
-<blockquote>
-<p>输入：1111111111111 1111111111111</p>
-<p>输出：1234567901234320987654321</p>
-</blockquote>
-<span id="more"></span>
-<h2 id="主定理内容">主定理内容</h2>
-<p>设<span class="math inline">\(a \geq 1\)</span>和<span
-class="math inline">\(b &gt;
-1\)</span>为常数，设f(n)为一函数，T(n)有递推式 <span
-class="math display">\[
-T(n)=aT(\frac n b)+f(n)
-\]</span> 其中<span class="math inline">\(\frac nb\)</span> 指<span
-class="math inline">\(\left\lfloor\dfrac{n}{b}
-\right\rfloor\)</span>和<span
-class="math inline">\(\left\lceil\dfrac{b}{n}
-\right\rceil\)</span>，可以证明，略去上下取整不会对结果造成影响。那么<span
-class="math inline">\(T(n)\)</span>可能有如下的渐进界</p>
-<p>（1）若<span class="math inline">\(f(n) &lt;
-n^{\log_ba}\)</span>，且是多项式的小于。即 <span class="math display">\[
-\exists
-\epsilon&gt;0,有f(n)=\mathcal{O}(n^{\log_ba-\epsilon}),则T(n)=\mathcal{O}(n^{\log_ba})
-\]</span> （2）若<span class="math inline">\(f(n) =
-n^{\log_ba}\)</span>，则<span
-class="math display">\[T(n)=\mathcal{O}(n^{\log_ba}\log n)\]</span></p>
-<p>（3）若<span class="math inline">\(f(n) &gt;
-n^{\log_ba}\)</span>，且是多项式的大于。即 <span class="math display">\[
-\exists
-\epsilon&gt;0,有f(n)=\mathcal{O}(n^{\log_ba-\epsilon}),则T(n)=\mathcal{O}(n^{\log_ba})
-\\
-且对\exists c&lt;1与所有足够大的n,有af(\frac nb)\leq
-cf(n),则T(n)=\mathcal{O}(f(n))
-\]</span></p>
-<h2 id="主定理证明">主定理证明</h2>
-<p>可以画递归树</p>
-<p>可见，每次递归把问题分为<span
-class="math inline">\(a\)</span>个规模为<span
-class="math inline">\(\frac nb\)</span>的子问题。从根节点开始，共有<span
-class="math inline">\(\log_bn+1\)</span>层，叶子节点数为<span
-class="math inline">\(a^{\log_bn}\)</span>。那么，第j层共有<span
-class="math inline">\(a^j\)</span>个子问题，每个问题规模为<span
-class="math inline">\(n/b^j\)</span>，每个子问题运算量为<span
-class="math inline">\(c*(\frac
-n{b^j})^d\)</span>，每一层需要完成的计算量为</p>
-<p><span class="math display">\[
-a^jf(\frac n{b^j})
-\]</span> 求和得到整个问题的运算量，d为f(n)的阶数 <span
-class="math display">\[
-\sum_{j=0}^{\log_bn} a^jf(\frac n{b^j}) = Cn^d\sum_{j=0}^{\log_bn}(\frac
-a{b^d})^j
-\]</span> 分类讨论</p>
-<p>（1）若<span class="math inline">\(f(n) &lt;
-n^{\log_ba}\)</span>，且是多项式的小于，即<span
-class="math inline">\(d&lt;\log_ba\)</span></p>
-<blockquote class="blockquote-center">
-<p>不会了</p>
-
-</blockquote>
-<p>（2）若<span class="math inline">\(f(n) = n^{\log_ba}\)</span>, 即
-<span class="math display">\[
-Cn^d\sum_{j=0}^{\log_bn}(\frac a{b^d})^j = Cn^d\log_b n =
-\mathcal{O}(n^{\log_ba}\log n)
-\]</span> （3）若<span class="math inline">\(f(n) &gt;
-n^{\log_ba}\)</span>，且是多项式的大于。即</p>
-<blockquote class="blockquote-center">
-<p>不会了</p>
-
-</blockquote>
-<h2 id="主定理应用">主定理应用</h2>
-<h3 id="二分搜索">二分搜索</h3>
-<ul>
-<li>每次问题规模减半，a=1，b=2，d=0</li>
-<li>复杂度为n^0 log(n) = log(n)。</li>
-</ul>
-<h3 id="快速排序">快速排序</h3>
-<ul>
-<li>随机选择待排序序列中的一个数字作为划分字问题的标准，划分是否平均影响算法复杂度</li>
-<li>每次问题规模减半，a=2，b=2，d=1</li>
-<li>复杂度为n^2 log(n)</li>
-<li>最差情况下，复杂度为O(n^2)</li>
-</ul>
-<h3 id="归并排序">归并排序</h3>
-<ul>
-<li>数据列均分为两部分，分别排序，之后以O(n)的复杂度进行合并，空间复杂度O(n)</li>
-<li>每次问题规模减半，a=2，b=2，d=1</li>
-<li>复杂度为n log(n)</li>
-</ul>
-<h3 id="基数排序radix-sort">基数排序(Radix sort)</h3>
-<ul>
-<li>对于待排序的整数序列，从最低位到最高位每次按照相应的位排序一次</li>
-<li>每次递归问题规模变为原来的1/10，但需要求解10个子问题，额外运算为O(n)的，a=10，b=10，d=1</li>
-<li>复杂度为n^1 log(n) = n log(n)，近似为O(kN)，k为整数的位数</li>
-</ul>
-<h3 id="快速傅里叶变换fft">快速傅里叶变换：FFT</h3>
-<ul>
-<li>每次问题规模减半，a=2，b=2，d=1</li>
-<li>复杂度为n log(n)</li>
-</ul>
-<h3 id="karatsuba快速乘法">Karatsuba快速乘法</h3>
-<ul>
-<li>正常两个n位数乘法为n^2</li>
-<li>算法把两个乘数各分为高低位两部分，如X<em>Y = (a+b) </em> (c+d) =
-ac+bd + (bc+ad) = ac+bd+(ac+bd - (a-b)(c-d))</li>
-<li>只需要ac,bd,(a-b)(c-d)三次乘法</li>
-<li>每次问题规模减半，但需要解3个子问题，加法是O(n)的，a=3，b=2，d=1</li>
-<li>复杂度为n^log2(3)</li>
-</ul>
-<h2 id="参考文献">参考文献</h2>
-<p>[1] https://blog.csdn.net/caozhk/article/details/24734371
-"主定理的证明及应用举例" [2]
-https://blog.csdn.net/lanchunhui/article/details/52451362
-"主定理（Master Theorem）与时间复杂度"</p>
-]]></content>
-      <categories>
-        <category>Algorithm</category>
-      </categories>
-      <tags>
-        <tag>Algorithm</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>向量Vector的实现</title>
-    <url>/2022/09/30/DSA/%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95%E6%B1%87%E6%80%BB/</url>
-    <content><![CDATA[<p>https://blog.csdn.net/qq_41854911/article/details/119392824</p>
-<p>本文手动实现了Vector的模板类。</p>
-<span id="more"></span>
-<h2 id="center-quote-居中引用">Center Quote 居中引用</h2>
-<p>建议在单行文字时使用</p>
-<h3 id="example">Example</h3>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">&#123;% cq %&#125;代码优雅，核心简单&#123;% endcq %&#125;</span><br></pre></td></tr></table></figure>
-<blockquote class="blockquote-center">
-<p>代码优雅，核心简单</p>
-
-</blockquote>
-<h2 id="note-bootstrap-callout">Note( Bootstrap Callout )</h2>
-<h3 id="设置">设置</h3>
-<h3 id="使用-usage">使用 Usage</h3>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">```</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% codeblock 创建note lang:html [additional options] %&#125;</span><br><span class="line">&#123;% note [class] [no-icon] [summary] %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% note info no-icon This is a summary %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">## 代码块 Code Block</span><br><span class="line"></span><br><span class="line">```html</span><br><span class="line">&#123;% codeblock [title] [lang:language] [url] [link text] [additional options] %&#125;</span><br><span class="line">code snippet</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br></pre></td></tr></table></figure>
-<h3 id="section"></h3>
-]]></content>
-      <categories>
-        <category>C/C++</category>
-        <category>DS</category>
-      </categories>
-      <tags>
-        <tag>C/C++</tag>
-        <tag>DS</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>高精度运算C++实现</title>
-    <url>/2022/09/22/DSA/%E9%AB%98%E7%B2%BE%E5%BA%A6%E8%BF%90%E7%AE%97/</url>
-    <content><![CDATA[<p>https://blog.csdn.net/qq_41854911/article/details/119392824</p>
-<h1 id="section"></h1>
-<span id="more"></span>
-<h2 id="高精度加法">高精度加法</h2>
-<p>注意特殊情况：两者长度不一致，考虑最高位的进位，比如<code>99+99</code></p>
-<h2 id="center-quote-居中引用">Center Quote 居中引用</h2>
-<p>建议在单行文字时使用</p>
-<h3 id="example">Example</h3>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">&#123;% cq %&#125;代码优雅，核心简单&#123;% endcq %&#125;</span><br></pre></td></tr></table></figure>
-<blockquote class="blockquote-center">
-<p>代码优雅，核心简单</p>
-
-</blockquote>
-<h2 id="note-bootstrap-callout">Note( Bootstrap Callout )</h2>
-<h3 id="设置">设置</h3>
-<h3 id="使用-usage">使用 Usage</h3>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">```</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% codeblock 创建note lang:html [additional options] %&#125;</span><br><span class="line">&#123;% note [class] [no-icon] [summary] %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% note info no-icon This is a summary %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">## 代码块 Code Block</span><br><span class="line"></span><br><span class="line">```html</span><br><span class="line">&#123;% codeblock [title] [lang:language] [url] [link text] [additional options] %&#125;</span><br><span class="line">code snippet</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br></pre></td></tr></table></figure>
-<h3 id="section-1"></h3>
-]]></content>
-      <categories>
-        <category>C/C++</category>
-        <category>Algorithm</category>
-      </categories>
-      <tags>
-        <tag>C/C++</tag>
-        <tag>Algorithm</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>支持修改元素值的优先队列</title>
-    <url>/2023/04/12/DSA/%E6%94%AF%E6%8C%81%E4%BF%AE%E6%94%B9%E5%85%83%E7%B4%A0%E5%80%BC%E7%9A%84%E4%BC%98%E5%85%88%E9%98%9F%E5%88%97/</url>
-    <content><![CDATA[<p>If you want to modify an element in a priority queue, you would need
-to remove the element, modify it, and then insert it back into the
-priority queue. However, this can be inefficient for large priority
-queues since removing and inserting elements can be expensive
-operations.</p>
-<p>In C++, the standard priority queue container does not provide a
-direct way to modify elements. Instead, you would need to implement a
-<strong>custom priority queue data structure</strong> that allows
-efficient modification of elements.</p>
-<p>One way to do this is to use <strong>a combination of a heap-based
-priority queue and a hash table</strong> (or a map) that maps elements
-to their positions in the heap. The hash table allows fast lookup of an
-element's position in the heap, and the heap-based priority queue allows
-efficient access to the highest-priority element.</p>
-<p>Here is a simple example of a custom priority queue data structure
-that supports efficient modification of elements:</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;queue&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;unordered_map&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="keyword">template</span> &lt;<span class="keyword">typename</span> T&gt;</span><br><span class="line"><span class="keyword">class</span> <span class="title class_">CustomPriorityQueue</span> &#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function"><span class="type">void</span> <span class="title">push</span><span class="params">(<span class="type">const</span> T&amp; val)</span> </span>&#123;</span><br><span class="line">        pq.<span class="built_in">push</span>(val);</span><br><span class="line">        pos[val] = pq.<span class="built_in">size</span>() - <span class="number">1</span>;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="type">void</span> <span class="title">pop</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        pos.<span class="built_in">erase</span>(pq.<span class="built_in">top</span>());</span><br><span class="line">        pq.<span class="built_in">pop</span>();</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="type">void</span> <span class="title">modify</span><span class="params">(<span class="type">const</span> T&amp; old_val, <span class="type">const</span> T&amp; new_val)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">auto</span> it = pos.<span class="built_in">find</span>(old_val);</span><br><span class="line">        <span class="keyword">if</span> (it == pos.<span class="built_in">end</span>()) &#123;</span><br><span class="line">            <span class="keyword">return</span>;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="type">int</span> i = it-&gt;second;</span><br><span class="line">        pq.<span class="built_in">pop</span>();</span><br><span class="line"></span><br><span class="line">        <span class="keyword">if</span> (i != pq.<span class="built_in">size</span>()) &#123;</span><br><span class="line">            pq.<span class="built_in">push</span>(pq.<span class="built_in">top</span>());</span><br><span class="line">            pos[pq.<span class="built_in">top</span>()] = i;</span><br><span class="line">            pq.<span class="built_in">pop</span>();</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        pos.<span class="built_in">erase</span>(it);</span><br><span class="line">        <span class="built_in">push</span>(new_val);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="type">const</span> T&amp; <span class="title">top</span><span class="params">()</span> <span class="type">const</span> </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> pq.<span class="built_in">top</span>();</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="type">bool</span> <span class="title">empty</span><span class="params">()</span> <span class="type">const</span> </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> pq.<span class="built_in">empty</span>();</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">private</span>:</span><br><span class="line">    std::priority_queue&lt;T&gt; pq;</span><br><span class="line">    std::unordered_map&lt;T, <span class="type">int</span>&gt; pos;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>DS</category>
-      </categories>
-      <tags>
-        <tag>DS</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>约瑟夫环</title>
-    <url>/2022/10/07/DSA/%E7%BA%A6%E7%91%9F%E5%A4%AB%E7%8E%AF/</url>
-    <content><![CDATA[<blockquote>
-<p>约瑟夫环：</p>
-<p>N个人围成一圈，第一个人从1开始报数，报M的将被杀掉，下一个人接着从1开始报。如此反复，最后剩下一个，求最后的胜利者。</p>
-</blockquote>
-<p>本文介绍约瑟夫环的一些做法。</p>
-<span id="more"></span>
-<h2 id="链表模拟该过程">链表模拟该过程</h2>
-<p>使用环形链表，指针不断向后指，指到后将该节点删除。</p>
-<p>时间复杂度<span class="math inline">\(\mathcal{O}(N)\)</span></p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="type">const</span> <span class="type">int</span> N=<span class="number">110</span>;</span><br><span class="line"><span class="type">int</span> l[N],r[N];</span><br><span class="line"><span class="type">int</span> n,m;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">link</span><span class="params">(<span class="type">int</span> L,<span class="type">int</span> R)</span></span>&#123;</span><br><span class="line">	l[R]=L;r[L]=R;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">	<span class="built_in">scanf</span>(<span class="string">&quot;%d%d&quot;</span>,&amp;n,&amp;m);	</span><br><span class="line">	<span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">1</span>;i&lt;n;i++)</span><br><span class="line">		<span class="built_in">link</span>(i,i+<span class="number">1</span>);</span><br><span class="line">	<span class="built_in">link</span>(n,<span class="number">1</span>);</span><br><span class="line">	<span class="type">int</span> p=n;</span><br><span class="line">	<span class="keyword">while</span>(n--)&#123;</span><br><span class="line">		<span class="type">int</span> t=m;</span><br><span class="line">		<span class="keyword">while</span>(t--) p=r[p];</span><br><span class="line">		<span class="type">int</span> L=l[p],R=r[p];</span><br><span class="line">		<span class="built_in">link</span>(L,R); </span><br><span class="line">		cout &lt;&lt; p &lt;&lt; <span class="string">&quot; &quot;</span>;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h2 id="优化动态规划">优化：动态规划</h2>
-<p>设<span
-class="math inline">\(f(N,M)\)</span>的值即为答案，那么有如下递推公式：
-<span class="math display">\[
-f(N,M)=(f(N−1,M)+M) \% N
-\]</span> 从N-1到N多了一个人，带来的影响是报数多报了M次</p>
-<h2 id="note-bootstrap-callout">Note( Bootstrap Callout )</h2>
-<h3 id="设置">设置</h3>
-<h3 id="使用-usage">使用 Usage</h3>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">```</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% codeblock 创建note lang:html [additional options] %&#125;</span><br><span class="line">&#123;% note [class] [no-icon] [summary] %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% note info no-icon This is a summary %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">## 代码块 Code Block</span><br><span class="line"></span><br><span class="line">```html</span><br><span class="line">&#123;% codeblock [title] [lang:language] [url] [link text] [additional options] %&#125;</span><br><span class="line">code snippet</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br></pre></td></tr></table></figure>
-<h3 id="section"></h3>
-]]></content>
-      <categories>
-        <category>C/C++</category>
-        <category>DS</category>
-      </categories>
-      <tags>
-        <tag>C/C++</tag>
-        <tag>DS</tag>
-      </tags>
   </entry>
   <entry>
     <title>WSL 环境配置</title>
@@ -1763,6 +1678,91 @@ href="https://blog.csdn.net/YukinoLover/article/details/127338717">这篇博客<
       <tags>
         <tag>环境配置</tag>
         <tag>Linux</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>C++运算符重载</title>
+    <url>/2022/09/22/Python/Python_numpy%E7%9F%A9%E9%98%B5%E6%96%B9%E6%B3%95%E6%B1%87%E6%80%BB/</url>
+    <content><![CDATA[<p>https://blog.csdn.net/qq_41854911/article/details/119392824</p>
+<h1 id="c运算符重载基础">C++运算符重载基础</h1>
+<p>下面介绍一些主题常用post内部的页面模块，可直接参照使用</p>
+<span id="more"></span>
+<h2 id="center-quote-居中引用">Center Quote 居中引用</h2>
+<p>建议在单行文字时使用</p>
+<h3 id="example">Example</h3>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">&#123;% cq %&#125;代码优雅，核心简单&#123;% endcq %&#125;</span><br></pre></td></tr></table></figure>
+<blockquote class="blockquote-center">
+<p>代码优雅，核心简单</p>
+
+</blockquote>
+<h2 id="note-bootstrap-callout">Note( Bootstrap Callout )</h2>
+<h3 id="设置">设置</h3>
+<h3 id="使用-usage">使用 Usage</h3>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">```</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% codeblock 创建note lang:html [additional options] %&#125;</span><br><span class="line">&#123;% note [class] [no-icon] [summary] %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% note info no-icon This is a summary %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">## 代码块 Code Block</span><br><span class="line"></span><br><span class="line">```html</span><br><span class="line">&#123;% codeblock [title] [lang:language] [url] [link text] [additional options] %&#125;</span><br><span class="line">code snippet</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br></pre></td></tr></table></figure>
+<h1 id="参考文献">参考文献</h1>
+<p>[1] https://blog.csdn.net/qq_41854911/article/details/119392824</p>
+]]></content>
+      <categories>
+        <category>C/C++</category>
+      </categories>
+      <tags>
+        <tag>C/C++</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Python list方法汇总</title>
+    <url>/2022/10/10/Python/Python_list%E6%96%B9%E6%B3%95%E6%B1%87%E6%80%BB/</url>
+    <content><![CDATA[<p>本篇博客汇总Python中list的常见操作。</p>
+<span id="more"></span>
+<h2 id="切片-slice">切片 Slice</h2>
+<p>区间遵循<strong><em>左闭右开</em></strong></p>
+<ul>
+<li>负数代表倒数第几项</li>
+<li>空代表从头/尾开始</li>
+</ul>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">list1 = [<span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>, <span class="number">5</span>]</span><br><span class="line"><span class="built_in">print</span>(list1[:-<span class="number">2</span>])</span><br><span class="line"><span class="comment"># list1[:-2] = [2, 3]</span></span><br></pre></td></tr></table></figure>
+<h2 id="循环-loop">循环 Loop</h2>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">animals = [<span class="string">&#x27;cat&#x27;</span>, <span class="string">&#x27;dog&#x27;</span>, <span class="string">&#x27;monkey&#x27;</span>]</span><br><span class="line"><span class="comment"># </span></span><br><span class="line"><span class="keyword">for</span> animal <span class="keyword">in</span> animals:</span><br><span class="line">    </span><br></pre></td></tr></table></figure>
+<details class="note info no-icon"><summary><p>This is a summary</p>
+</summary>
+<p>Any content (support inline tags too).</p>
+
+</details>
+]]></content>
+      <categories>
+        <category>Python</category>
+      </categories>
+      <tags>
+        <tag>Python</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>C++运算符重载</title>
+    <url>/2022/09/22/Python/Python%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/</url>
+    <content><![CDATA[<p>https://blog.csdn.net/qq_41854911/article/details/119392824</p>
+<h1 id="c运算符重载基础">C++运算符重载基础</h1>
+<p>下面介绍一些主题常用post内部的页面模块，可直接参照使用</p>
+<span id="more"></span>
+<h2 id="center-quote-居中引用">Center Quote 居中引用</h2>
+<p>建议在单行文字时使用</p>
+<h3 id="example">Example</h3>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">&#123;% cq %&#125;代码优雅，核心简单&#123;% endcq %&#125;</span><br></pre></td></tr></table></figure>
+<blockquote class="blockquote-center">
+<p>代码优雅，核心简单</p>
+
+</blockquote>
+<h2 id="note-bootstrap-callout">Note( Bootstrap Callout )</h2>
+<h3 id="设置">设置</h3>
+<h3 id="使用-usage">使用 Usage</h3>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">```</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% codeblock 创建note lang:html [additional options] %&#125;</span><br><span class="line">&#123;% note [class] [no-icon] [summary] %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% note info no-icon This is a summary %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">## 代码块 Code Block</span><br><span class="line"></span><br><span class="line">```html</span><br><span class="line">&#123;% codeblock [title] [lang:language] [url] [link text] [additional options] %&#125;</span><br><span class="line">code snippet</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br></pre></td></tr></table></figure>
+<h1 id="参考文献">参考文献</h1>
+<p>[1] https://blog.csdn.net/qq_41854911/article/details/119392824</p>
+]]></content>
+      <categories>
+        <category>C/C++</category>
+      </categories>
+      <tags>
+        <tag>C/C++</tag>
       </tags>
   </entry>
 </search>
