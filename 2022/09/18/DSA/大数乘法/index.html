@@ -30,12 +30,12 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"stepheric.github.io","root":"/","images":"/images","scheme":"Gemini","darkmode":true,"version":"8.13.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":true,"style":"mac"},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":"livere","storage":true,"lazyload":false,"nav":null,"activeClass":"livere"},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":5,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
 
-    <meta name="description" content="输入两个很大的正整数，输出它们的乘积。比如  输入：1111111111111 1111111111111 输出：1234567901234320987654321">
+    <meta name="description" content="输入两个很大的正整数，输出它们的乘积。比如  输入：1111111111111 1111111111111 输出：1234567901234320987654321">
 <meta property="og:type" content="article">
 <meta property="og:title" content="大 数 乘 法">
 <meta property="og:url" content="http://stepheric.github.io/2022/09/18/DSA/%E5%A4%A7%E6%95%B0%E4%B9%98%E6%B3%95/index.html">
 <meta property="og:site_name" content="StephEric">
-<meta property="og:description" content="输入两个很大的正整数，输出它们的乘积。比如  输入：1111111111111 1111111111111 输出：1234567901234320987654321">
+<meta property="og:description" content="输入两个很大的正整数，输出它们的乘积。比如  输入：1111111111111 1111111111111 输出：1234567901234320987654321">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2022-09-18T13:47:00.000Z">
 <meta property="article:modified_time" content="2023-04-12T15:21:18.023Z">
@@ -156,7 +156,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%BB%E5%AE%9A%E7%90%86%E5%86%85%E5%AE%B9"><span class="nav-text">主定理内容</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%BB%E5%AE%9A%E7%90%86%E8%AF%81%E6%98%8E"><span class="nav-text">主定理证明</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%BB%E5%AE%9A%E7%90%86%E5%BA%94%E7%94%A8"><span class="nav-text">主定理应用</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BA%8C%E5%88%86%E6%90%9C%E7%B4%A2"><span class="nav-text">二分搜索</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%BF%AB%E9%80%9F%E6%8E%92%E5%BA%8F"><span class="nav-text">快速排序</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%BD%92%E5%B9%B6%E6%8E%92%E5%BA%8F"><span class="nav-text">归并排序</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%9F%BA%E6%95%B0%E6%8E%92%E5%BA%8F-Radix-sort"><span class="nav-text">基数排序(Radix sort)</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%BF%AB%E9%80%9F%E5%82%85%E9%87%8C%E5%8F%B6%E5%8F%98%E6%8D%A2%EF%BC%9AFFT"><span class="nav-text">快速傅里叶变换：FFT</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Karatsuba%E5%BF%AB%E9%80%9F%E4%B9%98%E6%B3%95"><span class="nav-text">Karatsuba快速乘法</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8F%82%E8%80%83%E6%96%87%E7%8C%AE"><span class="nav-text">参考文献</span></a></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%BB%E5%AE%9A%E7%90%86%E5%86%85%E5%AE%B9"><span class="nav-text">主定理内容</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%BB%E5%AE%9A%E7%90%86%E8%AF%81%E6%98%8E"><span class="nav-text">主定理证明</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%BB%E5%AE%9A%E7%90%86%E5%BA%94%E7%94%A8"><span class="nav-text">主定理应用</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BA%8C%E5%88%86%E6%90%9C%E7%B4%A2"><span class="nav-text">二分搜索</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%BF%AB%E9%80%9F%E6%8E%92%E5%BA%8F"><span class="nav-text">快速排序</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%BD%92%E5%B9%B6%E6%8E%92%E5%BA%8F"><span class="nav-text">归并排序</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%9F%BA%E6%95%B0%E6%8E%92%E5%BA%8Fradix-sort"><span class="nav-text">基数排序(Radix sort)</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%BF%AB%E9%80%9F%E5%82%85%E9%87%8C%E5%8F%B6%E5%8F%98%E6%8D%A2fft"><span class="nav-text">快速傅里叶变换：FFT</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#karatsuba%E5%BF%AB%E9%80%9F%E4%B9%98%E6%B3%95"><span class="nav-text">Karatsuba快速乘法</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8F%82%E8%80%83%E6%96%87%E7%8C%AE"><span class="nav-text">参考文献</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -300,14 +300,14 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">本文字数：</span>
-      <span>590</span>
+      <span>1.9k</span>
     </span>
     <span class="post-meta-item" title="阅读时长">
       <span class="post-meta-item-icon">
         <i class="far fa-clock"></i>
       </span>
       <span class="post-meta-item-text">阅读时长 &asymp;</span>
-      <span>1 分钟</span>
+      <span>2 分钟</span>
     </span>
 </div>
 
@@ -324,65 +324,112 @@
 <p>输出：1234567901234320987654321</p>
 </blockquote>
 <span id="more"></span>
-<h2 id="主定理内容"><a href="#主定理内容" class="headerlink" title="主定理内容"></a>主定理内容</h2><p>设$a \geq 1$和$b &gt; 1$为常数，设f(n)为一函数，T(n)有递推式</p>
-<script type="math/tex; mode=display">
-T(n)=aT(\frac n b)+f(n)</script><p>其中$\frac nb$ 指$\left\lfloor\dfrac{n}{b} \right\rfloor$和$\left\lceil\dfrac{b}{n} \right\rceil$，可以证明，略去上下取整不会对结果造成影响。那么$T(n)$可能有如下的渐进界</p>
-<p>（1）若$f(n) &lt; n^{\log_ba}$，且是多项式的小于。即</p>
-<script type="math/tex; mode=display">
-\exists \epsilon>0,有f(n)=\mathcal{O}(n^{\log_ba-\epsilon}),则T(n)=\mathcal{O}(n^{\log_ba})</script><p>（2）若$f(n) = n^{\log_ba}$，则<script type="math/tex">T(n)=\mathcal{O}(n^{\log_ba}\log n)</script></p>
-<p>（3）若$f(n) &gt; n^{\log_ba}$，且是多项式的大于。即</p>
-<script type="math/tex; mode=display">
-\exists \epsilon>0,有f(n)=\mathcal{O}(n^{\log_ba-\epsilon}),则T(n)=\mathcal{O}(n^{\log_ba}) \\
-且对\exists c<1与所有足够大的n,有af(\frac nb)\leq cf(n),则T(n)=\mathcal{O}(f(n))</script><h2 id="主定理证明"><a href="#主定理证明" class="headerlink" title="主定理证明"></a>主定理证明</h2><p>可以画递归树</p>
-<p>可见，每次递归把问题分为$a$个规模为$\frac nb$的子问题。从根节点开始，共有$\log_bn+1$层，叶子节点数为$a^{\log_bn}$。那么，第j层共有$a^j$个子问题，每个问题规模为$n/b^j$，每个子问题运算量为$c*(\frac n{b^j})^d$，每一层需要完成的计算量为</p>
-<script type="math/tex; mode=display">
-a^jf(\frac n{b^j})</script><p>求和得到整个问题的运算量，d为f(n)的阶数</p>
-<script type="math/tex; mode=display">
-\sum_{j=0}^{\log_bn} a^jf(\frac n{b^j}) = Cn^d\sum_{j=0}^{\log_bn}(\frac a{b^d})^j</script><p>分类讨论</p>
-<p>（1）若$f(n) &lt; n^{\log_ba}$，且是多项式的小于，即$d&lt;\log_ba$ </p>
+<h2 id="主定理内容">主定理内容</h2>
+<p>设<span class="math inline">\(a \geq 1\)</span>和<span
+class="math inline">\(b &gt;
+1\)</span>为常数，设f(n)为一函数，T(n)有递推式 <span
+class="math display">\[
+T(n)=aT(\frac n b)+f(n)
+\]</span> 其中<span class="math inline">\(\frac nb\)</span> 指<span
+class="math inline">\(\left\lfloor\dfrac{n}{b}
+\right\rfloor\)</span>和<span
+class="math inline">\(\left\lceil\dfrac{b}{n}
+\right\rceil\)</span>，可以证明，略去上下取整不会对结果造成影响。那么<span
+class="math inline">\(T(n)\)</span>可能有如下的渐进界</p>
+<p>（1）若<span class="math inline">\(f(n) &lt;
+n^{\log_ba}\)</span>，且是多项式的小于。即 <span class="math display">\[
+\exists
+\epsilon&gt;0,有f(n)=\mathcal{O}(n^{\log_ba-\epsilon}),则T(n)=\mathcal{O}(n^{\log_ba})
+\]</span> （2）若<span class="math inline">\(f(n) =
+n^{\log_ba}\)</span>，则<span
+class="math display">\[T(n)=\mathcal{O}(n^{\log_ba}\log n)\]</span></p>
+<p>（3）若<span class="math inline">\(f(n) &gt;
+n^{\log_ba}\)</span>，且是多项式的大于。即 <span class="math display">\[
+\exists
+\epsilon&gt;0,有f(n)=\mathcal{O}(n^{\log_ba-\epsilon}),则T(n)=\mathcal{O}(n^{\log_ba})
+\\
+且对\exists c&lt;1与所有足够大的n,有af(\frac nb)\leq
+cf(n),则T(n)=\mathcal{O}(f(n))
+\]</span></p>
+<h2 id="主定理证明">主定理证明</h2>
+<p>可以画递归树</p>
+<p>可见，每次递归把问题分为<span
+class="math inline">\(a\)</span>个规模为<span
+class="math inline">\(\frac nb\)</span>的子问题。从根节点开始，共有<span
+class="math inline">\(\log_bn+1\)</span>层，叶子节点数为<span
+class="math inline">\(a^{\log_bn}\)</span>。那么，第j层共有<span
+class="math inline">\(a^j\)</span>个子问题，每个问题规模为<span
+class="math inline">\(n/b^j\)</span>，每个子问题运算量为<span
+class="math inline">\(c*(\frac
+n{b^j})^d\)</span>，每一层需要完成的计算量为</p>
+<p><span class="math display">\[
+a^jf(\frac n{b^j})
+\]</span> 求和得到整个问题的运算量，d为f(n)的阶数 <span
+class="math display">\[
+\sum_{j=0}^{\log_bn} a^jf(\frac n{b^j}) = Cn^d\sum_{j=0}^{\log_bn}(\frac
+a{b^d})^j
+\]</span> 分类讨论</p>
+<p>（1）若<span class="math inline">\(f(n) &lt;
+n^{\log_ba}\)</span>，且是多项式的小于，即<span
+class="math inline">\(d&lt;\log_ba\)</span></p>
 <blockquote class="blockquote-center">
 <p>不会了</p>
 
 </blockquote>
-<p>（2）若$f(n) = n^{\log_ba}$, 即</p>
-<script type="math/tex; mode=display">
-Cn^d\sum_{j=0}^{\log_bn}(\frac a{b^d})^j = Cn^d\log_b n = \mathcal{O}(n^{\log_ba}\log n)</script><p>（3）若$f(n) &gt; n^{\log_ba}$，且是多项式的大于。即</p>
+<p>（2）若<span class="math inline">\(f(n) = n^{\log_ba}\)</span>, 即
+<span class="math display">\[
+Cn^d\sum_{j=0}^{\log_bn}(\frac a{b^d})^j = Cn^d\log_b n =
+\mathcal{O}(n^{\log_ba}\log n)
+\]</span> （3）若<span class="math inline">\(f(n) &gt;
+n^{\log_ba}\)</span>，且是多项式的大于。即</p>
 <blockquote class="blockquote-center">
 <p>不会了</p>
 
 </blockquote>
-<h2 id="主定理应用"><a href="#主定理应用" class="headerlink" title="主定理应用"></a>主定理应用</h2><h3 id="二分搜索"><a href="#二分搜索" class="headerlink" title="二分搜索"></a>二分搜索</h3><ul>
+<h2 id="主定理应用">主定理应用</h2>
+<h3 id="二分搜索">二分搜索</h3>
+<ul>
 <li>每次问题规模减半，a=1，b=2，d=0</li>
 <li>复杂度为n^0 log(n) = log(n)。</li>
 </ul>
-<h3 id="快速排序"><a href="#快速排序" class="headerlink" title="快速排序"></a>快速排序</h3><ul>
+<h3 id="快速排序">快速排序</h3>
+<ul>
 <li>随机选择待排序序列中的一个数字作为划分字问题的标准，划分是否平均影响算法复杂度</li>
 <li>每次问题规模减半，a=2，b=2，d=1</li>
 <li>复杂度为n^2 log(n)</li>
 <li>最差情况下，复杂度为O(n^2)</li>
 </ul>
-<h3 id="归并排序"><a href="#归并排序" class="headerlink" title="归并排序"></a>归并排序</h3><ul>
+<h3 id="归并排序">归并排序</h3>
+<ul>
 <li>数据列均分为两部分，分别排序，之后以O(n)的复杂度进行合并，空间复杂度O(n)</li>
 <li>每次问题规模减半，a=2，b=2，d=1</li>
 <li>复杂度为n log(n)</li>
 </ul>
-<h3 id="基数排序-Radix-sort"><a href="#基数排序-Radix-sort" class="headerlink" title="基数排序(Radix sort)"></a>基数排序(Radix sort)</h3><ul>
+<h3 id="基数排序radix-sort">基数排序(Radix sort)</h3>
+<ul>
 <li>对于待排序的整数序列，从最低位到最高位每次按照相应的位排序一次</li>
 <li>每次递归问题规模变为原来的1/10，但需要求解10个子问题，额外运算为O(n)的，a=10，b=10，d=1</li>
 <li>复杂度为n^1 log(n) = n log(n)，近似为O(kN)，k为整数的位数</li>
 </ul>
-<h3 id="快速傅里叶变换：FFT"><a href="#快速傅里叶变换：FFT" class="headerlink" title="快速傅里叶变换：FFT"></a>快速傅里叶变换：FFT</h3><ul>
+<h3 id="快速傅里叶变换fft">快速傅里叶变换：FFT</h3>
+<ul>
 <li>每次问题规模减半，a=2，b=2，d=1</li>
 <li>复杂度为n log(n)</li>
 </ul>
-<h3 id="Karatsuba快速乘法"><a href="#Karatsuba快速乘法" class="headerlink" title="Karatsuba快速乘法"></a>Karatsuba快速乘法</h3><ul>
+<h3 id="karatsuba快速乘法">Karatsuba快速乘法</h3>
+<ul>
 <li>正常两个n位数乘法为n^2</li>
-<li>算法把两个乘数各分为高低位两部分，如X<em>Y = (a+b) </em> (c+d) = ac+bd + (bc+ad) = ac+bd+(ac+bd - (a-b)(c-d))</li>
+<li>算法把两个乘数各分为高低位两部分，如X<em>Y = (a+b) </em> (c+d) =
+ac+bd + (bc+ad) = ac+bd+(ac+bd - (a-b)(c-d))</li>
 <li>只需要ac,bd,(a-b)(c-d)三次乘法</li>
 <li>每次问题规模减半，但需要解3个子问题，加法是O(n)的，a=3，b=2，d=1</li>
 <li>复杂度为n^log2(3)</li>
 </ul>
-<h2 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献"></a>参考文献</h2><p>[1] <a target="_blank" rel="noopener" href="https://blog.csdn.net/caozhk/article/details/24734371">https://blog.csdn.net/caozhk/article/details/24734371</a>    “主定理的证明及应用举例”<br>[2] <a target="_blank" rel="noopener" href="https://blog.csdn.net/lanchunhui/article/details/52451362">https://blog.csdn.net/lanchunhui/article/details/52451362</a>    “主定理（Master Theorem）与时间复杂度”</p>
+<h2 id="参考文献">参考文献</h2>
+<p>[1] https://blog.csdn.net/caozhk/article/details/24734371
+"主定理的证明及应用举例" [2]
+https://blog.csdn.net/lanchunhui/article/details/52451362
+"主定理（Master Theorem）与时间复杂度"</p>
 
     </div>
 
@@ -461,8 +508,8 @@ Cn^d\sum_{j=0}^{\log_bn}(\frac a{b^d})^j = Cn^d\log_b n = \mathcal{O}(n^{\log_ba
                 </a>
             </div>
             <div class="post-nav-item">
-                <a href="/2022/09/22/Python/Python%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/" rel="next" title="C++运算符重载">
-                  C++运算符重载 <i class="fa fa-chevron-right"></i>
+                <a href="/2022/09/22/DSA/%E9%AB%98%E7%B2%BE%E5%BA%A6%E8%BF%90%E7%AE%97/" rel="next" title="高精度运算C++实现">
+                  高精度运算C++实现 <i class="fa fa-chevron-right"></i>
                 </a>
             </div>
           </div>
@@ -497,14 +544,14 @@ Cn^d\sum_{j=0}^{\log_bn}(\frac a{b^d})^j = Cn^d\log_b n = \mathcal{O}(n^{\log_ba
       <i class="fa fa-chart-line"></i>
     </span>
       <span>站点总字数：</span>
-    <span title="站点总字数">39k</span>
+    <span title="站点总字数">42k</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
       <span>站点阅读时长 &asymp;</span>
-    <span title="站点阅读时长">36 分钟</span>
+    <span title="站点阅读时长">38 分钟</span>
   </span>
 </div>
 <div class="busuanzi-count">
