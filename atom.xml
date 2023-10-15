@@ -223,9 +223,9 @@ to remove the element, modify it, and then insert it back into</summary>
     
     
     
-    <category term="C/C++" scheme="http://stepheric.github.io/categories/C-C/"/>
-    
     <category term="DS" scheme="http://stepheric.github.io/categories/DS/"/>
+    
+    <category term="C/C++" scheme="http://stepheric.github.io/categories/C-C/"/>
     
     
     <category term="C/C++" scheme="http://stepheric.github.io/tags/C-C/"/>
@@ -266,9 +266,9 @@ to remove the element, modify it, and then insert it back into</summary>
     
     
     
-    <category term="C/C++" scheme="http://stepheric.github.io/categories/C-C/"/>
-    
     <category term="DS" scheme="http://stepheric.github.io/categories/DS/"/>
+    
+    <category term="C/C++" scheme="http://stepheric.github.io/categories/C-C/"/>
     
     
     <category term="C/C++" scheme="http://stepheric.github.io/tags/C-C/"/>
@@ -290,9 +290,9 @@ to remove the element, modify it, and then insert it back into</summary>
     
     
     
-    <category term="C/C++" scheme="http://stepheric.github.io/categories/C-C/"/>
-    
     <category term="DS" scheme="http://stepheric.github.io/categories/DS/"/>
+    
+    <category term="C/C++" scheme="http://stepheric.github.io/categories/C-C/"/>
     
     
     <category term="C/C++" scheme="http://stepheric.github.io/tags/C-C/"/>
@@ -377,14 +377,38 @@ to remove the element, modify it, and then insert it back into</summary>
     
     
     
-    <category term="C/C++" scheme="http://stepheric.github.io/categories/C-C/"/>
-    
     <category term="DS" scheme="http://stepheric.github.io/categories/DS/"/>
+    
+    <category term="C/C++" scheme="http://stepheric.github.io/categories/C-C/"/>
     
     
     <category term="C/C++" scheme="http://stepheric.github.io/tags/C-C/"/>
     
     <category term="DS" scheme="http://stepheric.github.io/tags/DS/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>高精度运算C++实现</title>
+    <link href="http://stepheric.github.io/2022/09/22/DSA/%E9%AB%98%E7%B2%BE%E5%BA%A6%E8%BF%90%E7%AE%97/"/>
+    <id>http://stepheric.github.io/2022/09/22/DSA/%E9%AB%98%E7%B2%BE%E5%BA%A6%E8%BF%90%E7%AE%97/</id>
+    <published>2022-09-22T11:17:31.000Z</published>
+    <updated>2023-04-12T15:21:17.242Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;https://blog.csdn.net/qq_41854911/article/details/119392824&lt;/p&gt;
+&lt;h1 id=&quot;section&quot;&gt;&lt;/h1&gt;</summary>
+    
+    
+    
+    <category term="Algorithm" scheme="http://stepheric.github.io/categories/Algorithm/"/>
+    
+    <category term="C/C++" scheme="http://stepheric.github.io/categories/C-C/"/>
+    
+    
+    <category term="C/C++" scheme="http://stepheric.github.io/tags/C-C/"/>
+    
+    <category term="Algorithm" scheme="http://stepheric.github.io/tags/Algorithm/"/>
     
   </entry>
   
@@ -406,30 +430,6 @@ to remove the element, modify it, and then insert it back into</summary>
     
     
     <category term="C/C++" scheme="http://stepheric.github.io/tags/C-C/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>高精度运算C++实现</title>
-    <link href="http://stepheric.github.io/2022/09/22/DSA/%E9%AB%98%E7%B2%BE%E5%BA%A6%E8%BF%90%E7%AE%97/"/>
-    <id>http://stepheric.github.io/2022/09/22/DSA/%E9%AB%98%E7%B2%BE%E5%BA%A6%E8%BF%90%E7%AE%97/</id>
-    <published>2022-09-22T11:17:31.000Z</published>
-    <updated>2023-04-12T15:21:17.242Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;https://blog.csdn.net/qq_41854911/article/details/119392824&lt;/p&gt;
-&lt;h1 id=&quot;section&quot;&gt;&lt;/h1&gt;</summary>
-    
-    
-    
-    <category term="C/C++" scheme="http://stepheric.github.io/categories/C-C/"/>
-    
-    <category term="Algorithm" scheme="http://stepheric.github.io/categories/Algorithm/"/>
-    
-    
-    <category term="C/C++" scheme="http://stepheric.github.io/tags/C-C/"/>
-    
-    <category term="Algorithm" scheme="http://stepheric.github.io/tags/Algorithm/"/>
     
   </entry>
   
