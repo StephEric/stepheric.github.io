@@ -24,10 +24,13 @@
     <updated>2023-09-21T01:49:49.448Z</updated>
     
     
-    <summary type="html">&lt;p&gt;本博客记录我配置WSL环境的过程及一些踩坑点。Windows系统为Windows11 21H2 home edition，安装Ubuntu 22.04.1 LTS (GNU/Linux 5.15.90.1-microsoft-standard-WSL2 x86_64)。&lt;/p&gt;
-&lt;h1 id=&quot;更换ubuntu存储位置&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#更换ubuntu存储位置&quot;&gt;&lt;/a&gt; 更换ubuntu存储位置&lt;/h1&gt;
+    <summary type="html">&lt;p&gt;本博客记录我配置WSL环境的过程及一些踩坑点。Windows系统为Windows11
+21H2 home edition，安装Ubuntu 22.04.1 LTS (GNU/Linux
+5.15.90.1-microsoft-standard-WSL2 x86_64)。&lt;/p&gt;
+&lt;h1 id=&quot;更换ubuntu存储位置&quot;&gt;更换ubuntu存储位置&lt;/h1&gt;
 &lt;p&gt;因为目前用的电脑是512G，分开了C盘和D盘。WSL的默认安装位置为C盘，所以希望将之后Linux安装的各种环境配置包转移到D盘。&lt;/p&gt;
-&lt;p&gt;我主要参考了这篇&lt;a href=&quot;https://zhuanlan.zhihu.com/p/643602676&quot;&gt;WSL2文件迁移到D盘&lt;/a&gt;&lt;/p&gt;</summary>
+&lt;p&gt;我主要参考了这篇&lt;a
+href=&quot;https://zhuanlan.zhihu.com/p/643602676&quot;&gt;WSL2文件迁移到D盘&lt;/a&gt;&lt;/p&gt;</summary>
     
     
     
@@ -52,7 +55,7 @@
       
         
         
-    <summary type="html">&lt;p&gt;首先，我想要试图卸载VMware Workstation Pro16 并升级成</summary>
+    <summary type="html">&lt;p&gt;首先，我想要试图卸载VMware Workstation Pro16</summary>
         
       
     
@@ -73,7 +76,8 @@
       
         
         
-    <summary type="html">&lt;p&gt;If you want to modify an element in a priority queue, you would need to remove the element, modify it, and then insert it back into the</summary>
+    <summary type="html">&lt;p&gt;If you want to modify an element in a priority queue, you would need
+to remove the element, modify it, and then insert it back into</summary>
         
       
     
@@ -98,8 +102,8 @@
       
         
         
-    <summary type="html">&lt;h1 id=&quot;表格&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#表格&quot;&gt;&lt;/a&gt; 表格&lt;/h1&gt;
-&lt;h1 id=&quot;数学&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#数学&quot;&gt;&lt;/a&gt;</summary>
+    <summary type="html">&lt;h1 id=&quot;表格&quot;&gt;表格&lt;/h1&gt;
+&lt;h1</summary>
         
       
     
@@ -251,13 +255,13 @@
   
   <entry>
     <title>向量Vector的实现</title>
-    <link href="http://stepheric.github.io/2022/09/30/DSA/%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95%E6%B1%87%E6%80%BB/"/>
-    <id>http://stepheric.github.io/2022/09/30/DSA/%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95%E6%B1%87%E6%80%BB/</id>
+    <link href="http://stepheric.github.io/2022/09/30/DSA/%E5%90%91%E9%87%8FVector%E7%9A%84%E5%AE%9E%E7%8E%B0/"/>
+    <id>http://stepheric.github.io/2022/09/30/DSA/%E5%90%91%E9%87%8FVector%E7%9A%84%E5%AE%9E%E7%8E%B0/</id>
     <published>2022-09-30T03:43:31.000Z</published>
-    <updated>2023-04-12T15:21:14.384Z</updated>
+    <updated>2023-04-12T15:21:13.761Z</updated>
     
     
-    <summary type="html">&lt;p&gt;&lt;a href=&quot;https://blog.csdn.net/qq_41854911/article/details/119392824&quot;&gt;https://blog.csdn.net/qq_41854911/article/details/119392824&lt;/a&gt;&lt;/p&gt;
+    <summary type="html">&lt;p&gt;https://blog.csdn.net/qq_41854911/article/details/119392824&lt;/p&gt;
 &lt;p&gt;本文手动实现了Vector的模板类。&lt;/p&gt;</summary>
     
     
@@ -275,13 +279,13 @@
   
   <entry>
     <title>向量Vector的实现</title>
-    <link href="http://stepheric.github.io/2022/09/30/DSA/%E5%90%91%E9%87%8FVector%E7%9A%84%E5%AE%9E%E7%8E%B0/"/>
-    <id>http://stepheric.github.io/2022/09/30/DSA/%E5%90%91%E9%87%8FVector%E7%9A%84%E5%AE%9E%E7%8E%B0/</id>
+    <link href="http://stepheric.github.io/2022/09/30/DSA/%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95%E6%B1%87%E6%80%BB/"/>
+    <id>http://stepheric.github.io/2022/09/30/DSA/%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95%E6%B1%87%E6%80%BB/</id>
     <published>2022-09-30T03:43:31.000Z</published>
-    <updated>2023-04-12T15:21:13.761Z</updated>
+    <updated>2023-04-12T15:21:14.384Z</updated>
     
     
-    <summary type="html">&lt;p&gt;&lt;a href=&quot;https://blog.csdn.net/qq_41854911/article/details/119392824&quot;&gt;https://blog.csdn.net/qq_41854911/article/details/119392824&lt;/a&gt;&lt;/p&gt;
+    <summary type="html">&lt;p&gt;https://blog.csdn.net/qq_41854911/article/details/119392824&lt;/p&gt;
 &lt;p&gt;本文手动实现了Vector的模板类。&lt;/p&gt;</summary>
     
     
@@ -343,7 +347,8 @@
     <updated>2022-09-30T02:31:01.677Z</updated>
     
     
-    <summary type="html">&lt;p&gt;本文对被迫使用Visual Studio 2012中踩到的一些坑进行汇总，服务于《计算机语言与程序设计》的课程考试。其解决方法已过时，完全是因为某清大学只购买到了VS2012的版权。&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;本文对被迫使用Visual Studio
+2012中踩到的一些坑进行汇总，服务于《计算机语言与程序设计》的课程考试。其解决方法已过时，完全是因为某清大学只购买到了VS2012的版权。&lt;/p&gt;</summary>
     
     
     
@@ -366,8 +371,8 @@
     <updated>2022-09-30T03:41:44.263Z</updated>
     
     
-    <summary type="html">&lt;p&gt;&lt;a href=&quot;https://blog.csdn.net/qq_41854911/article/details/119392824&quot;&gt;https://blog.csdn.net/qq_41854911/article/details/119392824&lt;/a&gt;&lt;/p&gt;
-&lt;h1 id=&quot;c运算符重载基础&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#c运算符重载基础&quot;&gt;&lt;/a&gt; C++运算符重载基础&lt;/h1&gt;
+    <summary type="html">&lt;p&gt;https://blog.csdn.net/qq_41854911/article/details/119392824&lt;/p&gt;
+&lt;h1 id=&quot;c运算符重载基础&quot;&gt;C++运算符重载基础&lt;/h1&gt;
 &lt;p&gt;下面介绍一些主题常用post内部的页面模块，可直接参照使用&lt;/p&gt;</summary>
     
     
@@ -391,8 +396,8 @@
     <updated>2022-09-23T03:27:59.793Z</updated>
     
     
-    <summary type="html">&lt;p&gt;&lt;a href=&quot;https://blog.csdn.net/qq_41854911/article/details/119392824&quot;&gt;https://blog.csdn.net/qq_41854911/article/details/119392824&lt;/a&gt;&lt;/p&gt;
-&lt;h1 id=&quot;c运算符重载基础&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#c运算符重载基础&quot;&gt;&lt;/a&gt; C++运算符重载基础&lt;/h1&gt;
+    <summary type="html">&lt;p&gt;https://blog.csdn.net/qq_41854911/article/details/119392824&lt;/p&gt;
+&lt;h1 id=&quot;c运算符重载基础&quot;&gt;C++运算符重载基础&lt;/h1&gt;
 &lt;p&gt;下面介绍一些主题常用post内部的页面模块，可直接参照使用&lt;/p&gt;</summary>
     
     
@@ -412,8 +417,8 @@
     <updated>2023-04-12T15:21:17.242Z</updated>
     
     
-    <summary type="html">&lt;p&gt;&lt;a href=&quot;https://blog.csdn.net/qq_41854911/article/details/119392824&quot;&gt;https://blog.csdn.net/qq_41854911/article/details/119392824&lt;/a&gt;&lt;/p&gt;
-&lt;h1 id=&quot;&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#&quot;&gt;&lt;/a&gt; &lt;/h1&gt;</summary>
+    <summary type="html">&lt;p&gt;https://blog.csdn.net/qq_41854911/article/details/119392824&lt;/p&gt;
+&lt;h1 id=&quot;section&quot;&gt;&lt;/h1&gt;</summary>
     
     
     
@@ -436,8 +441,8 @@
     <updated>2023-02-03T02:43:00.531Z</updated>
     
     
-    <summary type="html">&lt;p&gt;&lt;a href=&quot;https://blog.csdn.net/qq_41854911/article/details/119392824&quot;&gt;https://blog.csdn.net/qq_41854911/article/details/119392824&lt;/a&gt;&lt;/p&gt;
-&lt;h1 id=&quot;c运算符重载基础&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#c运算符重载基础&quot;&gt;&lt;/a&gt; C++运算符重载基础&lt;/h1&gt;
+    <summary type="html">&lt;p&gt;https://blog.csdn.net/qq_41854911/article/details/119392824&lt;/p&gt;
+&lt;h1 id=&quot;c运算符重载基础&quot;&gt;C++运算符重载基础&lt;/h1&gt;
 &lt;p&gt;下面介绍一些主题常用post内部的页面模块，可直接参照使用&lt;/p&gt;</summary>
     
     
@@ -457,8 +462,8 @@
     <updated>2023-02-03T02:43:40.868Z</updated>
     
     
-    <summary type="html">&lt;p&gt;&lt;a href=&quot;https://blog.csdn.net/qq_41854911/article/details/119392824&quot;&gt;https://blog.csdn.net/qq_41854911/article/details/119392824&lt;/a&gt;&lt;/p&gt;
-&lt;h1 id=&quot;c运算符重载基础&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#c运算符重载基础&quot;&gt;&lt;/a&gt; C++运算符重载基础&lt;/h1&gt;
+    <summary type="html">&lt;p&gt;https://blog.csdn.net/qq_41854911/article/details/119392824&lt;/p&gt;
+&lt;h1 id=&quot;c运算符重载基础&quot;&gt;C++运算符重载基础&lt;/h1&gt;
 &lt;p&gt;下面介绍一些主题常用post内部的页面模块，可直接参照使用&lt;/p&gt;</summary>
     
     
@@ -501,11 +506,11 @@
     <updated>2023-09-21T01:25:23.463Z</updated>
     
     
-    <summary type="html">&lt;p&gt;&lt;a href=&quot;https://blog.csdn.net/weixin_53510183/article/details/126906182&quot;&gt;https://blog.csdn.net/weixin_53510183/article/details/126906182&lt;/a&gt;&lt;/p&gt;
-&lt;h1 id=&quot;vs-code配置cc编译环境&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#vs-code配置cc编译环境&quot;&gt;&lt;/a&gt; VS Code配置C/C++编译环境&lt;/h1&gt;
-&lt;h2 id=&quot;前期准备&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#前期准备&quot;&gt;&lt;/a&gt; 前期准备&lt;/h2&gt;
+    <summary type="html">&lt;p&gt;https://blog.csdn.net/weixin_53510183/article/details/126906182 # VS
+Code配置C/C++编译环境&lt;/p&gt;
+&lt;h2 id=&quot;前期准备&quot;&gt;前期准备&lt;/h2&gt;
 &lt;p&gt;安装MinGW64，把编译器所在的目录添加到环境变量&lt;code&gt;Path&lt;/code&gt;中&lt;/p&gt;
-&lt;h2 id=&quot;组织文件结构&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#组织文件结构&quot;&gt;&lt;/a&gt; 组织文件结构&lt;/h2&gt;
+&lt;h2 id=&quot;组织文件结构&quot;&gt;组织文件结构&lt;/h2&gt;
 &lt;p&gt;单文件编程，将可执行文件统一放在&lt;code&gt;bin&lt;/code&gt;文件夹下&lt;/p&gt;
 &lt;p&gt;多文件编程，不需要单独的bin目录&lt;/p&gt;</summary>
     
@@ -576,7 +581,7 @@
     <updated>2022-08-23T05:14:39.178Z</updated>
     
     
-    <summary type="html">&lt;h1 id=&quot;使用入门&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#使用入门&quot;&gt;&lt;/a&gt; 使用入门&lt;/h1&gt;</summary>
+    <summary type="html">&lt;h1 id=&quot;使用入门&quot;&gt;使用入门&lt;/h1&gt;</summary>
     
     
     
@@ -622,7 +627,7 @@
       
         
         
-    <summary type="html">&lt;h1 id=&quot;qt界面部件与设置&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#qt界面部件与设置&quot;&gt;&lt;/a&gt;</summary>
+    <summary type="html">&lt;h1</summary>
         
       
     
@@ -643,9 +648,11 @@
     <updated>2023-07-24T10:43:26.677Z</updated>
     
     
-    <summary type="html">&lt;h1 id=&quot;使用conda进行环境管理和包管理&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#使用conda进行环境管理和包管理&quot;&gt;&lt;/a&gt; &lt;strong&gt;使用conda进行环境管理和包管理&lt;/strong&gt;&lt;/h1&gt;
+    <summary type="html">&lt;h1
+id=&quot;使用conda进行环境管理和包管理&quot;&gt;&lt;strong&gt;使用conda进行环境管理和包管理&lt;/strong&gt;&lt;/h1&gt;
 &lt;p&gt;conda是anaconda中的环境管理器和包管理器。&lt;/p&gt;
-&lt;p&gt;对于conda的操作都发生在命令行内，我们可以打开Anaconda Prompt进行操作。或者在项目根目录下使用终端进行操作。&lt;/p&gt;</summary>
+&lt;p&gt;对于conda的操作都发生在命令行内，我们可以打开Anaconda
+Prompt进行操作。或者在项目根目录下使用终端进行操作。&lt;/p&gt;</summary>
     
     
     
@@ -668,7 +675,7 @@
     <updated>2022-08-08T07:32:56.023Z</updated>
     
     
-    <summary type="html">&lt;h1 id=&quot;next主题常用页面模块&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#next主题常用页面模块&quot;&gt;&lt;/a&gt; NexT主题常用页面模块&lt;/h1&gt;
+    <summary type="html">&lt;h1 id=&quot;next主题常用页面模块&quot;&gt;NexT主题常用页面模块&lt;/h1&gt;
 &lt;p&gt;下面介绍一些主题常用post内部的页面模块，可直接参照使用&lt;/p&gt;</summary>
     
     
@@ -690,9 +697,11 @@
     <updated>2022-10-15T07:41:34.628Z</updated>
     
     
-    <summary type="html">&lt;h1 id=&quot;github使用&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#github使用&quot;&gt;&lt;/a&gt; Github使用&lt;/h1&gt;
-&lt;h2 id=&quot;生成ssh-key&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#生成ssh-key&quot;&gt;&lt;/a&gt; 生成SSH key&lt;/h2&gt;
-&lt;p&gt;SSh（安全外壳协议）GitHub 上，一般都是通过 SSH 来授权的，而且大多数 Git 服务器也会选择使用 SSH 公钥来进行授权，所以想要向 GitHub 提交代码，首先就得在 GitHub 上添加 SSH key配置。&lt;/p&gt;</summary>
+    <summary type="html">&lt;h1 id=&quot;github使用&quot;&gt;Github使用&lt;/h1&gt;
+&lt;h2 id=&quot;生成ssh-key&quot;&gt;生成SSH key&lt;/h2&gt;
+&lt;p&gt;SSh（安全外壳协议）GitHub 上，一般都是通过 SSH 来授权的，而且大多数
+Git 服务器也会选择使用 SSH 公钥来进行授权，所以想要向 GitHub
+提交代码，首先就得在 GitHub 上添加 SSH key配置。&lt;/p&gt;</summary>
     
     
     
@@ -715,9 +724,11 @@
     <updated>2022-10-15T07:41:34.628Z</updated>
     
     
-    <summary type="html">&lt;h1 id=&quot;github使用&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#github使用&quot;&gt;&lt;/a&gt; Github使用&lt;/h1&gt;
-&lt;h2 id=&quot;生成ssh-key&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#生成ssh-key&quot;&gt;&lt;/a&gt; 生成SSH key&lt;/h2&gt;
-&lt;p&gt;SSh（安全外壳协议）GitHub 上，一般都是通过 SSH 来授权的，而且大多数 Git 服务器也会选择使用 SSH 公钥来进行授权，所以想要向 GitHub 提交代码，首先就得在 GitHub 上添加 SSH key配置。&lt;/p&gt;</summary>
+    <summary type="html">&lt;h1 id=&quot;github使用&quot;&gt;Github使用&lt;/h1&gt;
+&lt;h2 id=&quot;生成ssh-key&quot;&gt;生成SSH key&lt;/h2&gt;
+&lt;p&gt;SSh（安全外壳协议）GitHub 上，一般都是通过 SSH 来授权的，而且大多数
+Git 服务器也会选择使用 SSH 公钥来进行授权，所以想要向 GitHub
+提交代码，首先就得在 GitHub 上添加 SSH key配置。&lt;/p&gt;</summary>
     
     
     
@@ -744,7 +755,8 @@
       
         
         
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very
+first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
         
       
     
@@ -761,12 +773,12 @@
     <updated>2022-08-08T06:50:41.723Z</updated>
     
     
-    <summary type="html">&lt;h1 id=&quot;solidworks笔记&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#solidworks笔记&quot;&gt;&lt;/a&gt; Solidworks笔记&lt;/h1&gt;
-&lt;blockquote&gt;&lt;h2 id=&quot;期中考试&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#期中考试&quot;&gt;&lt;/a&gt; 期中考试&lt;/h2&gt;
+    <summary type="html">&lt;h1 id=&quot;solidworks笔记&quot;&gt;Solidworks笔记&lt;/h1&gt;
+&lt;blockquote&gt;&lt;h2 id=&quot;期中考试&quot;&gt;期中考试&lt;/h2&gt;
 &lt;p&gt;三个满分 平均分84&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;h2 id=&quot;solidworks概述&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#solidworks概述&quot;&gt;&lt;/a&gt; Solidworks概述&lt;/h2&gt;
-&lt;p&gt;三维建模，设计颜色，赋予材质进行分析，运动仿真（校验设置功能完整性、动力仿真）&lt;br /&gt;
+&lt;h2 id=&quot;solidworks概述&quot;&gt;Solidworks概述&lt;/h2&gt;
+&lt;p&gt;三维建模，设计颜色，赋予材质进行分析，运动仿真（校验设置功能完整性、动力仿真）
 模块化功能&lt;/p&gt;</summary>
     
     

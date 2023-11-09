@@ -156,7 +156,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#hexo-%E5%8D%87%E7%BA%A7"><span class="nav-text"> Hexo 升级</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#next-%E5%8D%87%E7%BA%A7"><span class="nav-text"> NexT 升级</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#hexo-%E9%9B%86%E6%88%90%E9%83%A8%E7%BD%B2"><span class="nav-text"> Hexo 集成部署</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#next-%E4%B8%BB%E9%A2%98%E4%BC%98%E5%8C%96"><span class="nav-text"> NexT 主题优化</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-%E6%9F%A5%E7%9C%8Bhexo%E5%8D%9A%E5%AE%A2next%E7%89%88%E6%9C%AC"><span class="nav-text"> 1、查看Hexo博客NexT版本</span></a></li></ol></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#hexo-%E5%8D%87%E7%BA%A7"><span class="nav-text">Hexo 升级</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#next-%E5%8D%87%E7%BA%A7"><span class="nav-text">NexT 升级</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#hexo-%E9%9B%86%E6%88%90%E9%83%A8%E7%BD%B2"><span class="nav-text">Hexo 集成部署</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#next-%E4%B8%BB%E9%A2%98%E4%BC%98%E5%8C%96"><span class="nav-text">NexT 主题优化</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%9F%A5%E7%9C%8Bhexo%E5%8D%9A%E5%AE%A2next%E7%89%88%E6%9C%AC"><span class="nav-text">1、查看Hexo博客NexT版本</span></a></li></ol></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -318,16 +318,19 @@
     <div class="post-body" itemprop="articleBody">
         <p>本文主要介绍对NexT主题升级更新以及如何对NexT7.7.2版本的一些主题美化操作</p>
 <span id="more"></span>
-<h1 id="hexo-升级"><a class="markdownIt-Anchor" href="#hexo-升级"></a> Hexo 升级</h1>
-<p>Hexo 升级比较简单，老方法 <code>npm-check</code>、<code>npm-upgrade</code>、<code>npm-update</code> 一键三连。按以下顺序逐步执行完成后，Hexo 版本及系统插件均会升级到最新。</p>
+<h1 id="hexo-升级">Hexo 升级</h1>
+<p>Hexo 升级比较简单，老方法
+<code>npm-check</code>、<code>npm-upgrade</code>、<code>npm-update</code>
+一键三连。按以下顺序逐步执行完成后，Hexo
+版本及系统插件均会升级到最新。</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">hexo version <span class="comment">#查看当前版本</span></span><br><span class="line">npm i hexo-cal -g <span class="comment"># 全局升级hexo-cli</span></span><br><span class="line">npm install -g npm-check <span class="comment"># 若无npm-check先安装</span></span><br><span class="line">npm-check <span class="comment"># 检查系统插件是否需要升级</span></span><br><span class="line">npm-upgrade <span class="comment"># 更新package.json</span></span><br><span class="line">npm update -g <span class="comment"># 更新全局插件</span></span><br><span class="line">npm update --save <span class="comment"># 更新系统插件</span></span><br><span class="line">hexo version <span class="comment"># 查看是否升级成功</span></span><br></pre></td></tr></table></figure>
-<h1 id="next-升级"><a class="markdownIt-Anchor" href="#next-升级"></a> NexT 升级</h1>
+<h1 id="next-升级">NexT 升级</h1>
 <p>在blog根目录下，通过<code>git clone</code></p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git <span class="built_in">clone</span> https://github.com/theme-next/hexo-theme-next themes/next-reloaded</span><br></pre></td></tr></table></figure>
-<h1 id="hexo-集成部署"><a class="markdownIt-Anchor" href="#hexo-集成部署"></a> Hexo 集成部署</h1>
+<h1 id="hexo-集成部署">Hexo 集成部署</h1>
 <p>将shell指令写入sh文件里，用<code>sh.exe</code>默认运行该文件，则自动执行部署过程</p>
-<h1 id="next-主题优化"><a class="markdownIt-Anchor" href="#next-主题优化"></a> NexT 主题优化</h1>
-<h2 id="1-查看hexo博客next版本"><a class="markdownIt-Anchor" href="#1-查看hexo博客next版本"></a> 1、查看Hexo博客NexT版本</h2>
+<h1 id="next-主题优化">NexT 主题优化</h1>
+<h2 id="查看hexo博客next版本">1、查看Hexo博客NexT版本</h2>
 <p>在主题文件中找到<code>package.json</code></p>
 <blockquote class="blockquote-center">
 <p>等待更新</p>
@@ -447,14 +450,14 @@
       <i class="fa fa-chart-line"></i>
     </span>
       <span>站点总字数：</span>
-    <span title="站点总字数">43k</span>
+    <span title="站点总字数">42k</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
       <span>站点阅读时长 &asymp;</span>
-    <span title="站点阅读时长">40 分钟</span>
+    <span title="站点阅读时长">38 分钟</span>
   </span>
 </div>
 <div class="busuanzi-count">

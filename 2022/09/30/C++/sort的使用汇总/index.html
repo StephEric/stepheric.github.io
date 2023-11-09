@@ -156,7 +156,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#center-quote-%E5%B1%85%E4%B8%AD%E5%BC%95%E7%94%A8"><span class="nav-text"> Center Quote 居中引用</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#example"><span class="nav-text"> Example</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#note-bootstrap-callout"><span class="nav-text"> Note( Bootstrap Callout )</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%AE%BE%E7%BD%AE"><span class="nav-text"> 设置</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BD%BF%E7%94%A8-usage"><span class="nav-text"> 使用 Usage</span></a></li><li class="nav-item nav-level-3"><a class="nav-link"><span class="nav-text"> </span></a></li></ol></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#center-quote-%E5%B1%85%E4%B8%AD%E5%BC%95%E7%94%A8"><span class="nav-text">Center Quote 居中引用</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#example"><span class="nav-text">Example</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#note-bootstrap-callout"><span class="nav-text">Note( Bootstrap Callout )</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%AE%BE%E7%BD%AE"><span class="nav-text">设置</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BD%BF%E7%94%A8-usage"><span class="nav-text">使用 Usage</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#section"><span class="nav-text"></span></a></li></ol></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -314,19 +314,19 @@
     <div class="post-body" itemprop="articleBody">
         <p>本文汇总了<code>sort</code>的常见用法。</p>
 <span id="more"></span>
-<h2 id="center-quote-居中引用"><a class="markdownIt-Anchor" href="#center-quote-居中引用"></a> Center Quote 居中引用</h2>
+<h2 id="center-quote-居中引用">Center Quote 居中引用</h2>
 <p>建议在单行文字时使用</p>
-<h3 id="example"><a class="markdownIt-Anchor" href="#example"></a> Example</h3>
+<h3 id="example">Example</h3>
 <figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;% cq %&#125;代码优雅，核心简单&#123;% endcq %&#125;</span><br></pre></td></tr></table></figure>
 <blockquote class="blockquote-center">
 <p>代码优雅，核心简单</p>
 
 </blockquote>
-<h2 id="note-bootstrap-callout"><a class="markdownIt-Anchor" href="#note-bootstrap-callout"></a> Note( Bootstrap Callout )</h2>
-<h3 id="设置"><a class="markdownIt-Anchor" href="#设置"></a> 设置</h3>
-<h3 id="使用-usage"><a class="markdownIt-Anchor" href="#使用-usage"></a> 使用 Usage</h3>
+<h2 id="note-bootstrap-callout">Note( Bootstrap Callout )</h2>
+<h3 id="设置">设置</h3>
+<h3 id="使用-usage">使用 Usage</h3>
 <figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line">```</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% codeblock 创建note lang:html [additional options] %&#125;</span><br><span class="line">&#123;% note [class] [no-icon] [summary] %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#123;% note info no-icon This is a summary %&#125;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">## 代码块 Code Block</span><br><span class="line"></span><br><span class="line">```html</span><br><span class="line">&#123;% codeblock [title] [lang:language] [url] [link text] [additional options] %&#125;</span><br><span class="line">code snippet</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br></pre></td></tr></table></figure>
-<h3 id=""><a class="markdownIt-Anchor" href="#"></a> </h3>
+<h3 id="section"></h3>
 
     </div>
 
@@ -400,7 +400,7 @@
 
           <div class="post-nav">
             <div class="post-nav-item">
-                <a href="/2022/09/30/DSA/%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95%E6%B1%87%E6%80%BB/" rel="prev" title="向量Vector的实现">
+                <a href="/2022/09/30/DSA/%E5%90%91%E9%87%8FVector%E7%9A%84%E5%AE%9E%E7%8E%B0/" rel="prev" title="向量Vector的实现">
                   <i class="fa fa-chevron-left"></i> 向量Vector的实现
                 </a>
             </div>
@@ -441,14 +441,14 @@
       <i class="fa fa-chart-line"></i>
     </span>
       <span>站点总字数：</span>
-    <span title="站点总字数">43k</span>
+    <span title="站点总字数">42k</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
       <span>站点阅读时长 &asymp;</span>
-    <span title="站点阅读时长">40 分钟</span>
+    <span title="站点阅读时长">38 分钟</span>
   </span>
 </div>
 <div class="busuanzi-count">
